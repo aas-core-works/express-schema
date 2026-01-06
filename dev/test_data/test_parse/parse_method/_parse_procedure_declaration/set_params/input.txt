@@ -1,0 +1,13 @@
+PROCEDURE mergeCollections(source : SET [1:100] OF Component; VAR target : SET [1:200] OF Component);
+    LOCAL
+        component : Component;
+        sourceArray : ARRAY [1:100] OF Component;
+        i : INTEGER;
+    END_LOCAL;
+
+    sourceArray := convertSetToArray(source);
+    REPEAT i := 1 TO SIZEOF(sourceArray);
+        component := sourceArray[i];
+        INSERT(target, component, SIZEOF(target) + 1);
+    END_REPEAT;
+END_PROCEDURE;

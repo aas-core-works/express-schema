@@ -1,0 +1,1 @@
+samples : BAG [1:50] OF REAL;

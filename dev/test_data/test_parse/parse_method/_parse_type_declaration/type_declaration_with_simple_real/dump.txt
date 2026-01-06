@@ -1,0 +1,8 @@
+TypeDeclaration(
+  position=1:1,
+  identifier='MeasurementValue',
+  type_selection=RealType(
+      position=1:25
+    ),
+  domain_rules=[]
+)

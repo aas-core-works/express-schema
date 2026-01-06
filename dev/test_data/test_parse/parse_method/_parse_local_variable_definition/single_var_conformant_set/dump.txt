@@ -1,0 +1,10 @@
+LocalVariableDefinition(
+  position=1:1,
+  identifiers=['collection'],
+  of_type=ConformantSetType(
+      position=1:14,
+      of=RealType(
+          position=1:21
+        )
+    )
+)

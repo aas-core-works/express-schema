@@ -1,0 +1,5 @@
+UNIQUE
+    primaryKey : id;
+    businessKey : customerCode, orderNumber;
+    spatialKey : xCoord, yCoord, zCoord;
+    temporalKey : timestamp, sequenceNumber;

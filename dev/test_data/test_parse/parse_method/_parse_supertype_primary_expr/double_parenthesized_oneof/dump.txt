@@ -1,0 +1,13 @@
+Choice(
+  position=1:3,
+  supertype_exprs=[
+      NameRef(
+        position=1:10,
+        identifier='Person'
+      ),
+      NameRef(
+        position=1:18,
+        identifier='Organization'
+      )
+    ]
+)

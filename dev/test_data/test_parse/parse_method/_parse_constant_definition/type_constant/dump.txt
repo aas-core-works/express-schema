@@ -1,0 +1,12 @@
+ConstantDefinition(
+  position=1:1,
+  identifier='length_unit',
+  type_selection=NamedType(
+      position=1:15,
+      reference='LengthType'
+    ),
+  init=NameRef(
+      position=1:29,
+      identifier='millimeter'
+    )
+)

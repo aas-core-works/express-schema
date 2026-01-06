@@ -1,0 +1,3 @@
+PROCEDURE appendSuffix(VAR text : STRING);
+    text := text + '_processed';
+END_PROCEDURE;

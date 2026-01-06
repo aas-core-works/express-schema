@@ -1,0 +1,11 @@
+AlgorithmHead(
+  declarations=[],
+  constant_definitions=[],
+  local_variable_definitions=[LocalVariableDefinition(
+      position=2:5,
+      identifiers=['result'],
+      of_type=RealType(
+          position=2:14
+        )
+    )]
+)

@@ -1,0 +1,1 @@
+uniqueItems : ARRAY [1:20] OF UNIQUE STRING

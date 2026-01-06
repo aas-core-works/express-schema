@@ -1,0 +1,16 @@
+DomainRule(
+  position=1:1,
+  label='exclusiveRule',
+  expr=BinaryExpr(
+      position=1:17,
+      left=NameRef(
+          position=1:17,
+          identifier='isActive'
+        ),
+      op=BinaryOp.XOR,
+      right=NameRef(
+          position=1:30,
+          identifier='isDisabled'
+        )
+    )
+)

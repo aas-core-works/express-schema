@@ -1,0 +1,25 @@
+TypeDeclaration(
+  position=1:1,
+  identifier='OptionalArray',
+  type_selection=ArrayType(
+      position=1:22,
+      bound_spec=BoundSpec(
+          position=1:28,
+          lower=IntegerLiteral(
+              position=1:29,
+              value=1
+            ),
+          upper=IntegerLiteral(
+              position=1:31,
+              value=10
+            )
+        ),
+      optional=True,
+      unique=False,
+      of=StringType(
+          position=1:47,
+          fixed=False
+        )
+    ),
+  domain_rules=[]
+)

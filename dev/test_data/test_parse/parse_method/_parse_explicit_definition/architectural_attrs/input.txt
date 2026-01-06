@@ -1,0 +1,1 @@
+roomNumber, floorLevel, buildingZone : STRING;

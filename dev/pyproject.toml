@@ -1,0 +1,39 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "express-schema-dev"
+version = "0.0.1"
+
+description = "Develop express-schema."
+requires-python = ">=3.10"
+
+classifiers = [
+  "Development Status :: 5 - Production/Stable",
+  "Intended Audience :: Developers",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+]
+
+authors = [
+  { name = "Marko Ristin", email = "marko@ristin.ch" }
+]
+
+dependencies = [
+  "black==25.12.0",
+  "mypy==1.19.1",
+  "pylint==4.0.4",
+  "coverage"
+]
+
+[tool.setuptools.packages.find]
+include = ["continuous_integration", "dev_scripts", "tests"]
+exclude = ["test_data"]
+
+# NOTE (mristin):
+# We put the configuration of mypy and pylint in separate files as it is a nightmare
+# to configure them with pyproject.toml not living in the current working directory
+# which is the repository root.

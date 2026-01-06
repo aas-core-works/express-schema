@@ -1,0 +1,1 @@
+identifier : BINARY (16) FIXED := %1010101010101010;

@@ -1,0 +1,3 @@
+UNIQUE
+    personIdentity : firstName, lastName;
+    addressIdentity : streetNumber, streetName;

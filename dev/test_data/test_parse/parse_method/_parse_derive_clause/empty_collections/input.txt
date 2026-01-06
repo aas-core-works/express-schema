@@ -1,0 +1,4 @@
+DERIVE
+    emptySet : SET OF STRING := [];
+    emptyList : LIST OF INTEGER := [];
+    emptyArray : ARRAY [1:5] OF REAL := [];

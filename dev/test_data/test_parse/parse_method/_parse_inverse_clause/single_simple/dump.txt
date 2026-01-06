@@ -1,0 +1,18 @@
+InverseClause(
+  position=1:1,
+  inverses=[InverseDefinition(
+      position=2:5,
+      attribute=NameRef(
+          position=2:5,
+          identifier='owner'
+        ),
+      inverse_type=NameRef(
+          position=2:13,
+          identifier='Person'
+        ),
+      attribute_ref=NameRef(
+          position=2:24,
+          identifier='ownedItems'
+        )
+    )]
+)

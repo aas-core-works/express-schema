@@ -1,0 +1,6 @@
+BagType(
+  position=1:1,
+  of=BooleanType(
+      position=1:8
+    )
+)

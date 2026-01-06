@@ -1,0 +1,5 @@
+UNIQUE
+    simpleRule : basicAttribute;
+    nestedRule : object.property;
+    arrayRule : matrix[0];
+    selfRule : SELF;

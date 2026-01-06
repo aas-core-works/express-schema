@@ -1,0 +1,19 @@
+SCHEMA IfcGeometry;
+REFERENCE FROM MathematicalFunctions;
+USE FROM BaseDefinitions;
+CONSTANT
+  GeometricTolerance : REAL := 1.0E-6;
+END_CONSTANT;
+ENTITY GeometricRepresentationItem;
+  name : OPTIONAL STRING;
+  dimension : INTEGER;
+END_ENTITY;
+TYPE CoordinateValue = REAL;
+FUNCTION GetDimension(item : GeometricRepresentationItem) : INTEGER;
+  RETURN(item.dimension);
+END_FUNCTION;
+RULE ValidateDimension FOR (GeometricRepresentationItem);
+WHERE
+  criterion1 : SELF.dimension IN [2, 3];
+END_RULE;
+END_SCHEMA;

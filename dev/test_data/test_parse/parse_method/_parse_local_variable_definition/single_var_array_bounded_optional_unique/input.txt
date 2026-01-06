@@ -1,0 +1,1 @@
+specialData : ARRAY [0:30] OF OPTIONAL UNIQUE REAL;

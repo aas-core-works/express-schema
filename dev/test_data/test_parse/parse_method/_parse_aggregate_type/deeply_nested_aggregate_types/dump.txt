@@ -1,0 +1,16 @@
+AggregateType(
+  position=1:1,
+  label='Level1',
+  of=AggregateType(
+      position=1:23,
+      label='Level2',
+      of=AggregateType(
+          position=1:45,
+          label='Level3',
+          of=StringType(
+              position=1:67,
+              fixed=False
+            )
+        )
+    )
+)

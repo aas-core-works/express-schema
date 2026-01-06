@@ -1,0 +1,58 @@
+PROCEDURE processDataStream(
+        inputStream : LIST [1:?] OF DataPacket;
+        processingConfig : ProcessingConfiguration;
+        VAR outputStream : LIST [1:?] OF DataPacket;
+        VAR processingMetrics : ProcessingMetrics
+    );
+    TYPE ProcessingStage = ENUMERATION OF
+        (validation, transformation, compression);
+    END_TYPE;
+
+    PROCEDURE processPacket(packet : DataPacket; stage : ProcessingStage; VAR processedPacket : DataPacket);
+        CASE stage OF
+            validation: processedPacket := validatePacket(packet);
+            transformation: processedPacket := transformPacket(packet);
+            compression: processedPacket := compressPacket(packet);
+            OTHERWISE: processedPacket := packet;
+        END_CASE;
+    END_PROCEDURE;
+
+    CONSTANT
+        maxPacketsPerBatch : INTEGER := 100;
+        defaultStage : ProcessingStage := validation;
+    END_CONSTANT;
+
+    LOCAL
+        currentPacket : DataPacket;
+        processedPacket : DataPacket;
+        processingStage : ProcessingStage;
+        i : INTEGER;
+        batchCount : INTEGER := 0;
+    END_LOCAL;
+
+    processingMetrics.totalPackets := SIZEOF(inputStream);
+    processingMetrics.processedPackets := 0;
+    processingMetrics.errorPackets := 0;
+    processingStage := defaultStage;
+
+    REPEAT i := 1 TO SIZEOF(inputStream);
+        currentPacket := inputStream[i];
+
+        processPacket(currentPacket, processingStage, processedPacket);
+
+        IF processedPacket.isValid THEN
+            INSERT(outputStream, processedPacket, SIZEOF(outputStream) + 1);
+            processingMetrics.processedPackets := processingMetrics.processedPackets + 1;
+        ELSE
+            processingMetrics.errorPackets := processingMetrics.errorPackets + 1;
+        END_IF;
+
+        batchCount := batchCount + 1;
+        IF batchCount >= maxPacketsPerBatch THEN
+            flushProcessingBuffer();
+            batchCount := 0;
+        END_IF;
+    END_REPEAT;
+
+    processingMetrics.successRate := processingMetrics.processedPackets / processingMetrics.totalPackets;
+END_PROCEDURE;

@@ -1,0 +1,3 @@
+REPEAT countdown := 10 TO 1 BY -1;
+    displayCountdown(countdown);
+END_REPEAT;

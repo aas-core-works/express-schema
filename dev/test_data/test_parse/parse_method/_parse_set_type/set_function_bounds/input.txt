@@ -1,0 +1,1 @@
+SET [getMin():getMax()] OF REAL

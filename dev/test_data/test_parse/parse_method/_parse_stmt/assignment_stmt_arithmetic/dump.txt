@@ -1,0 +1,19 @@
+AssignmentStmt(
+  position=1:1,
+  target=NameRef(
+      position=1:1,
+      identifier='total'
+    ),
+  value=BinaryExpr(
+      position=1:10,
+      left=NameRef(
+          position=1:10,
+          identifier='base'
+        ),
+      op=BinaryOp.ADD,
+      right=NameRef(
+          position=1:17,
+          identifier='offset'
+        )
+    )
+)

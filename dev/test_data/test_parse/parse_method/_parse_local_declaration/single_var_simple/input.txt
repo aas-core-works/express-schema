@@ -1,0 +1,3 @@
+LOCAL
+    count : INTEGER;
+END_LOCAL;

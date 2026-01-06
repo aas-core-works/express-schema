@@ -1,0 +1,27 @@
+ExplicitAttributeDefinition(
+  position=1:1,
+  attributes=[NameRef(
+      position=1:1,
+      identifier='coordinates'
+    )],
+  optional=False,
+  type_selection=ArrayType(
+      position=1:15,
+      bound_spec=BoundSpec(
+          position=1:21,
+          lower=IntegerLiteral(
+              position=1:22,
+              value=1
+            ),
+          upper=IntegerLiteral(
+              position=1:24,
+              value=3
+            )
+        ),
+      optional=False,
+      unique=False,
+      of=RealType(
+          position=1:30
+        )
+    )
+)

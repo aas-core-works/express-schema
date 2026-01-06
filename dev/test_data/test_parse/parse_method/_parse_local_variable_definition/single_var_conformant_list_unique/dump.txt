@@ -1,0 +1,12 @@
+LocalVariableDefinition(
+  position=1:1,
+  identifiers=['uniqueSequence'],
+  of_type=ConformantListType(
+      position=1:18,
+      unique=True,
+      of=StringType(
+          position=1:33,
+          fixed=False
+        )
+    )
+)

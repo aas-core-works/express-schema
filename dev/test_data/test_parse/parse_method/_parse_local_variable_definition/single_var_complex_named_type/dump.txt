@@ -1,0 +1,8 @@
+LocalVariableDefinition(
+  position=1:1,
+  identifiers=['geometry'],
+  of_type=NamedType(
+      position=1:12,
+      reference='IfcGeometricRepresentationItem'
+    )
+)

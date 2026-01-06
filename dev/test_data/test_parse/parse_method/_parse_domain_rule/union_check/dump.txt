@@ -1,0 +1,24 @@
+DomainRule(
+  position=1:1,
+  label='unionRule',
+  expr=BinaryExpr(
+      position=1:14,
+      left=BinaryExpr(
+          position=1:14,
+          left=NameRef(
+              position=1:14,
+              identifier='setA'
+            ),
+          op=BinaryOp.ADD,
+          right=NameRef(
+              position=1:21,
+              identifier='setB'
+            )
+        ),
+      op=BinaryOp.EQUAL,
+      right=NameRef(
+          position=1:29,
+          identifier='combinedSet'
+        )
+    )
+)

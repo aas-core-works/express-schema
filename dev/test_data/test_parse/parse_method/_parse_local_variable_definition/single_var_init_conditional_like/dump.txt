@@ -1,0 +1,12 @@
+LocalVariableDefinition(
+  position=1:1,
+  identifiers=['status'],
+  of_type=StringType(
+      position=1:10,
+      fixed=False
+    ),
+  init=NameRef(
+      position=1:20,
+      identifier='statusCode'
+    )
+)

@@ -1,0 +1,26 @@
+AggregateLiteral(
+  position=1:1,
+  elements=[
+      Element(
+        position=1:2,
+        expr=BinaryLiteral(
+            position=1:2,
+            value=b'\n'
+          )
+      ),
+      Element(
+        position=1:9,
+        expr=LogicalLiteral(
+            position=1:9,
+            value=FALSE
+          )
+      ),
+      Element(
+        position=1:16,
+        expr=LogicalLiteral(
+            position=1:16,
+            value=UNKNOWN
+          )
+      )
+    ]
+)

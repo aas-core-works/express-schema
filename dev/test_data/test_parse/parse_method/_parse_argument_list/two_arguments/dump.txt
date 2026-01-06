@@ -1,0 +1,16 @@
+[
+  Arg(
+    position=1:2,
+    value=NameRef(
+        position=1:2,
+        identifier='x'
+      )
+  ),
+  Arg(
+    position=1:5,
+    value=NameRef(
+        position=1:5,
+        identifier='y'
+      )
+  )
+]

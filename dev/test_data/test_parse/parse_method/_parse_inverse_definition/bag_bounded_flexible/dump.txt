@@ -1,0 +1,26 @@
+InverseDefinition(
+  position=1:1,
+  attribute=NameRef(
+      position=1:1,
+      identifier='processors'
+    ),
+  inverse_type=InverseBag(
+      position=1:14,
+      bound_spec=BoundSpec(
+          position=1:18,
+          lower=NameRef(
+              position=1:19,
+              identifier='minSize'
+            ),
+          upper=NameRef(
+              position=1:27,
+              identifier='maxSize'
+            )
+        ),
+      entity='ProcessorData'
+    ),
+  attribute_ref=NameRef(
+      position=1:57,
+      identifier='workItems'
+    )
+)

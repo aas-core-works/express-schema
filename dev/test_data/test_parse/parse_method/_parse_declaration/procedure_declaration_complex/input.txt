@@ -1,0 +1,16 @@
+PROCEDURE validateAndProcess(input : LIST [1:?] OF Item);
+    LOCAL
+        validItems : LIST [1:?] OF Item := [];
+        item : Item;
+        i : INTEGER;
+    END_LOCAL;
+    REPEAT i := 1 TO SIZEOF(input);
+        item := input[i];
+        IF isValidItem(item) THEN
+            INSERT(validItems, item, SIZEOF(validItems) + 1);
+            processValidItem(item);
+        ELSE
+            logInvalidItem(item);
+        END_IF;
+    END_REPEAT;
+END_PROCEDURE;

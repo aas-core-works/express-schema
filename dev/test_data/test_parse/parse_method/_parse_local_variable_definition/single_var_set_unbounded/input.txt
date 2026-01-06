@@ -1,0 +1,1 @@
+items : SET [0:?] OF MaterialProperty;

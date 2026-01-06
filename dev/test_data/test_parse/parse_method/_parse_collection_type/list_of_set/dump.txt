@@ -1,0 +1,33 @@
+ListType(
+  position=1:1,
+  bound_spec=BoundSpec(
+      position=1:6,
+      lower=IntegerLiteral(
+          position=1:7,
+          value=1
+        ),
+      upper=IntegerLiteral(
+          position=1:9,
+          value=10
+        )
+    ),
+  unique=False,
+  of=SetType(
+      position=1:16,
+      bound_spec=BoundSpec(
+          position=1:20,
+          lower=IntegerLiteral(
+              position=1:21,
+              value=1
+            ),
+          upper=IntegerLiteral(
+              position=1:23,
+              value=5
+            )
+        ),
+      of=StringType(
+          position=1:29,
+          fixed=False
+        )
+    )
+)

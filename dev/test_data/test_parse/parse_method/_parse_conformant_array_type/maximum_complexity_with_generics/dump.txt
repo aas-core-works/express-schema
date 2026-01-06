@@ -1,0 +1,17 @@
+ConformantArrayType(
+  position=1:1,
+  optional=True,
+  unique=True,
+  of=AggregateType(
+      position=1:26,
+      label='ContainerType',
+      of=ConformantArrayType(
+          position=1:55,
+          optional=True,
+          unique=True,
+          of=GenericType(
+              position=1:80
+            )
+        )
+    )
+)

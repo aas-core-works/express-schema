@@ -1,0 +1,26 @@
+ExplicitAttributeDefinition(
+  position=1:1,
+  attributes=[NameRef(
+      position=1:1,
+      identifier='DirectionRatios'
+    )],
+  optional=False,
+  type_selection=ListType(
+      position=1:19,
+      bound_spec=BoundSpec(
+          position=1:24,
+          lower=IntegerLiteral(
+              position=1:25,
+              value=2
+            ),
+          upper=IntegerLiteral(
+              position=1:27,
+              value=3
+            )
+        ),
+      unique=False,
+      of=RealType(
+          position=1:33
+        )
+    )
+)

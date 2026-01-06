@@ -1,0 +1,30 @@
+DerivedAttribute(
+  position=1:1,
+  attribute=NameRef(
+      position=1:1,
+      identifier='activeItems'
+    ),
+  type_selection=SetType(
+      position=1:15,
+      of=NamedType(
+          position=1:22,
+          reference='Item'
+        )
+    ),
+  init=QueryExpr(
+      position=1:30,
+      variable='item',
+      aggregate=NameRef(
+          position=1:44,
+          identifier='allItems'
+        ),
+      predicate=AttributeRef(
+          position=1:55,
+          source=NameRef(
+              position=1:55,
+              identifier='item'
+            ),
+          identifier='active'
+        )
+    )
+)

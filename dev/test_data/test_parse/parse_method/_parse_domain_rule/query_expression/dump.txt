@@ -1,0 +1,28 @@
+DomainRule(
+  position=1:1,
+  label='queryRule',
+  expr=BinaryExpr(
+      position=1:13,
+      left=QueryExpr(
+          position=1:13,
+          variable='item',
+          aggregate=NameRef(
+              position=1:27,
+              identifier='items'
+            ),
+          predicate=AttributeRef(
+              position=1:35,
+              source=NameRef(
+                  position=1:35,
+                  identifier='item'
+                ),
+              identifier='isActive'
+            )
+        ),
+      op=BinaryOp.NOT_EQUAL,
+      right=AggregateLiteral(
+          position=1:53,
+          elements=[]
+        )
+    )
+)

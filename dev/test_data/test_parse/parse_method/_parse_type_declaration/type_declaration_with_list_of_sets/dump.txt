@@ -1,0 +1,37 @@
+TypeDeclaration(
+  position=1:1,
+  identifier='CategoryGroups',
+  type_selection=ListType(
+      position=1:23,
+      bound_spec=BoundSpec(
+          position=1:28,
+          lower=IntegerLiteral(
+              position=1:29,
+              value=1
+            ),
+          upper=IntegerLiteral(
+              position=1:31,
+              value=10
+            )
+        ),
+      unique=False,
+      of=SetType(
+          position=1:38,
+          bound_spec=BoundSpec(
+              position=1:42,
+              lower=IntegerLiteral(
+                  position=1:43,
+                  value=1
+                ),
+              upper=IndeterminateLiteral(
+                  position=1:45
+                )
+            ),
+          of=NamedType(
+              position=1:51,
+              reference='CategoryItem'
+            )
+        )
+    ),
+  domain_rules=[]
+)

@@ -1,0 +1,27 @@
+ConstantDefinition(
+  position=1:1,
+  identifier='total_area',
+  type_selection=RealType(
+      position=1:14
+    ),
+  init=BinaryExpr(
+      position=1:23,
+      left=BinaryExpr(
+          position=1:23,
+          left=NameRef(
+              position=1:23,
+              identifier='width'
+            ),
+          op=BinaryOp.MULTIPLY,
+          right=NameRef(
+              position=1:31,
+              identifier='height'
+            )
+        ),
+      op=BinaryOp.ADD,
+      right=NameRef(
+          position=1:41,
+          identifier='margin'
+        )
+    )
+)

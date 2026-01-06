@@ -1,0 +1,7 @@
+ENTITY User;
+    Username : STRING;
+    Email : STRING;
+    UNIQUE
+        UR1 : Username;
+        UR2 : Email;
+END_ENTITY;

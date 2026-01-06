@@ -1,0 +1,2 @@
+TYPE ItemCollection = SET [1:10] OF ProductRef;
+END_TYPE;

@@ -1,0 +1,6 @@
+CASE typeCode OF
+    1, 2, 3: category := 'low';
+    4, 5, 6: category := 'medium';
+    7, 8, 9: category := 'high';
+    OTHERWISE: category := 'invalid';
+END_CASE;

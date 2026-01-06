@@ -1,0 +1,5 @@
+CONSTANT
+    min_value : INTEGER := 0;
+    max_value : INTEGER := 100;
+    default_value : INTEGER := 50;
+END_CONSTANT;

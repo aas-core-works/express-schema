@@ -1,0 +1,18 @@
+LocalVariableDefinition(
+  position=1:1,
+  identifiers=[
+      'sourceCollection',
+      'filterCriteria',
+      'resultCollection'
+    ],
+  of_type=ConformantSetType(
+      position=1:54,
+      of=GenericType(
+          position=1:61
+        )
+    ),
+  init=AggregateLiteral(
+      position=1:83,
+      elements=[]
+    )
+)

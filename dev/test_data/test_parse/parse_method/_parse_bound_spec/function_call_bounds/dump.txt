@@ -1,0 +1,19 @@
+BoundSpec(
+  position=1:1,
+  lower=Call(
+      position=1:2,
+      callee=NameRef(
+          position=1:2,
+          identifier='func'
+        ),
+      args=[]
+    ),
+  upper=Call(
+      position=1:9,
+      callee=NameRef(
+          position=1:9,
+          identifier='getMax'
+        ),
+      args=[]
+    )
+)

@@ -1,0 +1,26 @@
+AssignmentStmt(
+  position=1:1,
+  target=NameRef(
+      position=1:1,
+      identifier='coordinate'
+    ),
+  value=AttributeRef(
+      position=1:15,
+      source=IndexExpr(
+          position=1:15,
+          source=AttributeRef(
+              position=1:15,
+              source=NameRef(
+                  position=1:15,
+                  identifier='geometry'
+                ),
+              identifier='points'
+            ),
+          index=IntegerLiteral(
+              position=1:31,
+              value=1
+            )
+        ),
+      identifier='x'
+    )
+)

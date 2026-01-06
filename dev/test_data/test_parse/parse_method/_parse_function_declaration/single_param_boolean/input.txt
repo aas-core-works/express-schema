@@ -1,0 +1,3 @@
+FUNCTION invertFlag(flag : BOOLEAN) : BOOLEAN;
+    RETURN(NOT flag);
+END_FUNCTION;

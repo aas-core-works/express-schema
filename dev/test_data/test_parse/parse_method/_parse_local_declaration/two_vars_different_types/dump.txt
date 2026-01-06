@@ -1,0 +1,33 @@
+[
+  LocalVariableDefinition(
+    position=2:5,
+    identifiers=['name'],
+    of_type=StringType(
+        position=2:12,
+        fixed=False
+      )
+  ),
+  LocalVariableDefinition(
+    position=3:5,
+    identifiers=['components'],
+    of_type=ConformantListType(
+        position=3:18,
+        bound_spec=BoundSpec(
+            position=3:23,
+            lower=IntegerLiteral(
+                position=3:24,
+                value=1
+              ),
+            upper=IntegerLiteral(
+                position=3:26,
+                value=10
+              )
+          ),
+        unique=False,
+        of=NamedType(
+            position=3:33,
+            reference='Component'
+          )
+      )
+  )
+]

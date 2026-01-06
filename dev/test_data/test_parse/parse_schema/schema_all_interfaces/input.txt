@@ -1,0 +1,6 @@
+SCHEMA TestSchema;
+REFERENCE FROM Schema1;
+REFERENCE FROM Schema2;
+USE FROM BaseSchema;
+USE FROM UtilitySchema;
+END_SCHEMA;

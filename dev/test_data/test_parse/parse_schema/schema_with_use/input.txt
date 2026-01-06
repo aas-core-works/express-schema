@@ -1,0 +1,3 @@
+SCHEMA TestSchema;
+USE FROM BaseSchema;
+END_SCHEMA;

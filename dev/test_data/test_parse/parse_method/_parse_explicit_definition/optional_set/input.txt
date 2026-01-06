@@ -1,0 +1,1 @@
+categories : OPTIONAL SET OF STRING;

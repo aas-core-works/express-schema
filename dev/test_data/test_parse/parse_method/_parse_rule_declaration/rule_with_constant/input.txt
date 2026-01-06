@@ -1,0 +1,7 @@
+RULE ToleranceCheck FOR (Measurement);
+CONSTANT
+  MinTolerance : REAL := 0.001;
+END_CONSTANT;
+WHERE
+  criterion1 : ABS(SELF.Value) >= MinTolerance;
+END_RULE;

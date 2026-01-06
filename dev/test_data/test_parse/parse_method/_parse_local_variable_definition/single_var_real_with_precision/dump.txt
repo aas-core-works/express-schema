@@ -1,0 +1,11 @@
+LocalVariableDefinition(
+  position=1:1,
+  identifiers=['measurement'],
+  of_type=RealType(
+      position=1:15,
+      precision_spec=IntegerLiteral(
+          position=1:20,
+          value=10
+        )
+    )
+)

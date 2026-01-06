@@ -1,0 +1,21 @@
+ExplicitAttributeDefinition(
+  position=1:1,
+  attributes=[
+      NameRef(
+        position=1:1,
+        identifier='designLoad'
+      ),
+      NameRef(
+        position=1:13,
+        identifier='allowableStress'
+      ),
+      NameRef(
+        position=1:30,
+        identifier='safetyFactor'
+      )
+    ],
+  optional=False,
+  type_selection=RealType(
+      position=1:45
+    )
+)

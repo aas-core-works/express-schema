@@ -1,0 +1,3 @@
+DERIVE
+    width : INTEGER := 10;
+    height : INTEGER := 20;

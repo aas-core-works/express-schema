@@ -1,0 +1,4 @@
+RealLiteral(
+  position=1:1,
+  value=0.000123
+)

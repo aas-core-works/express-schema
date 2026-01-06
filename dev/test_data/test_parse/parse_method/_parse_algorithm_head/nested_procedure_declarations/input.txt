@@ -1,0 +1,27 @@
+PROCEDURE mainProcess();
+    PROCEDURE helperProcess(input : STRING);
+        LOCAL
+            processed : STRING;
+        END_LOCAL;
+        processed := input;
+    END_PROCEDURE;
+
+    LOCAL
+        inputData : STRING;
+    END_LOCAL;
+
+    helperProcess(inputData);
+END_PROCEDURE;
+
+TYPE ProcessingMode = ENUMERATION OF
+    (batch, realtime, background);
+END_TYPE;
+
+CONSTANT
+    defaultMode : ProcessingMode := batch;
+END_CONSTANT;
+
+LOCAL
+    currentMode : ProcessingMode := defaultMode;
+    isActive : BOOLEAN := FALSE;
+END_LOCAL;

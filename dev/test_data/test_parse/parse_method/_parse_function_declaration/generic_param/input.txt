@@ -1,0 +1,3 @@
+FUNCTION processGeneric(item : GENERIC) : GENERIC;
+    RETURN(item);
+END_FUNCTION;

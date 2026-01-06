@@ -1,0 +1,4 @@
+TYPE NormalizedVector = LIST [3:3] OF REAL;
+WHERE
+    WR1 : SQRT((SELF[1] ** 2) + (SELF[2] ** 2) + (SELF[3] ** 2)) = 1.0;
+END_TYPE;

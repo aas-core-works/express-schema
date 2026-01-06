@@ -1,0 +1,13 @@
+TypeDeclaration(
+  position=1:1,
+  identifier='PacketData',
+  type_selection=BinaryType(
+      position=1:19,
+      width=IntegerLiteral(
+          position=1:26,
+          value=1024
+        ),
+      fixed=False
+    ),
+  domain_rules=[]
+)

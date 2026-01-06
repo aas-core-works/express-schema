@@ -1,0 +1,4 @@
+DERIVE
+    activeItems : SET OF Item := QUERY(item <* allItems | item.active);
+    validPoints : LIST OF Point := QUERY(pt <* inputPoints | pt.isValid);
+    itemCount : INTEGER := SIZEOF(activeItems);

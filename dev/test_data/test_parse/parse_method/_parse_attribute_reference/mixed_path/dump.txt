@@ -1,0 +1,13 @@
+QualifiedAttributeRef(
+  position=1:1,
+  source=AttributeRef(
+      position=1:1,
+      source=NameRef(
+          position=1:1,
+          identifier='someEntity'
+        ),
+      identifier='data'
+    ),
+  group_qualifier='info',
+  attribute='value'
+)

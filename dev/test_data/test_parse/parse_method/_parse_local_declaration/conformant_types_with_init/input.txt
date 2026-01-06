@@ -1,0 +1,6 @@
+LOCAL
+    flexibleArray : ARRAY OF STRING := [];
+    dynamicList : LIST OF INTEGER := [];
+    openSet : SET OF REAL := [];
+    flexibleBag : BAG OF Component := [];
+END_LOCAL;

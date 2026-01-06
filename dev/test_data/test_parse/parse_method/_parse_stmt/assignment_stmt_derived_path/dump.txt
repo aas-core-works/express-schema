@@ -1,0 +1,16 @@
+AssignmentStmt(
+  position=1:1,
+  target=NameRef(
+      position=1:1,
+      identifier='normalizedDirection'
+    ),
+  value=QualifiedAttributeRef(
+      position=1:24,
+      source=NameRef(
+          position=1:24,
+          identifier='sourceVector'
+        ),
+      group_qualifier='IfcDirection',
+      attribute='DirectionRatios'
+    )
+)

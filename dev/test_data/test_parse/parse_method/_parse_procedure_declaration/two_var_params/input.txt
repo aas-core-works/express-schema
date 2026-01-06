@@ -1,0 +1,9 @@
+PROCEDURE swapValues(VAR first : REAL; VAR second : REAL);
+    LOCAL
+        temp : REAL;
+    END_LOCAL;
+
+    temp := first;
+    first := second;
+    second := temp;
+END_PROCEDURE;

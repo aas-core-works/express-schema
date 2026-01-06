@@ -1,0 +1,20 @@
+DomainRule(
+  position=1:1,
+  label='propertyRule',
+  expr=BinaryExpr(
+      position=1:16,
+      left=AttributeRef(
+          position=1:16,
+          source=NameRef(
+              position=1:16,
+              identifier='data'
+            ),
+          identifier='value'
+        ),
+      op=BinaryOp.GREATER_THAN,
+      right=IntegerLiteral(
+          position=1:29,
+          value=0
+        )
+    )
+)

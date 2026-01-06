@@ -1,0 +1,1 @@
+optionalData : ARRAY [0:50] OF OPTIONAL INTEGER

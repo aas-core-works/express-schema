@@ -1,0 +1,1 @@
+state_unknown : LOGICAL := UNKNOWN;

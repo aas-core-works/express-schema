@@ -1,0 +1,2 @@
+TYPE ColorChoice = ENUMERATION OF (Red, Green, Blue);
+END_TYPE;

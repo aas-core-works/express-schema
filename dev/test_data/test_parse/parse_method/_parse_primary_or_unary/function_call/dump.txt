@@ -1,0 +1,23 @@
+Call(
+  position=1:1,
+  callee=NameRef(
+      position=1:1,
+      identifier='myFunction'
+    ),
+  args=[
+      Arg(
+        position=1:12,
+        value=NameRef(
+            position=1:12,
+            identifier='arg1'
+          )
+      ),
+      Arg(
+        position=1:18,
+        value=NameRef(
+            position=1:18,
+            identifier='arg2'
+          )
+      )
+    ]
+)

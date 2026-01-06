@@ -1,0 +1,19 @@
+ListType(
+  position=1:1,
+  bound_spec=BoundSpec(
+      position=1:6,
+      lower=IntegerLiteral(
+          position=1:7,
+          value=1
+        ),
+      upper=IntegerLiteral(
+          position=1:9,
+          value=10
+        )
+    ),
+  unique=False,
+  of=StringType(
+      position=1:16,
+      fixed=False
+    )
+)

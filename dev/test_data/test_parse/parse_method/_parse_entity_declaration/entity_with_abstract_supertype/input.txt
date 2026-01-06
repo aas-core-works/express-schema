@@ -1,0 +1,4 @@
+ENTITY GeometricItem
+    ABSTRACT SUPERTYPE OF (ONEOF(Point, Line, Surface));
+    Dimension : INTEGER;
+END_ENTITY;

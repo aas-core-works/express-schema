@@ -1,0 +1,14 @@
+InverseDefinition(
+  position=1:1,
+  attribute=NameRef(
+      position=1:1,
+      identifier='parentElement'
+    ),
+  inverse_type=NameRef(
+      position=1:17,
+      identifier='SomeData'
+    ),
+  attribute_ref=Self(
+      position=1:30
+    )
+)

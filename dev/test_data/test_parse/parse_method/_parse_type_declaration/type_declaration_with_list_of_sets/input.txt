@@ -1,0 +1,2 @@
+TYPE CategoryGroups = LIST [1:10] OF SET [1:?] OF CategoryItem;
+END_TYPE;

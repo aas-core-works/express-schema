@@ -1,0 +1,7 @@
+ListType(
+  position=1:1,
+  unique=False,
+  of=NumberType(
+      position=1:9
+    )
+)

@@ -1,0 +1,25 @@
+LocalVariableDefinition(
+  position=1:1,
+  identifiers=[
+      'sourceSet',
+      'targetSet',
+      'resultSet'
+    ],
+  of_type=ConformantSetType(
+      position=1:35,
+      bound_spec=BoundSpec(
+          position=1:39,
+          lower=IntegerLiteral(
+              position=1:40,
+              value=0
+            ),
+          upper=IndeterminateLiteral(
+              position=1:42
+            )
+        ),
+      of=StringType(
+          position=1:48,
+          fixed=False
+        )
+    )
+)

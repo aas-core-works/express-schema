@@ -1,0 +1,24 @@
+DomainRule(
+  position=1:1,
+  label='differenceRule',
+  expr=BinaryExpr(
+      position=1:19,
+      left=BinaryExpr(
+          position=1:19,
+          left=NameRef(
+              position=1:19,
+              identifier='setA'
+            ),
+          op=BinaryOp.SUBTRACT,
+          right=NameRef(
+              position=1:26,
+              identifier='setB'
+            )
+        ),
+      op=BinaryOp.EQUAL,
+      right=NameRef(
+          position=1:34,
+          identifier='remainingItems'
+        )
+    )
+)

@@ -1,0 +1,1 @@
+nestedRule : (((value > 0) AND (value < 100)) OR ((value > 200) AND (value < 300)));

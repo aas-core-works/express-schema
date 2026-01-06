@@ -1,0 +1,3 @@
+LOCAL
+    items : LIST OF INTEGER;
+END_LOCAL;

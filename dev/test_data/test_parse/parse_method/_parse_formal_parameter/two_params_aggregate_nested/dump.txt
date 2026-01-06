@@ -1,0 +1,27 @@
+FormalParameter(
+  position=1:1,
+  identifiers=[
+      'input',
+      'output'
+    ],
+  of_type=AggregateType(
+      position=1:17,
+      label='ItemType',
+      of=ConformantSetType(
+          position=1:41,
+          bound_spec=BoundSpec(
+              position=1:45,
+              lower=IntegerLiteral(
+                  position=1:46,
+                  value=0
+                ),
+              upper=IndeterminateLiteral(
+                  position=1:48
+                )
+            ),
+          of=IntegerType(
+              position=1:54
+            )
+        )
+    )
+)

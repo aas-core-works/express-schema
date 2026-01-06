@@ -1,0 +1,1 @@
+items : ARRAY [1:10] OF STRING := UNKNOWN;

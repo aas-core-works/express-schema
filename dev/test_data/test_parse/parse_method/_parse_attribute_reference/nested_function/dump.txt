@@ -1,0 +1,16 @@
+Call(
+  position=1:1,
+  callee=AttributeRef(
+      position=1:1,
+      source=Call(
+          position=1:1,
+          callee=NameRef(
+              position=1:1,
+              identifier='getPoint'
+            ),
+          args=[]
+        ),
+      identifier='getX'
+    ),
+  args=[]
+)

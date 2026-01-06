@@ -1,0 +1,34 @@
+DeriveClause(
+  position=1:1,
+  derived_attributes=[
+      DerivedAttribute(
+        position=2:5,
+        attribute=NameRef(
+            position=2:5,
+            identifier='veryLongDerivedAttributeNameForTesting'
+          ),
+        type_selection=IntegerType(
+            position=2:46
+          ),
+        init=IntegerLiteral(
+            position=2:57,
+            value=999
+          )
+      ),
+      DerivedAttribute(
+        position=3:5,
+        attribute=NameRef(
+            position=3:5,
+            identifier='anotherVeryLongNameForComprehensiveTesting'
+          ),
+        type_selection=StringType(
+            position=3:50,
+            fixed=False
+          ),
+        init=StringLiteral(
+            position=3:60,
+            value='test'
+          )
+      )
+    ]
+)

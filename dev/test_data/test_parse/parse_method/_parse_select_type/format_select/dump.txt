@@ -1,0 +1,17 @@
+SelectType(
+  position=1:1,
+  values=[
+      NamedType(
+        position=1:9,
+        reference='JsonFormat'
+      ),
+      NamedType(
+        position=1:21,
+        reference='XmlFormat'
+      ),
+      NamedType(
+        position=1:32,
+        reference='CsvFormat'
+      )
+    ]
+)

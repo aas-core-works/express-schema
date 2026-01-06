@@ -1,0 +1,2 @@
+DERIVE
+    name : STRING := 'default';

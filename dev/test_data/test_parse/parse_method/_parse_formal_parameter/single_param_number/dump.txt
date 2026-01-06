@@ -1,0 +1,7 @@
+FormalParameter(
+  position=1:1,
+  identifiers=['quantity'],
+  of_type=NumberType(
+      position=1:12
+    )
+)

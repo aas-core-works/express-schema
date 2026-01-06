@@ -1,0 +1,1 @@
+intersectionRule : (setA * setB) <> [];

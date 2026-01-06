@@ -1,0 +1,20 @@
+SupertypeBinaryExpr(
+  position=1:1,
+  left=SupertypeBinaryExpr(
+      position=1:1,
+      left=NameRef(
+          position=1:1,
+          identifier='IfcBuilding'
+        ),
+      op=SupertypeBinaryOp.AND,
+      right=NameRef(
+          position=1:17,
+          identifier='IfcWall'
+        )
+    ),
+  op=SupertypeBinaryOp.ANDOR,
+  right=NameRef(
+      position=1:31,
+      identifier='IfcWindow'
+    )
+)

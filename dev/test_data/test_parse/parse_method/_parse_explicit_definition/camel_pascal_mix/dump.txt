@@ -1,0 +1,22 @@
+ExplicitAttributeDefinition(
+  position=1:1,
+  attributes=[
+      NameRef(
+        position=1:1,
+        identifier='personData'
+      ),
+      NameRef(
+        position=1:13,
+        identifier='OrganizationInfo'
+      ),
+      NameRef(
+        position=1:31,
+        identifier='contact_details'
+      )
+    ],
+  optional=False,
+  type_selection=NamedType(
+      position=1:49,
+      reference='SomeEntity'
+    )
+)

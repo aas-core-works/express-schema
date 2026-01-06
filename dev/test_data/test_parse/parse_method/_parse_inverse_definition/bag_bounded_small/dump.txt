@@ -1,0 +1,26 @@
+InverseDefinition(
+  position=1:1,
+  attribute=NameRef(
+      position=1:1,
+      identifier='participants'
+    ),
+  inverse_type=InverseBag(
+      position=1:16,
+      bound_spec=BoundSpec(
+          position=1:20,
+          lower=IntegerLiteral(
+              position=1:21,
+              value=1
+            ),
+          upper=IntegerLiteral(
+              position=1:23,
+              value=10
+            )
+        ),
+      entity='Person'
+    ),
+  attribute_ref=NameRef(
+      position=1:41,
+      identifier='activities'
+    )
+)

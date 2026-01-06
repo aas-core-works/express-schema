@@ -1,0 +1,30 @@
+DerivedAttribute(
+  position=1:1,
+  attribute=NameRef(
+      position=1:1,
+      identifier='calculatedValue'
+    ),
+  type_selection=RealType(
+      position=1:19
+    ),
+  init=BinaryExpr(
+      position=1:28,
+      left=BinaryExpr(
+          position=1:28,
+          left=NameRef(
+              position=1:28,
+              identifier='base'
+            ),
+          op=BinaryOp.ADD,
+          right=NameRef(
+              position=1:35,
+              identifier='offset'
+            )
+        ),
+      op=BinaryOp.MULTIPLY,
+      right=NameRef(
+          position=1:45,
+          identifier='scale'
+        )
+    )
+)

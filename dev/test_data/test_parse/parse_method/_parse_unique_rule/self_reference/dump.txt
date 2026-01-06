@@ -1,0 +1,7 @@
+UniqueRule(
+  position=1:1,
+  label='selfUnique',
+  attributes=[Self(
+      position=1:14
+    )]
+)

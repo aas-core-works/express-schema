@@ -1,0 +1,4 @@
+INVERSE
+    participants : BAG OF ParticipantData FOR events;
+    contributors : BAG OF ContributorData FOR projects;
+    reviewers : BAG OF ReviewerData FOR reviews;

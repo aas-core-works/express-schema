@@ -1,0 +1,20 @@
+ConformantBagType(
+  position=1:1,
+  bound_spec=BoundSpec(
+      position=1:5,
+      lower=IntegerLiteral(
+          position=1:6,
+          value=0
+        ),
+      upper=IndeterminateLiteral(
+          position=1:8
+        )
+    ),
+  of=ConformantListType(
+      position=1:14,
+      unique=False,
+      of=IntegerType(
+          position=1:22
+        )
+    )
+)

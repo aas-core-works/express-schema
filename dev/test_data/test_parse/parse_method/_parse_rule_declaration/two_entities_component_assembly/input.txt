@@ -1,0 +1,5 @@
+RULE ComponentAssembly FOR (Component, Assembly);
+WHERE
+  criterion1 : EXISTS(SELF.Parent);
+  criterion2 : SIZEOF(SELF.Children) >= 0;
+END_RULE;

@@ -1,0 +1,6 @@
+CONSTANT
+    version : INTEGER := 1;
+    name : STRING := 'System';
+    enabled : BOOLEAN := TRUE;
+    precision : REAL := 0.001;
+END_CONSTANT;

@@ -1,0 +1,12 @@
+FormalParameter(
+  position=1:1,
+  identifiers=['header'],
+  of_type=BinaryType(
+      position=1:10,
+      width=IntegerLiteral(
+          position=1:17,
+          value=256
+        ),
+      fixed=True
+    )
+)

@@ -1,0 +1,6 @@
+ENTITY Course;
+    Title : STRING;
+    Description : OPTIONAL STRING;
+    Students : SET [0:100] OF Student;
+    Prerequisites : OPTIONAL SET [0:5] OF Course;
+END_ENTITY;

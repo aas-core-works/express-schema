@@ -1,0 +1,1 @@
+(obj.prop, arr[5], x.method())

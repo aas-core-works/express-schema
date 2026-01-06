@@ -1,0 +1,3 @@
+LOCAL
+    container : GENERIC : ItemType;
+END_LOCAL;

@@ -1,0 +1,24 @@
+DomainRule(
+  position=1:1,
+  label='scaleRule',
+  expr=BinaryExpr(
+      position=1:14,
+      left=BinaryExpr(
+          position=1:14,
+          left=NameRef(
+              position=1:14,
+              identifier='width'
+            ),
+          op=BinaryOp.MULTIPLY,
+          right=NameRef(
+              position=1:22,
+              identifier='height'
+            )
+        ),
+      op=BinaryOp.LESS_EQUAL,
+      right=NameRef(
+          position=1:33,
+          identifier='maxSurface'
+        )
+    )
+)

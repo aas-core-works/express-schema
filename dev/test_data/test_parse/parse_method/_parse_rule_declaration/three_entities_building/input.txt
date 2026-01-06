@@ -1,0 +1,4 @@
+RULE BuildingElements FOR (Building, Floor, Room);
+WHERE
+  criterion1 : SIZEOF(SELF.Elements) > 0;
+END_RULE;

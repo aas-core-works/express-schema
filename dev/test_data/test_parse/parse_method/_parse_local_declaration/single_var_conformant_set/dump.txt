@@ -1,0 +1,10 @@
+[LocalVariableDefinition(
+  position=2:5,
+  identifiers=['elements'],
+  of_type=ConformantSetType(
+      position=2:16,
+      of=RealType(
+          position=2:23
+        )
+    )
+)]

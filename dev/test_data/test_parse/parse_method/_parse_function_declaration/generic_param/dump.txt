@@ -1,0 +1,26 @@
+FunctionDeclaration(
+  position=1:1,
+  identifier='processGeneric',
+  formal_parameters=[FormalParameter(
+      position=1:25,
+      identifiers=['item'],
+      of_type=GenericType(
+          position=1:32
+        )
+    )],
+  return_type=GenericType(
+      position=1:43
+    ),
+  head=AlgorithmHead(
+      declarations=[],
+      constant_definitions=[],
+      local_variable_definitions=[]
+    ),
+  body=[ReturnStmt(
+      position=2:5,
+      value=NameRef(
+          position=2:12,
+          identifier='item'
+        )
+    )]
+)

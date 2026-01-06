@@ -1,0 +1,22 @@
+ExplicitAttributeDefinition(
+  position=1:1,
+  attributes=[
+      NameRef(
+        position=1:1,
+        identifier='createdAt'
+      ),
+      NameRef(
+        position=1:12,
+        identifier='modifiedAt'
+      ),
+      NameRef(
+        position=1:24,
+        identifier='deletedAt'
+      )
+    ],
+  optional=True,
+  type_selection=StringType(
+      position=1:45,
+      fixed=False
+    )
+)

@@ -1,0 +1,1 @@
+isBelowThreshold : BOOLEAN := value < 100;

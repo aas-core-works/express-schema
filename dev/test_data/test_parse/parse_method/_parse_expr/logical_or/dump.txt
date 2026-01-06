@@ -1,0 +1,12 @@
+BinaryExpr(
+  position=1:1,
+  left=NameRef(
+      position=1:1,
+      identifier='x'
+    ),
+  op=BinaryOp.OR,
+  right=NameRef(
+      position=1:6,
+      identifier='y'
+    )
+)

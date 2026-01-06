@@ -1,0 +1,23 @@
+InverseSet(
+  position=1:1,
+  bound_spec=BoundSpec(
+      position=1:5,
+      lower=BinaryExpr(
+          position=1:6,
+          left=NameRef(
+              position=1:6,
+              identifier='baseCount'
+            ),
+          op=BinaryOp.ADD,
+          right=NameRef(
+              position=1:18,
+              identifier='offset'
+            )
+        ),
+      upper=NameRef(
+          position=1:25,
+          identifier='limitCount'
+        )
+    ),
+  entity='ExpressionElement'
+)

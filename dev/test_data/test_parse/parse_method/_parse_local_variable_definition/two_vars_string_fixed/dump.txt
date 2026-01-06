@@ -1,0 +1,15 @@
+LocalVariableDefinition(
+  position=1:1,
+  identifiers=[
+      'firstName',
+      'lastName'
+    ],
+  of_type=StringType(
+      position=1:23,
+      width=IntegerLiteral(
+          position=1:30,
+          value=100
+        ),
+      fixed=True
+    )
+)

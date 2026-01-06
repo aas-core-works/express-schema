@@ -1,0 +1,26 @@
+ExplicitAttributeDefinition(
+  position=1:1,
+  attributes=[NameRef(
+      position=1:1,
+      identifier='sequence'
+    )],
+  optional=False,
+  type_selection=ListType(
+      position=1:12,
+      bound_spec=BoundSpec(
+          position=1:17,
+          lower=IntegerLiteral(
+              position=1:18,
+              value=1
+            ),
+          upper=IntegerLiteral(
+              position=1:20,
+              value=100
+            )
+        ),
+      unique=False,
+      of=IntegerType(
+          position=1:28
+        )
+    )
+)

@@ -1,0 +1,7 @@
+LOCAL
+    a : INTEGER;
+    b : REAL;
+    c : STRING;
+    d : BOOLEAN;
+    e : Component;
+END_LOCAL;

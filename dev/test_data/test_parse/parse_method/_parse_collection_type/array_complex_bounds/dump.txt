@@ -1,0 +1,19 @@
+ArrayType(
+  position=1:1,
+  bound_spec=BoundSpec(
+      position=1:7,
+      lower=NameRef(
+          position=1:8,
+          identifier='lower'
+        ),
+      upper=NameRef(
+          position=1:14,
+          identifier='upper'
+        )
+    ),
+  optional=False,
+  unique=False,
+  of=BooleanType(
+      position=1:24
+    )
+)

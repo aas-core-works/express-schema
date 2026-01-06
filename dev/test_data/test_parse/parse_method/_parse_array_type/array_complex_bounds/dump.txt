@@ -1,0 +1,28 @@
+ArrayType(
+  position=1:1,
+  bound_spec=BoundSpec(
+      position=1:7,
+      lower=AttributeRef(
+          position=1:8,
+          source=NameRef(
+              position=1:8,
+              identifier='obj'
+            ),
+          identifier='minSize'
+        ),
+      upper=AttributeRef(
+          position=1:20,
+          source=NameRef(
+              position=1:20,
+              identifier='obj'
+            ),
+          identifier='maxSize'
+        )
+    ),
+  optional=False,
+  unique=False,
+  of=StringType(
+      position=1:36,
+      fixed=False
+    )
+)

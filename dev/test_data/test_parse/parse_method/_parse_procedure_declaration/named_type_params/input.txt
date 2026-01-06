@@ -1,0 +1,4 @@
+PROCEDURE processComponent(component : ComponentType; VAR result : ProcessingResult);
+    result := performProcessing(component);
+    logProcessingEvent(component, result);
+END_PROCEDURE;

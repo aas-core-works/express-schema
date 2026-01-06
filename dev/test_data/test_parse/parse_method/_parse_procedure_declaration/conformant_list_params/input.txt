@@ -1,0 +1,12 @@
+PROCEDURE processItems(items : LIST OF STRING; VAR processedItems : LIST OF STRING);
+    LOCAL
+        i : INTEGER;
+        currentItem : STRING;
+    END_LOCAL;
+
+    REPEAT i := 1 TO SIZEOF(items);
+        currentItem := items[i];
+        currentItem := processString(currentItem);
+        INSERT(processedItems, currentItem, i);
+    END_REPEAT;
+END_PROCEDURE;

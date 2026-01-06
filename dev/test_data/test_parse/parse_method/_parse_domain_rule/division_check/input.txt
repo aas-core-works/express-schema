@@ -1,0 +1,1 @@
+ratioRule : (numerator / denominator) = targetRatio;

@@ -1,0 +1,8 @@
+TYPE ComponentType = ENUMERATION OF
+    (mechanical, electrical, structural);
+END_TYPE;
+
+ENTITY Component;
+    componentType : ComponentType;
+    name : STRING;
+END_ENTITY;

@@ -1,0 +1,19 @@
+InverseDefinition(
+  position=1:1,
+  attribute=NameRef(
+      position=1:1,
+      identifier='container'
+    ),
+  inverse_type=NameRef(
+      position=1:13,
+      identifier='ContainerData'
+    ),
+  attribute_ref=AttributeRef(
+      position=1:31,
+      source=NameRef(
+          position=1:31,
+          identifier='items'
+        ),
+      identifier='elements'
+    )
+)

@@ -1,0 +1,14 @@
+Call(
+  position=1:1,
+  callee=NameRef(
+      position=1:1,
+      identifier='SIZEOF'
+    ),
+  args=[Arg(
+      position=1:8,
+      value=NameRef(
+          position=1:8,
+          identifier='collection'
+        )
+    )]
+)

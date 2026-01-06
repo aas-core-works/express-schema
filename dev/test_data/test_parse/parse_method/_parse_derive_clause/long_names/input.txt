@@ -1,0 +1,3 @@
+DERIVE
+    veryLongDerivedAttributeNameForTesting : INTEGER := 999;
+    anotherVeryLongNameForComprehensiveTesting : STRING := 'test';

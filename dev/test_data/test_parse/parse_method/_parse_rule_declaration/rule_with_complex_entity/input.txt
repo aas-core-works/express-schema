@@ -1,0 +1,10 @@
+RULE ValidationContext FOR (Document);
+ENTITY
+  ValidationRecord;
+    timestamp : REAL;
+    status : BOOLEAN;
+    message : STRING;
+  END_ENTITY;
+WHERE
+  criterion1 : EXISTS(SELF.ValidationHistory);
+END_RULE;

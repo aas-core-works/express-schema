@@ -1,0 +1,14 @@
+IndexExpr(
+  position=1:1,
+  source=AttributeRef(
+      position=1:1,
+      source=Self(
+          position=1:1
+        ),
+      identifier='values'
+    ),
+  index=NameRef(
+      position=1:13,
+      identifier='index'
+    )
+)

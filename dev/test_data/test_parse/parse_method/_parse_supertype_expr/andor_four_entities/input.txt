@@ -1,0 +1,1 @@
+Entity1 ANDOR Entity2 ANDOR Entity3 ANDOR Entity4

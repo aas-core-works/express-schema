@@ -1,0 +1,19 @@
+InverseDefinition(
+  position=1:1,
+  attribute=NameRef(
+      position=1:1,
+      identifier='owner'
+    ),
+  inverse_type=NameRef(
+      position=1:9,
+      identifier='OwnerData'
+    ),
+  attribute_ref=AttributeRef(
+      position=1:23,
+      source=NameRef(
+          position=1:23,
+          identifier='data'
+        ),
+      identifier='items'
+    )
+)

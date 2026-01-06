@@ -1,0 +1,1 @@
+evenRule : (aNumber MOD 2) = 0;

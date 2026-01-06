@@ -1,0 +1,1 @@
+short_code : STRING (4) := 'CODE';

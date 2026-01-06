@@ -1,0 +1,6 @@
+CONSTANT
+    unknown_state : LOGICAL := UNKNOWN;
+    true_state : LOGICAL := TRUE;
+    false_state : LOGICAL := FALSE;
+    indeterminate : LOGICAL := ?;
+END_CONSTANT;

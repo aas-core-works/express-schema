@@ -1,0 +1,12 @@
+SupertypeBinaryExpr(
+  position=1:1,
+  left=NameRef(
+      position=1:1,
+      identifier='VeryLongEntityNameOne'
+    ),
+  op=SupertypeBinaryOp.ANDOR,
+  right=NameRef(
+      position=1:29,
+      identifier='VeryLongEntityNameTwo'
+    )
+)

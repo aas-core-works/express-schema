@@ -1,0 +1,24 @@
+StringType(
+  position=1:1,
+  width=BinaryExpr(
+      position=1:8,
+      left=NameRef(
+          position=1:8,
+          identifier='a'
+        ),
+      op=BinaryOp.ADD,
+      right=BinaryExpr(
+          position=1:12,
+          left=NameRef(
+              position=1:12,
+              identifier='b'
+            ),
+          op=BinaryOp.MULTIPLY,
+          right=NameRef(
+              position=1:16,
+              identifier='c'
+            )
+        )
+    ),
+  fixed=False
+)

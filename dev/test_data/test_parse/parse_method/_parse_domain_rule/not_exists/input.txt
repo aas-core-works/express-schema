@@ -1,0 +1,1 @@
+notExistsRule : NOT EXISTS(deprecatedField);

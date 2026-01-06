@@ -1,0 +1,6 @@
+LOCAL
+    container1 : GENERIC : ContainerType;
+    container2 : GENERIC : ItemType := [];
+    processor : GENERIC : ProcessorType;
+    validator : GENERIC : ValidatorType := UNKNOWN;
+END_LOCAL;

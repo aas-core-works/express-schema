@@ -1,0 +1,6 @@
+FUNCTION getBag() : BAG [0:100] OF Item;
+    LOCAL
+        container : BAG [0:100] OF Item := [];
+    END_LOCAL;
+    RETURN(container);
+END_FUNCTION;

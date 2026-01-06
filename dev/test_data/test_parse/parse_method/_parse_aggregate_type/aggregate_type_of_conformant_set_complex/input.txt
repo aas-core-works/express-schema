@@ -1,0 +1,1 @@
+AGGREGATE OF SET OF MaterialProperty

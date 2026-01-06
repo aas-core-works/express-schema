@@ -1,0 +1,11 @@
+FormalParameter(
+  position=1:1,
+  identifiers=['wrapper'],
+  of_type=AggregateType(
+      position=1:11,
+      label='ContainerType',
+      of=GenericType(
+          position=1:40
+        )
+    )
+)

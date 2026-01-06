@@ -1,0 +1,4 @@
+RULE HasName FOR (Component);
+WHERE
+  criterion1 : EXISTS(SELF.Name);
+END_RULE;

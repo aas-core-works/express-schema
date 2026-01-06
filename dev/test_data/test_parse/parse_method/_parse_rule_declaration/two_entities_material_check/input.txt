@@ -1,0 +1,4 @@
+RULE MaterialConsistency FOR (Material, Property);
+WHERE
+  criterion1 : SIZEOF(SELF.Properties) > 0;
+END_RULE;

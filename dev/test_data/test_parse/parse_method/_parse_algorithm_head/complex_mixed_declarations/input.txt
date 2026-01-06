@@ -1,0 +1,24 @@
+TYPE GeometryType = SELECT (
+    Point,
+    Line,
+    Circle);
+END_TYPE;
+
+ENTITY Point;
+    x : REAL;
+    y : REAL;
+    z : REAL;
+END_ENTITY;
+
+FUNCTION createPoint(x : REAL; y : REAL; z : REAL) : Point;
+    LOCAL
+        point : Point;
+    END_LOCAL;
+    RETURN(point);
+END_FUNCTION;
+
+PROCEDURE validateGeometry(geometry : GeometryType);
+    IF geometry = UNKNOWN THEN
+        SKIP;
+    END_IF;
+END_PROCEDURE;

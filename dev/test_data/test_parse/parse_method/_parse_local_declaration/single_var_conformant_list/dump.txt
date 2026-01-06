@@ -1,0 +1,11 @@
+[LocalVariableDefinition(
+  position=2:5,
+  identifiers=['items'],
+  of_type=ConformantListType(
+      position=2:13,
+      unique=False,
+      of=IntegerType(
+          position=2:21
+        )
+    )
+)]

@@ -1,0 +1,9 @@
+PROCEDURE transformData(sourceData : ARRAY [1:10] OF REAL; scaleFactor : REAL; VAR resultData : ARRAY [1:10] OF REAL);
+    LOCAL
+        i : INTEGER;
+    END_LOCAL;
+
+    REPEAT i := 1 TO 10;
+        resultData[i] := sourceData[i] * scaleFactor;
+    END_REPEAT;
+END_PROCEDURE;

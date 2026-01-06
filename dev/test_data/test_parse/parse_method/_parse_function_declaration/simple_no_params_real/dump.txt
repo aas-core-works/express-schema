@@ -1,0 +1,20 @@
+FunctionDeclaration(
+  position=1:1,
+  identifier='getPI',
+  formal_parameters=[],
+  return_type=RealType(
+      position=1:20
+    ),
+  head=AlgorithmHead(
+      declarations=[],
+      constant_definitions=[],
+      local_variable_definitions=[]
+    ),
+  body=[ReturnStmt(
+      position=2:5,
+      value=RealLiteral(
+          position=2:12,
+          value=3.14159
+        )
+    )]
+)

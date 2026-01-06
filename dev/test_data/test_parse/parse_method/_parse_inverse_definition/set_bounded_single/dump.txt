@@ -1,0 +1,26 @@
+InverseDefinition(
+  position=1:1,
+  attribute=NameRef(
+      position=1:1,
+      identifier='owner'
+    ),
+  inverse_type=InverseSet(
+      position=1:9,
+      bound_spec=BoundSpec(
+          position=1:13,
+          lower=IntegerLiteral(
+              position=1:14,
+              value=1
+            ),
+          upper=IntegerLiteral(
+              position=1:16,
+              value=1
+            )
+        ),
+      entity='OwnerData'
+    ),
+  attribute_ref=NameRef(
+      position=1:36,
+      identifier='asset'
+    )
+)

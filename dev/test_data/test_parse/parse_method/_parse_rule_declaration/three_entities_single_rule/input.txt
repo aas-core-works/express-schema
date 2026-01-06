@@ -1,0 +1,4 @@
+RULE GeometryConstraints FOR (Surface, Curve, Point);
+WHERE
+  criterion1 : EXISTS(SELF.Name);
+END_RULE;

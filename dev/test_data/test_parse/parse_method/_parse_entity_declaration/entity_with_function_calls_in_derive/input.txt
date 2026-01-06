@@ -1,0 +1,7 @@
+ENTITY Coordinate;
+    X : REAL;
+    Y : REAL;
+    DERIVE
+        Distance : REAL := SQRT((X ** 2) + (Y ** 2));
+        Angle : REAL := ATAN(Y / X);
+END_ENTITY;

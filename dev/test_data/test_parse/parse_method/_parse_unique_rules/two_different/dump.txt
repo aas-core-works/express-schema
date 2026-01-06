@@ -1,0 +1,30 @@
+[
+  UniqueRule(
+    position=2:5,
+    label='personIdentity',
+    attributes=[
+        NameRef(
+          position=2:22,
+          identifier='firstName'
+        ),
+        NameRef(
+          position=2:33,
+          identifier='lastName'
+        )
+      ]
+  ),
+  UniqueRule(
+    position=3:5,
+    label='addressIdentity',
+    attributes=[
+        NameRef(
+          position=3:23,
+          identifier='streetNumber'
+        ),
+        NameRef(
+          position=3:37,
+          identifier='streetName'
+        )
+      ]
+  )
+]

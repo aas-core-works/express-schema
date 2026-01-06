@@ -1,0 +1,16 @@
+DomainRule(
+  position=1:1,
+  label='sizeLimit',
+  expr=BinaryExpr(
+      position=1:13,
+      left=NameRef(
+          position=1:13,
+          identifier='length'
+        ),
+      op=BinaryOp.GREATER_THAN,
+      right=IntegerLiteral(
+          position=1:22,
+          value=10
+        )
+    )
+)

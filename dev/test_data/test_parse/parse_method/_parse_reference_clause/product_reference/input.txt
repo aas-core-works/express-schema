@@ -1,0 +1,1 @@
+REFERENCE FROM product_lib (product_definition, category_info AS product_category, supplier_data);

@@ -1,0 +1,23 @@
+SCHEMA GeometrySchema;
+REFERENCE FROM MathSchema;
+USE FROM BaseSchema;
+CONSTANT
+  DefaultTolerance : REAL := 0.001;
+END_CONSTANT;
+ENTITY Point;
+  x : REAL;
+  y : REAL;
+END_ENTITY;
+TYPE CoordinateValue = REAL;
+FUNCTION CalculateDistance(p1 : Point; p2 : Point) : REAL;
+  RETURN(0.0);
+END_FUNCTION;
+PROCEDURE NormalizePoint(VAR p : Point);
+  p.x := p.x / 100.0;
+  p.y := p.y / 100.0;
+END_PROCEDURE;
+RULE ValidateCoordinates FOR (Point);
+WHERE
+  criterion1 : ABS(SELF.x) >= DefaultTolerance;
+END_RULE;
+END_SCHEMA;

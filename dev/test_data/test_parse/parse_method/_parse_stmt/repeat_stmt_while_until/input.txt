@@ -1,0 +1,6 @@
+REPEAT WHILE hasInput UNTIL maxReached;
+    input := getInput();
+    hasInput := (input <> UNKNOWN);
+    maxReached := (count >= maxCount);
+    count := count + 1;
+END_REPEAT;

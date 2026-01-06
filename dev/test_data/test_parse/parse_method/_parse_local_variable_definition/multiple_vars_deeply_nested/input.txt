@@ -1,0 +1,1 @@
+source, target, result : LIST [1:5] OF BAG [0:20] OF ARRAY [1:8] OF INTEGER;

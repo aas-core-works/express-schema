@@ -1,0 +1,10 @@
+CASE processingMode OF
+    1: REPEAT i := 1 TO itemCount;
+        processSequentially(items[i]);
+    END_REPEAT;
+    2: REPEAT WHILE hasMoreBatches;
+        processBatch();
+        hasMoreBatches := checkForMoreBatches();
+    END_REPEAT;
+    OTHERWISE: processDefault();
+END_CASE;

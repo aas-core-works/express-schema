@@ -1,0 +1,15 @@
+BoundSpec(
+  position=1:1,
+  lower=UnaryExpr(
+      position=1:2,
+      op=UnaryOp.NEG,
+      operand=IntegerLiteral(
+          position=1:3,
+          value=5
+        )
+    ),
+  upper=IntegerLiteral(
+      position=1:5,
+      value=5
+    )
+)

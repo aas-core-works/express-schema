@@ -1,0 +1,1 @@
+items : LIST [0:?] OF ComponentType;

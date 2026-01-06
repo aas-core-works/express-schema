@@ -1,0 +1,7 @@
+ConformantSetType(
+  position=1:1,
+  of=StringType(
+      position=1:8,
+      fixed=False
+    )
+)

@@ -1,0 +1,14 @@
+CASE operation OF
+    1: BEGIN
+        result := input1 + input2;
+        status := 'addition';
+    END;
+    2: BEGIN
+        result := input1 - input2;
+        status := 'subtraction';
+    END;
+    OTHERWISE: BEGIN
+        result := 0;
+        status := 'unknown';
+    END;
+END_CASE;

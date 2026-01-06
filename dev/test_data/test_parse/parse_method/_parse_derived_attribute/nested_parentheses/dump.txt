@@ -1,0 +1,30 @@
+DerivedAttribute(
+  position=1:1,
+  attribute=NameRef(
+      position=1:1,
+      identifier='deeplyNested'
+    ),
+  type_selection=IntegerType(
+      position=1:16
+    ),
+  init=BinaryExpr(
+      position=1:29,
+      left=BinaryExpr(
+          position=1:29,
+          left=NameRef(
+              position=1:29,
+              identifier='value'
+            ),
+          op=BinaryOp.ADD,
+          right=IntegerLiteral(
+              position=1:37,
+              value=1
+            )
+        ),
+      op=BinaryOp.MULTIPLY,
+      right=IntegerLiteral(
+          position=1:42,
+          value=2
+        )
+    )
+)

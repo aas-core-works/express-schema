@@ -1,0 +1,1 @@
+difference : INTEGER := 20 - 3;

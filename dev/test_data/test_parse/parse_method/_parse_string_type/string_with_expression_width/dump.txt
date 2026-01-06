@@ -1,0 +1,8 @@
+StringType(
+  position=1:1,
+  width=NameRef(
+      position=1:8,
+      identifier='maxLength'
+    ),
+  fixed=False
+)

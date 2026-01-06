@@ -1,0 +1,26 @@
+InverseDefinition(
+  position=1:1,
+  attribute=NameRef(
+      position=1:1,
+      identifier='extensivelyNamedBagAttribute'
+    ),
+  inverse_type=InverseBag(
+      position=1:32,
+      bound_spec=BoundSpec(
+          position=1:36,
+          lower=IntegerLiteral(
+              position=1:37,
+              value=1
+            ),
+          upper=IntegerLiteral(
+              position=1:39,
+              value=100
+            )
+        ),
+      entity='ComprehensiveEntityType'
+    ),
+  attribute_ref=NameRef(
+      position=1:75,
+      identifier='targetAttributeWithLongName'
+    )
+)

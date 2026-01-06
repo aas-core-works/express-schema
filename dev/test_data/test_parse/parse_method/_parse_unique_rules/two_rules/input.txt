@@ -1,0 +1,3 @@
+UNIQUE
+    rule1 : attr1;
+    rule2 : attr2;

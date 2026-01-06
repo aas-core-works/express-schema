@@ -1,0 +1,10 @@
+AggregateType(
+  position=1:1,
+  of=AggregateType(
+      position=1:14,
+      of=StringType(
+          position=1:27,
+          fixed=False
+        )
+    )
+)

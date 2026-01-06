@@ -1,0 +1,8 @@
+AggregateType(
+  position=1:1,
+  label='RefType',
+  of=NamedType(
+      position=1:24,
+      reference='ComponentReference'
+    )
+)

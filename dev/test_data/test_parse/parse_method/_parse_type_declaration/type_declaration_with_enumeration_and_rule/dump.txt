@@ -1,0 +1,29 @@
+TypeDeclaration(
+  position=1:1,
+  identifier='WorkingDays',
+  type_selection=EnumType(
+      position=1:20,
+      values=[
+          'Monday',
+          'Tuesday',
+          'Wednesday',
+          'Thursday',
+          'Friday'
+        ]
+    ),
+  domain_rules=[DomainRule(
+      position=3:5,
+      label='WR1',
+      expr=BinaryExpr(
+          position=3:11,
+          left=Self(
+              position=3:11
+            ),
+          op=BinaryOp.NOT_EQUAL,
+          right=NameRef(
+              position=3:19,
+              identifier='Monday'
+            )
+        )
+    )]
+)

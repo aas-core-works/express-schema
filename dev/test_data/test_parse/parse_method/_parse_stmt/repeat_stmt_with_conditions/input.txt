@@ -1,0 +1,9 @@
+REPEAT k := 0 TO maxItems WHILE valid;
+    item := collection[k];
+    IF item <> UNKNOWN THEN
+        processedCount := processedCount + 1;
+        processItem(item);
+    ELSE
+        valid := FALSE;
+    END_IF;
+END_REPEAT;

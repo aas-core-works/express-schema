@@ -1,0 +1,19 @@
+PROCEDURE processMatrix(
+        matrix : ARRAY [1:10] OF ARRAY [1:10] OF REAL;
+        VAR resultMatrix : ARRAY [1:10] OF ARRAY [1:10] OF REAL;
+        VAR statistics : ARRAY [1:10] OF REAL
+    );
+    LOCAL
+        i, j : INTEGER;
+        rowSum : REAL;
+    END_LOCAL;
+
+    REPEAT i := 1 TO 10;
+        rowSum := 0.0;
+        REPEAT j := 1 TO 10;
+            resultMatrix[i][j] := matrix[i][j] * 2.0;
+            rowSum := rowSum + resultMatrix[i][j];
+        END_REPEAT;
+        statistics[i] := rowSum / 10.0;
+    END_REPEAT;
+END_PROCEDURE;

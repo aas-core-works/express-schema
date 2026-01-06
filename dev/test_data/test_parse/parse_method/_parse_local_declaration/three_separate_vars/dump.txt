@@ -1,0 +1,23 @@
+[
+  LocalVariableDefinition(
+    position=2:5,
+    identifiers=['x'],
+    of_type=RealType(
+        position=2:9
+      )
+  ),
+  LocalVariableDefinition(
+    position=3:5,
+    identifiers=['y'],
+    of_type=RealType(
+        position=3:9
+      )
+  ),
+  LocalVariableDefinition(
+    position=4:5,
+    identifiers=['z'],
+    of_type=RealType(
+        position=4:9
+      )
+  )
+]

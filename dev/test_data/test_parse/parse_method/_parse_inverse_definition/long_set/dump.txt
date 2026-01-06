@@ -1,0 +1,15 @@
+InverseDefinition(
+  position=1:1,
+  attribute=NameRef(
+      position=1:1,
+      identifier='longNamedSetAttribute'
+    ),
+  inverse_type=InverseSet(
+      position=1:25,
+      entity='VeryLongEntityType'
+    ),
+  attribute_ref=NameRef(
+      position=1:55,
+      identifier='anotherVeryLongAttributeName'
+    )
+)

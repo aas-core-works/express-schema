@@ -1,0 +1,4 @@
+REPEAT i := 1 TO 100 WHILE hasMoreData;
+    processData(i);
+    hasMoreData := checkForMoreData();
+END_REPEAT;

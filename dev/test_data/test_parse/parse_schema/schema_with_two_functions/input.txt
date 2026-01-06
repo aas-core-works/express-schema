@@ -1,0 +1,8 @@
+SCHEMA TestSchema;
+FUNCTION Add(a : REAL; b : REAL) : REAL;
+  RETURN(a + b);
+END_FUNCTION;
+FUNCTION Multiply(a : REAL; b : REAL) : REAL;
+  RETURN(a * b);
+END_FUNCTION;
+END_SCHEMA;

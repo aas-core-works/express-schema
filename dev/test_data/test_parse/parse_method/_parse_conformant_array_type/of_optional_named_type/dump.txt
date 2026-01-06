@@ -1,0 +1,9 @@
+ConformantArrayType(
+  position=1:1,
+  optional=True,
+  unique=False,
+  of=NamedType(
+      position=1:19,
+      reference='ComponentReference'
+    )
+)

@@ -1,0 +1,16 @@
+ConformantArrayType(
+  position=1:1,
+  optional=True,
+  unique=True,
+  of=AggregateType(
+      position=1:26,
+      of=ConformantArrayType(
+          position=1:39,
+          optional=False,
+          unique=False,
+          of=BooleanType(
+              position=1:48
+            )
+        )
+    )
+)

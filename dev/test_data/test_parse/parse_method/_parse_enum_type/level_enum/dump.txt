@@ -1,0 +1,9 @@
+EnumType(
+  position=1:1,
+  values=[
+      'BEGINNER',
+      'INTERMEDIATE',
+      'ADVANCED',
+      'EXPERT'
+    ]
+)

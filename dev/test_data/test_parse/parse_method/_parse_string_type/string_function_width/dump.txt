@@ -1,0 +1,12 @@
+StringType(
+  position=1:1,
+  width=Call(
+      position=1:8,
+      callee=NameRef(
+          position=1:8,
+          identifier='getLength'
+        ),
+      args=[]
+    ),
+  fixed=False
+)

@@ -1,0 +1,19 @@
+DomainRule(
+  position=1:1,
+  label='selfRule',
+  expr=BinaryExpr(
+      position=1:12,
+      left=AttributeRef(
+          position=1:12,
+          source=Self(
+              position=1:12
+            ),
+          identifier='identifier'
+        ),
+      op=BinaryOp.NOT_EQUAL,
+      right=StringLiteral(
+          position=1:31,
+          value=''
+        )
+    )
+)

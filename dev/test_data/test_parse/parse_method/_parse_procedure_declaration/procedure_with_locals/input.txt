@@ -1,0 +1,16 @@
+PROCEDURE calculateStatistics(values : ARRAY [1:10] OF REAL; VAR average : REAL; VAR maximum : REAL);
+    LOCAL
+        sum : REAL := 0.0;
+        i : INTEGER;
+    END_LOCAL;
+
+    maximum := values[1];
+    REPEAT i := 1 TO 10;
+        sum := sum + values[i];
+        IF values[i] > maximum THEN
+            maximum := values[i];
+        END_IF;
+    END_REPEAT;
+
+    average := sum / 10.0;
+END_PROCEDURE;

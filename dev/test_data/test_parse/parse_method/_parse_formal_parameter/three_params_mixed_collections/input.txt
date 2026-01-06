@@ -1,0 +1,1 @@
+arrayData, setData, listData : ARRAY [1:5] OF STRING

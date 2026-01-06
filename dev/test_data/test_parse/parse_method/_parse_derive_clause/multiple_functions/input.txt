@@ -1,0 +1,4 @@
+DERIVE
+    area : REAL := length * width;
+    perimeter : REAL := 2.0 * (length + width);
+    diagonal : REAL := SQRT(length ** 2 + width ** 2);

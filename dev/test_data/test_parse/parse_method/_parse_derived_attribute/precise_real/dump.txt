@@ -1,0 +1,18 @@
+DerivedAttribute(
+  position=1:1,
+  attribute=NameRef(
+      position=1:1,
+      identifier='measurement'
+    ),
+  type_selection=RealType(
+      position=1:15,
+      precision_spec=IntegerLiteral(
+          position=1:21,
+          value=6
+        )
+    ),
+  init=RealLiteral(
+      position=1:27,
+      value=123.456789
+    )
+)

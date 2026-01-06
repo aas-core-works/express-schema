@@ -1,0 +1,11 @@
+Call(
+  position=1:1,
+  callee=AttributeRef(
+      position=1:1,
+      source=Self(
+          position=1:1
+        ),
+      identifier='getValue'
+    ),
+  args=[]
+)

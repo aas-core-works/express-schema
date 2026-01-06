@@ -1,0 +1,15 @@
+DerivedAttribute(
+  position=1:1,
+  attribute=NameRef(
+      position=1:1,
+      identifier='flags'
+    ),
+  type_selection=BinaryType(
+      position=1:9,
+      fixed=False
+    ),
+  init=BinaryLiteral(
+      position=1:19,
+      value=b'\xf0'
+    )
+)

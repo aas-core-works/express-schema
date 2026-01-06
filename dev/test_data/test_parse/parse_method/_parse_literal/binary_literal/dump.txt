@@ -1,0 +1,4 @@
+BinaryLiteral(
+  position=1:1,
+  value=b'\xd5'
+)

@@ -1,0 +1,4 @@
+TYPE UniqueCollection = SET [1:?] OF STRING;
+WHERE
+    WR1 : SIZEOF(QUERY(item <* SELF | LENGTH(item) = 0)) = 0;
+END_TYPE;

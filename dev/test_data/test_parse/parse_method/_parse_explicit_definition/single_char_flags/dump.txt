@@ -1,0 +1,25 @@
+ExplicitAttributeDefinition(
+  position=1:1,
+  attributes=[
+      NameRef(
+        position=1:1,
+        identifier='a'
+      ),
+      NameRef(
+        position=1:4,
+        identifier='b'
+      ),
+      NameRef(
+        position=1:7,
+        identifier='c'
+      ),
+      NameRef(
+        position=1:10,
+        identifier='d'
+      )
+    ],
+  optional=False,
+  type_selection=BooleanType(
+      position=1:14
+    )
+)

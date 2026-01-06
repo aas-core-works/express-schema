@@ -1,0 +1,10 @@
+LocalVariableDefinition(
+  position=1:1,
+  identifiers=[
+      'width',
+      'height'
+    ],
+  of_type=RealType(
+      position=1:17
+    )
+)

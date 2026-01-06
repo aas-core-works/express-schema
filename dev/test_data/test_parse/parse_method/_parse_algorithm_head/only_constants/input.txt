@@ -1,0 +1,5 @@
+CONSTANT
+    maxItems : INTEGER := 100;
+    defaultName : STRING := 'Default';
+    pi : REAL := 3.14159;
+END_CONSTANT;

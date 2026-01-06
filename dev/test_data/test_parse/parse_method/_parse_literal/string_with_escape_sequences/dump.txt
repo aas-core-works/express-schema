@@ -1,0 +1,4 @@
+StringLiteral(
+  position=1:1,
+  value='Line 1\nLine 2\tTabbed'
+)

@@ -1,0 +1,35 @@
+[
+  ConstantDefinition(
+    position=2:5,
+    identifier='debug_mode',
+    type_selection=BooleanType(
+        position=2:18
+      ),
+    init=LogicalLiteral(
+        position=2:29,
+        value=TRUE
+      )
+  ),
+  ConstantDefinition(
+    position=3:5,
+    identifier='test_mode',
+    type_selection=BooleanType(
+        position=3:17
+      ),
+    init=LogicalLiteral(
+        position=3:28,
+        value=FALSE
+      )
+  ),
+  ConstantDefinition(
+    position=4:5,
+    identifier='production_mode',
+    type_selection=BooleanType(
+        position=4:23
+      ),
+    init=LogicalLiteral(
+        position=4:34,
+        value=FALSE
+      )
+  )
+]

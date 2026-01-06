@@ -1,0 +1,21 @@
+SelectType(
+  position=1:1,
+  values=[
+      NamedType(
+        position=1:9,
+        reference='Car'
+      ),
+      NamedType(
+        position=1:14,
+        reference='Truck'
+      ),
+      NamedType(
+        position=1:21,
+        reference='Motorcycle'
+      ),
+      NamedType(
+        position=1:33,
+        reference='Bicycle'
+      )
+    ]
+)

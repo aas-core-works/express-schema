@@ -1,0 +1,5 @@
+CONSTANT
+    origin_point : Point := Point(0.0, 0.0, 0.0);
+    default_color : ColorEnum := red;
+    unit_type : LengthUnit := millimeter;
+END_CONSTANT;

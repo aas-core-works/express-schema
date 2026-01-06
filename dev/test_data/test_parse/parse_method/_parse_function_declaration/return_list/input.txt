@@ -1,0 +1,6 @@
+FUNCTION getItems() : LIST [1:5] OF STRING;
+    LOCAL
+        items : LIST [1:5] OF STRING := [];
+    END_LOCAL;
+    RETURN(items);
+END_FUNCTION;

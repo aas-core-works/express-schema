@@ -1,0 +1,24 @@
+DerivedAttribute(
+  position=1:1,
+  attribute=NameRef(
+      position=1:1,
+      identifier='collectionSize'
+    ),
+  type_selection=IntegerType(
+      position=1:18
+    ),
+  init=Call(
+      position=1:29,
+      callee=NameRef(
+          position=1:29,
+          identifier='SIZEOF'
+        ),
+      args=[Arg(
+          position=1:36,
+          value=NameRef(
+              position=1:36,
+              identifier='items'
+            )
+        )]
+    )
+)

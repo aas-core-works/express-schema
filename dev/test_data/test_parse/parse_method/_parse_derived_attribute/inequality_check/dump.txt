@@ -1,0 +1,22 @@
+DerivedAttribute(
+  position=1:1,
+  attribute=NameRef(
+      position=1:1,
+      identifier='isNotZero'
+    ),
+  type_selection=BooleanType(
+      position=1:13
+    ),
+  init=BinaryExpr(
+      position=1:24,
+      left=NameRef(
+          position=1:24,
+          identifier='count'
+        ),
+      op=BinaryOp.NOT_EQUAL,
+      right=IntegerLiteral(
+          position=1:33,
+          value=0
+        )
+    )
+)

@@ -1,0 +1,19 @@
+IndexExpr(
+  position=1:1,
+  source=NameRef(
+      position=1:1,
+      identifier='data'
+    ),
+  index=BinaryExpr(
+      position=1:6,
+      left=NameRef(
+          position=1:6,
+          identifier='i'
+        ),
+      op=BinaryOp.ADD,
+      right=IntegerLiteral(
+          position=1:10,
+          value=1
+        )
+    )
+)

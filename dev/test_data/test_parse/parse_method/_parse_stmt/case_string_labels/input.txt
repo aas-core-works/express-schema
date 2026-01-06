@@ -1,0 +1,6 @@
+CASE operationType OF
+    'add': result := input1 + input2;
+    'subtract': result := input1 - input2;
+    'multiply': result := input1 * input2;
+    OTHERWISE: result := 0;
+END_CASE;

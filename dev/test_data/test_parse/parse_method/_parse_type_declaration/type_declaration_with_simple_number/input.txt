@@ -1,0 +1,2 @@
+TYPE NumericValue = NUMBER;
+END_TYPE;

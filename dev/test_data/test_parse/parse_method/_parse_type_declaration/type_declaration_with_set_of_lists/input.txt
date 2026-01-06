@@ -1,0 +1,2 @@
+TYPE GroupedData = SET [1:?] OF LIST [1:100] OF DataPoint;
+END_TYPE;

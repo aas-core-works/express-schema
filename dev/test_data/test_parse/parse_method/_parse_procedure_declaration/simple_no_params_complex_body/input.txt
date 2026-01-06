@@ -1,0 +1,5 @@
+PROCEDURE startupSequence();
+    loadConfiguration();
+    initializeComponents();
+    validateSystem();
+END_PROCEDURE;

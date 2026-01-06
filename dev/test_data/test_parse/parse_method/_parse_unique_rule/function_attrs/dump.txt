@@ -1,0 +1,22 @@
+UniqueRule(
+  position=1:1,
+  label='funcUnique',
+  attributes=[
+      Call(
+        position=1:14,
+        callee=NameRef(
+            position=1:14,
+            identifier='getValue'
+          ),
+        args=[]
+      ),
+      Call(
+        position=1:26,
+        callee=NameRef(
+            position=1:26,
+            identifier='getTimestamp'
+          ),
+        args=[]
+      )
+    ]
+)

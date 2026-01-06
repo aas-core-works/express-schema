@@ -1,0 +1,25 @@
+[
+  LocalVariableDefinition(
+    position=2:5,
+    identifiers=['counter'],
+    of_type=IntegerType(
+        position=2:15
+      ),
+    init=IntegerLiteral(
+        position=2:26,
+        value=0
+      )
+  ),
+  LocalVariableDefinition(
+    position=3:5,
+    identifiers=['message'],
+    of_type=StringType(
+        position=3:15,
+        fixed=False
+      ),
+    init=StringLiteral(
+        position=3:25,
+        value='start'
+      )
+  )
+]

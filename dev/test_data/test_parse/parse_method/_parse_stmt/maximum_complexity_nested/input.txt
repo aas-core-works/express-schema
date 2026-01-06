@@ -1,0 +1,25 @@
+BEGIN
+    ALIAS dataProcessor FOR systemComponents.processor;
+    IF dataProcessor.isActive THEN
+        REPEAT batchIndex := 1 TO maxBatches WHILE hasMoreData UNTIL errorDetected;
+            CASE dataProcessor.mode OF
+                1: BEGIN
+                    REPEAT itemIndex := 1 TO batchSize;
+                        IF inputData[batchIndex][itemIndex] > threshold THEN
+                            outputData[batchIndex][itemIndex] := processComplexItem(inputData[batchIndex][itemIndex]);
+                        ELSE
+                            outputData[batchIndex][itemIndex] := defaultValue;
+                        END_IF;
+                    END_REPEAT;
+                END;
+                2: processBatchDirectly(inputData[batchIndex]);
+                OTHERWISE: ESCAPE;
+            END_CASE;
+            hasMoreData := checkDataAvailability();
+            errorDetected := validateProcessingState();
+        END_REPEAT;
+    ELSE
+        RETURN(FALSE);
+    END_IF;
+    END_ALIAS;
+END;

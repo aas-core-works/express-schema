@@ -1,0 +1,36 @@
+BinaryExpr(
+  position=1:1,
+  left=BinaryExpr(
+      position=1:1,
+      left=NameRef(
+          position=1:1,
+          identifier='a'
+        ),
+      op=BinaryOp.ADD,
+      right=BinaryExpr(
+          position=1:5,
+          left=NameRef(
+              position=1:5,
+              identifier='b'
+            ),
+          op=BinaryOp.MULTIPLY,
+          right=NameRef(
+              position=1:9,
+              identifier='c'
+            )
+        )
+    ),
+  op=BinaryOp.SUBTRACT,
+  right=BinaryExpr(
+      position=1:13,
+      left=NameRef(
+          position=1:13,
+          identifier='d'
+        ),
+      op=BinaryOp.REAL_DIVIDE,
+      right=NameRef(
+          position=1:17,
+          identifier='e'
+        )
+    )
+)

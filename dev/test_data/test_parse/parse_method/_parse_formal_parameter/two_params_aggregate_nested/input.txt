@@ -1,0 +1,1 @@
+input, output : AGGREGATE : ItemType OF SET [0:?] OF INTEGER

@@ -1,0 +1,1 @@
+textRule : message = 'Expected text';

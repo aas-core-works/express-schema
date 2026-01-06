@@ -1,0 +1,6 @@
+PROCEDURE setCount(count : INTEGER);
+    itemCount := count;
+    IF count > maxCount THEN
+        maxCount := count;
+    END_IF;
+END_PROCEDURE;

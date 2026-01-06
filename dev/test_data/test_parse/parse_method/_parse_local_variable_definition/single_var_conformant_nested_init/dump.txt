@@ -1,0 +1,21 @@
+LocalVariableDefinition(
+  position=1:1,
+  identifiers=['data'],
+  of_type=ConformantArrayType(
+      position=1:8,
+      optional=False,
+      unique=False,
+      of=ConformantListType(
+          position=1:17,
+          unique=False,
+          of=StringType(
+              position=1:25,
+              fixed=False
+            )
+        )
+    ),
+  init=AggregateLiteral(
+      position=1:35,
+      elements=[]
+    )
+)

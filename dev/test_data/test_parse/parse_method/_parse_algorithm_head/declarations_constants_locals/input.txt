@@ -1,0 +1,20 @@
+TYPE MaterialType = ENUMERATION OF
+    (metal, plastic, wood, composite);
+END_TYPE;
+
+ENTITY Material;
+    materialType : MaterialType;
+    density : REAL;
+    strength : REAL;
+END_ENTITY;
+
+CONSTANT
+    defaultDensity : REAL := 1.0;
+    maxStrength : REAL := 1000.0;
+END_CONSTANT;
+
+LOCAL
+    materials : LIST [1:50] OF Material := [];
+    currentMaterial : Material;
+    materialCount : INTEGER := 0;
+END_LOCAL;

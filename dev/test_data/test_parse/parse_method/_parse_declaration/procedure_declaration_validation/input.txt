@@ -1,0 +1,20 @@
+PROCEDURE validateGeometry(geometry : GeometricRepresentation);
+    LOCAL
+        isValid : BOOLEAN := TRUE;
+        errorMessage : STRING := '';
+    END_LOCAL;
+
+    IF geometry = UNKNOWN THEN
+        isValid := FALSE;
+        errorMessage := 'Geometry is undefined';
+    ELSE
+        IF NOT isValidGeometry(geometry) THEN
+            isValid := FALSE;
+            errorMessage := 'Invalid geometry structure';
+        END_IF;
+    END_IF;
+
+    IF NOT isValid THEN
+        logError(errorMessage);
+    END_IF;
+END_PROCEDURE;

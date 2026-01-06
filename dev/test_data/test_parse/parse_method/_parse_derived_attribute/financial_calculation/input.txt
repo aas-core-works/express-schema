@@ -1,0 +1,1 @@
+totalCost : REAL := basePrice * (1.0 + taxRate);

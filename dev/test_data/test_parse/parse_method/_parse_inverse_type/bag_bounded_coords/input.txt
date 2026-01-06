@@ -1,0 +1,1 @@
+BAG [1:4] OF CoordinateValue

@@ -1,0 +1,1 @@
+circumference : REAL := 2.0 * PI * radius;

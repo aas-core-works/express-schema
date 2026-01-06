@@ -1,0 +1,8 @@
+ConformantArrayType(
+  position=1:1,
+  optional=True,
+  unique=True,
+  of=LogicalType(
+      position=1:26
+    )
+)

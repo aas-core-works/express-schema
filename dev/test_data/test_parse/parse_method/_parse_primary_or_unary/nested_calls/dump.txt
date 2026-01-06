@@ -1,0 +1,24 @@
+Call(
+  position=1:1,
+  callee=NameRef(
+      position=1:1,
+      identifier='outer'
+    ),
+  args=[Arg(
+      position=1:7,
+      value=Call(
+          position=1:7,
+          callee=NameRef(
+              position=1:7,
+              identifier='inner'
+            ),
+          args=[Arg(
+              position=1:13,
+              value=NameRef(
+                  position=1:13,
+                  identifier='value'
+                )
+            )]
+        )
+    )]
+)

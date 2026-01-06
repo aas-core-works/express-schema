@@ -1,0 +1,1 @@
+ONEOF (PersonData, IndividualData) AND OrganizationData ANDOR ONEOF (ContactInfo, AddressInfo) AND (GeometryData)

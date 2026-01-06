@@ -1,0 +1,2 @@
+INVERSE
+    owners : SET OF Person FOR ownedItems;

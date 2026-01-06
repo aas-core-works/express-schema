@@ -1,0 +1,1 @@
+BAG [obj.minSize:obj.maxSize] OF STRING

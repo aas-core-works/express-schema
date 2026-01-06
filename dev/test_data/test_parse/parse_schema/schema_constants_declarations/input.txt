@@ -1,0 +1,12 @@
+SCHEMA TestSchema;
+CONSTANT
+  PI : REAL := 3.14159;
+  MaxSize : INTEGER := 1000;
+END_CONSTANT;
+ENTITY Circle;
+  radius : REAL;
+END_ENTITY;
+FUNCTION CalculateArea(radius : REAL) : REAL;
+  RETURN(PI * radius * radius);
+END_FUNCTION;
+END_SCHEMA;

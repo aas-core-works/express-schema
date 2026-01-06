@@ -1,0 +1,12 @@
+UniqueRule(
+  position=1:1,
+  label='nestedUnique',
+  attributes=[AttributeRef(
+      position=1:16,
+      source=NameRef(
+          position=1:16,
+          identifier='object'
+        ),
+      identifier='property'
+    )]
+)

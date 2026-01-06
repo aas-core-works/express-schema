@@ -1,0 +1,3 @@
+LOCAL
+    elements : SET OF REAL;
+END_LOCAL;

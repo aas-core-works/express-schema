@@ -1,0 +1,1 @@
+full_path : STRING := base_path + file_name;

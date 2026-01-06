@@ -1,0 +1,2 @@
+TYPE OperationMode = ENUMERATION OF (Manual, Automatic, SemiAutomatic, Maintenance, Diagnostics);
+END_TYPE;

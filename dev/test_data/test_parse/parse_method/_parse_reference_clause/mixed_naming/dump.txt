@@ -1,0 +1,19 @@
+ReferenceClause(
+  position=1:1,
+  schema_ref='my_definitions',
+  import_list=[
+      ImportItem(
+        position=1:32,
+        reference='CamelCaseItem'
+      ),
+      ImportItem(
+        position=1:47,
+        reference='snake_case_item'
+      ),
+      ImportItem(
+        position=1:64,
+        reference='PascalCaseData',
+        alias='alias_name'
+      )
+    ]
+)

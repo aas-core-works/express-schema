@@ -1,0 +1,2 @@
+TYPE Description = STRING(255);
+END_TYPE;

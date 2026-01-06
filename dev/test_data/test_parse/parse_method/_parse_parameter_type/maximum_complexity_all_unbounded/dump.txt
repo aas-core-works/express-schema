@@ -1,0 +1,22 @@
+ConformantListType(
+  position=1:1,
+  unique=True,
+  of=ConformantBagType(
+      position=1:16,
+      of=ConformantArrayType(
+          position=1:23,
+          optional=True,
+          unique=False,
+          of=ConformantSetType(
+              position=1:41,
+              of=AggregateType(
+                  position=1:48,
+                  label='CollectionType',
+                  of=GenericType(
+                      position=1:78
+                    )
+                )
+            )
+        )
+    )
+)

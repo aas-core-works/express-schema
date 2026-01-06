@@ -1,0 +1,10 @@
+ENTITY Triangle;
+    SideA : REAL;
+    SideB : REAL;
+    SideC : REAL;
+    WHERE
+        WR1 : (SideA > 0.0) AND (SideB > 0.0) AND (SideC > 0.0);
+        WR2 : (SideA + SideB) > SideC;
+        WR3 : (SideB + SideC) > SideA;
+        WR4 : (SideA + SideC) > SideB;
+END_ENTITY;

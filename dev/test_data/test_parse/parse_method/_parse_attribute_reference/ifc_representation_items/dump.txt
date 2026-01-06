@@ -1,0 +1,15 @@
+IndexExpr(
+  position=1:1,
+  source=AttributeRef(
+      position=1:1,
+      source=NameRef(
+          position=1:1,
+          identifier='representation'
+        ),
+      identifier='Items'
+    ),
+  index=IntegerLiteral(
+      position=1:22,
+      value=0
+    )
+)

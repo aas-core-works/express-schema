@@ -1,0 +1,17 @@
+SelectType(
+  position=1:1,
+  values=[
+      NamedType(
+        position=1:9,
+        reference='HttpProtocol'
+      ),
+      NamedType(
+        position=1:23,
+        reference='FtpProtocol'
+      ),
+      NamedType(
+        position=1:36,
+        reference='SmtpProtocol'
+      )
+    ]
+)

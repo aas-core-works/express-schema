@@ -1,0 +1,4 @@
+AggregateLiteral(
+  position=1:1,
+  elements=[]
+)

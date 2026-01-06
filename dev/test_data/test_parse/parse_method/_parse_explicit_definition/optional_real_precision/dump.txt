@@ -1,0 +1,15 @@
+ExplicitAttributeDefinition(
+  position=1:1,
+  attributes=[NameRef(
+      position=1:1,
+      identifier='tolerance'
+    )],
+  optional=True,
+  type_selection=RealType(
+      position=1:22,
+      precision_spec=IntegerLiteral(
+          position=1:28,
+          value=10
+        )
+    )
+)

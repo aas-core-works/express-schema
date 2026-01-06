@@ -1,0 +1,11 @@
+BoundSpec(
+  position=1:1,
+  lower=IntegerLiteral(
+      position=1:2,
+      value=1
+    ),
+  upper=NameRef(
+      position=1:4,
+      identifier='maxSize'
+    )
+)

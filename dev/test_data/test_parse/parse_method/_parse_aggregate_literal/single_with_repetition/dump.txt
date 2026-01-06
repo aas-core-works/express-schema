@@ -1,0 +1,14 @@
+AggregateLiteral(
+  position=1:1,
+  elements=[Element(
+      position=1:2,
+      expr=IntegerLiteral(
+          position=1:2,
+          value=5
+        ),
+      repetition=IntegerLiteral(
+          position=1:4,
+          value=3
+        )
+    )]
+)

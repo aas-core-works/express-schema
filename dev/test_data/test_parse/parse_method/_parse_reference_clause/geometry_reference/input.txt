@@ -1,0 +1,1 @@
+REFERENCE FROM geometry_lib (point_definition, line_definition, circle_definition AS round_shape);

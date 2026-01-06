@@ -1,0 +1,14 @@
+[LocalVariableDefinition(
+  position=2:5,
+  identifiers=[
+      'width',
+      'height'
+    ],
+  of_type=IntegerType(
+      position=2:21
+    ),
+  init=IntegerLiteral(
+      position=2:32,
+      value=100
+    )
+)]

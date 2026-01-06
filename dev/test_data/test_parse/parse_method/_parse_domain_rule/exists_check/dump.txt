@@ -1,0 +1,18 @@
+DomainRule(
+  position=1:1,
+  label='existsRule',
+  expr=Call(
+      position=1:14,
+      callee=NameRef(
+          position=1:14,
+          identifier='EXISTS'
+        ),
+      args=[Arg(
+          position=1:21,
+          value=NameRef(
+              position=1:21,
+              identifier='optionalField'
+            )
+        )]
+    )
+)

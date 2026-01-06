@@ -1,0 +1,2 @@
+DERIVE
+    FirstName : STRING := 'Jane';

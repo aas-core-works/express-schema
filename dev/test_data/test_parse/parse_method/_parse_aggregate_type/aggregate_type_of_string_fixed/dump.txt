@@ -1,0 +1,11 @@
+AggregateType(
+  position=1:1,
+  of=StringType(
+      position=1:14,
+      width=IntegerLiteral(
+          position=1:21,
+          value=50
+        ),
+      fixed=True
+    )
+)

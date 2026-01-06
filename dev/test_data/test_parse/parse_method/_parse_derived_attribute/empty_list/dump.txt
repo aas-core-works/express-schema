@@ -1,0 +1,18 @@
+DerivedAttribute(
+  position=1:1,
+  attribute=NameRef(
+      position=1:1,
+      identifier='emptySequence'
+    ),
+  type_selection=ListType(
+      position=1:17,
+      unique=False,
+      of=IntegerType(
+          position=1:25
+        )
+    ),
+  init=AggregateLiteral(
+      position=1:36,
+      elements=[]
+    )
+)

@@ -1,0 +1,35 @@
+BoundSpec(
+  position=1:1,
+  lower=BinaryExpr(
+      position=1:2,
+      left=NameRef(
+          position=1:2,
+          identifier='n'
+        ),
+      op=BinaryOp.MULTIPLY,
+      right=IntegerLiteral(
+          position=1:4,
+          value=2
+        )
+    ),
+  upper=BinaryExpr(
+      position=1:7,
+      left=BinaryExpr(
+          position=1:7,
+          left=NameRef(
+              position=1:7,
+              identifier='m'
+            ),
+          op=BinaryOp.ADD,
+          right=IntegerLiteral(
+              position=1:9,
+              value=1
+            )
+        ),
+      op=BinaryOp.MULTIPLY,
+      right=IntegerLiteral(
+          position=1:12,
+          value=3
+        )
+    )
+)

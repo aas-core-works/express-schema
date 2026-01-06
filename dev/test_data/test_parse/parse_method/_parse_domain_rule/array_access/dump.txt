@@ -1,0 +1,23 @@
+DomainRule(
+  position=1:1,
+  label='indexRule',
+  expr=BinaryExpr(
+      position=1:13,
+      left=IndexExpr(
+          position=1:13,
+          source=NameRef(
+              position=1:13,
+              identifier='items'
+            ),
+          index=IntegerLiteral(
+              position=1:19,
+              value=0
+            )
+        ),
+      op=BinaryOp.NOT_EQUAL,
+      right=NameRef(
+          position=1:25,
+          identifier='NULL'
+        )
+    )
+)

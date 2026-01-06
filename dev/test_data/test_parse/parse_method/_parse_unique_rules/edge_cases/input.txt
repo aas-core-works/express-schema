@@ -1,0 +1,4 @@
+UNIQUE
+    boundedArray : elements[0], elements[1];
+    expressionBased : items[index + offset];
+    calculatedIndex : data[base * multiplier];

@@ -1,0 +1,1 @@
+valid_codes : SET OF INTEGER := [100, 200, 300];

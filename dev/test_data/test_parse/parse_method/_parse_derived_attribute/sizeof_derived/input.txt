@@ -1,0 +1,1 @@
+collectionSize : INTEGER := SIZEOF(items);

@@ -1,0 +1,4 @@
+IntegerLiteral(
+  position=1:1,
+  value=42
+)

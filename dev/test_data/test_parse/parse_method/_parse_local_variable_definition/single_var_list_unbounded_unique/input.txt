@@ -1,0 +1,1 @@
+uniqueItems : LIST [0:?] OF UNIQUE MaterialProperty;

@@ -1,0 +1,17 @@
+SetType(
+  position=1:1,
+  bound_spec=BoundSpec(
+      position=1:5,
+      lower=IntegerLiteral(
+          position=1:6,
+          value=1
+        ),
+      upper=IntegerLiteral(
+          position=1:8,
+          value=5
+        )
+    ),
+  of=GenericType(
+      position=1:14
+    )
+)

@@ -1,0 +1,1 @@
+BAG [offset:total - offset] OF ArithmeticItem

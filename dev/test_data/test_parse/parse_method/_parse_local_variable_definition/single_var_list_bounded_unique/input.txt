@@ -1,0 +1,1 @@
+uniqueSequence : LIST [0:15] OF UNIQUE STRING;

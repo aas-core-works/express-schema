@@ -1,0 +1,26 @@
+InverseDefinition(
+  position=1:1,
+  attribute=NameRef(
+      position=1:1,
+      identifier='administrators'
+    ),
+  inverse_type=InverseSet(
+      position=1:18,
+      bound_spec=BoundSpec(
+          position=1:22,
+          lower=IntegerLiteral(
+              position=1:23,
+              value=0
+            ),
+          upper=IntegerLiteral(
+              position=1:25,
+              value=100
+            )
+        ),
+      entity='AdminData'
+    ),
+  attribute_ref=NameRef(
+      position=1:47,
+      identifier='resources'
+    )
+)

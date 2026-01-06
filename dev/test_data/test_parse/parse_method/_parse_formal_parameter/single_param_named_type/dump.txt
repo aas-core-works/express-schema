@@ -1,0 +1,8 @@
+FormalParameter(
+  position=1:1,
+  identifiers=['person'],
+  of_type=NamedType(
+      position=1:10,
+      reference='PersonType'
+    )
+)

@@ -1,0 +1,5 @@
+RULE CollectionValidation FOR (Container);
+WHERE
+  criterion1 : SIZEOF(QUERY(item <* SELF.Items | item.IsValid)) > 0;
+  criterion2 : NOT EXISTS(QUERY(item <* SELF.Items | item.Value < 0));
+END_RULE;

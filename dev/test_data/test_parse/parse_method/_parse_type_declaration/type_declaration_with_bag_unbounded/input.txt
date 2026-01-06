@@ -1,0 +1,2 @@
+TYPE ResourceBag = BAG [0:?] OF ResourceRef;
+END_TYPE;

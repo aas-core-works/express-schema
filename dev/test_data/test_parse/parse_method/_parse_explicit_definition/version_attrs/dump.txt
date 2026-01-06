@@ -1,0 +1,21 @@
+ExplicitAttributeDefinition(
+  position=1:1,
+  attributes=[
+      NameRef(
+        position=1:1,
+        identifier='majorVersion'
+      ),
+      NameRef(
+        position=1:15,
+        identifier='minorVersion'
+      ),
+      NameRef(
+        position=1:29,
+        identifier='patchVersion'
+      )
+    ],
+  optional=False,
+  type_selection=IntegerType(
+      position=1:44
+    )
+)

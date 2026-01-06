@@ -1,0 +1,35 @@
+[
+  ConstantDefinition(
+    position=2:5,
+    identifier='avogadro_number',
+    type_selection=RealType(
+        position=2:23
+      ),
+    init=RealLiteral(
+        position=2:31,
+        value=6.022E+23
+      )
+  ),
+  ConstantDefinition(
+    position=3:5,
+    identifier='planck_constant',
+    type_selection=RealType(
+        position=3:23
+      ),
+    init=RealLiteral(
+        position=3:31,
+        value=6.626E-34
+      )
+  ),
+  ConstantDefinition(
+    position=4:5,
+    identifier='speed_of_light',
+    type_selection=RealType(
+        position=4:22
+      ),
+    init=RealLiteral(
+        position=4:30,
+        value=2.998E+8
+      )
+  )
+]

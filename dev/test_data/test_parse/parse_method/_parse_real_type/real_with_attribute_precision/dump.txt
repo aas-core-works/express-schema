@@ -1,0 +1,11 @@
+RealType(
+  position=1:1,
+  precision_spec=AttributeRef(
+      position=1:6,
+      source=NameRef(
+          position=1:6,
+          identifier='config'
+        ),
+      identifier='precision'
+    )
+)

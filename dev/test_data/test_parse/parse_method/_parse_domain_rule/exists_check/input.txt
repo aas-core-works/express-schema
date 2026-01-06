@@ -1,0 +1,1 @@
+existsRule : EXISTS(optionalField);

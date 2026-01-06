@@ -1,0 +1,5 @@
+TYPE LimitedInteger = INTEGER;
+WHERE
+    WR1 : SELF >= 0;
+    WR2 : SELF <= 1000;
+END_TYPE;

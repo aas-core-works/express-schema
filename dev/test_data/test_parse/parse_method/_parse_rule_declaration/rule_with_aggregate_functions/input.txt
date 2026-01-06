@@ -1,0 +1,6 @@
+RULE StatisticalValidation FOR (DataSet);
+WHERE
+  criterion1 : SIZEOF(SELF.Values) > 0;
+  criterion2 : SIZEOF(SELF.Values) <= 1000;
+  criterion3 : NOT EXISTS(QUERY(val <* SELF.Values | val = UNKNOWN));
+END_RULE;

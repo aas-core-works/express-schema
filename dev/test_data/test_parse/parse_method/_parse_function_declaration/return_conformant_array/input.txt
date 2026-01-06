@@ -1,0 +1,6 @@
+FUNCTION getDataArray() : ARRAY OF REAL;
+    LOCAL
+        data : ARRAY OF REAL := [];
+    END_LOCAL;
+    RETURN(data);
+END_FUNCTION;

@@ -1,0 +1,12 @@
+BinaryExpr(
+  position=1:1,
+  left=NameRef(
+      position=1:1,
+      identifier='count'
+    ),
+  op=BinaryOp.SUBTRACT,
+  right=IntegerLiteral(
+      position=1:9,
+      value=1
+    )
+)

@@ -1,0 +1,3 @@
+PROCEDURE toggleFlag(VAR flag : BOOLEAN);
+    flag := NOT flag;
+END_PROCEDURE;

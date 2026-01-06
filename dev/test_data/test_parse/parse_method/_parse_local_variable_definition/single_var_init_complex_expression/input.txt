@@ -1,0 +1,1 @@
+diagonal : REAL := SQRT((x * x) + (y * y));

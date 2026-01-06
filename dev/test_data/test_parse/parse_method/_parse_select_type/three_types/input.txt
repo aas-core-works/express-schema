@@ -1,0 +1,1 @@
+SELECT (TextType, NumberType, DateType)

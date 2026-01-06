@@ -1,0 +1,11 @@
+LocalVariableDefinition(
+  position=1:1,
+  identifiers=[
+      'currentValue',
+      'nextItem',
+      'finalResult'
+    ],
+  of_type=RealType(
+      position=1:39
+    )
+)

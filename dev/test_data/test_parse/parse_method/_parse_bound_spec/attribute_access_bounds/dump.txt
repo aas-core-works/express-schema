@@ -1,0 +1,19 @@
+BoundSpec(
+  position=1:1,
+  lower=AttributeRef(
+      position=1:2,
+      source=NameRef(
+          position=1:2,
+          identifier='obj'
+        ),
+      identifier='min'
+    ),
+  upper=AttributeRef(
+      position=1:10,
+      source=NameRef(
+          position=1:10,
+          identifier='obj'
+        ),
+      identifier='max'
+    )
+)

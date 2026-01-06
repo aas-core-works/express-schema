@@ -1,0 +1,28 @@
+CompoundStmt(
+  position=1:1,
+  stmts=[CompoundStmt(
+      position=2:5,
+      stmts=[CompoundStmt(
+          position=3:9,
+          stmts=[IfStmt(
+              position=4:13,
+              condition=NameRef(
+                  position=4:16,
+                  identifier='condition'
+                ),
+              then=[AssignmentStmt(
+                  position=5:17,
+                  target=NameRef(
+                      position=5:17,
+                      identifier='value'
+                    ),
+                  value=IntegerLiteral(
+                      position=5:26,
+                      value=1
+                    )
+                )],
+              or_else=[]
+            )]
+        )]
+    )]
+)

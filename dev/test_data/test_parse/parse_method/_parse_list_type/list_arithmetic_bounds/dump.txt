@@ -1,0 +1,34 @@
+ListType(
+  position=1:1,
+  bound_spec=BoundSpec(
+      position=1:6,
+      lower=BinaryExpr(
+          position=1:7,
+          left=NameRef(
+              position=1:7,
+              identifier='i'
+            ),
+          op=BinaryOp.ADD,
+          right=IntegerLiteral(
+              position=1:11,
+              value=1
+            )
+        ),
+      upper=BinaryExpr(
+          position=1:13,
+          left=NameRef(
+              position=1:13,
+              identifier='n'
+            ),
+          op=BinaryOp.MULTIPLY,
+          right=IntegerLiteral(
+              position=1:17,
+              value=2
+            )
+        )
+    ),
+  unique=False,
+  of=BooleanType(
+      position=1:23
+    )
+)

@@ -1,0 +1,31 @@
+ExplicitAttributeDefinition(
+  position=1:1,
+  attributes=[NameRef(
+      position=1:1,
+      identifier='matrices'
+    )],
+  optional=False,
+  type_selection=ListType(
+      position=1:12,
+      unique=False,
+      of=ArrayType(
+          position=1:20,
+          bound_spec=BoundSpec(
+              position=1:26,
+              lower=IntegerLiteral(
+                  position=1:27,
+                  value=1
+                ),
+              upper=IntegerLiteral(
+                  position=1:29,
+                  value=3
+                )
+            ),
+          optional=False,
+          unique=False,
+          of=RealType(
+              position=1:35
+            )
+        )
+    )
+)

@@ -1,0 +1,5 @@
+RULE MaterialProperties FOR (Material, Property);
+WHERE
+  criterion1 : SIZEOF(SELF.Properties) > 0;
+  criterion2 : NOT EXISTS(QUERY(prop <* SELF.Properties | prop.Value < 0));
+END_RULE;

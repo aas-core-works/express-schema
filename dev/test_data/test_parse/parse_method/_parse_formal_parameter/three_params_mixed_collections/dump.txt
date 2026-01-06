@@ -1,0 +1,28 @@
+FormalParameter(
+  position=1:1,
+  identifiers=[
+      'arrayData',
+      'setData',
+      'listData'
+    ],
+  of_type=ConformantArrayType(
+      position=1:32,
+      bound_spec=BoundSpec(
+          position=1:38,
+          lower=IntegerLiteral(
+              position=1:39,
+              value=1
+            ),
+          upper=IntegerLiteral(
+              position=1:41,
+              value=5
+            )
+        ),
+      optional=False,
+      unique=False,
+      of=StringType(
+          position=1:47,
+          fixed=False
+        )
+    )
+)

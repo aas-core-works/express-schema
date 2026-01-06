@@ -1,0 +1,17 @@
+SelectType(
+  position=1:1,
+  values=[
+      NamedType(
+        position=1:9,
+        reference='Employee'
+      ),
+      NamedType(
+        position=1:19,
+        reference='Manager'
+      ),
+      NamedType(
+        position=1:28,
+        reference='Director'
+      )
+    ]
+)

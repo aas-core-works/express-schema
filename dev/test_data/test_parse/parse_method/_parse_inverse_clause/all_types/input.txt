@@ -1,0 +1,4 @@
+INVERSE
+    primaryOwner : Person FOR assets;
+    managers : SET OF ManagerData FOR departments;
+    contributors : BAG OF ContributorData FOR projects;

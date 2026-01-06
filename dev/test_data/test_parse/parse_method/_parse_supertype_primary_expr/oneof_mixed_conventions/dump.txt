@@ -1,0 +1,21 @@
+Choice(
+  position=1:1,
+  supertype_exprs=[
+      NameRef(
+        position=1:8,
+        identifier='CamelCase'
+      ),
+      NameRef(
+        position=1:19,
+        identifier='snake_case'
+      ),
+      NameRef(
+        position=1:31,
+        identifier='PascalCase'
+      ),
+      NameRef(
+        position=1:43,
+        identifier='API_Style'
+      )
+    ]
+)

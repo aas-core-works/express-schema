@@ -1,0 +1,11 @@
+TYPE DataType = REAL;
+END_TYPE;
+
+ENTITY DataItem;
+    value : DataType;
+END_ENTITY;
+
+CONSTANT
+    maxItems : INTEGER := 50;
+    defaultValue : REAL := 0.0;
+END_CONSTANT;

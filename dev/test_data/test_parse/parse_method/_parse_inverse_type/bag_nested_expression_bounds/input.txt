@@ -1,0 +1,1 @@
+BAG [minVal + offset:(maxVal - offset) * scale] OF NestedBoundElement

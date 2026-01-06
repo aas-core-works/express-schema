@@ -1,0 +1,6 @@
+LOCAL
+    arrays : ARRAY OF ARRAY OF REAL;
+    lists : LIST OF LIST OF STRING;
+    sets : SET OF SET OF Component;
+    bags : BAG OF BAG OF Item;
+END_LOCAL;

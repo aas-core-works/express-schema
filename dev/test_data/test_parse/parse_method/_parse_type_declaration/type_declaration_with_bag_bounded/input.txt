@@ -1,0 +1,2 @@
+TYPE ComponentBag = BAG [1:50] OF ComponentType;
+END_TYPE;

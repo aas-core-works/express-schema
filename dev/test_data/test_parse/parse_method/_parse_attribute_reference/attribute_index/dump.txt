@@ -1,0 +1,15 @@
+IndexExpr(
+  position=1:1,
+  source=AttributeRef(
+      position=1:1,
+      source=NameRef(
+          position=1:1,
+          identifier='person'
+        ),
+      identifier='addresses'
+    ),
+  index=IntegerLiteral(
+      position=1:18,
+      value=0
+    )
+)

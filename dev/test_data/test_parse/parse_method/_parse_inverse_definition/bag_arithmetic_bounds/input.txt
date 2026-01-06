@@ -1,0 +1,1 @@
+agents : BAG [count * 2:count * 4] OF AgentData FOR operations;

@@ -1,0 +1,1 @@
+flexibleBag : BAG [0:20] OF STRING;

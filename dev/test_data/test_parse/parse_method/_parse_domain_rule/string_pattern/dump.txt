@@ -1,0 +1,16 @@
+DomainRule(
+  position=1:1,
+  label='patternRule',
+  expr=BinaryExpr(
+      position=1:15,
+      left=NameRef(
+          position=1:15,
+          identifier='code'
+        ),
+      op=BinaryOp.LIKE,
+      right=StringLiteral(
+          position=1:25,
+          value='ABC*'
+        )
+    )
+)

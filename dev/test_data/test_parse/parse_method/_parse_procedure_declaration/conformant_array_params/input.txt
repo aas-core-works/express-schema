@@ -1,0 +1,9 @@
+PROCEDURE processData(input : ARRAY OF REAL; VAR output : ARRAY OF REAL);
+    LOCAL
+        i : INTEGER;
+    END_LOCAL;
+
+    REPEAT i := 1 TO SIZEOF(input);
+        output[i] := input[i] + 1.0;
+    END_REPEAT;
+END_PROCEDURE;

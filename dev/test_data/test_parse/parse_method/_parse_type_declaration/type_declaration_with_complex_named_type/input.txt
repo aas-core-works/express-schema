@@ -1,0 +1,2 @@
+TYPE GeometricRepresentation = IfcGeometricRepresentationItem;
+END_TYPE;

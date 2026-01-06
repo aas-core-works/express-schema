@@ -1,0 +1,11 @@
+FormalParameter(
+  position=1:1,
+  identifiers=['items'],
+  of_type=AggregateType(
+      position=1:9,
+      of=StringType(
+          position=1:22,
+          fixed=False
+        )
+    )
+)

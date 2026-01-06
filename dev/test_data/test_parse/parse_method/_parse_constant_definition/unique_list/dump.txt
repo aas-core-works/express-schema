@@ -1,0 +1,37 @@
+ConstantDefinition(
+  position=1:1,
+  identifier='unique_sequence',
+  type_selection=ListType(
+      position=1:19,
+      unique=True,
+      of=RealType(
+          position=1:34
+        )
+    ),
+  init=AggregateLiteral(
+      position=1:42,
+      elements=[
+          Element(
+            position=1:43,
+            expr=RealLiteral(
+                position=1:43,
+                value=1.0
+              )
+          ),
+          Element(
+            position=1:48,
+            expr=RealLiteral(
+                position=1:48,
+                value=2.0
+              )
+          ),
+          Element(
+            position=1:53,
+            expr=RealLiteral(
+                position=1:53,
+                value=3.0
+              )
+          )
+        ]
+    )
+)

@@ -1,0 +1,5 @@
+IF isValid THEN
+    count := count + 1;
+    total := total + value;
+    average := total / count;
+END_IF;

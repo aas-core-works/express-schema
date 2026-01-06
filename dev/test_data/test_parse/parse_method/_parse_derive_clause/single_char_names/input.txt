@@ -1,0 +1,4 @@
+DERIVE
+    a : INTEGER := 1;
+    b : REAL := 2.0;
+    c : BOOLEAN := a < b;

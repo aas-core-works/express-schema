@@ -1,0 +1,9 @@
+BEGIN
+    BEGIN
+        BEGIN
+            IF condition THEN
+                value := 1;
+            END_IF;
+        END;
+    END;
+END;

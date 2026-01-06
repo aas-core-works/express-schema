@@ -1,0 +1,7 @@
+RULE StatusValidation FOR (Component);
+TYPE
+  ComponentStatus = ENUMERATION OF (Active, Inactive, Pending);
+END_TYPE;
+WHERE
+  criterion1 : SELF.Status IN ComponentStatus;
+END_RULE;

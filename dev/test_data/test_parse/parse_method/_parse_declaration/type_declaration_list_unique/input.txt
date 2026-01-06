@@ -1,0 +1,2 @@
+TYPE UniqueList = LIST [1:5] OF UNIQUE INTEGER;
+END_TYPE;

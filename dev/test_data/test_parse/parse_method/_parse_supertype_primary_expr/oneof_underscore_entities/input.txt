@@ -1,0 +1,1 @@
+ONEOF (person_data, organization_data, contact_info)

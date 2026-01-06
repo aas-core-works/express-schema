@@ -1,0 +1,15 @@
+FormalParameter(
+  position=1:1,
+  identifiers=[
+      'source',
+      'process',
+      'result'
+    ],
+  of_type=AggregateType(
+      position=1:27,
+      label='DataType',
+      of=IntegerType(
+          position=1:51
+        )
+    )
+)

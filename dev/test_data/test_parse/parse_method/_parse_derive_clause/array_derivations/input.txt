@@ -1,0 +1,5 @@
+DERIVE
+    origin : ARRAY [1:3] OF REAL := [0.0, 0.0, 0.0];
+    xAxis : ARRAY [1:3] OF REAL := [1.0, 0.0, 0.0];
+    yAxis : ARRAY [1:3] OF REAL := [0.0, 1.0, 0.0];
+    zAxis : ARRAY [1:3] OF REAL := [0.0, 0.0, 1.0];

@@ -1,0 +1,18 @@
+FUNCTION processData(input : LIST [1:?] OF STRING) : INTEGER;
+    LOCAL
+        processedItems : LIST [1:100] OF STRING := [];
+        validCount : INTEGER := 0;
+        currentItem : STRING;
+        i : INTEGER;
+    END_LOCAL;
+
+    REPEAT i := 1 TO SIZEOF(input);
+        currentItem := input[i];
+        IF LENGTH(currentItem) > 0 THEN
+            validCount := validCount + 1;
+            INSERT(processedItems, currentItem, validCount);
+        END_IF;
+    END_REPEAT;
+
+    RETURN(validCount);
+END_FUNCTION;

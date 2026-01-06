@@ -1,0 +1,3 @@
+LOCAL
+    value : REAL := 3.14;
+END_LOCAL;

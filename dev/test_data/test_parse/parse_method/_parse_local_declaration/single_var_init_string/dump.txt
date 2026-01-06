@@ -1,0 +1,12 @@
+[LocalVariableDefinition(
+  position=2:5,
+  identifiers=['name'],
+  of_type=StringType(
+      position=2:12,
+      fixed=False
+    ),
+  init=StringLiteral(
+      position=2:22,
+      value='default'
+    )
+)]

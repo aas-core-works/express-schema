@@ -1,0 +1,12 @@
+CONSTANT
+    bufferSize : INTEGER := 1024;
+    defaultTimeout : REAL := 30.0;
+    systemReady : BOOLEAN := FALSE;
+END_CONSTANT;
+
+LOCAL
+    inputBuffer : ARRAY [1:bufferSize] OF BINARY;
+    outputBuffer : ARRAY [1:bufferSize] OF BINARY;
+    timeout : REAL := defaultTimeout;
+    isReady : BOOLEAN := systemReady;
+END_LOCAL;

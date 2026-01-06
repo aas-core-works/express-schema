@@ -1,0 +1,35 @@
+PROCEDURE complexDataProcessing(VAR processingState : ProcessingState);
+    TYPE ProcessingMode = ENUMERATION OF
+        (batch, realtime, background);
+    END_TYPE;
+
+    ENTITY ProcessingContext;
+        mode : ProcessingMode;
+        startTime : REAL;
+        itemsProcessed : INTEGER;
+    END_ENTITY;
+
+    PROCEDURE updateProgress(context : ProcessingContext);
+        processingState.progress := context.itemsProcessed / processingState.totalItems;
+    END_PROCEDURE;
+
+    CONSTANT
+        defaultMode : ProcessingMode := batch;
+        maxProcessingTime : REAL := 300.0;
+    END_CONSTANT;
+
+    LOCAL
+        context : ProcessingContext;
+        currentTime : REAL;
+    END_LOCAL;
+
+    context.mode := defaultMode;
+    context.startTime := getCurrentTime();
+    context.itemsProcessed := 0;
+
+    processItems(processingState, context);
+    updateProgress(context);
+
+    currentTime := getCurrentTime();
+    processingState.processingTime := currentTime - context.startTime;
+END_PROCEDURE;

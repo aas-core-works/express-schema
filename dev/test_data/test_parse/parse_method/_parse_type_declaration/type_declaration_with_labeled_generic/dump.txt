@@ -1,0 +1,21 @@
+TypeDeclaration(
+  position=1:1,
+  identifier='TypedContainer',
+  type_selection=SetType(
+      position=1:23,
+      bound_spec=BoundSpec(
+          position=1:27,
+          lower=IntegerLiteral(
+              position=1:28,
+              value=0
+            ),
+          upper=IndeterminateLiteral(
+              position=1:30
+            )
+        ),
+      of=GenericType(
+          position=1:36
+        )
+    ),
+  domain_rules=[]
+)

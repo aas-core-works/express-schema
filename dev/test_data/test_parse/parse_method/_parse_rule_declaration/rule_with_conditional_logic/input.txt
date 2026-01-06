@@ -1,0 +1,5 @@
+RULE ConditionalValidation FOR (Parameter);
+WHERE
+  criterion1 : SELF.HasDefault OR EXISTS(SELF.Value);
+  criterion2 : NOT (SELF.IsRequired AND NOT EXISTS(SELF.Value));
+END_RULE;

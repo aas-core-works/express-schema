@@ -1,0 +1,26 @@
+AlgorithmHead(
+  declarations=[TypeDeclaration(
+      position=1:1,
+      identifier='PositiveInteger',
+      type_selection=IntegerType(
+          position=1:24
+        ),
+      domain_rules=[DomainRule(
+          position=3:5,
+          label='greaterThanZero',
+          expr=BinaryExpr(
+              position=3:23,
+              left=Self(
+                  position=3:23
+                ),
+              op=BinaryOp.GREATER_THAN,
+              right=IntegerLiteral(
+                  position=3:30,
+                  value=0
+                )
+            )
+        )]
+    )],
+  constant_definitions=[],
+  local_variable_definitions=[]
+)

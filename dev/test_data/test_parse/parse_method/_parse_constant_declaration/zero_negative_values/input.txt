@@ -1,0 +1,6 @@
+CONSTANT
+    zero_int : INTEGER := 0;
+    negative_int : INTEGER := -100;
+    zero_real : REAL := 0.0;
+    negative_real : REAL := -273.15;
+END_CONSTANT;

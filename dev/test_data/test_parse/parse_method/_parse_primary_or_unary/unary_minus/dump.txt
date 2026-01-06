@@ -1,0 +1,8 @@
+UnaryExpr(
+  position=1:1,
+  op=UnaryOp.NEG,
+  operand=IntegerLiteral(
+      position=1:2,
+      value=123
+    )
+)

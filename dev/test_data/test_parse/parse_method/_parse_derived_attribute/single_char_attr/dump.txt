@@ -1,0 +1,14 @@
+DerivedAttribute(
+  position=1:1,
+  attribute=NameRef(
+      position=1:1,
+      identifier='x'
+    ),
+  type_selection=RealType(
+      position=1:5
+    ),
+  init=RealLiteral(
+      position=1:13,
+      value=0.0
+    )
+)

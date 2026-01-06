@@ -1,0 +1,5 @@
+ImportItem(
+  position=1:1,
+  reference='Schema_v1',
+  alias='CurrentSchema'
+)

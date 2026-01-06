@@ -1,0 +1,18 @@
+UniqueRule(
+  position=1:1,
+  label='camelLabel',
+  attributes=[
+      NameRef(
+        position=1:14,
+        identifier='snake_case_attr'
+      ),
+      NameRef(
+        position=1:31,
+        identifier='PascalCaseAttr'
+      ),
+      NameRef(
+        position=1:47,
+        identifier='API_Style_Attr'
+      )
+    ]
+)

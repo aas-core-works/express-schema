@@ -1,0 +1,17 @@
+ListType(
+  position=1:1,
+  bound_spec=BoundSpec(
+      position=1:6,
+      lower=IntegerLiteral(
+          position=1:7,
+          value=1
+        ),
+      upper=IndeterminateLiteral(
+          position=1:9
+        )
+    ),
+  unique=False,
+  of=NumberType(
+      position=1:15
+    )
+)

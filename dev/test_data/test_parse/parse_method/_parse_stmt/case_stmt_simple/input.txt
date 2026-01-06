@@ -1,0 +1,5 @@
+CASE status OF
+    1: result := 'active';
+    2: result := 'inactive';
+    OTHERWISE: result := 'unknown';
+END_CASE;

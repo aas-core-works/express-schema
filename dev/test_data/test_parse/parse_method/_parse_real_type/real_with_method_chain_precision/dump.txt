@@ -1,0 +1,19 @@
+RealType(
+  position=1:1,
+  precision_spec=AttributeRef(
+      position=1:6,
+      source=Call(
+          position=1:6,
+          callee=AttributeRef(
+              position=1:6,
+              source=NameRef(
+                  position=1:6,
+                  identifier='obj'
+                ),
+              identifier='getSize'
+            ),
+          args=[]
+        ),
+      identifier='value'
+    )
+)

@@ -1,0 +1,22 @@
+ExplicitAttributeDefinition(
+  position=1:1,
+  attributes=[
+      NameRef(
+        position=1:1,
+        identifier='partNumber'
+      ),
+      NameRef(
+        position=1:13,
+        identifier='revision'
+      ),
+      NameRef(
+        position=1:23,
+        identifier='supplier'
+      )
+    ],
+  optional=False,
+  type_selection=StringType(
+      position=1:34,
+      fixed=False
+    )
+)

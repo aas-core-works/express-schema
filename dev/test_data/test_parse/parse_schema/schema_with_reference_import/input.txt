@@ -1,0 +1,3 @@
+SCHEMA TestSchema;
+REFERENCE FROM GeometrySchema (Point, Vector);
+END_SCHEMA;

@@ -1,0 +1,164 @@
+PROCEDURE comprehensiveDataProcessor(
+        inputStreams : ARRAY [1:5] OF LIST [1:?] OF DataRecord;
+        processingRules : SET [1:20] OF ProcessingRule;
+        qualityThresholds : BAG [0:10] OF QualityThreshold;
+        VAR outputStreams : ARRAY [1:5] OF LIST [1:?] OF ProcessedRecord;
+        VAR qualityReports : ARRAY [1:5] OF QualityReport;
+        VAR globalMetrics : GlobalProcessingMetrics;
+        VAR errorLogs : ARRAY [1:100] OF ErrorRecord
+    );
+
+    TYPE ProcessingPhase = ENUMERATION OF
+        (preprocessing, validation, transformation, postprocessing, finalization);
+    END_TYPE;
+
+    TYPE QualityLevel = ENUMERATION OF
+        (unacceptable, poor, acceptable, good, excellent);
+    END_TYPE;
+
+    ENTITY ProcessingContext;
+        currentPhase : ProcessingPhase;
+        streamIndex : INTEGER;
+        recordIndex : INTEGER;
+        qualityLevel : QualityLevel;
+        errorCount : INTEGER;
+    END_ENTITY;
+
+    FUNCTION evaluateQuality(record : ProcessedRecord; thresholds : QualityThreshold) : QualityLevel;
+        RETURN(acceptable);
+    END_FUNCTION;
+
+    PROCEDURE logError(context : ProcessingContext; message : STRING; VAR errorLog : ErrorRecord);
+        errorLog.phase := context.currentPhase;
+        errorLog.streamIndex := context.streamIndex;
+        errorLog.recordIndex := context.recordIndex;
+        errorLog.message := message;
+        errorLog.timestamp := getCurrentTime();
+    END_PROCEDURE;
+
+    PROCEDURE updateMetrics(context : ProcessingContext; VAR metrics : GlobalProcessingMetrics);
+        metrics.totalRecordsProcessed := metrics.totalRecordsProcessed + 1;
+        IF context.errorCount > 0 THEN
+            metrics.totalErrors := metrics.totalErrors + context.errorCount;
+        END_IF;
+    END_PROCEDURE;
+
+    CONSTANT
+        maxErrorsPerStream : INTEGER := 50;
+        defaultQualityLevel : QualityLevel := acceptable;
+        processingTimeout : REAL := 600.0;
+        maxConcurrentStreams : INTEGER := 5;
+        bufferSize : INTEGER := 1000;
+    END_CONSTANT;
+
+    LOCAL
+        processingContext : ProcessingContext;
+        currentRecord : DataRecord;
+        processedRecord : ProcessedRecord;
+        currentRule : ProcessingRule;
+        currentThreshold : QualityThreshold;
+        qualityLevel : QualityLevel;
+        errorRecord : ErrorRecord;
+        streamIndex, recordIndex, ruleIndex, thresholdIndex : INTEGER;
+        errorIndex : INTEGER := 0;
+        processingBuffer : ARRAY [1:bufferSize] OF ProcessedRecord := [];
+        bufferIndex : INTEGER := 0;
+        processingStartTime, processingEndTime : REAL;
+        streamProcessingTime : REAL;
+        totalProcessingTime : REAL := 0.0;
+        isProcessingSuccessful : BOOLEAN;
+        shouldContinueProcessing : BOOLEAN := TRUE;
+    END_LOCAL;
+
+    globalMetrics.totalRecordsProcessed := 0;
+    globalMetrics.totalErrors := 0;
+    globalMetrics.successfulStreams := 0;
+    processingStartTime := getCurrentTime();
+
+    REPEAT streamIndex := 1 TO 5;
+        processingContext.streamIndex := streamIndex;
+        processingContext.currentPhase := preprocessing;
+        processingContext.errorCount := 0;
+
+        qualityReports[streamIndex].streamIndex := streamIndex;
+        qualityReports[streamIndex].recordCount := SIZEOF(inputStreams[streamIndex]);
+        qualityReports[streamIndex].errorCount := 0;
+
+        streamProcessingTime := getCurrentTime();
+
+        REPEAT recordIndex := 1 TO SIZEOF(inputStreams[streamIndex]);
+            IF NOT shouldContinueProcessing THEN
+                ESCAPE;
+            END_IF;
+
+            processingContext.recordIndex := recordIndex;
+            currentRecord := inputStreams[streamIndex][recordIndex];
+            isProcessingSuccessful := TRUE;
+
+            processingContext.currentPhase := validation;
+            REPEAT ruleIndex := 1 TO SIZEOF(processingRules);
+                currentRule := processingRules[ruleIndex];
+                IF NOT applyProcessingRule(currentRecord, currentRule) THEN
+                    isProcessingSuccessful := FALSE;
+                    processingContext.errorCount := processingContext.errorCount + 1;
+
+                    IF errorIndex < 100 THEN
+                        errorIndex := errorIndex + 1;
+                        logError(processingContext, 'Processing rule failed', errorRecord);
+                        errorLogs[errorIndex] := errorRecord;
+                    END_IF;
+                END_IF;
+            END_REPEAT;
+
+            IF isProcessingSuccessful THEN
+                processingContext.currentPhase := transformation;
+                processedRecord := transformRecord(currentRecord);
+
+                processingContext.currentPhase := postprocessing;
+                REPEAT thresholdIndex := 1 TO SIZEOF(qualityThresholds);
+                    currentThreshold := qualityThresholds[thresholdIndex];
+                    qualityLevel := evaluateQuality(processedRecord, currentThreshold);
+                    IF qualityLevel = unacceptable THEN
+                        isProcessingSuccessful := FALSE;
+                        qualityReports[streamIndex].errorCount := qualityReports[streamIndex].errorCount + 1;
+                    END_IF;
+                END_REPEAT;
+
+                IF isProcessingSuccessful THEN
+                    bufferIndex := bufferIndex + 1;
+                    processingBuffer[bufferIndex] := processedRecord;
+
+                    IF bufferIndex >= bufferSize THEN
+                        flushBufferToOutput(processingBuffer, outputStreams[streamIndex]);
+                        bufferIndex := 0;
+                    END_IF;
+
+                    INSERT(outputStreams[streamIndex], processedRecord, SIZEOF(outputStreams[streamIndex]) + 1);
+                END_IF;
+            END_IF;
+
+            updateMetrics(processingContext, globalMetrics);
+
+            IF processingContext.errorCount >= maxErrorsPerStream THEN
+                shouldContinueProcessing := FALSE;
+            END_IF;
+        END_REPEAT;
+
+        IF bufferIndex > 0 THEN
+            flushBufferToOutput(processingBuffer, outputStreams[streamIndex]);
+        END_IF;
+
+        streamProcessingTime := getCurrentTime() - streamProcessingTime;
+        totalProcessingTime := totalProcessingTime + streamProcessingTime;
+        qualityReports[streamIndex].processingTime := streamProcessingTime;
+
+        IF processingContext.errorCount < maxErrorsPerStream THEN
+            globalMetrics.successfulStreams := globalMetrics.successfulStreams + 1;
+        END_IF;
+    END_REPEAT;
+
+    processingEndTime := getCurrentTime();
+    globalMetrics.totalProcessingTime := processingEndTime - processingStartTime;
+    globalMetrics.averageStreamProcessingTime := totalProcessingTime / 5.0;
+    globalMetrics.overallSuccessRate := globalMetrics.successfulStreams / 5.0;
+END_PROCEDURE;

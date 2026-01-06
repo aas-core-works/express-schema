@@ -1,0 +1,30 @@
+ExplicitAttributeDefinition(
+  position=1:1,
+  attributes=[
+      NameRef(
+        position=1:1,
+        identifier='id'
+      ),
+      NameRef(
+        position=1:5,
+        identifier='name'
+      ),
+      NameRef(
+        position=1:11,
+        identifier='description'
+      ),
+      NameRef(
+        position=1:24,
+        identifier='category'
+      ),
+      NameRef(
+        position=1:34,
+        identifier='subcategory'
+      )
+    ],
+  optional=False,
+  type_selection=StringType(
+      position=1:48,
+      fixed=False
+    )
+)

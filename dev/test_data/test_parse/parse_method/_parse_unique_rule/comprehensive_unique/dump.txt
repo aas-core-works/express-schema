@@ -1,0 +1,30 @@
+UniqueRule(
+  position=1:1,
+  label='allFields',
+  attributes=[
+      NameRef(
+        position=1:13,
+        identifier='id'
+      ),
+      NameRef(
+        position=1:17,
+        identifier='name'
+      ),
+      NameRef(
+        position=1:23,
+        identifier='code'
+      ),
+      NameRef(
+        position=1:29,
+        identifier='category'
+      ),
+      NameRef(
+        position=1:39,
+        identifier='subcategory'
+      ),
+      NameRef(
+        position=1:52,
+        identifier='version'
+      )
+    ]
+)

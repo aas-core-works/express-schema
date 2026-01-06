@@ -1,0 +1,1 @@
+calculateArea(width * scale, height * scale);

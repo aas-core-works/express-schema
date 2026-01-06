@@ -1,0 +1,1 @@
+veryLongAttributeName1, veryLongAttributeName2, veryLongAttributeName3 : STRING;

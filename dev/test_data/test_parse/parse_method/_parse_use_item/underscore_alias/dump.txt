@@ -1,0 +1,5 @@
+UseItem(
+  position=1:1,
+  reference='original_definition',
+  alias='alias_definition'
+)

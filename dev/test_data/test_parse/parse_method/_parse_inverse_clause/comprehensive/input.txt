@@ -1,0 +1,10 @@
+INVERSE
+    simpleEntity : SimpleType FOR basicAttr;
+    unboundedSet : SET OF SetType FOR setAttr;
+    boundedSet : SET [1:100] OF BoundedSetType FOR boundedSetAttr;
+    unboundedBag : BAG OF BagType FOR bagAttr;
+    boundedBag : BAG [0:50] OF BoundedBagType FOR boundedBagAttr;
+    expressionBounds : SET [start:last] OF ExprType FOR exprAttr;
+    selfReference : SelfRefType FOR SELF;
+    nestedAttribute : NestedType FOR nested.attr;
+    indexedAttribute : IndexedType FOR someArray[index];

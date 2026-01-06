@@ -1,0 +1,24 @@
+LocalVariableDefinition(
+  position=1:1,
+  identifiers=['collection'],
+  of_type=ConformantSetType(
+      position=1:14,
+      bound_spec=BoundSpec(
+          position=1:18,
+          lower=IntegerLiteral(
+              position=1:19,
+              value=0
+            ),
+          upper=IndeterminateLiteral(
+              position=1:21
+            )
+        ),
+      of=IntegerType(
+          position=1:27
+        )
+    ),
+  init=AggregateLiteral(
+      position=1:38,
+      elements=[]
+    )
+)

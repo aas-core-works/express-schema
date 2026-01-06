@@ -1,0 +1,16 @@
+ReferenceClause(
+  position=1:1,
+  schema_ref='lib_v1',
+  import_list=[
+      ImportItem(
+        position=1:24,
+        reference='old_definition',
+        alias='new_definition'
+      ),
+      ImportItem(
+        position=1:58,
+        reference='legacy_item',
+        alias='modern_item'
+      )
+    ]
+)

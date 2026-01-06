@@ -1,0 +1,19 @@
+AliasStmt(
+  position=1:1,
+  variable='localName',
+  target=NameRef(
+      position=1:21,
+      identifier='globalVariable'
+    ),
+  body=[AssignmentStmt(
+      position=2:5,
+      target=NameRef(
+          position=2:5,
+          identifier='localName'
+        ),
+      value=IntegerLiteral(
+          position=2:18,
+          value=42
+        )
+    )]
+)

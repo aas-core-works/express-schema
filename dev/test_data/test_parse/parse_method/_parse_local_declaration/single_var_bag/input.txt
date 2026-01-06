@@ -1,0 +1,3 @@
+LOCAL
+    container : BAG [0:50] OF Item;
+END_LOCAL;

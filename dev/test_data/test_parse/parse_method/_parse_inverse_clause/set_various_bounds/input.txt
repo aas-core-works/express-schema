@@ -1,0 +1,4 @@
+INVERSE
+    unboundedSet : SET OF DataItem FOR container1;
+    boundedSet : SET [1:10] OF DataItem FOR container2;
+    zeroBoundSet : SET [0:5] OF DataItem FOR container3;

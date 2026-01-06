@@ -1,0 +1,9 @@
+QualifiedAttributeRef(
+  position=1:1,
+  source=NameRef(
+      position=1:1,
+      identifier='something'
+    ),
+  group_qualifier='Group',
+  attribute='attribute'
+)

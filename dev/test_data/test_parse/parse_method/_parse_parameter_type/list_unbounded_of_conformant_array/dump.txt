@@ -1,0 +1,12 @@
+ConformantListType(
+  position=1:1,
+  unique=False,
+  of=ConformantArrayType(
+      position=1:9,
+      optional=True,
+      unique=False,
+      of=IntegerType(
+          position=1:27
+        )
+    )
+)

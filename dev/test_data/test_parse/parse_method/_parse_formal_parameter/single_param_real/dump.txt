@@ -1,0 +1,7 @@
+FormalParameter(
+  position=1:1,
+  identifiers=['value'],
+  of_type=RealType(
+      position=1:9
+    )
+)

@@ -1,0 +1,5 @@
+DERIVE
+    upperName : STRING := UPPER(baseName);
+    lowerName : STRING := LOWER(baseName);
+    trimmedName : STRING := TRIM(inputName);
+    fullPath : STRING := directory + '/' + filename;

@@ -1,0 +1,4 @@
+SCHEMA TestSchema;
+TYPE PointCoordinate = REAL;
+END_TYPE;
+END_SCHEMA;

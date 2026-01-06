@@ -1,0 +1,19 @@
+ArrayType(
+  position=1:1,
+  bound_spec=BoundSpec(
+      position=1:7,
+      lower=IntegerLiteral(
+          position=1:8,
+          value=0
+        ),
+      upper=IntegerLiteral(
+          position=1:10,
+          value=99
+        )
+    ),
+  optional=False,
+  unique=False,
+  of=LogicalType(
+      position=1:17
+    )
+)

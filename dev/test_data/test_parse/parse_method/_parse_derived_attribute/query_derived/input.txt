@@ -1,0 +1,1 @@
+activeItems : SET OF Item := QUERY(item <* allItems | item.active);

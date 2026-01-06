@@ -1,0 +1,11 @@
+AssignmentStmt(
+  position=1:1,
+  target=NameRef(
+      position=1:1,
+      identifier='count'
+    ),
+  value=IntegerLiteral(
+      position=1:10,
+      value=42
+    )
+)

@@ -1,0 +1,5 @@
+LOCAL
+    count : INTEGER := 1;
+    items : LIST [1:5] OF STRING;
+    flag : BOOLEAN := FALSE;
+END_LOCAL;

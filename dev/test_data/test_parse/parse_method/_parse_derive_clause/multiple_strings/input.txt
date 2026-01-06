@@ -1,0 +1,4 @@
+DERIVE
+    firstName : STRING := 'John';
+    lastName : STRING := 'Doe';
+    fullName : STRING := firstName + ' ' + lastName;

@@ -1,0 +1,15 @@
+InverseDefinition(
+  position=1:1,
+  attribute=NameRef(
+      position=1:1,
+      identifier='a'
+    ),
+  inverse_type=NameRef(
+      position=1:5,
+      identifier='NodeData'
+    ),
+  attribute_ref=NameRef(
+      position=1:18,
+      identifier='b'
+    )
+)

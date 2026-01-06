@@ -1,0 +1,15 @@
+AssignmentStmt(
+  position=1:1,
+  target=NameRef(
+      position=1:1,
+      identifier='itemCount'
+    ),
+  value=AttributeRef(
+      position=1:14,
+      source=NameRef(
+          position=1:14,
+          identifier='data'
+        ),
+      identifier='size'
+    )
+)

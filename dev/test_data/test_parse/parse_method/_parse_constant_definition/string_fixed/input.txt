@@ -1,0 +1,1 @@
+identifier : STRING (10) FIXED := 'ID_12345';

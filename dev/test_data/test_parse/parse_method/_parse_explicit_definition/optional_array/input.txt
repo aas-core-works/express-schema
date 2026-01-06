@@ -1,0 +1,1 @@
+points : ARRAY [0:10] OF OPTIONAL Point;

@@ -1,0 +1,6 @@
+AggregateType(
+  position=1:1,
+  of=NumberType(
+      position=1:14
+    )
+)

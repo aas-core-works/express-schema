@@ -1,0 +1,21 @@
+LocalVariableDefinition(
+  position=1:1,
+  identifiers=['flexibleSet'],
+  of_type=ConformantSetType(
+      position=1:15,
+      bound_spec=BoundSpec(
+          position=1:19,
+          lower=IntegerLiteral(
+              position=1:20,
+              value=1
+            ),
+          upper=IntegerLiteral(
+              position=1:22,
+              value=5
+            )
+        ),
+      of=RealType(
+          position=1:28
+        )
+    )
+)

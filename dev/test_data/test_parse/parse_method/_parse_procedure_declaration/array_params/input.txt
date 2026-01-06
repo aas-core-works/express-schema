@@ -1,0 +1,9 @@
+PROCEDURE processArray(data : ARRAY [1:10] OF REAL; VAR results : ARRAY [1:10] OF REAL);
+    LOCAL
+        i : INTEGER;
+    END_LOCAL;
+
+    REPEAT i := 1 TO 10;
+        results[i] := data[i] * 2.0;
+    END_REPEAT;
+END_PROCEDURE;

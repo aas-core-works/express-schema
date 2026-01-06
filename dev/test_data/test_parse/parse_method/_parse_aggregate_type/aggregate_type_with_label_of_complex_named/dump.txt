@@ -1,0 +1,8 @@
+AggregateType(
+  position=1:1,
+  label='PropertyType',
+  of=NamedType(
+      position=1:29,
+      reference='IfcComplexProperty'
+    )
+)

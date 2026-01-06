@@ -1,0 +1,18 @@
+[UniqueRule(
+  position=2:5,
+  label='spatialUnique',
+  attributes=[
+      NameRef(
+        position=2:21,
+        identifier='coordinateX'
+      ),
+      NameRef(
+        position=2:34,
+        identifier='coordinateY'
+      ),
+      NameRef(
+        position=2:47,
+        identifier='coordinateZ'
+      )
+    ]
+)]

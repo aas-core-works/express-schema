@@ -1,0 +1,7 @@
+ReturnStmt(
+  position=1:1,
+  value=IntegerLiteral(
+      position=1:8,
+      value=42
+    )
+)

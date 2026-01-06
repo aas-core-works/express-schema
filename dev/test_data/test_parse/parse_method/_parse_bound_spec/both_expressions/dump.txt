@@ -1,0 +1,11 @@
+BoundSpec(
+  position=1:1,
+  lower=NameRef(
+      position=1:2,
+      identifier='minVal'
+    ),
+  upper=NameRef(
+      position=1:9,
+      identifier='maxVal'
+    )
+)

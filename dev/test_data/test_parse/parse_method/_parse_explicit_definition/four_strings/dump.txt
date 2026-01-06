@@ -1,0 +1,26 @@
+ExplicitAttributeDefinition(
+  position=1:1,
+  attributes=[
+      NameRef(
+        position=1:1,
+        identifier='first'
+      ),
+      NameRef(
+        position=1:8,
+        identifier='middle'
+      ),
+      NameRef(
+        position=1:16,
+        identifier='last'
+      ),
+      NameRef(
+        position=1:22,
+        identifier='suffix'
+      )
+    ],
+  optional=False,
+  type_selection=StringType(
+      position=1:31,
+      fixed=False
+    )
+)

@@ -1,0 +1,17 @@
+ConformantListType(
+  position=1:1,
+  bound_spec=BoundSpec(
+      position=1:6,
+      lower=IntegerLiteral(
+          position=1:7,
+          value=0
+        ),
+      upper=IndeterminateLiteral(
+          position=1:9
+        )
+    ),
+  unique=False,
+  of=IntegerType(
+      position=1:15
+    )
+)

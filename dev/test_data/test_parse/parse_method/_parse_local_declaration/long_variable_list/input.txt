@@ -1,0 +1,5 @@
+LOCAL
+    v1, v2, v3, v4, v5, v6, v7, v8, v9, v10 : INTEGER;
+    r1, r2, r3, r4, r5 : REAL := 0.0;
+    s1, s2, s3 : STRING := '';
+END_LOCAL;

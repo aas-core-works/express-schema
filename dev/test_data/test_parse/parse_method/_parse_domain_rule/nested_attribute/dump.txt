@@ -1,0 +1,24 @@
+DomainRule(
+  position=1:1,
+  label='deepRule',
+  expr=BinaryExpr(
+      position=1:12,
+      left=AttributeRef(
+          position=1:12,
+          source=AttributeRef(
+              position=1:12,
+              source=NameRef(
+                  position=1:12,
+                  identifier='object'
+                ),
+              identifier='metadata'
+            ),
+          identifier='version'
+        ),
+      op=BinaryOp.EQUAL,
+      right=NameRef(
+          position=1:38,
+          identifier='currentVersion'
+        )
+    )
+)

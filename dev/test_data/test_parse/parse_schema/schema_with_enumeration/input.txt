@@ -1,0 +1,4 @@
+SCHEMA TestSchema;
+TYPE StatusKind = ENUMERATION OF (Active, Inactive, Pending);
+END_TYPE;
+END_SCHEMA;

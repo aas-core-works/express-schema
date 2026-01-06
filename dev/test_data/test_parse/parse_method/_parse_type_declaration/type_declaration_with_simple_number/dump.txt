@@ -1,0 +1,8 @@
+TypeDeclaration(
+  position=1:1,
+  identifier='NumericValue',
+  type_selection=NumberType(
+      position=1:21
+    ),
+  domain_rules=[]
+)

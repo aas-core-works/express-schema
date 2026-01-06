@@ -1,0 +1,8 @@
+EnumType(
+  position=1:1,
+  values=[
+      'FIRST_OPTION',
+      'SECOND_OPTION',
+      'THIRD_OPTION'
+    ]
+)

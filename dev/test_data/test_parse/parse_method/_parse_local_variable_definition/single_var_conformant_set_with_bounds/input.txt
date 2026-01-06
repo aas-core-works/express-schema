@@ -1,0 +1,1 @@
+flexibleSet : SET [1:5] OF REAL;

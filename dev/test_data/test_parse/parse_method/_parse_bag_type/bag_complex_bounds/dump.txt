@@ -1,0 +1,26 @@
+BagType(
+  position=1:1,
+  bound_spec=BoundSpec(
+      position=1:5,
+      lower=AttributeRef(
+          position=1:6,
+          source=NameRef(
+              position=1:6,
+              identifier='obj'
+            ),
+          identifier='minSize'
+        ),
+      upper=AttributeRef(
+          position=1:18,
+          source=NameRef(
+              position=1:18,
+              identifier='obj'
+            ),
+          identifier='maxSize'
+        )
+    ),
+  of=StringType(
+      position=1:34,
+      fixed=False
+    )
+)

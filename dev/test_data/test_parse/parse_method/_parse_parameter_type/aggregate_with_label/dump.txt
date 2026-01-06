@@ -1,0 +1,7 @@
+AggregateType(
+  position=1:1,
+  label='ItemType',
+  of=IntegerType(
+      position=1:25
+    )
+)

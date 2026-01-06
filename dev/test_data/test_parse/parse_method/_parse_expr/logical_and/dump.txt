@@ -1,0 +1,12 @@
+BinaryExpr(
+  position=1:1,
+  left=NameRef(
+      position=1:1,
+      identifier='a'
+    ),
+  op=BinaryOp.AND,
+  right=NameRef(
+      position=1:7,
+      identifier='b'
+    )
+)

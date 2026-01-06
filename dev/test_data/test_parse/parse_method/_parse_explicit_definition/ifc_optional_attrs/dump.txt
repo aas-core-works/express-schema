@@ -1,0 +1,18 @@
+ExplicitAttributeDefinition(
+  position=1:1,
+  attributes=[
+      NameRef(
+        position=1:1,
+        identifier='Tag'
+      ),
+      NameRef(
+        position=1:6,
+        identifier='PredefinedType'
+      )
+    ],
+  optional=True,
+  type_selection=StringType(
+      position=1:32,
+      fixed=False
+    )
+)

@@ -1,0 +1,6 @@
+CASE direction OF
+    1: movement := 'north';
+    2: movement := 'south';
+    3: movement := 'east';
+    4: movement := 'west';
+END_CASE;

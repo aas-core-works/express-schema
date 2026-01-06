@@ -1,0 +1,11 @@
+CallStmt(
+  position=1:1,
+  call=Call(
+      position=1:1,
+      callee=NameRef(
+          position=1:1,
+          identifier='processData'
+        ),
+      args=[]
+    )
+)

@@ -1,0 +1,12 @@
+SupertypeBinaryExpr(
+  position=1:2,
+  left=NameRef(
+      position=1:2,
+      identifier='PersonData'
+    ),
+  op=SupertypeBinaryOp.AND,
+  right=NameRef(
+      position=1:18,
+      identifier='Organization'
+    )
+)

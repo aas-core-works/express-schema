@@ -1,0 +1,7 @@
+AggregateType(
+  position=1:1,
+  label='ElementType',
+  of=IntegerType(
+      position=1:28
+    )
+)

@@ -1,0 +1,5 @@
+ENTITY Container;
+    Identifier : STRING;
+    Items : SET [0:?] OF GENERIC;
+    Capacity : INTEGER;
+END_ENTITY;

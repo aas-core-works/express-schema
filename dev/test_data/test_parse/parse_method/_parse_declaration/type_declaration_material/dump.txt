@@ -1,0 +1,22 @@
+TypeDeclaration(
+  position=1:1,
+  identifier='MaterialProperty',
+  type_selection=SelectType(
+      position=1:25,
+      values=[
+          NamedType(
+            position=2:5,
+            reference='DensityProperty'
+          ),
+          NamedType(
+            position=3:5,
+            reference='ThermalProperty'
+          ),
+          NamedType(
+            position=4:5,
+            reference='MechanicalProperty'
+          )
+        ]
+    ),
+  domain_rules=[]
+)

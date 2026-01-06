@@ -1,0 +1,30 @@
+DerivedAttribute(
+  position=1:1,
+  attribute=NameRef(
+      position=1:1,
+      identifier='totalCost'
+    ),
+  type_selection=RealType(
+      position=1:13
+    ),
+  init=BinaryExpr(
+      position=1:21,
+      left=NameRef(
+          position=1:21,
+          identifier='basePrice'
+        ),
+      op=BinaryOp.MULTIPLY,
+      right=BinaryExpr(
+          position=1:34,
+          left=RealLiteral(
+              position=1:34,
+              value=1.0
+            ),
+          op=BinaryOp.ADD,
+          right=NameRef(
+              position=1:40,
+              identifier='taxRate'
+            )
+        )
+    )
+)

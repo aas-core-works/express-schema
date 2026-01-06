@@ -1,0 +1,13 @@
+DerivedAttribute(
+  position=1:1,
+  attribute=NameRef(
+      position=1:1,
+      identifier='indeterminate'
+    ),
+  type_selection=LogicalType(
+      position=1:17
+    ),
+  init=IndeterminateLiteral(
+      position=1:28
+    )
+)

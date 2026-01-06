@@ -1,0 +1,4 @@
+ALIAS tempData FOR collection.items;
+    tempData[1] := newValue;
+    count := LENGTH(tempData);
+END_ALIAS;

@@ -1,0 +1,1 @@
+isValid : BOOLEAN := size >= minSize;

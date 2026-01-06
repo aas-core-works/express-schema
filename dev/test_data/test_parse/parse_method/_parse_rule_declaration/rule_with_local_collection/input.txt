@@ -1,0 +1,8 @@
+RULE CollectionProcessing FOR (DataSet);
+LOCAL
+  validItems : LIST [1:?] OF DataItem;
+END_LOCAL;
+WHERE
+  criterion1 : SIZEOF(validItems) > 0;
+  criterion2 : SIZEOF(validItems) <= SIZEOF(SELF.Items);
+END_RULE;

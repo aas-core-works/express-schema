@@ -1,0 +1,16 @@
+DomainRule(
+  position=1:1,
+  label='minimumCheck',
+  expr=BinaryExpr(
+      position=1:16,
+      left=NameRef(
+          position=1:16,
+          identifier='count'
+        ),
+      op=BinaryOp.LESS_THAN,
+      right=NameRef(
+          position=1:24,
+          identifier='maxValue'
+        )
+    )
+)

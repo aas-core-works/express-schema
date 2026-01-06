@@ -1,0 +1,28 @@
+[LocalVariableDefinition(
+  position=2:5,
+  identifiers=['items'],
+  of_type=ConformantArrayType(
+      position=2:13,
+      bound_spec=BoundSpec(
+          position=2:19,
+          lower=IntegerLiteral(
+              position=2:20,
+              value=1
+            ),
+          upper=IntegerLiteral(
+              position=2:22,
+              value=10
+            )
+        ),
+      optional=False,
+      unique=False,
+      of=StringType(
+          position=2:29,
+          fixed=False
+        )
+    ),
+  init=AggregateLiteral(
+      position=2:39,
+      elements=[]
+    )
+)]

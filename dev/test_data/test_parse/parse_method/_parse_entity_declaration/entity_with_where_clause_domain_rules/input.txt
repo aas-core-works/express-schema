@@ -1,0 +1,5 @@
+ENTITY Circle;
+    Radius : REAL;
+    WHERE
+        WR1 : Radius > 0.0;
+END_ENTITY;

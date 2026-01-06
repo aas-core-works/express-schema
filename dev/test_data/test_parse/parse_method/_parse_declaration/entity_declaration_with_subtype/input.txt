@@ -1,0 +1,4 @@
+ENTITY Car
+    SUBTYPE OF (Vehicle);
+    wheels : INTEGER;
+END_ENTITY;

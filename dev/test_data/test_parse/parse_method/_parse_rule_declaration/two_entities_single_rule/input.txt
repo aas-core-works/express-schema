@@ -1,0 +1,4 @@
+RULE ConsistentDimensions FOR (Point, Vector);
+WHERE
+  criterion1 : SELF.Dimension >= 2;
+END_RULE;

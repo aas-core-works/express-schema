@@ -1,0 +1,15 @@
+ExplicitAttributeDefinition(
+  position=1:1,
+  attributes=[NameRef(
+      position=1:1,
+      identifier='tags'
+    )],
+  optional=False,
+  type_selection=SetType(
+      position=1:8,
+      of=StringType(
+          position=1:15,
+          fixed=False
+        )
+    )
+)

@@ -1,0 +1,4 @@
+DERIVE
+    hasMinimumSize : BOOLEAN := (width >= minWidth) AND (height >= minHeight);
+    isSquare : BOOLEAN := ABS(width - height) < tolerance;
+    isValid : BOOLEAN := hasMinimumSize AND (area > 0.0);

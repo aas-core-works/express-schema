@@ -1,0 +1,5 @@
+PROCEDURE updatePosition(x : REAL; y : REAL; z : REAL);
+    position.x := x;
+    position.y := y;
+    position.z := z;
+END_PROCEDURE;

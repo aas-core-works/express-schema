@@ -1,0 +1,21 @@
+ReferenceClause(
+  position=1:1,
+  schema_ref='geometry_lib',
+  import_list=[
+      ImportItem(
+        position=1:30,
+        reference='point_def',
+        alias='pt'
+      ),
+      ImportItem(
+        position=1:47,
+        reference='line_def',
+        alias='ln'
+      ),
+      ImportItem(
+        position=1:63,
+        reference='circle_def',
+        alias='crc'
+      )
+    ]
+)

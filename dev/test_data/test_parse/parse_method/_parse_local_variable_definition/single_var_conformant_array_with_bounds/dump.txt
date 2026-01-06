@@ -1,0 +1,24 @@
+LocalVariableDefinition(
+  position=1:1,
+  identifiers=['flexibleMatrix'],
+  of_type=ConformantArrayType(
+      position=1:18,
+      bound_spec=BoundSpec(
+          position=1:24,
+          lower=IntegerLiteral(
+              position=1:25,
+              value=1
+            ),
+          upper=IntegerLiteral(
+              position=1:27,
+              value=10
+            )
+        ),
+      optional=False,
+      unique=False,
+      of=StringType(
+          position=1:34,
+          fixed=False
+        )
+    )
+)

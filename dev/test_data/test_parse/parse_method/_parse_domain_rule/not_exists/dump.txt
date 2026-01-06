@@ -1,0 +1,22 @@
+DomainRule(
+  position=1:1,
+  label='notExistsRule',
+  expr=UnaryExpr(
+      position=1:17,
+      op=UnaryOp.NOT,
+      operand=Call(
+          position=1:21,
+          callee=NameRef(
+              position=1:21,
+              identifier='EXISTS'
+            ),
+          args=[Arg(
+              position=1:28,
+              value=NameRef(
+                  position=1:28,
+                  identifier='deprecatedField'
+                )
+            )]
+        )
+    )
+)

@@ -1,0 +1,17 @@
+SelectType(
+  position=1:1,
+  values=[
+      NamedType(
+        position=1:9,
+        reference='RgbColor'
+      ),
+      NamedType(
+        position=1:19,
+        reference='HsvColor'
+      ),
+      NamedType(
+        position=1:29,
+        reference='CmykColor'
+      )
+    ]
+)

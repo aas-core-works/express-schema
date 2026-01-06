@@ -1,0 +1,7 @@
+RULE ProcessingModeValidation FOR (Processor);
+TYPE
+  ProcessingMode = SELECT (BatchMode, RealTimeMode, ManualMode);
+END_TYPE;
+WHERE
+  criterion1 : EXISTS(SELF.Mode);
+END_RULE;

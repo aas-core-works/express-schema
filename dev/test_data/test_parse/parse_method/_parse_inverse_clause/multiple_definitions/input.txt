@@ -1,0 +1,5 @@
+INVERSE
+    parent : ParentData FOR children;
+    owner : OwnerData FOR properties;
+    manager : ManagerData FOR resources;
+    coordinator : CoordinatorData FOR projects;

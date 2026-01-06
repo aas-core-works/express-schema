@@ -1,0 +1,17 @@
+DerivedAttribute(
+  position=1:1,
+  attribute=NameRef(
+      position=1:1,
+      identifier='emptyCollection'
+    ),
+  type_selection=BagType(
+      position=1:19,
+      of=IntegerType(
+          position=1:26
+        )
+    ),
+  init=AggregateLiteral(
+      position=1:37,
+      elements=[]
+    )
+)

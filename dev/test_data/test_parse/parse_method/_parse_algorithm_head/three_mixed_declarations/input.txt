@@ -1,0 +1,11 @@
+TYPE ItemType = STRING(50);
+END_TYPE;
+
+ENTITY Item;
+    itemType : ItemType;
+    value : REAL;
+END_ENTITY;
+
+FUNCTION getItemValue(item : Item) : REAL;
+    RETURN(item.value);
+END_FUNCTION;

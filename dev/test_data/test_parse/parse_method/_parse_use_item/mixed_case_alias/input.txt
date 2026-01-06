@@ -1,0 +1,1 @@
+CamelCaseDefinition AS snake_case_definition

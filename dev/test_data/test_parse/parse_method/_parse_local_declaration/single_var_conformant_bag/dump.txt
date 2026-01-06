@@ -1,0 +1,11 @@
+[LocalVariableDefinition(
+  position=2:5,
+  identifiers=['storage'],
+  of_type=ConformantBagType(
+      position=2:15,
+      of=NamedType(
+          position=2:22,
+          reference='Component'
+        )
+    )
+)]

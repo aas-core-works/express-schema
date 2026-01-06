@@ -1,0 +1,5 @@
+INVERSE
+    simple : Person FOR items;
+    nested : OwnerData FOR data.properties;
+    indexed : MatrixData FOR elements[1];
+    selfRef : NodeData FOR SELF;

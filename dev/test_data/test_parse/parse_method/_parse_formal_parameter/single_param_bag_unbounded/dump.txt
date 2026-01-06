@@ -1,0 +1,10 @@
+FormalParameter(
+  position=1:1,
+  identifiers=['elements'],
+  of_type=ConformantBagType(
+      position=1:12,
+      of=IntegerType(
+          position=1:19
+        )
+    )
+)

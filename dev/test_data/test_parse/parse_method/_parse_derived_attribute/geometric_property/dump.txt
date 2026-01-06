@@ -1,0 +1,30 @@
+DerivedAttribute(
+  position=1:1,
+  attribute=NameRef(
+      position=1:1,
+      identifier='circumference'
+    ),
+  type_selection=RealType(
+      position=1:17
+    ),
+  init=BinaryExpr(
+      position=1:25,
+      left=BinaryExpr(
+          position=1:25,
+          left=RealLiteral(
+              position=1:25,
+              value=2.0
+            ),
+          op=BinaryOp.MULTIPLY,
+          right=NameRef(
+              position=1:31,
+              identifier='PI'
+            )
+        ),
+      op=BinaryOp.MULTIPLY,
+      right=NameRef(
+          position=1:36,
+          identifier='radius'
+        )
+    )
+)

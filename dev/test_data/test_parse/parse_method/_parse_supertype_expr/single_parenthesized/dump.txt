@@ -1,0 +1,4 @@
+NameRef(
+  position=1:2,
+  identifier='Person'
+)

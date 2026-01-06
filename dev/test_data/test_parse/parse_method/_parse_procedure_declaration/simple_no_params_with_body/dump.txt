@@ -1,0 +1,34 @@
+ProcedureDeclaration(
+  position=1:1,
+  identifier='resetSystem',
+  formal_parameters=[],
+  head=AlgorithmHead(
+      declarations=[],
+      constant_definitions=[],
+      local_variable_definitions=[]
+    ),
+  body=[
+      AssignmentStmt(
+        position=2:5,
+        target=NameRef(
+            position=2:5,
+            identifier='systemStatus'
+          ),
+        value=NameRef(
+            position=2:21,
+            identifier='inactive'
+          )
+      ),
+      AssignmentStmt(
+        position=3:5,
+        target=NameRef(
+            position=3:5,
+            identifier='errorCount'
+          ),
+        value=IntegerLiteral(
+            position=3:19,
+            value=0
+          )
+      )
+    ]
+)

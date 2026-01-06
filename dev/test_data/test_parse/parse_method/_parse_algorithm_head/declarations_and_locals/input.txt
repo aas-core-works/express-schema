@@ -1,0 +1,13 @@
+TYPE ComponentType = STRING(50);
+END_TYPE;
+
+ENTITY Component;
+    componentType : ComponentType;
+    active : BOOLEAN;
+END_ENTITY;
+
+LOCAL
+    currentComponent : Component;
+    componentCount : INTEGER := 0;
+    isProcessing : BOOLEAN := FALSE;
+END_LOCAL;

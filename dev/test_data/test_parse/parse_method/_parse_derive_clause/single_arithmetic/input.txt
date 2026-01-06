@@ -1,0 +1,2 @@
+DERIVE
+    sum : INTEGER := base + offset;

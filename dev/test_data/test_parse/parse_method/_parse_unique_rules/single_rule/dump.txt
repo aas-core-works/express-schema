@@ -1,0 +1,8 @@
+[UniqueRule(
+  position=2:5,
+  label='uniqueLabel',
+  attributes=[NameRef(
+      position=2:19,
+      identifier='attributeName'
+    )]
+)]

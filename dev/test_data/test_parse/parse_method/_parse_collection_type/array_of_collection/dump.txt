@@ -1,0 +1,23 @@
+ArrayType(
+  position=1:1,
+  bound_spec=BoundSpec(
+      position=1:7,
+      lower=IntegerLiteral(
+          position=1:8,
+          value=1
+        ),
+      upper=IntegerLiteral(
+          position=1:10,
+          value=5
+        )
+    ),
+  optional=False,
+  unique=False,
+  of=ListType(
+      position=1:16,
+      unique=False,
+      of=IntegerType(
+          position=1:24
+        )
+    )
+)

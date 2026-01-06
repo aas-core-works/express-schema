@@ -1,0 +1,18 @@
+UseClause(
+  position=1:1,
+  schema_ref='geometry_definitions',
+  use_list=[
+      UseItem(
+        position=1:32,
+        reference='point_data'
+      ),
+      UseItem(
+        position=1:44,
+        reference='line_data'
+      ),
+      UseItem(
+        position=1:55,
+        reference='surface_data'
+      )
+    ]
+)

@@ -1,0 +1,1 @@
+longNamedSetAttribute : SET OF VeryLongEntityType FOR anotherVeryLongAttributeName;

@@ -1,0 +1,7 @@
+ConformantBagType(
+  position=1:1,
+  of=NamedType(
+      position=1:8,
+      reference='ComponentType'
+    )
+)

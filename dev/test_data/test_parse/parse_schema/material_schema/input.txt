@@ -1,0 +1,18 @@
+SCHEMA MaterialProperties;
+ENTITY Material;
+  name : STRING;
+  density : REAL;
+  isMetallic : BOOLEAN;
+END_ENTITY;
+TYPE MaterialCategory = ENUMERATION OF (Metal, Plastic, Ceramic, Composite);
+PROCEDURE ValidateMaterial(VAR material : Material);
+  IF material.density <= 0.0 THEN
+    material.density := 1.0;
+  END_IF;
+END_PROCEDURE;
+RULE MaterialValidation FOR (Material);
+WHERE
+  criterion1 : SELF.density > 0.0;
+  criterion2 : LENGTH(SELF.name) > 0;
+END_RULE;
+END_SCHEMA;

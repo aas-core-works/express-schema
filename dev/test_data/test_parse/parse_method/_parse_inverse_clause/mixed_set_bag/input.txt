@@ -1,0 +1,3 @@
+INVERSE
+    owners : SET OF OwnerData FOR properties;
+    participants : BAG OF ParticipantData FOR activities;

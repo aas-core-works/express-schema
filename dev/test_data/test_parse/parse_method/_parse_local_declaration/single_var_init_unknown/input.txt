@@ -1,0 +1,3 @@
+LOCAL
+    result : REAL := UNKNOWN;
+END_LOCAL;

@@ -1,0 +1,23 @@
+TypeDeclaration(
+  position=1:1,
+  identifier='ComponentSet',
+  type_selection=SetType(
+      position=1:21,
+      bound_spec=BoundSpec(
+          position=1:25,
+          lower=IntegerLiteral(
+              position=1:26,
+              value=1
+            ),
+          upper=IntegerLiteral(
+              position=1:28,
+              value=10
+            )
+        ),
+      of=NamedType(
+          position=1:35,
+          reference='Component'
+        )
+    ),
+  domain_rules=[]
+)

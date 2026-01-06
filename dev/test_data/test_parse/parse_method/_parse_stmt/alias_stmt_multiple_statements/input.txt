@@ -1,0 +1,5 @@
+ALIAS current FOR nodeList.currentNode;
+    current.value := inputValue;
+    current.processed := TRUE;
+    current := current.next;
+END_ALIAS;

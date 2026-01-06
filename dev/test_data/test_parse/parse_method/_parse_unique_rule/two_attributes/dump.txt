@@ -1,0 +1,14 @@
+UniqueRule(
+  position=1:1,
+  label='uniquePair',
+  attributes=[
+      NameRef(
+        position=1:14,
+        identifier='firstName'
+      ),
+      NameRef(
+        position=1:25,
+        identifier='lastName'
+      )
+    ]
+)

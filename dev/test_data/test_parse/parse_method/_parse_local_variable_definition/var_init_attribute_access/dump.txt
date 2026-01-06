@@ -1,0 +1,15 @@
+LocalVariableDefinition(
+  position=1:1,
+  identifiers=['itemCount'],
+  of_type=IntegerType(
+      position=1:13
+    ),
+  init=AttributeRef(
+      position=1:24,
+      source=NameRef(
+          position=1:24,
+          identifier='data'
+        ),
+      identifier='size'
+    )
+)

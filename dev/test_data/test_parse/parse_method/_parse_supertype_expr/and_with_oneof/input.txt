@@ -1,0 +1,1 @@
+Person AND ONEOF (Organization, Company)

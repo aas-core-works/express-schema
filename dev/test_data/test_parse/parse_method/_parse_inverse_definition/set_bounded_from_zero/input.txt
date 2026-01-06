@@ -1,0 +1,1 @@
+administrators : SET [0:100] OF AdminData FOR resources;

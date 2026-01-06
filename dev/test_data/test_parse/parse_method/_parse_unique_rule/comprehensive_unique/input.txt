@@ -1,0 +1,1 @@
+allFields : id, name, code, category, subcategory, version;

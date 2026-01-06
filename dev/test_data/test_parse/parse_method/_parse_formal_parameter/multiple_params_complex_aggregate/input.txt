@@ -1,0 +1,1 @@
+source, process, target : BAG OF AGGREGATE : DataType OF GENERIC : ValueType

@@ -1,0 +1,29 @@
+InverseClause(
+  position=1:1,
+  inverses=[InverseDefinition(
+      position=2:5,
+      attribute=NameRef(
+          position=2:5,
+          identifier='processors'
+        ),
+      inverse_type=InverseBag(
+          position=2:18,
+          bound_spec=BoundSpec(
+              position=2:22,
+              lower=IntegerLiteral(
+                  position=2:23,
+                  value=1
+                ),
+              upper=IntegerLiteral(
+                  position=2:25,
+                  value=20
+                )
+            ),
+          entity='ProcessorData'
+        ),
+      attribute_ref=NameRef(
+          position=2:50,
+          identifier='tasks'
+        )
+    )]
+)

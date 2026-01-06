@@ -1,0 +1,1 @@
+items : ARRAY [0:?] OF STRING;

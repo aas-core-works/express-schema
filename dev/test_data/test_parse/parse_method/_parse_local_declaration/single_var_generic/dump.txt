@@ -1,0 +1,7 @@
+[LocalVariableDefinition(
+  position=2:5,
+  identifiers=['item'],
+  of_type=GenericType(
+      position=2:12
+    )
+)]

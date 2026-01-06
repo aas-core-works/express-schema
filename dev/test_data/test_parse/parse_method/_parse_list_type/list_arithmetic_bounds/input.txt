@@ -1,0 +1,1 @@
+LIST [i + 1:n * 2] OF BOOLEAN

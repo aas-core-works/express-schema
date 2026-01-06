@@ -1,0 +1,6 @@
+FUNCTION getPoints() : LIST [1:?] OF Point;
+    LOCAL
+        points : LIST [1:?] OF Point := [];
+    END_LOCAL;
+    RETURN(points);
+END_FUNCTION;

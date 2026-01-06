@@ -1,0 +1,7 @@
+AggregateType(
+  position=1:1,
+  label='OuterGeneric',
+  of=GenericType(
+      position=1:29
+    )
+)

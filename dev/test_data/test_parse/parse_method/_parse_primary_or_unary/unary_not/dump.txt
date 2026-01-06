@@ -1,0 +1,8 @@
+UnaryExpr(
+  position=1:1,
+  op=UnaryOp.NOT,
+  operand=LogicalLiteral(
+      position=1:5,
+      value=TRUE
+    )
+)

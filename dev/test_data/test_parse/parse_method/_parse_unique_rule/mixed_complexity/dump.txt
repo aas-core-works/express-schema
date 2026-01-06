@@ -1,0 +1,29 @@
+UniqueRule(
+  position=1:1,
+  label='mixedUnique',
+  attributes=[
+      NameRef(
+        position=1:15,
+        identifier='simpleAttr'
+      ),
+      AttributeRef(
+        position=1:27,
+        source=NameRef(
+            position=1:27,
+            identifier='nested'
+          ),
+        identifier='attr'
+      ),
+      IndexExpr(
+        position=1:40,
+        source=NameRef(
+            position=1:40,
+            identifier='someArray'
+          ),
+        index=IntegerLiteral(
+            position=1:50,
+            value=0
+          )
+      )
+    ]
+)

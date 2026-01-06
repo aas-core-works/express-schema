@@ -1,0 +1,3 @@
+CONSTANT
+    debug_enabled : BOOLEAN := TRUE;
+END_CONSTANT;

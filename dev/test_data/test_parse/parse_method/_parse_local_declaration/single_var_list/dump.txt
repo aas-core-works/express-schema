@@ -1,0 +1,23 @@
+[LocalVariableDefinition(
+  position=2:5,
+  identifiers=['sequence'],
+  of_type=ConformantListType(
+      position=2:16,
+      bound_spec=BoundSpec(
+          position=2:21,
+          lower=IntegerLiteral(
+              position=2:22,
+              value=1
+            ),
+          upper=IntegerLiteral(
+              position=2:24,
+              value=20
+            )
+        ),
+      unique=False,
+      of=StringType(
+          position=2:31,
+          fixed=False
+        )
+    )
+)]

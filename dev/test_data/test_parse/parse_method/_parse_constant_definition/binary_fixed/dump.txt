@@ -1,0 +1,16 @@
+ConstantDefinition(
+  position=1:1,
+  identifier='fixed_data',
+  type_selection=BinaryType(
+      position=1:14,
+      width=IntegerLiteral(
+          position=1:22,
+          value=16
+        ),
+      fixed=True
+    ),
+  init=BinaryLiteral(
+      position=1:35,
+      value=b'\xaa\xaa'
+    )
+)

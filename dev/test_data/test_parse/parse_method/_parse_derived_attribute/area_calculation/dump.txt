@@ -1,0 +1,22 @@
+DerivedAttribute(
+  position=1:1,
+  attribute=NameRef(
+      position=1:1,
+      identifier='area'
+    ),
+  type_selection=RealType(
+      position=1:8
+    ),
+  init=BinaryExpr(
+      position=1:16,
+      left=NameRef(
+          position=1:16,
+          identifier='length'
+        ),
+      op=BinaryOp.MULTIPLY,
+      right=NameRef(
+          position=1:25,
+          identifier='width'
+        )
+    )
+)

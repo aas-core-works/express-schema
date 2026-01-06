@@ -1,0 +1,3 @@
+FUNCTION getName() : STRING;
+    RETURN('default');
+END_FUNCTION;

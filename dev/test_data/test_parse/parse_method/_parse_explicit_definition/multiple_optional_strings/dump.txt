@@ -1,0 +1,22 @@
+ExplicitAttributeDefinition(
+  position=1:1,
+  attributes=[
+      NameRef(
+        position=1:1,
+        identifier='title'
+      ),
+      NameRef(
+        position=1:8,
+        identifier='description'
+      ),
+      NameRef(
+        position=1:21,
+        identifier='notes'
+      )
+    ],
+  optional=True,
+  type_selection=StringType(
+      position=1:38,
+      fixed=False
+    )
+)

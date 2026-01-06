@@ -1,0 +1,4 @@
+RULE ProductHierarchy FOR (Product, Assembly, Component);
+WHERE
+  criterion1 : SELF.Level >= 0;
+END_RULE;

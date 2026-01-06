@@ -1,0 +1,5 @@
+RULE ProcessingChain FOR (Input, Processor, Output);
+WHERE
+  criterion1 : EXISTS(SELF.Source);
+  criterion2 : EXISTS(SELF.Target);
+END_RULE;

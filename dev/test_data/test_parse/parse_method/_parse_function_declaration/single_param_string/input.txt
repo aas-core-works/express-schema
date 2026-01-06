@@ -1,0 +1,3 @@
+FUNCTION getLength(text : STRING) : INTEGER;
+    RETURN(LENGTH(text));
+END_FUNCTION;

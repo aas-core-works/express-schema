@@ -1,0 +1,30 @@
+FunctionDeclaration(
+  position=1:1,
+  identifier='processBag',
+  formal_parameters=[FormalParameter(
+      position=1:21,
+      identifiers=['container'],
+      of_type=ConformantBagType(
+          position=1:33,
+          of=NamedType(
+              position=1:40,
+              reference='Item'
+            )
+        )
+    )],
+  return_type=RealType(
+      position=1:48
+    ),
+  head=AlgorithmHead(
+      declarations=[],
+      constant_definitions=[],
+      local_variable_definitions=[]
+    ),
+  body=[ReturnStmt(
+      position=2:5,
+      value=RealLiteral(
+          position=2:12,
+          value=0.0
+        )
+    )]
+)

@@ -1,0 +1,4 @@
+LOCAL
+    name : STRING;
+    components : LIST [1:10] OF Component;
+END_LOCAL;

@@ -1,0 +1,14 @@
+DerivedAttribute(
+  position=1:1,
+  attribute=NameRef(
+      position=1:1,
+      identifier='piValue'
+    ),
+  type_selection=RealType(
+      position=1:11
+    ),
+  init=NameRef(
+      position=1:19,
+      identifier='PI'
+    )
+)

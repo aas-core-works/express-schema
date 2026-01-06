@@ -1,0 +1,19 @@
+LocalVariableDefinition(
+  position=1:1,
+  identifiers=['isValid'],
+  of_type=BooleanType(
+      position=1:11
+    ),
+  init=BinaryExpr(
+      position=1:22,
+      left=NameRef(
+          position=1:22,
+          identifier='count'
+        ),
+      op=BinaryOp.GREATER_THAN,
+      right=IntegerLiteral(
+          position=1:30,
+          value=0
+        )
+    )
+)

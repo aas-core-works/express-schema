@@ -1,0 +1,5 @@
+SCHEMA TestSchema;
+PROCEDURE InitializeSystem();
+  SKIP;
+END_PROCEDURE;
+END_SCHEMA;

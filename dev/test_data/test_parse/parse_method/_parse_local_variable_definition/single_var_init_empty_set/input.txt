@@ -1,0 +1,1 @@
+collection : SET [0:?] OF INTEGER := [];

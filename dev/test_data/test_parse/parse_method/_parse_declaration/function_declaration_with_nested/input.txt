@@ -1,0 +1,12 @@
+FUNCTION complexCalculation() : REAL;
+    FUNCTION innerHelper(value : REAL) : REAL;
+        RETURN(value * 2.0);
+    END_FUNCTION;
+
+    LOCAL
+        result : REAL := 0.0;
+    END_LOCAL;
+
+    result := innerHelper(3.14);
+    RETURN(result);
+END_FUNCTION;

@@ -1,0 +1,4 @@
+INVERSE
+    unboundedBag : BAG OF DataItem FOR collection1;
+    boundedBag : BAG [1:20] OF DataItem FOR collection2;
+    zeroBoundBag : BAG [0:15] OF DataItem FOR collection3;

@@ -1,0 +1,16 @@
+ExplicitAttributeDefinition(
+  position=1:1,
+  attributes=[NameRef(
+      position=1:1,
+      identifier='ordered_items'
+    )],
+  optional=False,
+  type_selection=ListType(
+      position=1:17,
+      unique=True,
+      of=StringType(
+          position=1:32,
+          fixed=False
+        )
+    )
+)

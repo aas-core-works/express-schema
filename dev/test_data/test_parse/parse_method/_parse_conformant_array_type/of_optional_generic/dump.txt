@@ -1,0 +1,8 @@
+ConformantArrayType(
+  position=1:1,
+  optional=True,
+  unique=False,
+  of=GenericType(
+      position=1:19
+    )
+)

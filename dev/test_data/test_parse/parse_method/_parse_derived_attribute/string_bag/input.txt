@@ -1,0 +1,1 @@
+words : BAG OF STRING := ['hello', 'world', 'hello'];

@@ -1,0 +1,3 @@
+FUNCTION transformItem(item : GENERIC : ItemType) : GENERIC : ResultType;
+    RETURN(item);
+END_FUNCTION;

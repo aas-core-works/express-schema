@@ -1,0 +1,4 @@
+NamedType(
+  position=1:1,
+  reference='ComponentReference'
+)

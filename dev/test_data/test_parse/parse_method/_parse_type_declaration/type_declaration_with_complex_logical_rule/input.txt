@@ -1,0 +1,5 @@
+TYPE ValidRange = LIST [2:2] OF REAL;
+WHERE
+    WR1 : (SELF[1] <= SELF[2]) AND (SELF[1] >= 0.0);
+    WR2 : SELF[2] <= 100.0;
+END_TYPE;

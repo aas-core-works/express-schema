@@ -1,0 +1,1 @@
+input, output : ARRAY [1:3] OF SET [0:10] OF ComponentType

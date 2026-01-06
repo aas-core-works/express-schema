@@ -1,0 +1,2 @@
+TYPE TypedContainer = SET [0:?] OF GENERIC : ItemType;
+END_TYPE;

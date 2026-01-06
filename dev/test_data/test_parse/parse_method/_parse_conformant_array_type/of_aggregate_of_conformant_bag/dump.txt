@@ -1,0 +1,15 @@
+ConformantArrayType(
+  position=1:1,
+  optional=False,
+  unique=False,
+  of=AggregateType(
+      position=1:10,
+      of=ConformantBagType(
+          position=1:23,
+          of=StringType(
+              position=1:30,
+              fixed=False
+            )
+        )
+    )
+)

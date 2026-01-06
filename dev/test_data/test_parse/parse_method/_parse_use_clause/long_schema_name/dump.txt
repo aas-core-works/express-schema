@@ -1,0 +1,5 @@
+UseClause(
+  position=1:1,
+  schema_ref='very_long_definition_name',
+  use_list=[]
+)

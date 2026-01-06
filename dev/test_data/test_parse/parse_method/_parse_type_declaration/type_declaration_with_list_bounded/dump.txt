@@ -1,0 +1,24 @@
+TypeDeclaration(
+  position=1:1,
+  identifier='ProcessSteps',
+  type_selection=ListType(
+      position=1:21,
+      bound_spec=BoundSpec(
+          position=1:26,
+          lower=IntegerLiteral(
+              position=1:27,
+              value=1
+            ),
+          upper=IntegerLiteral(
+              position=1:29,
+              value=20
+            )
+        ),
+      unique=False,
+      of=NamedType(
+          position=1:36,
+          reference='StepDescription'
+        )
+    ),
+  domain_rules=[]
+)

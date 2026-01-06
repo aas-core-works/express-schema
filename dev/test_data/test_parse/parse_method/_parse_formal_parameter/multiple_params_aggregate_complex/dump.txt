@@ -1,0 +1,15 @@
+FormalParameter(
+  position=1:1,
+  identifiers=[
+      'geometry',
+      'material',
+      'texture'
+    ],
+  of_type=AggregateType(
+      position=1:31,
+      of=NamedType(
+          position=1:44,
+          reference='ComponentType'
+        )
+    )
+)

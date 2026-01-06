@@ -1,0 +1,15 @@
+InverseDefinition(
+  position=1:1,
+  attribute=NameRef(
+      position=1:1,
+      identifier='contributors'
+    ),
+  inverse_type=InverseBag(
+      position=1:16,
+      entity='Person'
+    ),
+  attribute_ref=NameRef(
+      position=1:34,
+      identifier='contributions'
+    )
+)

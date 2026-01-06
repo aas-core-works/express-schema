@@ -1,0 +1,2 @@
+DERIVE
+    value : REAL := 3.14;

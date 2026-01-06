@@ -1,0 +1,1 @@
+alwaysTrue : BOOLEAN := TRUE;

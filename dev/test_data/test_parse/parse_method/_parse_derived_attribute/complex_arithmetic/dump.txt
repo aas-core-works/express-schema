@@ -1,0 +1,30 @@
+DerivedAttribute(
+  position=1:1,
+  attribute=NameRef(
+      position=1:1,
+      identifier='result'
+    ),
+  type_selection=RealType(
+      position=1:10
+    ),
+  init=BinaryExpr(
+      position=1:19,
+      left=BinaryExpr(
+          position=1:19,
+          left=IntegerLiteral(
+              position=1:19,
+              value=10
+            ),
+          op=BinaryOp.ADD,
+          right=IntegerLiteral(
+              position=1:24,
+              value=5
+            )
+        ),
+      op=BinaryOp.MULTIPLY,
+      right=RealLiteral(
+          position=1:29,
+          value=2.5
+        )
+    )
+)

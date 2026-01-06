@@ -1,0 +1,25 @@
+DeriveClause(
+  position=1:1,
+  derived_attributes=[DerivedAttribute(
+      position=2:5,
+      attribute=NameRef(
+          position=2:5,
+          identifier='sum'
+        ),
+      type_selection=IntegerType(
+          position=2:11
+        ),
+      init=BinaryExpr(
+          position=2:22,
+          left=NameRef(
+              position=2:22,
+              identifier='base'
+            ),
+          op=BinaryOp.ADD,
+          right=NameRef(
+              position=2:29,
+              identifier='offset'
+            )
+        )
+    )]
+)

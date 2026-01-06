@@ -1,0 +1,27 @@
+CallStmt(
+  position=1:1,
+  call=Call(
+      position=1:1,
+      callee=NameRef(
+          position=1:1,
+          identifier='processResult'
+        ),
+      args=[Arg(
+          position=1:15,
+          value=Call(
+              position=1:15,
+              callee=NameRef(
+                  position=1:15,
+                  identifier='getValue'
+                ),
+              args=[Arg(
+                  position=1:24,
+                  value=NameRef(
+                      position=1:24,
+                      identifier='input'
+                    )
+                )]
+            )
+        )]
+    )
+)

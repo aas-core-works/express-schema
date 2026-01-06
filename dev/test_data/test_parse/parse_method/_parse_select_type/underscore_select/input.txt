@@ -1,0 +1,1 @@
+SELECT (First_Type, Second_Type, Third_Type)

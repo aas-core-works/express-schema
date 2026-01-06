@@ -1,0 +1,6 @@
+RULE ComprehensiveCheck FOR (Building);
+WHERE
+  criterion1 : EXISTS(SELF.Name);
+  criterion2 : SELF.FloorCount > 0;
+  criterion3 : SIZEOF(SELF.Floors) = SELF.FloorCount;
+END_RULE;

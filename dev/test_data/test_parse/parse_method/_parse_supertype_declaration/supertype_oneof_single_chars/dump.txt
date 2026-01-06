@@ -1,0 +1,21 @@
+SupertypeOf(
+  position=1:1,
+  abstract=False,
+  of=Choice(
+      position=1:15,
+      supertype_exprs=[
+          NameRef(
+            position=1:22,
+            identifier='A'
+          ),
+          NameRef(
+            position=1:25,
+            identifier='B'
+          ),
+          NameRef(
+            position=1:28,
+            identifier='C'
+          )
+        ]
+    )
+)

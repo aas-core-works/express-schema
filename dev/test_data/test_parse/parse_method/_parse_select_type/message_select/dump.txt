@@ -1,0 +1,17 @@
+SelectType(
+  position=1:1,
+  values=[
+      NamedType(
+        position=1:9,
+        reference='EmailMessage'
+      ),
+      NamedType(
+        position=1:23,
+        reference='SmsMessage'
+      ),
+      NamedType(
+        position=1:35,
+        reference='ChatMessage'
+      )
+    ]
+)

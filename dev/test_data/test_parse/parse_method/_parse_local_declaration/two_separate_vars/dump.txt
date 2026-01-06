@@ -1,0 +1,16 @@
+[
+  LocalVariableDefinition(
+    position=2:5,
+    identifiers=['count'],
+    of_type=IntegerType(
+        position=2:13
+      )
+  ),
+  LocalVariableDefinition(
+    position=3:5,
+    identifiers=['value'],
+    of_type=RealType(
+        position=3:13
+      )
+  )
+]

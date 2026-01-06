@@ -1,0 +1,8 @@
+TypeDeclaration(
+  position=1:1,
+  identifier='StatusFlag',
+  type_selection=LogicalType(
+      position=1:19
+    ),
+  domain_rules=[]
+)

@@ -1,0 +1,8 @@
+SCHEMA TestSchema;
+REFERENCE FROM ExternalSchema;
+USE FROM BaseSchema;
+CONSTANT
+  MaxItems : INTEGER := 100;
+  DefaultStatus : STRING := 'Active';
+END_CONSTANT;
+END_SCHEMA;

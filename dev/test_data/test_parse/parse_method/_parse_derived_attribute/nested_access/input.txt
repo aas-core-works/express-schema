@@ -1,0 +1,1 @@
+nestedValue : STRING := someEntity.data.name;

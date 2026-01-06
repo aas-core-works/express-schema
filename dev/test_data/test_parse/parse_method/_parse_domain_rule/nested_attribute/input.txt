@@ -1,0 +1,1 @@
+deepRule : object.metadata.version = currentVersion;

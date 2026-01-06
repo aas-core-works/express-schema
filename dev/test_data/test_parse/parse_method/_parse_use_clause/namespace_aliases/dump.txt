@@ -1,0 +1,16 @@
+UseClause(
+  position=1:1,
+  schema_ref='company_lib',
+  use_list=[
+      UseItem(
+        position=1:23,
+        reference='company_data',
+        alias='data'
+      ),
+      UseItem(
+        position=1:45,
+        reference='item_info',
+        alias='info'
+      )
+    ]
+)

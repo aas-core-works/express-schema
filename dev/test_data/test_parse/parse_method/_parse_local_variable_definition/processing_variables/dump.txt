@@ -1,0 +1,28 @@
+LocalVariableDefinition(
+  position=1:1,
+  identifiers=[
+      'inputBuffer',
+      'outputBuffer',
+      'tempStorage'
+    ],
+  of_type=ConformantArrayType(
+      position=1:42,
+      bound_spec=BoundSpec(
+          position=1:48,
+          lower=IntegerLiteral(
+              position=1:49,
+              value=1
+            ),
+          upper=IntegerLiteral(
+              position=1:51,
+              value=1024
+            )
+        ),
+      optional=False,
+      unique=False,
+      of=BinaryType(
+          position=1:60,
+          fixed=False
+        )
+    )
+)

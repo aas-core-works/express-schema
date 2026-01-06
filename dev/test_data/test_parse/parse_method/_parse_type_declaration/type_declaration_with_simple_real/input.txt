@@ -1,0 +1,2 @@
+TYPE MeasurementValue = REAL;
+END_TYPE;

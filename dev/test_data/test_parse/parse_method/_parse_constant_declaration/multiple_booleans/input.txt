@@ -1,0 +1,5 @@
+CONSTANT
+    debug_mode : BOOLEAN := TRUE;
+    test_mode : BOOLEAN := FALSE;
+    production_mode : BOOLEAN := FALSE;
+END_CONSTANT;

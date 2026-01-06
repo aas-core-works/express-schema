@@ -1,0 +1,7 @@
+RULE MatrixValidation FOR (TransformationMatrix);
+TYPE
+  Matrix4x4 = ARRAY [1:4] OF ARRAY [1:4] OF REAL;
+END_TYPE;
+WHERE
+  criterion1 : SIZEOF(SELF.Elements) = 16;
+END_RULE;

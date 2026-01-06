@@ -1,0 +1,15 @@
+AggregateType(
+  position=1:1,
+  label='WrapperType',
+  of=ConformantArrayType(
+      position=1:28,
+      optional=True,
+      unique=True,
+      of=AggregateType(
+          position=1:53,
+          of=BooleanType(
+              position=1:66
+            )
+        )
+    )
+)

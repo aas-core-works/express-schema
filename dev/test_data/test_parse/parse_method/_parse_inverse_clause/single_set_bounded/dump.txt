@@ -1,0 +1,29 @@
+InverseClause(
+  position=1:1,
+  inverses=[InverseDefinition(
+      position=2:5,
+      attribute=NameRef(
+          position=2:5,
+          identifier='managers'
+        ),
+      inverse_type=InverseSet(
+          position=2:16,
+          bound_spec=BoundSpec(
+              position=2:20,
+              lower=IntegerLiteral(
+                  position=2:21,
+                  value=1
+                ),
+              upper=IntegerLiteral(
+                  position=2:23,
+                  value=10
+                )
+            ),
+          entity='ManagerData'
+        ),
+      attribute_ref=NameRef(
+          position=2:46,
+          identifier='employees'
+        )
+    )]
+)

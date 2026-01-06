@@ -1,0 +1,1 @@
+ONEOF (IfcBuilding, IfcWall, IfcDoor, IfcWindow)

@@ -1,0 +1,24 @@
+DomainRule(
+  position=1:1,
+  label='ratioRule',
+  expr=BinaryExpr(
+      position=1:14,
+      left=BinaryExpr(
+          position=1:14,
+          left=NameRef(
+              position=1:14,
+              identifier='numerator'
+            ),
+          op=BinaryOp.REAL_DIVIDE,
+          right=NameRef(
+              position=1:26,
+              identifier='denominator'
+            )
+        ),
+      op=BinaryOp.EQUAL,
+      right=NameRef(
+          position=1:41,
+          identifier='targetRatio'
+        )
+    )
+)

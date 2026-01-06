@@ -1,0 +1,12 @@
+BinaryExpr(
+  position=1:1,
+  left=NameRef(
+      position=1:1,
+      identifier='status'
+    ),
+  op=BinaryOp.EQUAL,
+  right=StringLiteral(
+      position=1:10,
+      value='active'
+    )
+)

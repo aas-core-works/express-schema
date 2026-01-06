@@ -1,0 +1,16 @@
+DomainRule(
+  position=1:1,
+  label='statusCheck',
+  expr=BinaryExpr(
+      position=1:15,
+      left=NameRef(
+          position=1:15,
+          identifier='state'
+        ),
+      op=BinaryOp.EQUAL,
+      right=NameRef(
+          position=1:23,
+          identifier='active'
+        )
+    )
+)

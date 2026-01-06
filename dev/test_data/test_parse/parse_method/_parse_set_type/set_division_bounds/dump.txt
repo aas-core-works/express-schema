@@ -1,0 +1,25 @@
+SetType(
+  position=1:1,
+  bound_spec=BoundSpec(
+      position=1:5,
+      lower=BinaryExpr(
+          position=1:6,
+          left=NameRef(
+              position=1:6,
+              identifier='size'
+            ),
+          op=BinaryOp.REAL_DIVIDE,
+          right=IntegerLiteral(
+              position=1:13,
+              value=2
+            )
+        ),
+      upper=NameRef(
+          position=1:15,
+          identifier='size'
+        )
+    ),
+  of=NumberType(
+      position=1:24
+    )
+)

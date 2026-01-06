@@ -1,0 +1,33 @@
+DeriveClause(
+  position=1:1,
+  derived_attributes=[
+      DerivedAttribute(
+        position=2:5,
+        attribute=NameRef(
+            position=2:5,
+            identifier='width'
+          ),
+        type_selection=IntegerType(
+            position=2:13
+          ),
+        init=IntegerLiteral(
+            position=2:24,
+            value=10
+          )
+      ),
+      DerivedAttribute(
+        position=3:5,
+        attribute=NameRef(
+            position=3:5,
+            identifier='height'
+          ),
+        type_selection=IntegerType(
+            position=3:14
+          ),
+        init=IntegerLiteral(
+            position=3:25,
+            value=20
+          )
+      )
+    ]
+)

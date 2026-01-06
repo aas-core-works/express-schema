@@ -1,0 +1,1 @@
+SELECT (camelCaseType, PascalCaseType, snake_case_type)

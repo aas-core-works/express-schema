@@ -1,0 +1,10 @@
+LOCAL
+    inputData : ARRAY [1:100] OF Component := [];
+    processingState : INTEGER := 0;
+    temp1, temp2, temp3 : REAL;
+    intermediateResults : LIST [1:50] OF ARRAY [1:10] OF REAL := [];
+    validationData : SET [1:20] OF ValidationResult;
+    errorFlags : ARRAY [1:10] OF BOOLEAN := [];
+    outputBuffer : BAG [0:200] OF ProcessedComponent := [];
+    finalResult : GENERIC : ResultType := UNKNOWN;
+END_LOCAL;

@@ -1,0 +1,15 @@
+PROCEDURE validateRange(value : REAL; VAR isValid : BOOLEAN; VAR normalizedValue : REAL);
+    CONSTANT
+        minValue : REAL := 0.0;
+        maxValue : REAL := 100.0;
+        defaultValue : REAL := 50.0;
+    END_CONSTANT;
+
+    IF (value >= minValue) AND (value <= maxValue) THEN
+        isValid := TRUE;
+        normalizedValue := value;
+    ELSE
+        isValid := FALSE;
+        normalizedValue := defaultValue;
+    END_IF;
+END_PROCEDURE;

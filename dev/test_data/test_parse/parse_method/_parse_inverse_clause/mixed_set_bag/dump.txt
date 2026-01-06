@@ -1,0 +1,35 @@
+InverseClause(
+  position=1:1,
+  inverses=[
+      InverseDefinition(
+        position=2:5,
+        attribute=NameRef(
+            position=2:5,
+            identifier='owners'
+          ),
+        inverse_type=InverseSet(
+            position=2:14,
+            entity='OwnerData'
+          ),
+        attribute_ref=NameRef(
+            position=2:35,
+            identifier='properties'
+          )
+      ),
+      InverseDefinition(
+        position=3:5,
+        attribute=NameRef(
+            position=3:5,
+            identifier='participants'
+          ),
+        inverse_type=InverseBag(
+            position=3:20,
+            entity='ParticipantData'
+          ),
+        attribute_ref=NameRef(
+            position=3:47,
+            identifier='activities'
+          )
+      )
+    ]
+)

@@ -1,0 +1,3 @@
+REPEAT i := 1 TO 10;
+    sum := sum + i;
+END_REPEAT;

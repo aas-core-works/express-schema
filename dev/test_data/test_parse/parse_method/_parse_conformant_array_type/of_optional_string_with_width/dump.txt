@@ -1,0 +1,13 @@
+ConformantArrayType(
+  position=1:1,
+  optional=True,
+  unique=False,
+  of=StringType(
+      position=1:19,
+      width=IntegerLiteral(
+          position=1:26,
+          value=100
+        ),
+      fixed=False
+    )
+)

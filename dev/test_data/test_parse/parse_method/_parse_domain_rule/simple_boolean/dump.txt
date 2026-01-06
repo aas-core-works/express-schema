@@ -1,0 +1,8 @@
+DomainRule(
+  position=1:1,
+  label='validRule',
+  expr=LogicalLiteral(
+      position=1:13,
+      value=TRUE
+    )
+)

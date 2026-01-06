@@ -1,0 +1,5 @@
+RULE ValueRange FOR (Parameter);
+WHERE
+  criterion1 : SELF.Value >= SELF.MinValue;
+  criterion2 : SELF.Value <= SELF.MaxValue;
+END_RULE;

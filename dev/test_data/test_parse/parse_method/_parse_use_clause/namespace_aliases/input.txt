@@ -1,0 +1,1 @@
+USE FROM company_lib (company_data AS data, item_info AS info);

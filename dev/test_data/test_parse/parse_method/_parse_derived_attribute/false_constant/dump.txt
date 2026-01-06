@@ -1,0 +1,14 @@
+DerivedAttribute(
+  position=1:1,
+  attribute=NameRef(
+      position=1:1,
+      identifier='alwaysFalse'
+    ),
+  type_selection=BooleanType(
+      position=1:15
+    ),
+  init=LogicalLiteral(
+      position=1:26,
+      value=FALSE
+    )
+)

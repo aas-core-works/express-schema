@@ -1,0 +1,9 @@
+IF hasData THEN
+    REPEAT i := 1 TO dataSize;
+        IF data[i] > threshold THEN
+            result[i] := data[i] * multiplier;
+        ELSE
+            result[i] := 0;
+        END_IF;
+    END_REPEAT;
+END_IF;

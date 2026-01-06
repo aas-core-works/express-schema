@@ -1,0 +1,15 @@
+ALIAS currentSet FOR workingSets[activeIndex];
+    IF currentSet <> UNKNOWN THEN
+        itemIndex := 1;
+        REPEAT WHILE (itemIndex <= SIZEOF(currentSet)) AND processing;
+            currentItem := currentSet[itemIndex];
+            CASE currentItem.category OF
+                1: processTypeOne(currentItem);
+                2: processTypeTwo(currentItem);
+                OTHERWISE: SKIP;
+            END_CASE;
+            processing := checkContinueProcessing();
+            itemIndex := itemIndex + 1;
+        END_REPEAT;
+    END_IF;
+END_ALIAS;

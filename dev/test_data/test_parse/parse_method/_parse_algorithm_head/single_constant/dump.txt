@@ -1,0 +1,15 @@
+AlgorithmHead(
+  declarations=[],
+  constant_definitions=[ConstantDefinition(
+      position=2:5,
+      identifier='maxSize',
+      type_selection=IntegerType(
+          position=2:15
+        ),
+      init=IntegerLiteral(
+          position=2:26,
+          value=1000
+        )
+    )],
+  local_variable_definitions=[]
+)

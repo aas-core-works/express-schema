@@ -1,0 +1,2 @@
+UNIQUE
+    spatialUnique : coordinateX, coordinateY, coordinateZ;

@@ -1,0 +1,1 @@
+participants : BAG [1:10] OF Person FOR activities;

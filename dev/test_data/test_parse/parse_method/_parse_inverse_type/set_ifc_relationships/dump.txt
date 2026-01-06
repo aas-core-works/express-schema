@@ -1,0 +1,4 @@
+InverseSet(
+  position=1:1,
+  entity='IfcRelationship'
+)

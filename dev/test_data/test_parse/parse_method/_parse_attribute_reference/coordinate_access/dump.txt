@@ -1,0 +1,11 @@
+IndexExpr(
+  position=1:1,
+  source=NameRef(
+      position=1:1,
+      identifier='coordinates'
+    ),
+  index=IntegerLiteral(
+      position=1:13,
+      value=0
+    )
+)

@@ -1,0 +1,1 @@
+someEntity.data\info.value

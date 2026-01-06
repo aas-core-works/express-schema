@@ -1,0 +1,13 @@
+ConformantArrayType(
+  position=1:1,
+  optional=True,
+  unique=False,
+  of=AggregateType(
+      position=1:19,
+      label='CollectionType',
+      of=StringType(
+          position=1:49,
+          fixed=False
+        )
+    )
+)

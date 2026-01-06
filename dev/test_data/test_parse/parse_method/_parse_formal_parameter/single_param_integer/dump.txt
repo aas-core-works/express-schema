@@ -1,0 +1,7 @@
+FormalParameter(
+  position=1:1,
+  identifiers=['count'],
+  of_type=IntegerType(
+      position=1:9
+    )
+)

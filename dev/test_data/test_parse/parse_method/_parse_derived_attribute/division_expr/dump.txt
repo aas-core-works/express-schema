@@ -1,0 +1,22 @@
+DerivedAttribute(
+  position=1:1,
+  attribute=NameRef(
+      position=1:1,
+      identifier='quotient'
+    ),
+  type_selection=RealType(
+      position=1:12
+    ),
+  init=BinaryExpr(
+      position=1:20,
+      left=RealLiteral(
+          position=1:20,
+          value=15.0
+        ),
+      op=BinaryOp.REAL_DIVIDE,
+      right=RealLiteral(
+          position=1:27,
+          value=3.0
+        )
+    )
+)

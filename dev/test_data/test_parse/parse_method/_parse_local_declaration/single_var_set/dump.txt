@@ -1,0 +1,22 @@
+[LocalVariableDefinition(
+  position=2:5,
+  identifiers=['collection'],
+  of_type=ConformantSetType(
+      position=2:18,
+      bound_spec=BoundSpec(
+          position=2:22,
+          lower=IntegerLiteral(
+              position=2:23,
+              value=1
+            ),
+          upper=IntegerLiteral(
+              position=2:25,
+              value=5
+            )
+        ),
+      of=NamedType(
+          position=2:31,
+          reference='Component'
+        )
+    )
+)]

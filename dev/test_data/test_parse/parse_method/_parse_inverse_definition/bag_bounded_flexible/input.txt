@@ -1,0 +1,1 @@
+processors : BAG [minSize:maxSize] OF ProcessorData FOR workItems;

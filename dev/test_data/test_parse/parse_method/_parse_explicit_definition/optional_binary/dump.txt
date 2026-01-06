@@ -1,0 +1,16 @@
+ExplicitAttributeDefinition(
+  position=1:1,
+  attributes=[NameRef(
+      position=1:1,
+      identifier='mask'
+    )],
+  optional=True,
+  type_selection=BinaryType(
+      position=1:17,
+      width=IntegerLiteral(
+          position=1:25,
+          value=32
+        ),
+      fixed=False
+    )
+)

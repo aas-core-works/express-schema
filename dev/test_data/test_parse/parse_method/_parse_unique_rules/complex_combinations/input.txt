@@ -1,0 +1,5 @@
+UNIQUE
+    basicUnique : name, code;
+    nestedUnique : data.metadata.id, info.category;
+    arrayUnique : coordinates[x], coordinates[y];
+    mixedUnique : simpleAttr, nested.prop, someArray[index];

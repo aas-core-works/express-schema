@@ -1,0 +1,34 @@
+PROCEDURE applyTransformation(
+        geometry : GeometricRepresentation;
+        transformationMatrix : ARRAY [1:4] OF ARRAY [1:4] OF REAL;
+        VAR transformedGeometry : GeometricRepresentation;
+        VAR transformationReport : TransformationReport
+    );
+    CONSTANT
+        identityMatrix : ARRAY [1:4] OF ARRAY [1:4] OF REAL := [];
+        maxScale : REAL := 10.0;
+    END_CONSTANT;
+
+    LOCAL
+        tempGeometry : GeometricRepresentation;
+        scaleFactor : REAL;
+        i, j : INTEGER;
+    END_LOCAL;
+
+    transformationReport.startTime := getCurrentTime();
+    tempGeometry := geometry;
+
+    scaleFactor := calculateScaleFactor(transformationMatrix);
+    IF scaleFactor > maxScale THEN
+        normalizeTransformationMatrix(transformationMatrix);
+        transformationReport.wasNormalized := TRUE;
+    ELSE
+        transformationReport.wasNormalized := FALSE;
+    END_IF;
+
+    transformedGeometry := performMatrixTransformation(tempGeometry, transformationMatrix);
+    validateTransformedGeometry(transformedGeometry);
+
+    transformationReport.endTime := getCurrentTime();
+    transformationReport.success := TRUE;
+END_PROCEDURE;

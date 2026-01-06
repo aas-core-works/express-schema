@@ -1,0 +1,12 @@
+ConstantDefinition(
+  position=1:1,
+  identifier='empty_value',
+  type_selection=StringType(
+      position=1:15,
+      fixed=False
+    ),
+  init=StringLiteral(
+      position=1:25,
+      value=''
+    )
+)

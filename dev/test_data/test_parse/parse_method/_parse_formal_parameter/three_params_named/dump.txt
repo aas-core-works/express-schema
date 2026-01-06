@@ -1,0 +1,12 @@
+FormalParameter(
+  position=1:1,
+  identifiers=[
+      'material',
+      'texture',
+      'surface'
+    ],
+  of_type=NamedType(
+      position=1:30,
+      reference='MaterialProperty'
+    )
+)

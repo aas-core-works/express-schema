@@ -1,0 +1,2 @@
+TYPE UniqueNames = LIST [1:50] OF UNIQUE STRING;
+END_TYPE;

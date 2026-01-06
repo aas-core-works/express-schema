@@ -1,0 +1,19 @@
+LocalVariableDefinition(
+  position=1:1,
+  identifiers=['result'],
+  of_type=RealType(
+      position=1:10
+    ),
+  init=BinaryExpr(
+      position=1:18,
+      left=NameRef(
+          position=1:18,
+          identifier='width'
+        ),
+      op=BinaryOp.MULTIPLY,
+      right=NameRef(
+          position=1:26,
+          identifier='height'
+        )
+    )
+)

@@ -1,0 +1,1 @@
+REFERENCE FROM my_definitions (CamelCaseItem, snake_case_item, PascalCaseData AS alias_name);

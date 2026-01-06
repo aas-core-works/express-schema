@@ -1,0 +1,4 @@
+DERIVE
+    GlobalId : STRING := createGUID();
+    Name : STRING := buildingType + '_' + identifier;
+    Description : STRING := 'Generated building: ' + Name;

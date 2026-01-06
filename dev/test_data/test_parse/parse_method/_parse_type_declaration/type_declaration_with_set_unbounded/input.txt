@@ -1,0 +1,2 @@
+TYPE CategorySet = SET [0:?] OF CategoryType;
+END_TYPE;

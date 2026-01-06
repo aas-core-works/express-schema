@@ -1,0 +1,18 @@
+IndexExpr(
+  position=1:1,
+  source=IndexExpr(
+      position=1:1,
+      source=NameRef(
+          position=1:1,
+          identifier='matrix'
+        ),
+      index=IntegerLiteral(
+          position=1:8,
+          value=1
+        )
+    ),
+  index=IntegerLiteral(
+      position=1:11,
+      value=2
+    )
+)

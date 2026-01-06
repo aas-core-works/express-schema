@@ -1,0 +1,27 @@
+ProcedureDeclaration(
+  position=1:1,
+  identifier='setValue',
+  formal_parameters=[FormalParameter(
+      position=1:20,
+      identifiers=['newValue'],
+      of_type=RealType(
+          position=1:31
+        )
+    )],
+  head=AlgorithmHead(
+      declarations=[],
+      constant_definitions=[],
+      local_variable_definitions=[]
+    ),
+  body=[AssignmentStmt(
+      position=2:5,
+      target=NameRef(
+          position=2:5,
+          identifier='currentValue'
+        ),
+      value=NameRef(
+          position=2:21,
+          identifier='newValue'
+        )
+    )]
+)

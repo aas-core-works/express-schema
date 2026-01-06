@@ -1,0 +1,1 @@
+REFERENCE FROM person_lib (person_definition AS individual, address_info, contact_details);

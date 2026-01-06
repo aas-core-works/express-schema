@@ -1,0 +1,22 @@
+ConformantArrayType(
+  position=1:1,
+  optional=True,
+  unique=True,
+  of=ConformantArrayType(
+      position=1:26,
+      optional=True,
+      unique=True,
+      of=AggregateType(
+          position=1:51,
+          label='OuterType',
+          of=ConformantArrayType(
+              position=1:76,
+              optional=True,
+              unique=True,
+              of=GenericType(
+                  position=1:101
+                )
+            )
+        )
+    )
+)

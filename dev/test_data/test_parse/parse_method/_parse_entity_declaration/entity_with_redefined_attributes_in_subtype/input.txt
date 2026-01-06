@@ -1,0 +1,5 @@
+ENTITY ColoredShape
+    SUBTYPE OF (Shape);
+    Color : STRING;
+    SELF\Shape.Description : OPTIONAL STRING;
+END_ENTITY;

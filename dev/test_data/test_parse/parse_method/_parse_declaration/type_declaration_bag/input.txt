@@ -1,0 +1,2 @@
+TYPE ItemBag = BAG [0:?] OF Item;
+END_TYPE;

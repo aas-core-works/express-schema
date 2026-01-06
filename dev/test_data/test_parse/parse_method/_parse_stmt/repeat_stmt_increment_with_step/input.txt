@@ -1,0 +1,3 @@
+REPEAT j := 0 TO 100 BY 5;
+    processValue(j);
+END_REPEAT;

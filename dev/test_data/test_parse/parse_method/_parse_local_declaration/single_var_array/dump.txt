@@ -1,0 +1,23 @@
+[LocalVariableDefinition(
+  position=2:5,
+  identifiers=['matrix'],
+  of_type=ConformantArrayType(
+      position=2:14,
+      bound_spec=BoundSpec(
+          position=2:20,
+          lower=IntegerLiteral(
+              position=2:21,
+              value=1
+            ),
+          upper=IntegerLiteral(
+              position=2:23,
+              value=10
+            )
+        ),
+      optional=False,
+      unique=False,
+      of=RealType(
+          position=2:30
+        )
+    )
+)]

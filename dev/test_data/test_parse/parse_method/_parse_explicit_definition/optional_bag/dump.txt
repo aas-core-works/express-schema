@@ -1,0 +1,15 @@
+ExplicitAttributeDefinition(
+  position=1:1,
+  attributes=[NameRef(
+      position=1:1,
+      identifier='data'
+    )],
+  optional=True,
+  type_selection=BagType(
+      position=1:17,
+      of=NamedType(
+          position=1:24,
+          reference='Value'
+        )
+    )
+)

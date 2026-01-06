@@ -1,0 +1,11 @@
+RULE OptimizationRule FOR (Algorithm);
+FUNCTION CalculateEfficiency(algorithm : Algorithm) : REAL;
+  RETURN(algorithm.OutputRate / algorithm.InputRate);
+END_FUNCTION;
+LOCAL
+  efficiency : REAL;
+END_LOCAL;
+WHERE
+  criterion1 : efficiency = CalculateEfficiency(SELF);
+  criterion2 : efficiency > 0.5;
+END_RULE;

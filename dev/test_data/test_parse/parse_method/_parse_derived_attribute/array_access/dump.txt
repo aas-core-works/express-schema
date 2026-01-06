@@ -1,0 +1,21 @@
+DerivedAttribute(
+  position=1:1,
+  attribute=NameRef(
+      position=1:1,
+      identifier='firstElement'
+    ),
+  type_selection=RealType(
+      position=1:16
+    ),
+  init=IndexExpr(
+      position=1:24,
+      source=NameRef(
+          position=1:24,
+          identifier='coordinates'
+        ),
+      index=IntegerLiteral(
+          position=1:36,
+          value=1
+        )
+    )
+)

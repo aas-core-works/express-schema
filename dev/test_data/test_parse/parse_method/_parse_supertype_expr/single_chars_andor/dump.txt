@@ -1,0 +1,20 @@
+SupertypeBinaryExpr(
+  position=1:1,
+  left=SupertypeBinaryExpr(
+      position=1:1,
+      left=NameRef(
+          position=1:1,
+          identifier='A'
+        ),
+      op=SupertypeBinaryOp.ANDOR,
+      right=NameRef(
+          position=1:9,
+          identifier='B'
+        )
+    ),
+  op=SupertypeBinaryOp.ANDOR,
+  right=NameRef(
+      position=1:17,
+      identifier='C'
+    )
+)

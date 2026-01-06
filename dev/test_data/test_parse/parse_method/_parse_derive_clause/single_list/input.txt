@@ -1,0 +1,2 @@
+DERIVE
+    sequence : LIST OF INTEGER := [1, 2, 3];

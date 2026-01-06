@@ -1,0 +1,27 @@
+IfStmt(
+  position=1:1,
+  condition=NameRef(
+      position=1:4,
+      identifier='flag'
+    ),
+  then=[AssignmentStmt(
+      position=2:5,
+      target=NameRef(
+          position=2:5,
+          identifier='count'
+        ),
+      value=BinaryExpr(
+          position=2:14,
+          left=NameRef(
+              position=2:14,
+              identifier='count'
+            ),
+          op=BinaryOp.ADD,
+          right=IntegerLiteral(
+              position=2:22,
+              value=1
+            )
+        )
+    )],
+  or_else=[]
+)

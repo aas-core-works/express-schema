@@ -1,0 +1,9 @@
+UNIQUE
+    basicRule : simpleAttribute;
+    pairRule : firstAttr, secondAttr;
+    tripleRule : attr1, attr2, attr3;
+    nestedRule : object.property, object.data.value;
+    arrayRule : matrix[0], vector[index];
+    selfRule : SELF;
+    expressionRule : getValue(), base + offset;
+    mixedRule : simple, nested.prop, someArray[0], SELF;

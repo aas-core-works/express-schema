@@ -1,0 +1,16 @@
+DomainRule(
+  position=1:1,
+  label='setEqualRule',
+  expr=BinaryExpr(
+      position=1:16,
+      left=NameRef(
+          position=1:16,
+          identifier='setA'
+        ),
+      op=BinaryOp.EQUAL,
+      right=NameRef(
+          position=1:23,
+          identifier='setB'
+        )
+    )
+)

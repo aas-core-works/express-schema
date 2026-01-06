@@ -1,0 +1,23 @@
+RealType(
+  position=1:1,
+  precision_spec=BinaryExpr(
+      position=1:7,
+      left=BinaryExpr(
+          position=1:7,
+          left=NameRef(
+              position=1:7,
+              identifier='x'
+            ),
+          op=BinaryOp.ADD,
+          right=NameRef(
+              position=1:11,
+              identifier='y'
+            )
+        ),
+      op=BinaryOp.REAL_DIVIDE,
+      right=IntegerLiteral(
+          position=1:16,
+          value=2
+        )
+    )
+)

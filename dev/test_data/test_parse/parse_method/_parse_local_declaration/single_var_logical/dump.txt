@@ -1,0 +1,7 @@
+[LocalVariableDefinition(
+  position=2:5,
+  identifiers=['state'],
+  of_type=LogicalType(
+      position=2:13
+    )
+)]

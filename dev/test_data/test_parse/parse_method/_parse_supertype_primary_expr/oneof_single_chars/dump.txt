@@ -1,0 +1,17 @@
+Choice(
+  position=1:1,
+  supertype_exprs=[
+      NameRef(
+        position=1:8,
+        identifier='A'
+      ),
+      NameRef(
+        position=1:11,
+        identifier='B'
+      ),
+      NameRef(
+        position=1:14,
+        identifier='C'
+      )
+    ]
+)

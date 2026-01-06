@@ -1,0 +1,11 @@
+BagType(
+  position=1:1,
+  of=BinaryType(
+      position=1:8,
+      width=IntegerLiteral(
+          position=1:15,
+          value=8
+        ),
+      fixed=False
+    )
+)

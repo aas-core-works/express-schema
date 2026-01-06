@@ -1,0 +1,1 @@
+mixedUnique : simpleAttr, nested.attr, someArray[0];

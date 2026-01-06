@@ -1,0 +1,6 @@
+DERIVE
+    centerX : REAL := (minX + maxX) / 2.0;
+    centerY : REAL := (minY + maxY) / 2.0;
+    centerZ : REAL := (minZ + maxZ) / 2.0;
+    center : Point := Point(centerX, centerY, centerZ);
+    volume : REAL := (maxX - minX) * (maxY - minY) * (maxZ - minZ);

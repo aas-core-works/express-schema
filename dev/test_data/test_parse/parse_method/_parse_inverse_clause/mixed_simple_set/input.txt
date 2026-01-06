@@ -1,0 +1,3 @@
+INVERSE
+    owner : Person FOR items;
+    managers : SET OF ManagerData FOR teams;

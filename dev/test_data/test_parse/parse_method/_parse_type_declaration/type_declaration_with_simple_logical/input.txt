@@ -1,0 +1,2 @@
+TYPE StatusFlag = LOGICAL;
+END_TYPE;

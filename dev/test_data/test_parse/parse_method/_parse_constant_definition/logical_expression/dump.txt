@@ -1,0 +1,35 @@
+ConstantDefinition(
+  position=1:1,
+  identifier='is_valid',
+  type_selection=BooleanType(
+      position=1:12
+    ),
+  init=BinaryExpr(
+      position=1:24,
+      left=BinaryExpr(
+          position=1:24,
+          left=NameRef(
+              position=1:24,
+              identifier='size'
+            ),
+          op=BinaryOp.GREATER_THAN,
+          right=IntegerLiteral(
+              position=1:31,
+              value=0
+            )
+        ),
+      op=BinaryOp.AND,
+      right=BinaryExpr(
+          position=1:39,
+          left=NameRef(
+              position=1:39,
+              identifier='name'
+            ),
+          op=BinaryOp.NOT_EQUAL,
+          right=StringLiteral(
+              position=1:47,
+              value=''
+            )
+        )
+    )
+)

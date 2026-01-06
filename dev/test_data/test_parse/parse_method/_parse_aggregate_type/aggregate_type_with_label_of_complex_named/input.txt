@@ -1,0 +1,1 @@
+AGGREGATE : PropertyType OF IfcComplexProperty

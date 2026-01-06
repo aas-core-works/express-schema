@@ -1,0 +1,5 @@
+UNIQUE
+    simpleNested : data.id;
+    deepNested : root.level1.level2.attribute;
+    arrayNested : matrix[row][col];
+    mixedNested : simple, nested.prop, someArray[index], SELF;

@@ -1,0 +1,4 @@
+PROCEDURE setPosition(x : REAL; y : REAL);
+    currentX := x;
+    currentY := y;
+END_PROCEDURE;

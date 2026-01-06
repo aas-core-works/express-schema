@@ -1,0 +1,33 @@
+CallStmt(
+  position=1:1,
+  call=Call(
+      position=1:1,
+      callee=NameRef(
+          position=1:1,
+          identifier='updatePosition'
+        ),
+      args=[
+          Arg(
+            position=1:16,
+            value=NameRef(
+                position=1:16,
+                identifier='x'
+              )
+          ),
+          Arg(
+            position=1:19,
+            value=NameRef(
+                position=1:19,
+                identifier='y'
+              )
+          ),
+          Arg(
+            position=1:22,
+            value=NameRef(
+                position=1:22,
+                identifier='z'
+              )
+          )
+        ]
+    )
+)

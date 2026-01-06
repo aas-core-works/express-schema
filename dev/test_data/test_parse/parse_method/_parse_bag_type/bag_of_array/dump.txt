@@ -1,0 +1,22 @@
+BagType(
+  position=1:1,
+  of=ArrayType(
+      position=1:8,
+      bound_spec=BoundSpec(
+          position=1:14,
+          lower=IntegerLiteral(
+              position=1:15,
+              value=1
+            ),
+          upper=IntegerLiteral(
+              position=1:17,
+              value=5
+            )
+        ),
+      optional=False,
+      unique=False,
+      of=IntegerType(
+          position=1:23
+        )
+    )
+)

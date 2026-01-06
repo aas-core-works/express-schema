@@ -1,0 +1,36 @@
+DomainRule(
+  position=1:1,
+  label='formatRule',
+  expr=BinaryExpr(
+      position=1:14,
+      left=Call(
+          position=1:14,
+          callee=NameRef(
+              position=1:14,
+              identifier='UPPER'
+            ),
+          args=[Arg(
+              position=1:20,
+              value=Call(
+                  position=1:20,
+                  callee=NameRef(
+                      position=1:20,
+                      identifier='TRIM'
+                    ),
+                  args=[Arg(
+                      position=1:25,
+                      value=NameRef(
+                          position=1:25,
+                          identifier='value'
+                        )
+                    )]
+                )
+            )]
+        ),
+      op=BinaryOp.EQUAL,
+      right=NameRef(
+          position=1:35,
+          identifier='expectedValue'
+        )
+    )
+)

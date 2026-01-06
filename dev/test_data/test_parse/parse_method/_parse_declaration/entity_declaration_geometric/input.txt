@@ -1,0 +1,7 @@
+ENTITY CartesianPoint;
+    coordinates : LIST [2:3] OF REAL;
+    DERIVE
+        dimension : INTEGER := SIZEOF(coordinates);
+    WHERE
+        validDimension : dimension IN [2, 3];
+END_ENTITY;

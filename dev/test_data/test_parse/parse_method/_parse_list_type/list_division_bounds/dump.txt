@@ -1,0 +1,26 @@
+ListType(
+  position=1:1,
+  bound_spec=BoundSpec(
+      position=1:6,
+      lower=BinaryExpr(
+          position=1:7,
+          left=NameRef(
+              position=1:7,
+              identifier='size'
+            ),
+          op=BinaryOp.REAL_DIVIDE,
+          right=IntegerLiteral(
+              position=1:14,
+              value=2
+            )
+        ),
+      upper=NameRef(
+          position=1:16,
+          identifier='size'
+        )
+    ),
+  unique=False,
+  of=NumberType(
+      position=1:25
+    )
+)

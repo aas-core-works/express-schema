@@ -1,0 +1,32 @@
+UniqueRule(
+  position=1:1,
+  label='allComplex',
+  attributes=[
+      AttributeRef(
+        position=1:14,
+        source=NameRef(
+            position=1:14,
+            identifier='obj1'
+          ),
+        identifier='prop'
+      ),
+      IndexExpr(
+        position=1:25,
+        source=AttributeRef(
+            position=1:25,
+            source=NameRef(
+                position=1:25,
+                identifier='obj2'
+              ),
+            identifier='data'
+          ),
+        index=IntegerLiteral(
+            position=1:35,
+            value=1
+          )
+      ),
+      Self(
+        position=1:39
+      )
+    ]
+)

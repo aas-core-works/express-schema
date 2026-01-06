@@ -1,0 +1,15 @@
+ExplicitAttributeDefinition(
+  position=1:1,
+  attributes=[NameRef(
+      position=1:1,
+      identifier='categories'
+    )],
+  optional=True,
+  type_selection=SetType(
+      position=1:23,
+      of=StringType(
+          position=1:30,
+          fixed=False
+        )
+    )
+)

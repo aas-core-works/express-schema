@@ -1,0 +1,28 @@
+ArrayType(
+  position=1:1,
+  bound_spec=BoundSpec(
+      position=1:7,
+      lower=AttributeRef(
+          position=1:8,
+          source=NameRef(
+              position=1:8,
+              identifier='config'
+            ),
+          identifier='first'
+        ),
+      upper=AttributeRef(
+          position=1:21,
+          source=NameRef(
+              position=1:21,
+              identifier='config'
+            ),
+          identifier='last'
+        )
+    ),
+  optional=False,
+  unique=False,
+  of=BinaryType(
+      position=1:37,
+      fixed=False
+    )
+)

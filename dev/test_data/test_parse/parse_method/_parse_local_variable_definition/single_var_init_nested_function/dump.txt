@@ -1,0 +1,37 @@
+LocalVariableDefinition(
+  position=1:1,
+  identifiers=['result'],
+  of_type=IntegerType(
+      position=1:10
+    ),
+  init=Call(
+      position=1:21,
+      callee=NameRef(
+          position=1:21,
+          identifier='SIZEOF'
+        ),
+      args=[Arg(
+          position=1:28,
+          value=QueryExpr(
+              position=1:28,
+              variable='item',
+              aggregate=NameRef(
+                  position=1:42,
+                  identifier='collection'
+                ),
+              predicate=BinaryExpr(
+                  position=1:55,
+                  left=NameRef(
+                      position=1:55,
+                      identifier='item'
+                    ),
+                  op=BinaryOp.GREATER_THAN,
+                  right=NameRef(
+                      position=1:62,
+                      identifier='threshold'
+                    )
+                )
+            )
+        )]
+    )
+)

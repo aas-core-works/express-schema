@@ -1,0 +1,1 @@
+BAG [1:5] OF ComponentReference

@@ -1,0 +1,25 @@
+SetType(
+  position=1:1,
+  bound_spec=BoundSpec(
+      position=1:5,
+      lower=Call(
+          position=1:6,
+          callee=NameRef(
+              position=1:6,
+              identifier='getMin'
+            ),
+          args=[]
+        ),
+      upper=Call(
+          position=1:15,
+          callee=NameRef(
+              position=1:15,
+              identifier='getMax'
+            ),
+          args=[]
+        )
+    ),
+  of=RealType(
+      position=1:28
+    )
+)

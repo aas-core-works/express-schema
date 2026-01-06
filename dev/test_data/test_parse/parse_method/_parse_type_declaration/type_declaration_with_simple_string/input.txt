@@ -1,0 +1,2 @@
+TYPE UserName = STRING;
+END_TYPE;

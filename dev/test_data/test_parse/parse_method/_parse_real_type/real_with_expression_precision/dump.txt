@@ -1,0 +1,15 @@
+RealType(
+  position=1:1,
+  precision_spec=BinaryExpr(
+      position=1:6,
+      left=NameRef(
+          position=1:6,
+          identifier='p'
+        ),
+      op=BinaryOp.ADD,
+      right=IntegerLiteral(
+          position=1:10,
+          value=5
+        )
+    )
+)

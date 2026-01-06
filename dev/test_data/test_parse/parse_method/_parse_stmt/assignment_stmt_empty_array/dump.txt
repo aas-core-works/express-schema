@@ -1,0 +1,11 @@
+AssignmentStmt(
+  position=1:1,
+  target=NameRef(
+      position=1:1,
+      identifier='items'
+    ),
+  value=AggregateLiteral(
+      position=1:10,
+      elements=[]
+    )
+)

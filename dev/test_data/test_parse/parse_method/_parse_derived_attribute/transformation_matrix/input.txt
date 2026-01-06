@@ -1,0 +1,1 @@
+identityMatrix : ARRAY [1:4] OF ARRAY [1:4] OF REAL := createIdentityMatrix();

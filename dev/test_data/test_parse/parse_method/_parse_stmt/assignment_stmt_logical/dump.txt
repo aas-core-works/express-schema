@@ -1,0 +1,11 @@
+AssignmentStmt(
+  position=1:1,
+  target=NameRef(
+      position=1:1,
+      identifier='state'
+    ),
+  value=LogicalLiteral(
+      position=1:10,
+      value=UNKNOWN
+    )
+)

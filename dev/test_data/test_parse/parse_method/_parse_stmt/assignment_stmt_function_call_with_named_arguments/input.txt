@@ -1,0 +1,4 @@
+length := LENGTH(
+-- text
+textThatIGotFromSomewhere
+);

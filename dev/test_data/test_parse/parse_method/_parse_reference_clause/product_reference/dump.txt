@@ -1,0 +1,19 @@
+ReferenceClause(
+  position=1:1,
+  schema_ref='product_lib',
+  import_list=[
+      ImportItem(
+        position=1:29,
+        reference='product_definition'
+      ),
+      ImportItem(
+        position=1:49,
+        reference='category_info',
+        alias='product_category'
+      ),
+      ImportItem(
+        position=1:84,
+        reference='supplier_data'
+      )
+    ]
+)

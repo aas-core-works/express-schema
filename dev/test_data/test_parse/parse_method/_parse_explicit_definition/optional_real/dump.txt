@@ -1,0 +1,11 @@
+ExplicitAttributeDefinition(
+  position=1:1,
+  attributes=[NameRef(
+      position=1:1,
+      identifier='value'
+    )],
+  optional=True,
+  type_selection=RealType(
+      position=1:18
+    )
+)

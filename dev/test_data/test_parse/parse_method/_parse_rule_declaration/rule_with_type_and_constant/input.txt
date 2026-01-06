@@ -1,0 +1,11 @@
+RULE MaterialValidation FOR (Material);
+TYPE
+  MaterialType = ENUMERATION OF (Metal, Plastic, Wood, Composite);
+END_TYPE;
+CONSTANT
+  DefaultDensity : REAL := 1.0;
+END_CONSTANT;
+WHERE
+  criterion1 : SELF.MaterialKind IN MaterialType;
+  criterion2 : SELF.Density > DefaultDensity;
+END_RULE;

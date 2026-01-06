@@ -1,0 +1,14 @@
+ExplicitAttributeDefinition(
+  position=1:1,
+  attributes=[NameRef(
+      position=1:1,
+      identifier='collection'
+    )],
+  optional=False,
+  type_selection=BagType(
+      position=1:14,
+      of=IntegerType(
+          position=1:21
+        )
+    )
+)

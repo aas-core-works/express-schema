@@ -1,0 +1,4 @@
+RULE PositiveValue FOR (Measurement);
+WHERE
+  criterion1 : SELF.Value > 0.0;
+END_RULE;

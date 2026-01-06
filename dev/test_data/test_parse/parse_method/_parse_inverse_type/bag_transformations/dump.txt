@@ -1,0 +1,4 @@
+InverseBag(
+  position=1:1,
+  entity='TransformationMatrix'
+)

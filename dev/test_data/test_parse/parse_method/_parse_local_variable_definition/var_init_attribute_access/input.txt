@@ -1,0 +1,1 @@
+itemCount : INTEGER := data.size;

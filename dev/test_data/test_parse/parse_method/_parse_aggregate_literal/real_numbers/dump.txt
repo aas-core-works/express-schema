@@ -1,0 +1,30 @@
+AggregateLiteral(
+  position=1:1,
+  elements=[
+      Element(
+        position=1:2,
+        expr=RealLiteral(
+            position=1:2,
+            value=3.14
+          )
+      ),
+      Element(
+        position=1:8,
+        expr=UnaryExpr(
+            position=1:8,
+            op=UnaryOp.NEG,
+            operand=RealLiteral(
+                position=1:9,
+                value=2.5
+              )
+          )
+      ),
+      Element(
+        position=1:14,
+        expr=RealLiteral(
+            position=1:14,
+            value=1.0E+3
+          )
+      )
+    ]
+)

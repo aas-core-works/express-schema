@@ -1,0 +1,5 @@
+RULE GeometricRelation FOR (Surface, Boundary);
+WHERE
+  criterion1 : SELF.Area > 0.0;
+  criterion2 : LENGTH(SELF.Perimeter) > 0.0;
+END_RULE;

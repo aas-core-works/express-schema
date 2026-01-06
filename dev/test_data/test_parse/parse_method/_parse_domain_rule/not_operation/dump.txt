@@ -1,0 +1,12 @@
+DomainRule(
+  position=1:1,
+  label='negationRule',
+  expr=UnaryExpr(
+      position=1:16,
+      op=UnaryOp.NOT,
+      operand=NameRef(
+          position=1:20,
+          identifier='isEmpty'
+        )
+    )
+)

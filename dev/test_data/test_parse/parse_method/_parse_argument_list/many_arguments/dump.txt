@@ -1,0 +1,30 @@
+[
+  Arg(
+    position=1:2,
+    value=IntegerLiteral(
+        position=1:2,
+        value=1
+      )
+  ),
+  Arg(
+    position=1:5,
+    value=IntegerLiteral(
+        position=1:5,
+        value=2
+      )
+  ),
+  Arg(
+    position=1:8,
+    value=IntegerLiteral(
+        position=1:8,
+        value=3
+      )
+  ),
+  Arg(
+    position=1:11,
+    value=IntegerLiteral(
+        position=1:11,
+        value=4
+      )
+  )
+]

@@ -1,0 +1,4 @@
+PROCEDURE transformGeneric(input : GENERIC : InputType; VAR output : GENERIC : OutputType);
+    output := performTransformation(input);
+    validateOutput(output);
+END_PROCEDURE;

@@ -1,0 +1,12 @@
+BinaryType(
+  position=1:1,
+  width=AttributeRef(
+      position=1:8,
+      source=NameRef(
+          position=1:8,
+          identifier='config'
+        ),
+      identifier='bitWidth'
+    ),
+  fixed=False
+)

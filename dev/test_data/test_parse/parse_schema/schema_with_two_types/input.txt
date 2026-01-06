@@ -1,0 +1,5 @@
+SCHEMA TestSchema;
+TYPE CoordinateValue = REAL;
+TYPE StatusKind = ENUMERATION OF (Active, Inactive);
+END_TYPE;
+END_SCHEMA;

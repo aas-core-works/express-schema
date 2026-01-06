@@ -1,0 +1,3 @@
+FUNCTION getDefaultName() : STRING;
+    RETURN('Default');
+END_FUNCTION;

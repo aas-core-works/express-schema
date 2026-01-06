@@ -1,0 +1,1 @@
+SUPERTYPE OF (Entity1 ANDOR Entity2 AND Entity3)

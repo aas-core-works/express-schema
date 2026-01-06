@@ -1,0 +1,3 @@
+LOCAL
+    state : LOGICAL;
+END_LOCAL;

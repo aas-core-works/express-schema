@@ -1,0 +1,3 @@
+LOCAL
+    matrix : ARRAY [1:10] OF REAL;
+END_LOCAL;

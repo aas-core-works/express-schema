@@ -1,0 +1,1 @@
+SET [startIdx:endIdx] OF STRING

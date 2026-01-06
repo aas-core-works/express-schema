@@ -1,0 +1,27 @@
+StringType(
+  position=1:1,
+  width=Call(
+      position=1:8,
+      callee=NameRef(
+          position=1:8,
+          identifier='max'
+        ),
+      args=[
+          Arg(
+            position=1:12,
+            value=NameRef(
+                position=1:12,
+                identifier='minSize'
+              )
+          ),
+          Arg(
+            position=1:21,
+            value=NameRef(
+                position=1:21,
+                identifier='defaultSize'
+              )
+          )
+        ]
+    ),
+  fixed=False
+)

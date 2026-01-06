@@ -1,0 +1,8 @@
+EnumType(
+  position=1:1,
+  values=[
+      'IDLE',
+      'BUSY',
+      'ERROR'
+    ]
+)

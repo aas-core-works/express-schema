@@ -1,0 +1,6 @@
+SCHEMA TestSchema;
+RULE ValidatePoint FOR (Point);
+WHERE
+  criterion1 : EXISTS(SELF.x);
+END_RULE;
+END_SCHEMA;

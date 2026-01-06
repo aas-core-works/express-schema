@@ -1,0 +1,4 @@
+UNIQUE
+    calculatedRule : base + offset, factor * multiplier;
+    functionRule : getValue(), getIndex();
+    comparisonRule : value > threshold, status = active;

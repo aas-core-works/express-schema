@@ -1,0 +1,16 @@
+ENTITY Vehicle
+    ABSTRACT SUPERTYPE OF (ONEOF(Car, Truck))
+    SUBTYPE OF (Asset);
+    Make : STRING;
+    Model : STRING;
+    Year : INTEGER;
+    DERIVE
+        Age : INTEGER := 2024 - Year;
+    INVERSE
+        OwnedBy : Person FOR Vehicles;
+    UNIQUE
+        UR1 : Make, Model, Year;
+    WHERE
+        WR1 : Year > 1900;
+        WR2 : Year <= 2024;
+END_ENTITY;

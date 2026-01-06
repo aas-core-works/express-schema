@@ -1,0 +1,25 @@
+FUNCTION transformGeometry(
+        geometry : GeometricRepresentation;
+        transformationMatrix : ARRAY [1:4] OF ARRAY [1:4] OF REAL;
+        scaling : REAL
+    ) : GeometricRepresentation;
+    CONSTANT
+        identityMatrix : ARRAY [1:4] OF ARRAY [1:4] OF REAL := [];
+        defaultScaling : REAL := 1.0;
+    END_CONSTANT;
+
+    LOCAL
+        result : GeometricRepresentation;
+        tempMatrix : ARRAY [1:4] OF ARRAY [1:4] OF REAL;
+        i, j : INTEGER;
+    END_LOCAL;
+
+    REPEAT i := 1 TO 4;
+        REPEAT j := 1 TO 4;
+            tempMatrix[i][j] := transformationMatrix[i][j] * scaling;
+        END_REPEAT;
+    END_REPEAT;
+
+    result := applyTransformation(geometry, tempMatrix);
+    RETURN(result);
+END_FUNCTION;

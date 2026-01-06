@@ -1,0 +1,3 @@
+PROCEDURE initialize();
+    SKIP;
+END_PROCEDURE;

@@ -1,0 +1,4 @@
+INVERSE
+    owners : SET OF OwnerData FOR properties;
+    managers : SET OF ManagerData FOR teams;
+    administrators : SET OF AdminData FOR systems;

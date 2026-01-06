@@ -1,0 +1,22 @@
+ExplicitAttributeDefinition(
+  position=1:1,
+  attributes=[
+      NameRef(
+        position=1:1,
+        identifier='veryLongAttributeName1'
+      ),
+      NameRef(
+        position=1:25,
+        identifier='veryLongAttributeName2'
+      ),
+      NameRef(
+        position=1:49,
+        identifier='veryLongAttributeName3'
+      )
+    ],
+  optional=False,
+  type_selection=StringType(
+      position=1:74,
+      fixed=False
+    )
+)

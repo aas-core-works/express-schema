@@ -1,0 +1,1 @@
+allComplex : obj1.prop, obj2.data[1], SELF;

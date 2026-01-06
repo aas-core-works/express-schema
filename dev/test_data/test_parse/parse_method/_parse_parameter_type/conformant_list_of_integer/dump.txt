@@ -1,0 +1,7 @@
+ConformantListType(
+  position=1:1,
+  unique=False,
+  of=IntegerType(
+      position=1:9
+    )
+)

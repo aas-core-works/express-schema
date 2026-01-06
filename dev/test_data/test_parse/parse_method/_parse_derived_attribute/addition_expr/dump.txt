@@ -1,0 +1,22 @@
+DerivedAttribute(
+  position=1:1,
+  attribute=NameRef(
+      position=1:1,
+      identifier='sum'
+    ),
+  type_selection=IntegerType(
+      position=1:7
+    ),
+  init=BinaryExpr(
+      position=1:18,
+      left=IntegerLiteral(
+          position=1:18,
+          value=10
+        ),
+      op=BinaryOp.ADD,
+      right=IntegerLiteral(
+          position=1:23,
+          value=5
+        )
+    )
+)

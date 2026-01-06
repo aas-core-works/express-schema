@@ -1,0 +1,7 @@
+RULE GeometryValidation FOR (Shape);
+FUNCTION IsValidGeometry(shape : Shape) : BOOLEAN;
+  RETURN(shape.Area > 0.0);
+END_FUNCTION;
+WHERE
+  criterion1 : IsValidGeometry(SELF);
+END_RULE;

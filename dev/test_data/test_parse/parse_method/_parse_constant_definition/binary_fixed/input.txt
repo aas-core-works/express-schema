@@ -1,0 +1,1 @@
+fixed_data : BINARY (16) FIXED := %1010101010101010;

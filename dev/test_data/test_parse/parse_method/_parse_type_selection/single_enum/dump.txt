@@ -1,0 +1,4 @@
+EnumType(
+  position=1:1,
+  values=['SINGLE_VALUE']
+)

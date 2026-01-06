@@ -1,0 +1,5 @@
+LOCAL
+    container : GENERIC := UNKNOWN;
+    typedContainer : GENERIC : DataType := [];
+    processor : GENERIC : ProcessorType := UNKNOWN;
+END_LOCAL;

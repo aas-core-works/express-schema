@@ -1,0 +1,9 @@
+UseClause(
+  position=1:1,
+  schema_ref='geometry_definitions',
+  use_list=[UseItem(
+      position=1:32,
+      reference='point_data',
+      alias='pt'
+    )]
+)

@@ -1,0 +1,26 @@
+SetType(
+  position=1:1,
+  bound_spec=BoundSpec(
+      position=1:5,
+      lower=AttributeRef(
+          position=1:6,
+          source=NameRef(
+              position=1:6,
+              identifier='config'
+            ),
+          identifier='startIndex'
+        ),
+      upper=AttributeRef(
+          position=1:24,
+          source=NameRef(
+              position=1:24,
+              identifier='config'
+            ),
+          identifier='maxLength'
+        )
+    ),
+  of=BinaryType(
+      position=1:45,
+      fixed=False
+    )
+)

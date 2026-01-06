@@ -1,0 +1,1 @@
+data : ARRAY [1:5] OF BAG OF STRING

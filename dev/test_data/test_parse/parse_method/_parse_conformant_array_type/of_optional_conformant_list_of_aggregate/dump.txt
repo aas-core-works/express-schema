@@ -1,0 +1,15 @@
+ConformantArrayType(
+  position=1:1,
+  optional=True,
+  unique=False,
+  of=ConformantListType(
+      position=1:19,
+      unique=False,
+      of=AggregateType(
+          position=1:27,
+          of=IntegerType(
+              position=1:40
+            )
+        )
+    )
+)

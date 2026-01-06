@@ -1,0 +1,14 @@
+BEGIN
+    translationMatrix[1][4] := deltaX;
+    translationMatrix[2][4] := deltaY;
+    translationMatrix[3][4] := deltaZ;
+
+    REPEAT i := 1 TO 3;
+        REPEAT j := 1 TO 3;
+            resultMatrix[i][j] := 0.0;
+            REPEAT k := 1 TO 3;
+                resultMatrix[i][j] := resultMatrix[i][j] + (transformMatrix[i][k] * translationMatrix[k][j]);
+            END_REPEAT;
+        END_REPEAT;
+    END_REPEAT;
+END;

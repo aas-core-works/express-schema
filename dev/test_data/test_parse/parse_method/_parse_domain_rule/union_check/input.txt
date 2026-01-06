@@ -1,0 +1,1 @@
+unionRule : (setA + setB) = combinedSet;

@@ -1,0 +1,8 @@
+RULE ReferenceCheck FOR (Product);
+ENTITY
+  ProductRef;
+    identifier : STRING;
+  END_ENTITY;
+WHERE
+  criterion1 : EXISTS(SELF.ProductReference);
+END_RULE;

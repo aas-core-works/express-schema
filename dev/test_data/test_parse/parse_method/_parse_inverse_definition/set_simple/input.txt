@@ -1,0 +1,1 @@
+owners : SET OF Person FOR ownedItems;

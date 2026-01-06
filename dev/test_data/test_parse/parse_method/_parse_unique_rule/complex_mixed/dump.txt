@@ -1,0 +1,32 @@
+UniqueRule(
+  position=1:1,
+  label='advancedUnique',
+  attributes=[
+      AttributeRef(
+        position=1:18,
+        source=AttributeRef(
+            position=1:18,
+            source=NameRef(
+                position=1:18,
+                identifier='data'
+              ),
+            identifier='metadata'
+          ),
+        identifier='id'
+      ),
+      IndexExpr(
+        position=1:36,
+        source=NameRef(
+            position=1:36,
+            identifier='elements'
+          ),
+        index=NameRef(
+            position=1:45,
+            identifier='primaryIndex'
+          )
+      ),
+      Self(
+        position=1:60
+      )
+    ]
+)

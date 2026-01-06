@@ -1,0 +1,24 @@
+DerivedAttribute(
+  position=1:1,
+  attribute=NameRef(
+      position=1:1,
+      identifier='hasValue'
+    ),
+  type_selection=BooleanType(
+      position=1:12
+    ),
+  init=Call(
+      position=1:23,
+      callee=NameRef(
+          position=1:23,
+          identifier='EXISTS'
+        ),
+      args=[Arg(
+          position=1:30,
+          value=NameRef(
+              position=1:30,
+              identifier='optionalAttribute'
+            )
+        )]
+    )
+)

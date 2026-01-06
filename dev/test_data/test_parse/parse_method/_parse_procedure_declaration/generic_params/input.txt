@@ -1,0 +1,3 @@
+PROCEDURE processGeneric(item : GENERIC; VAR result : GENERIC);
+    result := performGenericProcessing(item);
+END_PROCEDURE;

@@ -1,0 +1,7 @@
+[LocalVariableDefinition(
+  position=2:5,
+  identifiers=['flag'],
+  of_type=BooleanType(
+      position=2:12
+    )
+)]

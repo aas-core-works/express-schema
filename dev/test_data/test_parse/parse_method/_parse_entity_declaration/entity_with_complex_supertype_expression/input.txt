@@ -1,0 +1,5 @@
+ENTITY Document
+    SUPERTYPE OF (ONEOF(TextDocument, ImageDocument) ANDOR SpreadsheetDocument);
+    Title : STRING;
+    CreatedDate : STRING;
+END_ENTITY;

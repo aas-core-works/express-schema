@@ -1,0 +1,22 @@
+ExplicitAttributeDefinition(
+  position=1:1,
+  attributes=[
+      NameRef(
+        position=1:1,
+        identifier='firstName'
+      ),
+      NameRef(
+        position=1:12,
+        identifier='last_name'
+      ),
+      NameRef(
+        position=1:23,
+        identifier='MiddleName'
+      )
+    ],
+  optional=False,
+  type_selection=StringType(
+      position=1:36,
+      fixed=False
+    )
+)

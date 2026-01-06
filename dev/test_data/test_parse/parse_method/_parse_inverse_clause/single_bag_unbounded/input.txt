@@ -1,0 +1,2 @@
+INVERSE
+    contributors : BAG OF Person FOR contributions;

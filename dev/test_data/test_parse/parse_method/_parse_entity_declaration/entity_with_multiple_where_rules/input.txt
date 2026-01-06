@@ -1,0 +1,8 @@
+ENTITY Rectangle;
+    Width : REAL;
+    Height : REAL;
+    WHERE
+        WR1 : Width > 0.0;
+        WR2 : Height > 0.0;
+        WR3 : Width <> Height;
+END_ENTITY;

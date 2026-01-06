@@ -1,0 +1,11 @@
+LocalVariableDefinition(
+  position=1:1,
+  identifiers=['count'],
+  of_type=IntegerType(
+      position=1:9
+    ),
+  init=IntegerLiteral(
+      position=1:20,
+      value=0
+    )
+)

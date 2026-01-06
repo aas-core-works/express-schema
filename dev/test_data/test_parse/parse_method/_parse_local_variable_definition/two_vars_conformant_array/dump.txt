@@ -1,0 +1,16 @@
+LocalVariableDefinition(
+  position=1:1,
+  identifiers=[
+      'inputArray',
+      'outputArray'
+    ],
+  of_type=ConformantArrayType(
+      position=1:27,
+      optional=False,
+      unique=False,
+      of=StringType(
+          position=1:36,
+          fixed=False
+        )
+    )
+)

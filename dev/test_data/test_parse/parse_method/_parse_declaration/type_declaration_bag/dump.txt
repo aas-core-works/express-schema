@@ -1,0 +1,22 @@
+TypeDeclaration(
+  position=1:1,
+  identifier='ItemBag',
+  type_selection=BagType(
+      position=1:16,
+      bound_spec=BoundSpec(
+          position=1:20,
+          lower=IntegerLiteral(
+              position=1:21,
+              value=0
+            ),
+          upper=IndeterminateLiteral(
+              position=1:23
+            )
+        ),
+      of=NamedType(
+          position=1:29,
+          reference='Item'
+        )
+    ),
+  domain_rules=[]
+)

@@ -1,0 +1,16 @@
+UseClause(
+  position=1:1,
+  schema_ref='lib_v1',
+  use_list=[
+      UseItem(
+        position=1:18,
+        reference='old_definition',
+        alias='new_definition'
+      ),
+      UseItem(
+        position=1:52,
+        reference='legacy_item',
+        alias='modern_item'
+      )
+    ]
+)

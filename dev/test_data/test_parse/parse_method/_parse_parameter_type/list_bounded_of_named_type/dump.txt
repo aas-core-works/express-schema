@@ -1,0 +1,19 @@
+ConformantListType(
+  position=1:1,
+  bound_spec=BoundSpec(
+      position=1:6,
+      lower=IntegerLiteral(
+          position=1:7,
+          value=1
+        ),
+      upper=IntegerLiteral(
+          position=1:9,
+          value=5
+        )
+    ),
+  unique=False,
+  of=NamedType(
+      position=1:15,
+      reference='ComponentReference'
+    )
+)

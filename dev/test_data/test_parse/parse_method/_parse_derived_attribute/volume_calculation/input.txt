@@ -1,0 +1,1 @@
+volume : REAL := length * width * height;
