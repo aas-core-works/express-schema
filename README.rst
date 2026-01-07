@@ -199,6 +199,10 @@ See `CONTRIBUTING.rst`_.
 
 Change Log
 ==========
+1.0.2 (2026-01-07)
+------------------
+A very misleading reference to Git checkout is removed from the readme (the package is available on PyPI, so no checkout is necessary).
+
 1.0.1 (2026-01-07)
 ------------------
 We add the ``py.typed`` marker so that downstream clients can use this package with mypy.
