@@ -195,7 +195,9 @@ Example:
 
 Contributing
 ============
-See [CONTRIBUTING.rst](CONTRIBUTING.rst).
+See `CONTRIBUTING.rst`_.
+
+.. _CONTRIBUTING.rst: CONTRIBUTING.rst
 
 Change Log
 ==========
