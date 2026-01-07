@@ -6,7 +6,7 @@ build-backend = "setuptools.build_meta"
 name = "express-schema"
 # NOTE (mristin):
 # Do not forget to sync with __init__.py!
-version = "1.0.1"
+version = "1.0.2"
 
 description = "Parse EXPRESS Schema (ISO 10303-11)."
 readme = "README.rst"
