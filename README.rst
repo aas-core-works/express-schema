@@ -201,6 +201,10 @@ See `CONTRIBUTING.rst`_.
 
 Change Log
 ==========
+1.0.1 (2026-01-07)
+------------------
+We add the ``py.typed`` marker so that downstream clients can use this package with mypy.
+
 1.0.0 (2026-01-07)
 ------------------
 This is the first version where we successfully performed the experiments with IFC to AAS conversion.
