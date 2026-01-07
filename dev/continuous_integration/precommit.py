@@ -194,7 +194,7 @@ def main() -> int:
                 "coverage",
                 "run",
                 "--source",
-                "aas_core_codegen",
+                "express_schema",
                 "-m",
                 "unittest",
                 "discover",
@@ -203,6 +203,12 @@ def main() -> int:
             ],
             cwd=repo_root,
             env=env,
+        )
+        if exit_code != 0:
+            return 1
+
+        exit_code = call_and_report(
+            verb="report the coverage", cmd=["coverage", "report"]
         )
         if exit_code != 0:
             return 1
