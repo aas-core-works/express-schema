@@ -186,3 +186,9 @@ Example:
 Contributing
 ============
 See [CONTRIBUTING.rst](CONTRIBUTING.rst).
+
+Change Log
+==========
+1.0.0 (2026-01-07)
+------------------
+This is the first version where we successfully performed the experiments with IFC to AAS conversion.
