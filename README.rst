@@ -20,8 +20,6 @@ Parse EXPRESS Schema (ISO 10303-11).
 
 Installation
 ============
-Check out the repository and change to its directory.
-
 Create a virtual environment:
 
 .. code-block::
