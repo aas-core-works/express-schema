@@ -54,6 +54,8 @@ The Abstract Syntax Tree and parsing functionality lives in ``express_schema.par
 
 Example:
 
+.. code-block::
+
     >>> import express_schema.parse as parse
     >>>
     >>> # Define a simple EXPRESS schema as a string
@@ -73,7 +75,10 @@ Example:
     >>> if errors is not None:
     ...     print("Parsing errors occurred:")
     ...     for error in errors:
-    ...         print(f"  Line {error.line}, Column {error.column}: {error.message}")
+    ...         print(
+    ...             f"  Line {error.line}, Column {error.column}: "
+    ...             f"{error.message}"
+    ...         )
     ... else:
     ...     print("Schema parsed successfully!")
     ...     print(f"Schema name: {schema.identifier}")
@@ -136,6 +141,8 @@ If, for some reason, you only want to tokenize and not parse the schema, you can
 
 Example:
 
+.. code-block::
+
     >>> import express_schema.lex as lex
     >>>
     >>> # Define a simple EXPRESS schema text to tokenize
@@ -154,7 +161,10 @@ Example:
     ...     print(f"Number of tokens: {len(tokens)}")
     ...     print("First few tokens:")
     ...     for token in tokens[:5]:
-    ...         print(f"  {token.kind.name} at {token.position}: {token.text!r}")
+    ...         print(
+    ...             f"  {token.kind.name} at {token.position}: "
+    ...             f"{token.text!r}"
+    ...         )
     ... else:
     ...     print("Tokenization failed!")
     Tokenization successful!
