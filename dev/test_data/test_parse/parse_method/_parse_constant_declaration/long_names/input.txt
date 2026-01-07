@@ -1,0 +1,4 @@
+CONSTANT
+    very_long_constant_name_for_comprehensive_testing : INTEGER := 42;
+    another_extremely_long_identifier_name : STRING := 'test';
+END_CONSTANT;

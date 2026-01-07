@@ -1,0 +1,8 @@
+UnaryExpr(
+  position=1:1,
+  op=UnaryOp.NOT,
+  operand=NameRef(
+      position=1:5,
+      identifier='condition'
+    )
+)

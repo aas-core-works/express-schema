@@ -1,0 +1,1 @@
+BAG OF ARRAY [1:3] OF REAL

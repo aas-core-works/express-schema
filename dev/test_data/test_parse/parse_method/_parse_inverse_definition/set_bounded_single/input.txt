@@ -1,0 +1,1 @@
+owner : SET [1:1] OF OwnerData FOR asset;

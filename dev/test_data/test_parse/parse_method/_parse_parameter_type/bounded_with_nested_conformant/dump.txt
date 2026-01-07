@@ -1,0 +1,26 @@
+ConformantArrayType(
+  position=1:1,
+  bound_spec=BoundSpec(
+      position=1:7,
+      lower=IntegerLiteral(
+          position=1:8,
+          value=1
+        ),
+      upper=IntegerLiteral(
+          position=1:10,
+          value=5
+        )
+    ),
+  optional=False,
+  unique=False,
+  of=ConformantSetType(
+      position=1:16,
+      of=ConformantListType(
+          position=1:23,
+          unique=True,
+          of=IntegerType(
+              position=1:38
+            )
+        )
+    )
+)

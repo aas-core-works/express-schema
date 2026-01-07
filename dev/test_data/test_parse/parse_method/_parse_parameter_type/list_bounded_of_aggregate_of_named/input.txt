@@ -1,0 +1,1 @@
+LIST [1:10] OF AGGREGATE OF ComponentType

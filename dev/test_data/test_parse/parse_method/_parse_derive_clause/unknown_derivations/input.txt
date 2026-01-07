@@ -1,0 +1,4 @@
+DERIVE
+    unknownValue : LOGICAL := UNKNOWN;
+    undefinedState : INTEGER := UNKNOWN;
+    indeterminateFlag : BOOLEAN := UNKNOWN;

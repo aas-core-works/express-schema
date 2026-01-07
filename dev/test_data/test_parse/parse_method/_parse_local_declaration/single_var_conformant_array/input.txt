@@ -1,0 +1,3 @@
+LOCAL
+    data : ARRAY OF STRING;
+END_LOCAL;

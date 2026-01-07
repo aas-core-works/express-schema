@@ -1,0 +1,11 @@
+AggregateType(
+  position=1:1,
+  label='OuterType',
+  of=AggregateType(
+      position=1:26,
+      label='InnerType',
+      of=IntegerType(
+          position=1:51
+        )
+    )
+)

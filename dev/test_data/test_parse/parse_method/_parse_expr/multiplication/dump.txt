@@ -1,0 +1,12 @@
+BinaryExpr(
+  position=1:1,
+  left=NameRef(
+      position=1:1,
+      identifier='x'
+    ),
+  op=BinaryOp.MULTIPLY,
+  right=NameRef(
+      position=1:5,
+      identifier='y'
+    )
+)

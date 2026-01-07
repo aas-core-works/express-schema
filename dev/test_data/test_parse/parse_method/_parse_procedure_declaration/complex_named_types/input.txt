@@ -1,0 +1,4 @@
+PROCEDURE transformGeometry(geometry : GeometricRepresentation; VAR transformedGeometry : GeometricRepresentation);
+    transformedGeometry := applyDefaultTransformation(geometry);
+    validateGeometry(transformedGeometry);
+END_PROCEDURE;

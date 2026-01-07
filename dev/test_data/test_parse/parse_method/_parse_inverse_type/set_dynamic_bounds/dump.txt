@@ -1,0 +1,15 @@
+InverseSet(
+  position=1:1,
+  bound_spec=BoundSpec(
+      position=1:5,
+      lower=NameRef(
+          position=1:6,
+          identifier='minElements'
+        ),
+      upper=NameRef(
+          position=1:18,
+          identifier='maxElements'
+        )
+    ),
+  entity='DynamicElement'
+)

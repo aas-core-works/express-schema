@@ -1,0 +1,11 @@
+AggregateType(
+  position=1:1,
+  of=BinaryType(
+      position=1:14,
+      width=IntegerLiteral(
+          position=1:21,
+          value=1024
+        ),
+      fixed=False
+    )
+)

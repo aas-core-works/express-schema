@@ -1,0 +1,2 @@
+INVERSE
+    owner : Person FOR ownedItems;

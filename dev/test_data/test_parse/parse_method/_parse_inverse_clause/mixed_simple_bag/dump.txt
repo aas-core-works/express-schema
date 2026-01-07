@@ -1,0 +1,35 @@
+InverseClause(
+  position=1:1,
+  inverses=[
+      InverseDefinition(
+        position=2:5,
+        attribute=NameRef(
+            position=2:5,
+            identifier='coordinator'
+          ),
+        inverse_type=NameRef(
+            position=2:19,
+            identifier='CoordinatorData'
+          ),
+        attribute_ref=NameRef(
+            position=2:39,
+            identifier='projects'
+          )
+      ),
+      InverseDefinition(
+        position=3:5,
+        attribute=NameRef(
+            position=3:5,
+            identifier='contributors'
+          ),
+        inverse_type=InverseBag(
+            position=3:20,
+            entity='ContributorData'
+          ),
+        attribute_ref=NameRef(
+            position=3:47,
+            identifier='contributions'
+          )
+      )
+    ]
+)

@@ -1,0 +1,7 @@
+RULE StatusValidation FOR (Component);
+CONSTANT
+  ValidStatus : STRING := 'ACTIVE';
+END_CONSTANT;
+WHERE
+  criterion1 : SELF.Status = ValidStatus;
+END_RULE;

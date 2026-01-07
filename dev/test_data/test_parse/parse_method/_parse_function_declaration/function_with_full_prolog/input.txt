@@ -1,0 +1,29 @@
+FUNCTION dataProcessor(input : ARRAY [1:?] OF REAL; threshold : REAL) : ARRAY [1:?] OF REAL;
+    TYPE FilterMode = ENUMERATION OF
+        (above, below, between);
+    END_TYPE;
+
+    FUNCTION applyFilter(value : REAL; mode : FilterMode) : BOOLEAN;
+        RETURN(value > threshold);
+    END_FUNCTION;
+
+    CONSTANT
+        defaultThreshold : REAL := 10.0;
+        maxItems : INTEGER := 1000;
+    END_CONSTANT;
+
+    LOCAL
+        filteredData : ARRAY [1:maxItems] OF REAL := [];
+        filteredCount : INTEGER := 0;
+        i : INTEGER;
+    END_LOCAL;
+
+    REPEAT i := 1 TO SIZEOF(input);
+        IF applyFilter(input[i], above) THEN
+            filteredCount := filteredCount + 1;
+            filteredData[filteredCount] := input[i];
+        END_IF;
+    END_REPEAT;
+
+    RETURN(filteredData);
+END_FUNCTION;

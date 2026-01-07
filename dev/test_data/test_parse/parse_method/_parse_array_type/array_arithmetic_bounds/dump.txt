@@ -1,0 +1,35 @@
+ArrayType(
+  position=1:1,
+  bound_spec=BoundSpec(
+      position=1:7,
+      lower=BinaryExpr(
+          position=1:8,
+          left=NameRef(
+              position=1:8,
+              identifier='i'
+            ),
+          op=BinaryOp.ADD,
+          right=IntegerLiteral(
+              position=1:12,
+              value=1
+            )
+        ),
+      upper=BinaryExpr(
+          position=1:14,
+          left=NameRef(
+              position=1:14,
+              identifier='n'
+            ),
+          op=BinaryOp.MULTIPLY,
+          right=IntegerLiteral(
+              position=1:18,
+              value=2
+            )
+        )
+    ),
+  optional=False,
+  unique=False,
+  of=BooleanType(
+      position=1:24
+    )
+)

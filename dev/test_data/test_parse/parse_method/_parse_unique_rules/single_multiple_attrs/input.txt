@@ -1,0 +1,2 @@
+UNIQUE
+    uniquePair : firstName, lastName;

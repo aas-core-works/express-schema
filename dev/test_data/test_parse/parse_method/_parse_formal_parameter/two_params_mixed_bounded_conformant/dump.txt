@@ -1,0 +1,29 @@
+FormalParameter(
+  position=1:1,
+  identifiers=[
+      'input',
+      'output'
+    ],
+  of_type=ConformantListType(
+      position=1:17,
+      bound_spec=BoundSpec(
+          position=1:22,
+          lower=IntegerLiteral(
+              position=1:23,
+              value=0
+            ),
+          upper=IndeterminateLiteral(
+              position=1:25
+            )
+        ),
+      unique=False,
+      of=ConformantArrayType(
+          position=1:31,
+          optional=False,
+          unique=False,
+          of=RealType(
+              position=1:40
+            )
+        )
+    )
+)

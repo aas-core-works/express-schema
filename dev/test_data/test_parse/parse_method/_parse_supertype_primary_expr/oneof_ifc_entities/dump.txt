@@ -1,0 +1,21 @@
+Choice(
+  position=1:1,
+  supertype_exprs=[
+      NameRef(
+        position=1:8,
+        identifier='IfcBuilding'
+      ),
+      NameRef(
+        position=1:21,
+        identifier='IfcWall'
+      ),
+      NameRef(
+        position=1:30,
+        identifier='IfcDoor'
+      ),
+      NameRef(
+        position=1:39,
+        identifier='IfcWindow'
+      )
+    ]
+)

@@ -1,0 +1,17 @@
+DerivedAttribute(
+  position=1:1,
+  attribute=NameRef(
+      position=1:1,
+      identifier='selfValue'
+    ),
+  type_selection=RealType(
+      position=1:13
+    ),
+  init=AttributeRef(
+      position=1:21,
+      source=Self(
+          position=1:21
+        ),
+      identifier='baseValue'
+    )
+)

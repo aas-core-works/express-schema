@@ -1,0 +1,1 @@
+DefaultTimeout : REAL := 30.0;

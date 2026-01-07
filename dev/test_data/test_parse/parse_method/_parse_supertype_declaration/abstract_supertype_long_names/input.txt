@@ -1,0 +1,1 @@
+ABSTRACT SUPERTYPE OF (VeryLongEntityNameOne ANDOR VeryLongEntityNameTwo)

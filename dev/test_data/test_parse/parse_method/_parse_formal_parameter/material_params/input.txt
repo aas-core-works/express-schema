@@ -1,0 +1,1 @@
+diffuseColor, specularColor, ambientColor : SET [1:3] OF NUMBER

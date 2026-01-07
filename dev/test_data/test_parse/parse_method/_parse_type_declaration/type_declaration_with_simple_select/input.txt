@@ -1,0 +1,2 @@
+TYPE GeometryRef = SELECT (PointType, LineType, SurfaceType);
+END_TYPE;

@@ -1,0 +1,17 @@
+FormalParameter(
+  position=1:1,
+  identifiers=[
+      'data1',
+      'data2',
+      'data3',
+      'data4',
+      'data5'
+    ],
+  of_type=ConformantListType(
+      position=1:37,
+      unique=True,
+      of=RealType(
+          position=1:52
+        )
+    )
+)

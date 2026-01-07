@@ -1,0 +1,1 @@
+ARRAY [1:100] OF MyCustomType

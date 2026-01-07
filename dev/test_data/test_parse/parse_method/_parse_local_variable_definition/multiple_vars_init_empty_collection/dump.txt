@@ -1,0 +1,29 @@
+LocalVariableDefinition(
+  position=1:1,
+  identifiers=[
+      'list1',
+      'list2'
+    ],
+  of_type=ConformantListType(
+      position=1:16,
+      bound_spec=BoundSpec(
+          position=1:21,
+          lower=IntegerLiteral(
+              position=1:22,
+              value=1
+            ),
+          upper=IntegerLiteral(
+              position=1:24,
+              value=10
+            )
+        ),
+      unique=False,
+      of=IntegerType(
+          position=1:31
+        )
+    ),
+  init=AggregateLiteral(
+      position=1:42,
+      elements=[]
+    )
+)

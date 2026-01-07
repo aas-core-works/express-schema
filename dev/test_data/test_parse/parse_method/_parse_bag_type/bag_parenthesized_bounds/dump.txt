@@ -1,0 +1,33 @@
+BagType(
+  position=1:1,
+  bound_spec=BoundSpec(
+      position=1:5,
+      lower=BinaryExpr(
+          position=1:7,
+          left=NameRef(
+              position=1:7,
+              identifier='a'
+            ),
+          op=BinaryOp.ADD,
+          right=NameRef(
+              position=1:11,
+              identifier='b'
+            )
+        ),
+      upper=BinaryExpr(
+          position=1:15,
+          left=NameRef(
+              position=1:15,
+              identifier='c'
+            ),
+          op=BinaryOp.MULTIPLY,
+          right=NameRef(
+              position=1:19,
+              identifier='d'
+            )
+        )
+    ),
+  of=IntegerType(
+      position=1:26
+    )
+)

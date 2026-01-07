@@ -1,0 +1,4 @@
+DERIVE
+    x : REAL := 0.0;
+    y : REAL := 1.0;
+    z : REAL := 2.0;

@@ -1,0 +1,12 @@
+ConformantArrayType(
+  position=1:1,
+  optional=True,
+  unique=False,
+  of=RealType(
+      position=1:19,
+      precision_spec=IntegerLiteral(
+          position=1:24,
+          value=15
+        )
+    )
+)

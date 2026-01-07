@@ -1,0 +1,1 @@
+data : ARRAY [1:5] OF SET [0:?] OF LIST [1:10] OF GENERIC : ValueType;

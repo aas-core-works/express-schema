@@ -1,0 +1,31 @@
+ExplicitAttributeDefinition(
+  position=1:1,
+  attributes=[NameRef(
+      position=1:1,
+      identifier='groups'
+    )],
+  optional=False,
+  type_selection=ArrayType(
+      position=1:10,
+      bound_spec=BoundSpec(
+          position=1:16,
+          lower=IntegerLiteral(
+              position=1:17,
+              value=1
+            ),
+          upper=IntegerLiteral(
+              position=1:19,
+              value=3
+            )
+        ),
+      optional=False,
+      unique=False,
+      of=SetType(
+          position=1:25,
+          of=NamedType(
+              position=1:32,
+              reference='SomeEntity'
+            )
+        )
+    )
+)

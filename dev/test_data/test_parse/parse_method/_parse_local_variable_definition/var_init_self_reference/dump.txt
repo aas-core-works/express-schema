@@ -1,0 +1,19 @@
+LocalVariableDefinition(
+  position=1:1,
+  identifiers=['normalizedValue'],
+  of_type=RealType(
+      position=1:19
+    ),
+  init=BinaryExpr(
+      position=1:27,
+      left=NameRef(
+          position=1:27,
+          identifier='value'
+        ),
+      op=BinaryOp.REAL_DIVIDE,
+      right=NameRef(
+          position=1:35,
+          identifier='maxValue'
+        )
+    )
+)

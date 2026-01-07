@@ -1,0 +1,44 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "express-schema"
+# NOTE (mristin):
+# Do not forget to sync with __init__.py!
+version = "1.0.0"
+
+description = "Parse EXPRESS Schema (ISO 10303-11)."
+readme = "README.rst"
+requires-python = ">=3.10"
+
+classifiers = [
+  "Development Status :: 5 - Production/Stable",
+  "Intended Audience :: Developers",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: 3.13",
+]
+
+authors = [
+  { name = "Marko Ristin", email = "marko@ristin.ch" }
+]
+
+dependencies = [
+  "icontract>=2,<3",
+]
+
+[project.scripts]
+express-schema = "express_schema.main:entry_point"
+
+[project.urls]
+repository = "https://github.com/aas-core-works/express-schema"
+
+[tool.setuptools.packages.find]
+include = ["express_schema"]
+exclude = ["dev"]
+
+[tool.setuptools.package-data]
+express_schema = ["py.typed"]

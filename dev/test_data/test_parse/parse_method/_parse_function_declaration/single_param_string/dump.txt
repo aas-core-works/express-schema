@@ -1,0 +1,37 @@
+FunctionDeclaration(
+  position=1:1,
+  identifier='getLength',
+  formal_parameters=[FormalParameter(
+      position=1:20,
+      identifiers=['text'],
+      of_type=StringType(
+          position=1:27,
+          fixed=False
+        )
+    )],
+  return_type=IntegerType(
+      position=1:37
+    ),
+  head=AlgorithmHead(
+      declarations=[],
+      constant_definitions=[],
+      local_variable_definitions=[]
+    ),
+  body=[ReturnStmt(
+      position=2:5,
+      value=Call(
+          position=2:12,
+          callee=NameRef(
+              position=2:12,
+              identifier='LENGTH'
+            ),
+          args=[Arg(
+              position=2:19,
+              value=NameRef(
+                  position=2:19,
+                  identifier='text'
+                )
+            )]
+        )
+    )]
+)

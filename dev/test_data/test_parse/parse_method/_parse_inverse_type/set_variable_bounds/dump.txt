@@ -1,0 +1,15 @@
+InverseSet(
+  position=1:1,
+  bound_spec=BoundSpec(
+      position=1:5,
+      lower=NameRef(
+          position=1:6,
+          identifier='startIndex'
+        ),
+      upper=NameRef(
+          position=1:17,
+          identifier='endIndex'
+        )
+    ),
+  entity='VariableItem'
+)

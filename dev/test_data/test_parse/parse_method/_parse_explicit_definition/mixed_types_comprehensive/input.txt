@@ -1,0 +1,1 @@
+identifier : STRING; value : REAL; active : BOOLEAN; reference : OPTIONAL SomeEntity;

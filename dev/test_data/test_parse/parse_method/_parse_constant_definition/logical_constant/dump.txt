@@ -1,0 +1,11 @@
+ConstantDefinition(
+  position=1:1,
+  identifier='state_unknown',
+  type_selection=LogicalType(
+      position=1:17
+    ),
+  init=LogicalLiteral(
+      position=1:28,
+      value=UNKNOWN
+    )
+)

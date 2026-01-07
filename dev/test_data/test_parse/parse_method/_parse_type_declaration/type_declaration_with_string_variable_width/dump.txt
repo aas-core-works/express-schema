@@ -1,0 +1,13 @@
+TypeDeclaration(
+  position=1:1,
+  identifier='Description',
+  type_selection=StringType(
+      position=1:20,
+      width=IntegerLiteral(
+          position=1:27,
+          value=255
+        ),
+      fixed=False
+    ),
+  domain_rules=[]
+)

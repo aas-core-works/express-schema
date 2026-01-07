@@ -1,0 +1,6 @@
+CONSTANT
+    minValue : REAL := 0.0;
+    maxValue : REAL := 100.0;
+    defaultFlag : BOOLEAN := TRUE;
+    systemName : STRING := 'System';
+END_CONSTANT;

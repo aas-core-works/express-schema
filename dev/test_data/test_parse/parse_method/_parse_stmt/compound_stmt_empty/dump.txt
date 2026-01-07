@@ -1,0 +1,4 @@
+CompoundStmt(
+  position=1:1,
+  stmts=[]
+)

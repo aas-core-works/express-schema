@@ -1,0 +1,7 @@
+[LocalVariableDefinition(
+  position=2:5,
+  identifiers=['count'],
+  of_type=IntegerType(
+      position=2:13
+    )
+)]

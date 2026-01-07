@@ -1,0 +1,12 @@
+RULE ComplexValidation FOR (Triangle);
+CONSTANT
+  MaxAngle : REAL := 180.0;
+END_CONSTANT;
+LOCAL
+  angleSum : REAL;
+  isValid : BOOLEAN;
+END_LOCAL;
+WHERE
+  criterion1 : angleSum = SELF.Angle1 + SELF.Angle2 + SELF.Angle3;
+  criterion2 : ABS(angleSum - MaxAngle) < 0.001;
+END_RULE;

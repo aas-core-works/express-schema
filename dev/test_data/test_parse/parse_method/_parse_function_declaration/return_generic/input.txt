@@ -1,0 +1,6 @@
+FUNCTION createGeneric() : GENERIC;
+    LOCAL
+        item : GENERIC;
+    END_LOCAL;
+    RETURN(item);
+END_FUNCTION;

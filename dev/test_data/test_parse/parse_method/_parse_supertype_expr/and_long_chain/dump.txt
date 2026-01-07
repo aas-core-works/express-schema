@@ -1,0 +1,36 @@
+SupertypeBinaryExpr(
+  position=1:1,
+  left=SupertypeBinaryExpr(
+      position=1:1,
+      left=SupertypeBinaryExpr(
+          position=1:1,
+          left=SupertypeBinaryExpr(
+              position=1:1,
+              left=NameRef(
+                  position=1:1,
+                  identifier='A'
+                ),
+              op=SupertypeBinaryOp.AND,
+              right=NameRef(
+                  position=1:7,
+                  identifier='B'
+                )
+            ),
+          op=SupertypeBinaryOp.AND,
+          right=NameRef(
+              position=1:13,
+              identifier='C'
+            )
+        ),
+      op=SupertypeBinaryOp.AND,
+      right=NameRef(
+          position=1:19,
+          identifier='D'
+        )
+    ),
+  op=SupertypeBinaryOp.AND,
+  right=NameRef(
+      position=1:25,
+      identifier='E'
+    )
+)

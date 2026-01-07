@@ -1,0 +1,11 @@
+ConstantDefinition(
+  position=1:1,
+  identifier='version2',
+  type_selection=IntegerType(
+      position=1:12
+    ),
+  init=IntegerLiteral(
+      position=1:23,
+      value=2
+    )
+)

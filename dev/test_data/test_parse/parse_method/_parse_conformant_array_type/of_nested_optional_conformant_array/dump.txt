@@ -1,0 +1,14 @@
+ConformantArrayType(
+  position=1:1,
+  optional=False,
+  unique=False,
+  of=ConformantArrayType(
+      position=1:10,
+      optional=True,
+      unique=False,
+      of=StringType(
+          position=1:28,
+          fixed=False
+        )
+    )
+)

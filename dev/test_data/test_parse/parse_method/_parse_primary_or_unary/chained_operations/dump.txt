@@ -1,0 +1,29 @@
+IndexExpr(
+  position=1:1,
+  source=AttributeRef(
+      position=1:1,
+      source=Call(
+          position=1:1,
+          callee=AttributeRef(
+              position=1:1,
+              source=NameRef(
+                  position=1:1,
+                  identifier='obj'
+                ),
+              identifier='method'
+            ),
+          args=[Arg(
+              position=1:12,
+              value=NameRef(
+                  position=1:12,
+                  identifier='x'
+                )
+            )]
+        ),
+      identifier='property'
+    ),
+  index=IntegerLiteral(
+      position=1:24,
+      value=0
+    )
+)

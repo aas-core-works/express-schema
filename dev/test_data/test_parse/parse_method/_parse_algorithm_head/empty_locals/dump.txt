@@ -1,0 +1,5 @@
+AlgorithmHead(
+  declarations=[],
+  constant_definitions=[],
+  local_variable_definitions=[]
+)

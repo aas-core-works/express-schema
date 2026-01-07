@@ -1,0 +1,4 @@
+TYPE Temperature = REAL;
+WHERE
+    validRange : (SELF >= -273.15) AND (SELF <= 1000.0);
+END_TYPE;

@@ -1,0 +1,37 @@
+EntityDeclaration(
+  position=1:1,
+  identifier='Employee',
+  explicit_clauses=[ExplicitAttributeDefinition(
+      position=2:5,
+      attributes=[NameRef(
+          position=2:5,
+          identifier='Name'
+        )],
+      optional=False,
+      type_selection=StringType(
+          position=2:12,
+          fixed=False
+        )
+    )],
+  derive_clauses=[],
+  inverse_clauses=[InverseClause(
+      position=3:5,
+      inverses=[InverseDefinition(
+          position=4:9,
+          attribute=NameRef(
+              position=4:9,
+              identifier='WorksFor'
+            ),
+          inverse_type=NameRef(
+              position=4:20,
+              identifier='Company'
+            ),
+          attribute_ref=NameRef(
+              position=4:32,
+              identifier='Employees'
+            )
+        )]
+    )],
+  unique_rules=[],
+  domain_rules=[]
+)

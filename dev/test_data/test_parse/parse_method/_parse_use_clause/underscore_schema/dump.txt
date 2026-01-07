@@ -1,0 +1,5 @@
+UseClause(
+  position=1:1,
+  schema_ref='person_definitions',
+  use_list=[]
+)

@@ -1,0 +1,5 @@
+IF count > 0 THEN
+    result := total / count;
+ELSE
+    result := 0.0;
+END_IF;

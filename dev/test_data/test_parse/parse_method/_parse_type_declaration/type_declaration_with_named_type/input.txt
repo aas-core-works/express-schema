@@ -1,0 +1,2 @@
+TYPE PersonRef = PersonType;
+END_TYPE;

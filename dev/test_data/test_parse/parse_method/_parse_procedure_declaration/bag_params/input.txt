@@ -1,0 +1,4 @@
+PROCEDURE organizeBag(container : BAG [0:50] OF Item; VAR organizedContainer : BAG [0:50] OF Item);
+    organizedContainer := sortItems(container);
+    removeEmptyItems(organizedContainer);
+END_PROCEDURE;

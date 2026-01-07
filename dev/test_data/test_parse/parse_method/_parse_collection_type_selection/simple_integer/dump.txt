@@ -1,0 +1,3 @@
+IntegerType(
+  position=1:1
+)

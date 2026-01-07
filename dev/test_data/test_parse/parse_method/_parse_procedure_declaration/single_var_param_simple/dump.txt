@@ -1,0 +1,35 @@
+ProcedureDeclaration(
+  position=1:1,
+  identifier='doubleValue',
+  formal_parameters=[FormalParameter(
+      position=1:27,
+      identifiers=['value'],
+      of_type=RealType(
+          position=1:35
+        )
+    )],
+  head=AlgorithmHead(
+      declarations=[],
+      constant_definitions=[],
+      local_variable_definitions=[]
+    ),
+  body=[AssignmentStmt(
+      position=2:5,
+      target=NameRef(
+          position=2:5,
+          identifier='value'
+        ),
+      value=BinaryExpr(
+          position=2:14,
+          left=NameRef(
+              position=2:14,
+              identifier='value'
+            ),
+          op=BinaryOp.MULTIPLY,
+          right=RealLiteral(
+              position=2:22,
+              value=2.0
+            )
+        )
+    )]
+)

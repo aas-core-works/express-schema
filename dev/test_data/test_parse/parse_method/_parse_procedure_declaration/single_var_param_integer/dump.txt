@@ -1,0 +1,35 @@
+ProcedureDeclaration(
+  position=1:1,
+  identifier='incrementCounter',
+  formal_parameters=[FormalParameter(
+      position=1:32,
+      identifiers=['counter'],
+      of_type=IntegerType(
+          position=1:42
+        )
+    )],
+  head=AlgorithmHead(
+      declarations=[],
+      constant_definitions=[],
+      local_variable_definitions=[]
+    ),
+  body=[AssignmentStmt(
+      position=2:5,
+      target=NameRef(
+          position=2:5,
+          identifier='counter'
+        ),
+      value=BinaryExpr(
+          position=2:16,
+          left=NameRef(
+              position=2:16,
+              identifier='counter'
+            ),
+          op=BinaryOp.ADD,
+          right=IntegerLiteral(
+              position=2:26,
+              value=1
+            )
+        )
+    )]
+)

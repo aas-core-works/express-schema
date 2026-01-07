@@ -1,0 +1,29 @@
+ExplicitAttributeDefinition(
+  position=1:1,
+  attributes=[
+      NameRef(
+        position=1:1,
+        identifier='active'
+      ),
+      NameRef(
+        position=1:9,
+        identifier='visible'
+      ),
+      NameRef(
+        position=1:18,
+        identifier='enabled'
+      ),
+      NameRef(
+        position=1:27,
+        identifier='valid'
+      ),
+      NameRef(
+        position=1:34,
+        identifier='ready'
+      )
+    ],
+  optional=False,
+  type_selection=BooleanType(
+      position=1:42
+    )
+)

@@ -1,0 +1,2 @@
+TYPE PointList = LIST [1:?] OF Point;
+END_TYPE;

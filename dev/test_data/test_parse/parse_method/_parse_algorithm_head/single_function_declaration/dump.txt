@@ -1,0 +1,24 @@
+AlgorithmHead(
+  declarations=[FunctionDeclaration(
+      position=1:1,
+      identifier='calculateArea',
+      formal_parameters=[],
+      return_type=RealType(
+          position=1:28
+        ),
+      head=AlgorithmHead(
+          declarations=[],
+          constant_definitions=[],
+          local_variable_definitions=[]
+        ),
+      body=[ReturnStmt(
+          position=2:5,
+          value=RealLiteral(
+              position=2:12,
+              value=0.0
+            )
+        )]
+    )],
+  constant_definitions=[],
+  local_variable_definitions=[]
+)

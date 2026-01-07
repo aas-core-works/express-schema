@@ -1,0 +1,7 @@
+Choice(
+  position=1:1,
+  supertype_exprs=[NameRef(
+      position=1:8,
+      identifier='PersonData'
+    )]
+)

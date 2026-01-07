@@ -1,0 +1,13 @@
+AggregateType(
+  position=1:1,
+  of=ConformantSetType(
+      position=1:14,
+      of=AggregateType(
+          position=1:21,
+          label='ElementType',
+          of=IntegerType(
+              position=1:48
+            )
+        )
+    )
+)

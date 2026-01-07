@@ -1,0 +1,11 @@
+RealType(
+  position=1:1,
+  precision_spec=Call(
+      position=1:6,
+      callee=NameRef(
+          position=1:6,
+          identifier='getPrecision'
+        ),
+      args=[]
+    )
+)

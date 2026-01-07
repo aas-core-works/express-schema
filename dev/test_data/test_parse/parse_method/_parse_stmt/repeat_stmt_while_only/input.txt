@@ -1,0 +1,4 @@
+REPEAT WHILE count < limit;
+    count := count + 1;
+    processItem(count);
+END_REPEAT;

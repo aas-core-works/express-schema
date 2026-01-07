@@ -1,0 +1,19 @@
+AttributeRef(
+  position=1:1,
+  source=IndexExpr(
+      position=1:1,
+      source=AttributeRef(
+          position=1:1,
+          source=NameRef(
+              position=1:1,
+              identifier='data'
+            ),
+          identifier='items'
+        ),
+      index=NameRef(
+          position=1:12,
+          identifier='index'
+        )
+    ),
+  identifier='name'
+)

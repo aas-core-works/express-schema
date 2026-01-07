@@ -1,0 +1,12 @@
+BinaryExpr(
+  position=1:1,
+  left=NameRef(
+      position=1:1,
+      identifier='str1'
+    ),
+  op=BinaryOp.CONCAT,
+  right=NameRef(
+      position=1:9,
+      identifier='str2'
+    )
+)

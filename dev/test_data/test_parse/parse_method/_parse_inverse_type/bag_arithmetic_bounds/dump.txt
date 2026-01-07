@@ -1,0 +1,23 @@
+InverseBag(
+  position=1:1,
+  bound_spec=BoundSpec(
+      position=1:5,
+      lower=NameRef(
+          position=1:6,
+          identifier='offset'
+        ),
+      upper=BinaryExpr(
+          position=1:13,
+          left=NameRef(
+              position=1:13,
+              identifier='total'
+            ),
+          op=BinaryOp.SUBTRACT,
+          right=NameRef(
+              position=1:21,
+              identifier='offset'
+            )
+        )
+    ),
+  entity='ArithmeticItem'
+)

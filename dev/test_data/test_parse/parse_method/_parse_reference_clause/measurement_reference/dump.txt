@@ -1,0 +1,15 @@
+ReferenceClause(
+  position=1:1,
+  schema_ref='measurement_lib',
+  import_list=[
+      ImportItem(
+        position=1:33,
+        reference='length_measure'
+      ),
+      ImportItem(
+        position=1:49,
+        reference='angle_measure',
+        alias='angle'
+      )
+    ]
+)

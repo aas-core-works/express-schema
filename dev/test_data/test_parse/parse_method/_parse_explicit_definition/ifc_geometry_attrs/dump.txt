@@ -1,0 +1,22 @@
+ExplicitAttributeDefinition(
+  position=1:1,
+  attributes=[
+      NameRef(
+        position=1:1,
+        identifier='Location'
+      ),
+      NameRef(
+        position=1:11,
+        identifier='Axis'
+      ),
+      NameRef(
+        position=1:17,
+        identifier='RefDirection'
+      )
+    ],
+  optional=True,
+  type_selection=NamedType(
+      position=1:41,
+      reference='Direction'
+    )
+)

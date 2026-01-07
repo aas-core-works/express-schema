@@ -1,0 +1,19 @@
+LocalVariableDefinition(
+  position=1:1,
+  identifiers=['total'],
+  of_type=RealType(
+      position=1:9
+    ),
+  init=BinaryExpr(
+      position=1:17,
+      left=NameRef(
+          position=1:17,
+          identifier='base'
+        ),
+      op=BinaryOp.ADD,
+      right=NameRef(
+          position=1:24,
+          identifier='offset'
+        )
+    )
+)

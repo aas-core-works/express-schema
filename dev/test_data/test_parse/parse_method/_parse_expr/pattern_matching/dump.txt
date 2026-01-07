@@ -1,0 +1,12 @@
+BinaryExpr(
+  position=1:1,
+  left=NameRef(
+      position=1:1,
+      identifier='text'
+    ),
+  op=BinaryOp.LIKE,
+  right=NameRef(
+      position=1:11,
+      identifier='pattern'
+    )
+)

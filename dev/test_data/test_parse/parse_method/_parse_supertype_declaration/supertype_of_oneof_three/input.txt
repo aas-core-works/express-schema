@@ -1,0 +1,1 @@
+SUPERTYPE OF (ONEOF (Point, Line, Surface))

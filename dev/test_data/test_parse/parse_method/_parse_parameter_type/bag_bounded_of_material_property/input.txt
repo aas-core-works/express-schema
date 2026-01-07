@@ -1,0 +1,1 @@
+BAG [0:10] OF MaterialProperty

@@ -1,0 +1,21 @@
+SelectType(
+  position=1:1,
+  values=[
+      NamedType(
+        position=1:9,
+        reference='Point'
+      ),
+      NamedType(
+        position=1:16,
+        reference='Line'
+      ),
+      NamedType(
+        position=1:22,
+        reference='Circle'
+      ),
+      NamedType(
+        position=1:30,
+        reference='Rectangle'
+      )
+    ]
+)

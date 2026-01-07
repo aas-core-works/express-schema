@@ -1,0 +1,52 @@
+TYPE ProcessingState = ENUMERATION OF
+    (idle, processing, completed, failed);
+END_TYPE;
+
+TYPE ValidationRule = SELECT (
+    RangeRule,
+    PatternRule,
+    CustomRule);
+END_TYPE;
+
+ENTITY DataProcessor;
+    state : ProcessingState;
+    validationRules : SET [1:10] OF ValidationRule;
+    lastProcessed : REAL;
+END_ENTITY;
+
+FUNCTION createProcessor() : DataProcessor;
+    LOCAL
+        processor : DataProcessor;
+    END_LOCAL;
+    RETURN(processor);
+END_FUNCTION;
+
+PROCEDURE validateData(processor : DataProcessor; data : ARRAY [1:?] OF REAL);
+    LOCAL
+        validationResult : BOOLEAN;
+        i : INTEGER;
+    END_LOCAL;
+
+    REPEAT i := 1 TO SIZEOF(data);
+        validationResult := checkValue(data[i]);
+        IF NOT validationResult THEN
+            processor.state := failed;
+        END_IF;
+    END_REPEAT;
+END_PROCEDURE;
+
+CONSTANT
+    maxProcessors : INTEGER := 10;
+    defaultState : ProcessingState := idle;
+    timeoutDuration : REAL := 60.0;
+    maxRetries : INTEGER := 3;
+END_CONSTANT;
+
+LOCAL
+    processors : ARRAY [1:maxProcessors] OF DataProcessor := [];
+    activeProcessors : SET [1:maxProcessors] OF INTEGER := [];
+    currentProcessor : DataProcessor;
+    processingStartTime : REAL;
+    retryCount : INTEGER := 0;
+    globalState : ProcessingState := defaultState;
+END_LOCAL;

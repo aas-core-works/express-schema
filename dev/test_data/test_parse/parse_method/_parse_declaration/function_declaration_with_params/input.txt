@@ -1,0 +1,3 @@
+FUNCTION add(x : REAL; y : REAL) : REAL;
+    RETURN(x + y);
+END_FUNCTION;

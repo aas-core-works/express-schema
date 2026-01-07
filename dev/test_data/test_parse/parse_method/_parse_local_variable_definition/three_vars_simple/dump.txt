@@ -1,0 +1,11 @@
+LocalVariableDefinition(
+  position=1:1,
+  identifiers=[
+      'x',
+      'y',
+      'z'
+    ],
+  of_type=IntegerType(
+      position=1:11
+    )
+)

@@ -1,0 +1,28 @@
+DerivedAttribute(
+  position=1:1,
+  attribute=NameRef(
+      position=1:1,
+      identifier='absoluteValue'
+    ),
+  type_selection=RealType(
+      position=1:17
+    ),
+  init=Call(
+      position=1:25,
+      callee=NameRef(
+          position=1:25,
+          identifier='ABS'
+        ),
+      args=[Arg(
+          position=1:29,
+          value=UnaryExpr(
+              position=1:29,
+              op=UnaryOp.NEG,
+              operand=RealLiteral(
+                  position=1:30,
+                  value=42.5
+                )
+            )
+        )]
+    )
+)

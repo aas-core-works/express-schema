@@ -1,0 +1,5 @@
+ImportItem(
+  position=1:1,
+  reference='SomeSchema',
+  alias='MySomeSchema'
+)

@@ -1,0 +1,1 @@
+complexRule : (x > 0) AND (y < 100);

@@ -1,0 +1,15 @@
+UniqueRule(
+  position=1:1,
+  label='arrayUnique',
+  attributes=[IndexExpr(
+      position=1:15,
+      source=NameRef(
+          position=1:15,
+          identifier='matrix'
+        ),
+      index=IntegerLiteral(
+          position=1:22,
+          value=0
+        )
+    )]
+)

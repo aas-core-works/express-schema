@@ -1,0 +1,7 @@
+LOCAL
+    sourceCollection : LIST [1:1000] OF Component;
+    targetCollection : LIST [1:1000] OF Component := [];
+    filterCriteria : ARRAY [1:5] OF FilterRule;
+    sortingOrder : INTEGER := 1;
+    processingFlags : SET [1:10] OF ProcessingFlag := [];
+END_LOCAL;

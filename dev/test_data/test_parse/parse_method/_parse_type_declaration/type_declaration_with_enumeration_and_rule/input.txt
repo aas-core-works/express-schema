@@ -1,0 +1,4 @@
+TYPE WorkingDays = ENUMERATION OF (Monday, Tuesday, Wednesday, Thursday, Friday);
+WHERE
+    WR1 : SELF <> Monday;
+END_TYPE;

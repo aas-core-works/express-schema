@@ -1,0 +1,22 @@
+[LocalVariableDefinition(
+  position=2:5,
+  identifiers=['container'],
+  of_type=ConformantBagType(
+      position=2:17,
+      bound_spec=BoundSpec(
+          position=2:21,
+          lower=IntegerLiteral(
+              position=2:22,
+              value=0
+            ),
+          upper=IntegerLiteral(
+              position=2:24,
+              value=50
+            )
+        ),
+      of=NamedType(
+          position=2:31,
+          reference='Item'
+        )
+    )
+)]

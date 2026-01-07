@@ -1,0 +1,11 @@
+LocalVariableDefinition(
+  position=1:1,
+  identifiers=['convertedValue'],
+  of_type=RealType(
+      position=1:18
+    ),
+  init=NameRef(
+      position=1:26,
+      identifier='value'
+    )
+)

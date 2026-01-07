@@ -1,0 +1,3 @@
+PROCEDURE processValue(input : REAL; VAR output : REAL);
+    output := input * 2.0 + 1.0;
+END_PROCEDURE;

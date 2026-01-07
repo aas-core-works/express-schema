@@ -1,0 +1,7 @@
+RULE DistanceCalculation FOR (Point);
+FUNCTION CalculateDistance(p1 : Point; p2 : Point) : REAL;
+  RETURN(SQRT((p1.X - p2.X)**2 + (p1.Y - p2.Y)**2));
+END_FUNCTION;
+WHERE
+  criterion1 : CalculateDistance(SELF, Origin) >= 0.0;
+END_RULE;

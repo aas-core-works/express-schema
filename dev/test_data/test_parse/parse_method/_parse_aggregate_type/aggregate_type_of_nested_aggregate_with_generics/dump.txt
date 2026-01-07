@@ -1,0 +1,9 @@
+AggregateType(
+  position=1:1,
+  of=AggregateType(
+      position=1:14,
+      of=GenericType(
+          position=1:27
+        )
+    )
+)

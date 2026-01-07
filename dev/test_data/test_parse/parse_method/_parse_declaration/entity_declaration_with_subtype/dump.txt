@@ -1,0 +1,26 @@
+EntityDeclaration(
+  position=1:1,
+  identifier='Car',
+  subtype_declaration=SubtypeDeclaration(
+      position=2:5,
+      of=[NameRef(
+          position=2:17,
+          identifier='Vehicle'
+        )]
+    ),
+  explicit_clauses=[ExplicitAttributeDefinition(
+      position=3:5,
+      attributes=[NameRef(
+          position=3:5,
+          identifier='wheels'
+        )],
+      optional=False,
+      type_selection=IntegerType(
+          position=3:14
+        )
+    )],
+  derive_clauses=[],
+  inverse_clauses=[],
+  unique_rules=[],
+  domain_rules=[]
+)

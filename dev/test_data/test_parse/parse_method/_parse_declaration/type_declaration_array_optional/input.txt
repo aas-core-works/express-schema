@@ -1,0 +1,2 @@
+TYPE OptionalArray = ARRAY [1:10] OF OPTIONAL STRING;
+END_TYPE;

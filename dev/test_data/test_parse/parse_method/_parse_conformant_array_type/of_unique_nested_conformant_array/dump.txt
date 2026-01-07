@@ -1,0 +1,13 @@
+ConformantArrayType(
+  position=1:1,
+  optional=False,
+  unique=True,
+  of=ConformantArrayType(
+      position=1:17,
+      optional=False,
+      unique=False,
+      of=RealType(
+          position=1:26
+        )
+    )
+)

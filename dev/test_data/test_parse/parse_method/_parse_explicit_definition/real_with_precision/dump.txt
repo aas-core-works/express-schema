@@ -1,0 +1,15 @@
+ExplicitAttributeDefinition(
+  position=1:1,
+  attributes=[NameRef(
+      position=1:1,
+      identifier='measurement'
+    )],
+  optional=False,
+  type_selection=RealType(
+      position=1:15,
+      precision_spec=IntegerLiteral(
+          position=1:21,
+          value=6
+        )
+    )
+)

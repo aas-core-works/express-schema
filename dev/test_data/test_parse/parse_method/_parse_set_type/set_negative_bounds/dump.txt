@@ -1,0 +1,21 @@
+SetType(
+  position=1:1,
+  bound_spec=BoundSpec(
+      position=1:5,
+      lower=UnaryExpr(
+          position=1:6,
+          op=UnaryOp.NEG,
+          operand=IntegerLiteral(
+              position=1:7,
+              value=10
+            )
+        ),
+      upper=IntegerLiteral(
+          position=1:10,
+          value=10
+        )
+    ),
+  of=IntegerType(
+      position=1:17
+    )
+)

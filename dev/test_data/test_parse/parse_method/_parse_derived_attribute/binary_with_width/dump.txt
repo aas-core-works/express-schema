@@ -1,0 +1,19 @@
+DerivedAttribute(
+  position=1:1,
+  attribute=NameRef(
+      position=1:1,
+      identifier='data'
+    ),
+  type_selection=BinaryType(
+      position=1:8,
+      width=IntegerLiteral(
+          position=1:16,
+          value=8
+        ),
+      fixed=False
+    ),
+  init=BinaryLiteral(
+      position=1:22,
+      value=b'\xaa'
+    )
+)

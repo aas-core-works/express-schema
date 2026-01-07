@@ -1,0 +1,6 @@
+PROCEDURE updateGeometry(x : REAL; y : REAL; z : REAL; scale : REAL);
+    position.x := x * scale;
+    position.y := y * scale;
+    position.z := z * scale;
+    recalculateBounds();
+END_PROCEDURE;

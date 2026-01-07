@@ -1,0 +1,9 @@
+FUNCTION processData(input : STRING) : INTEGER;
+    LOCAL
+        result : INTEGER := 0;
+        temp : STRING;
+    END_LOCAL;
+    temp := input;
+    result := LENGTH(temp);
+    RETURN(result);
+END_FUNCTION;

@@ -1,0 +1,23 @@
+[
+  Arg(
+    position=1:2,
+    value=LogicalLiteral(
+        position=1:2,
+        value=TRUE
+      )
+  ),
+  Arg(
+    position=1:8,
+    value=LogicalLiteral(
+        position=1:8,
+        value=FALSE
+      )
+  ),
+  Arg(
+    position=1:15,
+    value=LogicalLiteral(
+        position=1:15,
+        value=UNKNOWN
+      )
+  )
+]

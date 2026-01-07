@@ -1,0 +1,4 @@
+ENTITY Shape
+    SUPERTYPE OF (ONEOF(Circle, Rectangle));
+    Color : STRING;
+END_ENTITY;

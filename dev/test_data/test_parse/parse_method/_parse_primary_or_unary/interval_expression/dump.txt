@@ -1,0 +1,17 @@
+Interval(
+  position=1:1,
+  left=IntegerLiteral(
+      position=1:2,
+      value=1
+    ),
+  left_to_center=BinaryOp.LESS_THAN,
+  center=NameRef(
+      position=1:6,
+      identifier='x'
+    ),
+  center_to_right=BinaryOp.LESS_EQUAL,
+  right=IntegerLiteral(
+      position=1:11,
+      value=10
+    )
+)

@@ -1,0 +1,1 @@
+formatRule : UPPER(TRIM(value)) = expectedValue;

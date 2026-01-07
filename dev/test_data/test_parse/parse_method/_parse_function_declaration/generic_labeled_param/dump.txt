@@ -1,0 +1,26 @@
+FunctionDeclaration(
+  position=1:1,
+  identifier='transformItem',
+  formal_parameters=[FormalParameter(
+      position=1:24,
+      identifiers=['item'],
+      of_type=GenericType(
+          position=1:31
+        )
+    )],
+  return_type=GenericType(
+      position=1:53
+    ),
+  head=AlgorithmHead(
+      declarations=[],
+      constant_definitions=[],
+      local_variable_definitions=[]
+    ),
+  body=[ReturnStmt(
+      position=2:5,
+      value=NameRef(
+          position=2:12,
+          identifier='item'
+        )
+    )]
+)

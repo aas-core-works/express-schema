@@ -1,0 +1,3 @@
+FUNCTION countItems(collection : SET [1:100] OF Component) : INTEGER;
+    RETURN(SIZEOF(collection));
+END_FUNCTION;

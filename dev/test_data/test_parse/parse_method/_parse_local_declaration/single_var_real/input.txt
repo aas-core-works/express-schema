@@ -1,0 +1,3 @@
+LOCAL
+    value : REAL;
+END_LOCAL;

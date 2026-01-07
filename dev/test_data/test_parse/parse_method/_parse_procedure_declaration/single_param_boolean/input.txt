@@ -1,0 +1,8 @@
+PROCEDURE setFlag(active : BOOLEAN);
+    isActive := active;
+    IF active THEN
+        startProcessing();
+    ELSE
+        stopProcessing();
+    END_IF;
+END_PROCEDURE;

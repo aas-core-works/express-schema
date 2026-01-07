@@ -1,0 +1,25 @@
+FUNCTION complexProcessing() : REAL;
+    TYPE ProcessingMode = ENUMERATION OF
+        (fast, normal, detailed);
+    END_TYPE;
+
+    ENTITY ProcessingState;
+        mode : ProcessingMode;
+        progress : REAL;
+    END_ENTITY;
+
+    CONSTANT
+        defaultMode : ProcessingMode := normal;
+    END_CONSTANT;
+
+    LOCAL
+        state : ProcessingState;
+        result : REAL := 0.0;
+    END_LOCAL;
+
+    state.mode := defaultMode;
+    state.progress := 0.0;
+    result := performProcessing(state);
+
+    RETURN(result);
+END_FUNCTION;

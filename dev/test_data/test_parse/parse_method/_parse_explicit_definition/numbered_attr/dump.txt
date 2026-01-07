@@ -1,0 +1,11 @@
+ExplicitAttributeDefinition(
+  position=1:1,
+  attributes=[NameRef(
+      position=1:1,
+      identifier='value1'
+    )],
+  optional=False,
+  type_selection=IntegerType(
+      position=1:10
+    )
+)

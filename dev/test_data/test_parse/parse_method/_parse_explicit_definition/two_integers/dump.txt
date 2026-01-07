@@ -1,0 +1,17 @@
+ExplicitAttributeDefinition(
+  position=1:1,
+  attributes=[
+      NameRef(
+        position=1:1,
+        identifier='width'
+      ),
+      NameRef(
+        position=1:8,
+        identifier='height'
+      )
+    ],
+  optional=False,
+  type_selection=IntegerType(
+      position=1:17
+    )
+)

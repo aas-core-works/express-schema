@@ -1,0 +1,11 @@
+LocalVariableDefinition(
+  position=1:1,
+  identifiers=['flag'],
+  of_type=BooleanType(
+      position=1:8
+    ),
+  init=LogicalLiteral(
+      position=1:19,
+      value=TRUE
+    )
+)

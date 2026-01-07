@@ -1,0 +1,26 @@
+AggregateLiteral(
+  position=1:1,
+  elements=[
+      Element(
+        position=1:2,
+        expr=StringLiteral(
+            position=1:2,
+            value='first'
+          )
+      ),
+      Element(
+        position=1:11,
+        expr=StringLiteral(
+            position=1:11,
+            value='second'
+          )
+      ),
+      Element(
+        position=1:21,
+        expr=StringLiteral(
+            position=1:21,
+            value='third'
+          )
+      )
+    ]
+)

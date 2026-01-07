@@ -1,0 +1,11 @@
+ConformantBagType(
+  position=1:1,
+  of=ConformantListType(
+      position=1:8,
+      unique=False,
+      of=StringType(
+          position=1:16,
+          fixed=False
+        )
+    )
+)

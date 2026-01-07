@@ -1,0 +1,1 @@
+lengthRule : LENGTH(name) > 0;

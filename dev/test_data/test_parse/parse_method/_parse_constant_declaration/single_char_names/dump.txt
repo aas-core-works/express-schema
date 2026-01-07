@@ -1,0 +1,35 @@
+[
+  ConstantDefinition(
+    position=2:5,
+    identifier='x',
+    type_selection=RealType(
+        position=2:9
+      ),
+    init=RealLiteral(
+        position=2:17,
+        value=0.0
+      )
+  ),
+  ConstantDefinition(
+    position=3:5,
+    identifier='y',
+    type_selection=RealType(
+        position=3:9
+      ),
+    init=RealLiteral(
+        position=3:17,
+        value=1.0
+      )
+  ),
+  ConstantDefinition(
+    position=4:5,
+    identifier='z',
+    type_selection=RealType(
+        position=4:9
+      ),
+    init=RealLiteral(
+        position=4:17,
+        value=2.0
+      )
+  )
+]

@@ -1,0 +1,5 @@
+DERIVE
+    count : INTEGER := 42;
+    value : REAL := 3.14;
+    active : BOOLEAN := TRUE;
+    name : STRING := 'example';

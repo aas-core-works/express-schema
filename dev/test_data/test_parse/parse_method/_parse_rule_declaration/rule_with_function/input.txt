@@ -1,0 +1,7 @@
+RULE CalculationRule FOR (Circle);
+FUNCTION ComputeCircumference(radius : REAL) : REAL;
+  RETURN(2.0 * 3.14159 * radius);
+END_FUNCTION;
+WHERE
+  criterion1 : ComputeCircumference(SELF.Radius) > 0.0;
+END_RULE;

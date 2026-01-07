@@ -1,0 +1,12 @@
+FUNCTION calculateSum(values : ARRAY [1:10] OF REAL) : REAL;
+    LOCAL
+        sum : REAL := 0.0;
+        i : INTEGER;
+    END_LOCAL;
+
+    REPEAT i := 1 TO 10;
+        sum := sum + values[i];
+    END_REPEAT;
+
+    RETURN(sum);
+END_FUNCTION;

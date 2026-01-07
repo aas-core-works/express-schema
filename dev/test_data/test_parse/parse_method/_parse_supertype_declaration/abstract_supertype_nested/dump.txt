@@ -1,0 +1,34 @@
+SupertypeOf(
+  position=1:1,
+  abstract=True,
+  of=SupertypeBinaryExpr(
+      position=1:24,
+      left=Choice(
+          position=1:24,
+          supertype_exprs=[
+              NameRef(
+                position=1:31,
+                identifier='Point'
+              ),
+              NameRef(
+                position=1:38,
+                identifier='Line'
+              )
+            ]
+        ),
+      op=SupertypeBinaryOp.ANDOR,
+      right=Choice(
+          position=1:50,
+          supertype_exprs=[
+              NameRef(
+                position=1:57,
+                identifier='Surface'
+              ),
+              NameRef(
+                position=1:66,
+                identifier='Volume'
+              )
+            ]
+        )
+    )
+)

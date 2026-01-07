@@ -1,0 +1,3 @@
+FUNCTION formatValue(value : REAL; precision : INTEGER) : STRING;
+    RETURN('formatted');
+END_FUNCTION;

@@ -1,0 +1,11 @@
+FormalParameter(
+  position=1:1,
+  identifiers=['sequence'],
+  of_type=ConformantListType(
+      position=1:12,
+      unique=False,
+      of=IntegerType(
+          position=1:20
+        )
+    )
+)

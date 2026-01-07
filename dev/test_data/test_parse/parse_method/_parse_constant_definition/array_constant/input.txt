@@ -1,0 +1,1 @@
+coord_array : ARRAY [1:3] OF REAL := [1.0, 2.0, 3.0];

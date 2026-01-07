@@ -1,0 +1,2 @@
+TYPE PreciseValue = REAL(15);
+END_TYPE;

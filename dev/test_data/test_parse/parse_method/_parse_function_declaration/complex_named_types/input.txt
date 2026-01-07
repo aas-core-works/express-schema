@@ -1,0 +1,3 @@
+FUNCTION transformGeometry(geometry : GeometricRepresentation; transform : TransformationMatrix) : GeometricRepresentation;
+    RETURN(geometry);
+END_FUNCTION;

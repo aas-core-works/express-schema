@@ -1,0 +1,15 @@
+FUNCTION processMatrix(
+        matrix : ARRAY [1:10] OF ARRAY [1:10] OF REAL;
+        metadata : LIST [1:5] OF SET [1:3] OF STRING
+    ) : ARRAY [1:10] OF REAL;
+    LOCAL
+        result : ARRAY [1:10] OF REAL := [];
+        i : INTEGER;
+    END_LOCAL;
+
+    REPEAT i := 1 TO 10;
+        result[i] := matrix[i][1];
+    END_REPEAT;
+
+    RETURN(result);
+END_FUNCTION;

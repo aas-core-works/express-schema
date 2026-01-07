@@ -1,0 +1,15 @@
+DerivedAttribute(
+  position=1:1,
+  attribute=NameRef(
+      position=1:1,
+      identifier='unitLength'
+    ),
+  type_selection=NamedType(
+      position=1:14,
+      reference='LengthType'
+    ),
+  init=NameRef(
+      position=1:28,
+      identifier='millimeter'
+    )
+)

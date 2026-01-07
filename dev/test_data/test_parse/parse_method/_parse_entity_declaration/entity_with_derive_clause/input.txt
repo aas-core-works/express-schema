@@ -1,0 +1,6 @@
+ENTITY Rectangle;
+    Width : REAL;
+    Height : REAL;
+    DERIVE
+        Area : REAL := Width * Height;
+END_ENTITY;

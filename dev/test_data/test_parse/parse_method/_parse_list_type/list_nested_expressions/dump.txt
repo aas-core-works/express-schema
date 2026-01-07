@@ -1,0 +1,34 @@
+ListType(
+  position=1:1,
+  bound_spec=BoundSpec(
+      position=1:6,
+      lower=BinaryExpr(
+          position=1:7,
+          left=NameRef(
+              position=1:7,
+              identifier='min'
+            ),
+          op=BinaryOp.ADD,
+          right=IntegerLiteral(
+              position=1:13,
+              value=1
+            )
+        ),
+      upper=BinaryExpr(
+          position=1:15,
+          left=NameRef(
+              position=1:15,
+              identifier='max'
+            ),
+          op=BinaryOp.SUBTRACT,
+          right=IntegerLiteral(
+              position=1:21,
+              value=1
+            )
+        )
+    ),
+  unique=False,
+  of=LogicalType(
+      position=1:27
+    )
+)

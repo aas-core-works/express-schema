@@ -1,0 +1,24 @@
+QueryExpr(
+  position=1:1,
+  variable='item',
+  aggregate=NameRef(
+      position=1:15,
+      identifier='collection'
+    ),
+  predicate=BinaryExpr(
+      position=1:28,
+      left=AttributeRef(
+          position=1:28,
+          source=NameRef(
+              position=1:28,
+              identifier='item'
+            ),
+          identifier='value'
+        ),
+      op=BinaryOp.GREATER_THAN,
+      right=IntegerLiteral(
+          position=1:41,
+          value=5
+        )
+    )
+)

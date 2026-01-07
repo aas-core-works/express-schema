@@ -1,0 +1,7 @@
+[Arg(
+  position=1:2,
+  value=StringLiteral(
+      position=1:2,
+      value='parameter'
+    )
+)]

@@ -1,0 +1,23 @@
+[
+  Arg(
+    position=1:2,
+    value=IntegerLiteral(
+        position=1:2,
+        value=42
+      )
+  ),
+  Arg(
+    position=1:6,
+    value=StringLiteral(
+        position=1:6,
+        value='hello'
+      )
+  ),
+  Arg(
+    position=1:15,
+    value=LogicalLiteral(
+        position=1:15,
+        value=TRUE
+      )
+  )
+]

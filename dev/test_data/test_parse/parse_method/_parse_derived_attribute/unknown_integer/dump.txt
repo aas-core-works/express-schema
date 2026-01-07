@@ -1,0 +1,14 @@
+DerivedAttribute(
+  position=1:1,
+  attribute=NameRef(
+      position=1:1,
+      identifier='undefinedCount'
+    ),
+  type_selection=IntegerType(
+      position=1:18
+    ),
+  init=LogicalLiteral(
+      position=1:29,
+      value=UNKNOWN
+    )
+)

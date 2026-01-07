@@ -1,0 +1,26 @@
+ListType(
+  position=1:1,
+  bound_spec=BoundSpec(
+      position=1:6,
+      lower=Call(
+          position=1:7,
+          callee=NameRef(
+              position=1:7,
+              identifier='getMin'
+            ),
+          args=[]
+        ),
+      upper=Call(
+          position=1:16,
+          callee=NameRef(
+              position=1:16,
+              identifier='getMax'
+            ),
+          args=[]
+        )
+    ),
+  unique=False,
+  of=RealType(
+      position=1:29
+    )
+)

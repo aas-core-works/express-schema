@@ -1,0 +1,18 @@
+DeriveClause(
+  position=1:1,
+  derived_attributes=[DerivedAttribute(
+      position=2:5,
+      attribute=NameRef(
+          position=2:5,
+          identifier='name'
+        ),
+      type_selection=StringType(
+          position=2:12,
+          fixed=False
+        ),
+      init=StringLiteral(
+          position=2:22,
+          value='default'
+        )
+    )]
+)

@@ -1,0 +1,1 @@
+indexRule : items[0] <> NULL;

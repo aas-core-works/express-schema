@@ -1,0 +1,16 @@
+DomainRule(
+  position=1:1,
+  label='typeCheck',
+  expr=BinaryExpr(
+      position=1:13,
+      left=NameRef(
+          position=1:13,
+          identifier='kind'
+        ),
+      op=BinaryOp.NOT_EQUAL,
+      right=NameRef(
+          position=1:21,
+          identifier='undefined'
+        )
+    )
+)

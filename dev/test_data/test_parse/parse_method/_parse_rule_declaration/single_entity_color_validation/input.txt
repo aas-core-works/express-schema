@@ -1,0 +1,6 @@
+RULE ColorValidation FOR (Color);
+WHERE
+  criterion1 : SELF.Red >= 0.0;
+  criterion2 : SELF.Green >= 0.0;
+  criterion3 : SELF.Blue >= 0.0;
+END_RULE;

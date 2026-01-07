@@ -1,0 +1,4 @@
+NameRef(
+  position=1:1,
+  identifier='SomeEntity2'
+)

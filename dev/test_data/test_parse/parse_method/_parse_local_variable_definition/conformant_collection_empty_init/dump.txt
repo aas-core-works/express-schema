@@ -1,0 +1,15 @@
+LocalVariableDefinition(
+  position=1:1,
+  identifiers=['flexibleList'],
+  of_type=ConformantListType(
+      position=1:16,
+      unique=True,
+      of=IntegerType(
+          position=1:31
+        )
+    ),
+  init=AggregateLiteral(
+      position=1:42,
+      elements=[]
+    )
+)

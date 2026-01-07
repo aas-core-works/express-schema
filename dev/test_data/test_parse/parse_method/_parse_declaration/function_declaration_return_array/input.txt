@@ -1,0 +1,6 @@
+FUNCTION getData() : ARRAY [1:10] OF STRING;
+    LOCAL
+        data : ARRAY [1:10] OF STRING;
+    END_LOCAL;
+    RETURN(data);
+END_FUNCTION;

@@ -1,0 +1,35 @@
+FunctionDeclaration(
+  position=1:1,
+  identifier='combineItems',
+  formal_parameters=[
+      FormalParameter(
+        position=1:23,
+        identifiers=['item1'],
+        of_type=GenericType(
+            position=1:31
+          )
+      ),
+      FormalParameter(
+        position=1:51,
+        identifiers=['item2'],
+        of_type=GenericType(
+            position=1:59
+          )
+      )
+    ],
+  return_type=GenericType(
+      position=1:81
+    ),
+  head=AlgorithmHead(
+      declarations=[],
+      constant_definitions=[],
+      local_variable_definitions=[]
+    ),
+  body=[ReturnStmt(
+      position=2:5,
+      value=NameRef(
+          position=2:12,
+          identifier='item1'
+        )
+    )]
+)

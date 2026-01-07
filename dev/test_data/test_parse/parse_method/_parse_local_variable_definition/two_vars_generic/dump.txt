@@ -1,0 +1,10 @@
+LocalVariableDefinition(
+  position=1:1,
+  identifiers=[
+      'input',
+      'output'
+    ],
+  of_type=GenericType(
+      position=1:17
+    )
+)

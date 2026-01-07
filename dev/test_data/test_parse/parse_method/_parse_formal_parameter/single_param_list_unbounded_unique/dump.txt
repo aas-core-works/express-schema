@@ -1,0 +1,12 @@
+FormalParameter(
+  position=1:1,
+  identifiers=['uniqueItems'],
+  of_type=ConformantListType(
+      position=1:15,
+      unique=True,
+      of=NamedType(
+          position=1:30,
+          reference='MaterialProperty'
+        )
+    )
+)

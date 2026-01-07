@@ -1,0 +1,12 @@
+ListType(
+  position=1:1,
+  unique=False,
+  of=BinaryType(
+      position=1:9,
+      width=IntegerLiteral(
+          position=1:16,
+          value=8
+        ),
+      fixed=False
+    )
+)

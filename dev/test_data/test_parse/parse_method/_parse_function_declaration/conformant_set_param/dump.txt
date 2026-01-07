@@ -1,0 +1,30 @@
+FunctionDeclaration(
+  position=1:1,
+  identifier='analyzeSet',
+  formal_parameters=[FormalParameter(
+      position=1:21,
+      identifiers=['elements'],
+      of_type=ConformantSetType(
+          position=1:32,
+          of=NamedType(
+              position=1:39,
+              reference='Component'
+            )
+        )
+    )],
+  return_type=BooleanType(
+      position=1:52
+    ),
+  head=AlgorithmHead(
+      declarations=[],
+      constant_definitions=[],
+      local_variable_definitions=[]
+    ),
+  body=[ReturnStmt(
+      position=2:5,
+      value=LogicalLiteral(
+          position=2:12,
+          value=TRUE
+        )
+    )]
+)

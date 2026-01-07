@@ -1,0 +1,12 @@
+LocalVariableDefinition(
+  position=1:1,
+  identifiers=['code'],
+  of_type=StringType(
+      position=1:8,
+      width=IntegerLiteral(
+          position=1:15,
+          value=50
+        ),
+      fixed=True
+    )
+)

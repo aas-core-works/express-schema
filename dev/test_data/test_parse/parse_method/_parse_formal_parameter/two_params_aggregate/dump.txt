@@ -1,0 +1,14 @@
+FormalParameter(
+  position=1:1,
+  identifiers=[
+      'inputData',
+      'outputData'
+    ],
+  of_type=AggregateType(
+      position=1:25,
+      of=StringType(
+          position=1:38,
+          fixed=False
+        )
+    )
+)

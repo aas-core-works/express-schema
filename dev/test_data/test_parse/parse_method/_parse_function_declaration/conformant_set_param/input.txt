@@ -1,0 +1,3 @@
+FUNCTION analyzeSet(elements : SET OF Component) : BOOLEAN;
+    RETURN(TRUE);
+END_FUNCTION;

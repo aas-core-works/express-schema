@@ -1,0 +1,6 @@
+ENTITY Rectangle
+    SUPERTYPE OF (Square)
+    SUBTYPE OF (Shape);
+    Width : REAL;
+    Height : REAL;
+END_ENTITY;

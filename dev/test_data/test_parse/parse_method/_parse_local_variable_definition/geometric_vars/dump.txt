@@ -1,0 +1,31 @@
+LocalVariableDefinition(
+  position=1:1,
+  identifiers=[
+      'position',
+      'orientation',
+      'scale'
+    ],
+  of_type=ConformantArrayType(
+      position=1:32,
+      bound_spec=BoundSpec(
+          position=1:38,
+          lower=IntegerLiteral(
+              position=1:39,
+              value=1
+            ),
+          upper=IntegerLiteral(
+              position=1:41,
+              value=3
+            )
+        ),
+      optional=False,
+      unique=False,
+      of=RealType(
+          position=1:47
+        )
+    ),
+  init=AggregateLiteral(
+      position=1:55,
+      elements=[]
+    )
+)

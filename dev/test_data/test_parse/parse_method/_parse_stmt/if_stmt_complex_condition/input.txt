@@ -1,0 +1,3 @@
+IF (width > 0) AND (height > 0) THEN
+    area := width * height;
+END_IF;

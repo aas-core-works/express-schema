@@ -1,0 +1,12 @@
+FormalParameter(
+  position=1:1,
+  identifiers=[
+      'red',
+      'green',
+      'blue',
+      'alpha'
+    ],
+  of_type=NumberType(
+      position=1:27
+    )
+)

@@ -1,0 +1,33 @@
+RuleDeclaration(
+  position=1:1,
+  identifier='ConsistentDimensions',
+  for_entities=[
+      'Point',
+      'Vector'
+    ],
+  head=AlgorithmHead(
+      declarations=[],
+      constant_definitions=[],
+      local_variable_definitions=[]
+    ),
+  body=[],
+  where=[DomainRule(
+      position=3:3,
+      label='criterion1',
+      expr=BinaryExpr(
+          position=3:16,
+          left=AttributeRef(
+              position=3:16,
+              source=Self(
+                  position=3:16
+                ),
+              identifier='Dimension'
+            ),
+          op=BinaryOp.GREATER_EQUAL,
+          right=IntegerLiteral(
+              position=3:34,
+              value=2
+            )
+        )
+    )]
+)

@@ -1,0 +1,1 @@
+STRING(obj.size + 16) FIXED

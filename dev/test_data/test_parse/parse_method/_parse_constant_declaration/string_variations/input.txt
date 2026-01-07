@@ -1,0 +1,6 @@
+CONSTANT
+    empty_string : STRING := '';
+    single_char : STRING := 'A';
+    quoted_string : STRING := 'Value with "quotes"';
+    path_string : STRING := '/path/to/file.ext';
+END_CONSTANT;

@@ -1,0 +1,23 @@
+TypeDeclaration(
+  position=1:1,
+  identifier='UniqueList',
+  type_selection=ListType(
+      position=1:19,
+      bound_spec=BoundSpec(
+          position=1:24,
+          lower=IntegerLiteral(
+              position=1:25,
+              value=1
+            ),
+          upper=IntegerLiteral(
+              position=1:27,
+              value=5
+            )
+        ),
+      unique=True,
+      of=IntegerType(
+          position=1:40
+        )
+    ),
+  domain_rules=[]
+)

@@ -1,0 +1,5 @@
+LOCAL
+    x : REAL;
+    y : REAL;
+    z : REAL;
+END_LOCAL;

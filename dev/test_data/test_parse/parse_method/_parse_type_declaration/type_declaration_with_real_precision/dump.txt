@@ -1,0 +1,12 @@
+TypeDeclaration(
+  position=1:1,
+  identifier='PreciseValue',
+  type_selection=RealType(
+      position=1:21,
+      precision_spec=IntegerLiteral(
+          position=1:26,
+          value=15
+        )
+    ),
+  domain_rules=[]
+)

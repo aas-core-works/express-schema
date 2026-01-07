@@ -1,0 +1,13 @@
+[LocalVariableDefinition(
+  position=2:5,
+  identifiers=['data'],
+  of_type=ConformantArrayType(
+      position=2:12,
+      optional=False,
+      unique=False,
+      of=StringType(
+          position=2:21,
+          fixed=False
+        )
+    )
+)]

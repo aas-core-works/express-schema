@@ -1,0 +1,11 @@
+AggregateType(
+  position=1:1,
+  of=ConformantArrayType(
+      position=1:14,
+      optional=True,
+      unique=False,
+      of=IntegerType(
+          position=1:32
+        )
+    )
+)

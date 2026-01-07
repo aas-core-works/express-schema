@@ -1,0 +1,5 @@
+SCHEMA TestSchema;
+PROCEDURE ProcessData(VAR data : DataRecord);
+  data.processed := TRUE;
+END_PROCEDURE;
+END_SCHEMA;

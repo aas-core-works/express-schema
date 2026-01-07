@@ -1,0 +1,3 @@
+LOCAL
+    width, height : INTEGER := 100;
+END_LOCAL;

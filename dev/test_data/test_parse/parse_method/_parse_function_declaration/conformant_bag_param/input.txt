@@ -1,0 +1,3 @@
+FUNCTION processBag(container : BAG OF Item) : REAL;
+    RETURN(0.0);
+END_FUNCTION;

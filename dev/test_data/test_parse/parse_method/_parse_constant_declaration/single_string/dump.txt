@@ -1,0 +1,12 @@
+[ConstantDefinition(
+  position=2:5,
+  identifier='app_name',
+  type_selection=StringType(
+      position=2:16,
+      fixed=False
+    ),
+  init=StringLiteral(
+      position=2:26,
+      value='MyApplication'
+    )
+)]

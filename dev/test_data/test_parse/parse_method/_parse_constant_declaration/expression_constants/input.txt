@@ -1,0 +1,5 @@
+CONSTANT
+    buffer_size : INTEGER := 1024 * 8;
+    timeout_ms : REAL := 30.0 * 1000.0;
+    is_valid : BOOLEAN := (buffer_size > 0) AND (timeout_ms > 0.0);
+END_CONSTANT;

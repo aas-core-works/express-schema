@@ -1,0 +1,13 @@
+SelectType(
+  position=1:1,
+  values=[
+      NamedType(
+        position=1:9,
+        reference='VeryLongTypeName'
+      ),
+      NamedType(
+        position=1:27,
+        reference='AnotherVeryLongTypeName'
+      )
+    ]
+)

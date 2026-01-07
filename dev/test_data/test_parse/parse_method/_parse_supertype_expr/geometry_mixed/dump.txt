@@ -1,0 +1,28 @@
+SupertypeBinaryExpr(
+  position=1:1,
+  left=SupertypeBinaryExpr(
+      position=1:1,
+      left=SupertypeBinaryExpr(
+          position=1:1,
+          left=NameRef(
+              position=1:1,
+              identifier='Point'
+            ),
+          op=SupertypeBinaryOp.AND,
+          right=NameRef(
+              position=1:11,
+              identifier='Line'
+            )
+        ),
+      op=SupertypeBinaryOp.ANDOR,
+      right=NameRef(
+          position=1:22,
+          identifier='Circle'
+        )
+    ),
+  op=SupertypeBinaryOp.AND,
+  right=NameRef(
+      position=1:33,
+      identifier='Polygon'
+    )
+)

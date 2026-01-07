@@ -1,0 +1,11 @@
+[ConstantDefinition(
+  position=2:5,
+  identifier='debug_enabled',
+  type_selection=BooleanType(
+      position=2:21
+    ),
+  init=LogicalLiteral(
+      position=2:32,
+      value=TRUE
+    )
+)]

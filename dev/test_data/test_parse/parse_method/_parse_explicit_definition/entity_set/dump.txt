@@ -1,0 +1,15 @@
+ExplicitAttributeDefinition(
+  position=1:1,
+  attributes=[NameRef(
+      position=1:1,
+      identifier='references'
+    )],
+  optional=False,
+  type_selection=SetType(
+      position=1:14,
+      of=NamedType(
+          position=1:21,
+          reference='SomeEntity'
+        )
+    )
+)

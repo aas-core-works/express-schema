@@ -1,0 +1,28 @@
+ConstantDefinition(
+  position=1:1,
+  identifier='points',
+  type_selection=ArrayType(
+      position=1:10,
+      bound_spec=BoundSpec(
+          position=1:16,
+          lower=IntegerLiteral(
+              position=1:17,
+              value=0
+            ),
+          upper=IntegerLiteral(
+              position=1:19,
+              value=10
+            )
+        ),
+      optional=True,
+      unique=False,
+      of=NamedType(
+          position=1:35,
+          reference='Point'
+        )
+    ),
+  init=AggregateLiteral(
+      position=1:44,
+      elements=[]
+    )
+)

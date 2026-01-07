@@ -1,0 +1,1 @@
+emptySequence : LIST OF INTEGER := [];

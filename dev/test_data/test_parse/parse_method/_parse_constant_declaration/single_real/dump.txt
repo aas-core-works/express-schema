@@ -1,0 +1,11 @@
+[ConstantDefinition(
+  position=2:5,
+  identifier='pi_value',
+  type_selection=RealType(
+      position=2:16
+    ),
+  init=RealLiteral(
+      position=2:24,
+      value=3.14159
+    )
+)]

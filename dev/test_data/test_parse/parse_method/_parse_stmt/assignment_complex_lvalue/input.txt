@@ -1,0 +1,1 @@
+geometry.transformationMatrix[1][1] := cosAngle;

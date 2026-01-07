@@ -1,0 +1,21 @@
+SupertypeBinaryExpr(
+  position=1:1,
+  left=Choice(
+      position=1:1,
+      supertype_exprs=[
+          NameRef(
+            position=1:8,
+            identifier='Person'
+          ),
+          NameRef(
+            position=1:16,
+            identifier='Individual'
+          )
+        ]
+    ),
+  op=SupertypeBinaryOp.AND,
+  right=NameRef(
+      position=1:32,
+      identifier='Organization'
+    )
+)

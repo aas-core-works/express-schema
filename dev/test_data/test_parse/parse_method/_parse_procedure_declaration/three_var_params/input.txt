@@ -1,0 +1,12 @@
+PROCEDURE normalizeVector(VAR x : REAL; VAR y : REAL; VAR z : REAL);
+    LOCAL
+        length : REAL;
+    END_LOCAL;
+
+    length := SQRT(x*x + y*y + z*z);
+    IF length > 0.0 THEN
+        x := x / length;
+        y := y / length;
+        z := z / length;
+    END_IF;
+END_PROCEDURE;

@@ -1,0 +1,9 @@
+SCHEMA TestSchema;
+REFERENCE FROM GeometrySchema;
+USE FROM MathSchema;
+ENTITY Component;
+  name : STRING;
+  status : STRING;
+END_ENTITY;
+TYPE ComponentStatus = ENUMERATION OF (Active, Inactive);
+END_SCHEMA;

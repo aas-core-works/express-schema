@@ -1,0 +1,13 @@
+ConformantArrayType(
+  position=1:1,
+  optional=False,
+  unique=True,
+  of=BinaryType(
+      position=1:17,
+      width=IntegerLiteral(
+          position=1:24,
+          value=2048
+        ),
+      fixed=False
+    )
+)

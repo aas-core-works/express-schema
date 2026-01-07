@@ -1,0 +1,36 @@
+LocalVariableDefinition(
+  position=1:1,
+  identifiers=['data'],
+  of_type=ConformantSetType(
+      position=1:8,
+      bound_spec=BoundSpec(
+          position=1:12,
+          lower=IntegerLiteral(
+              position=1:13,
+              value=1
+            ),
+          upper=IntegerLiteral(
+              position=1:15,
+              value=5
+            )
+        ),
+      of=ConformantListType(
+          position=1:21,
+          bound_spec=BoundSpec(
+              position=1:26,
+              lower=IntegerLiteral(
+                  position=1:27,
+                  value=0
+                ),
+              upper=IndeterminateLiteral(
+                  position=1:29
+                )
+            ),
+          unique=False,
+          of=StringType(
+              position=1:35,
+              fixed=False
+            )
+        )
+    )
+)

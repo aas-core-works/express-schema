@@ -1,0 +1,11 @@
+LocalVariableDefinition(
+  position=1:1,
+  identifiers=[
+      'source',
+      'target'
+    ],
+  of_type=NamedType(
+      position=1:18,
+      reference='ComponentReference'
+    )
+)

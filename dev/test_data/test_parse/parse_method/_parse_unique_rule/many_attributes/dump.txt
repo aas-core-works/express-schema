@@ -1,0 +1,26 @@
+UniqueRule(
+  position=1:1,
+  label='multiUnique',
+  attributes=[
+      NameRef(
+        position=1:15,
+        identifier='field1'
+      ),
+      NameRef(
+        position=1:23,
+        identifier='field2'
+      ),
+      NameRef(
+        position=1:31,
+        identifier='field3'
+      ),
+      NameRef(
+        position=1:39,
+        identifier='field4'
+      ),
+      NameRef(
+        position=1:47,
+        identifier='field5'
+      )
+    ]
+)

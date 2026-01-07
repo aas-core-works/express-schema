@@ -1,0 +1,8 @@
+DomainRule(
+  position=1:1,
+  label='nameCheck',
+  expr=NameRef(
+      position=1:13,
+      identifier='someValue'
+    )
+)

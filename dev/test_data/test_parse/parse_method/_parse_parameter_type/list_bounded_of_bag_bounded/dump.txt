@@ -1,0 +1,33 @@
+ConformantListType(
+  position=1:1,
+  bound_spec=BoundSpec(
+      position=1:6,
+      lower=IntegerLiteral(
+          position=1:7,
+          value=1
+        ),
+      upper=IntegerLiteral(
+          position=1:9,
+          value=5
+        )
+    ),
+  unique=False,
+  of=ConformantBagType(
+      position=1:15,
+      bound_spec=BoundSpec(
+          position=1:19,
+          lower=IntegerLiteral(
+              position=1:20,
+              value=0
+            ),
+          upper=IntegerLiteral(
+              position=1:22,
+              value=20
+            )
+        ),
+      of=NamedType(
+          position=1:29,
+          reference='MaterialProperty'
+        )
+    )
+)

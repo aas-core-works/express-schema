@@ -1,0 +1,7 @@
+FormalParameter(
+  position=1:1,
+  identifiers=['state'],
+  of_type=LogicalType(
+      position=1:9
+    )
+)

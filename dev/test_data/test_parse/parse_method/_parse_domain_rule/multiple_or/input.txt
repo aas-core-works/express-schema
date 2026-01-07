@@ -1,0 +1,1 @@
+multiOption : (aType = A) OR (aType = B) OR (aType = C);

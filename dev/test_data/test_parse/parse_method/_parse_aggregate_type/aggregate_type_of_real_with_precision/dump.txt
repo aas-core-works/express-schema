@@ -1,0 +1,10 @@
+AggregateType(
+  position=1:1,
+  of=RealType(
+      position=1:14,
+      precision_spec=IntegerLiteral(
+          position=1:19,
+          value=10
+        )
+    )
+)

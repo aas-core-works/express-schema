@@ -1,0 +1,3 @@
+CONSTANT
+    maxSize : INTEGER := 1000;
+END_CONSTANT;

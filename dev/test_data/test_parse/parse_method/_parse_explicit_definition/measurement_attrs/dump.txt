@@ -1,0 +1,21 @@
+ExplicitAttributeDefinition(
+  position=1:1,
+  attributes=[
+      NameRef(
+        position=1:1,
+        identifier='Length'
+      ),
+      NameRef(
+        position=1:9,
+        identifier='Width'
+      ),
+      NameRef(
+        position=1:16,
+        identifier='Height'
+      )
+    ],
+  optional=False,
+  type_selection=RealType(
+      position=1:25
+    )
+)

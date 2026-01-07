@@ -1,0 +1,7 @@
+ENTITY TreeNode;
+    Value : STRING;
+    Parent : OPTIONAL TreeNode;
+    Children : SET [0:?] OF TreeNode;
+    WHERE
+        WR1 : SELF <> Parent;
+END_ENTITY;

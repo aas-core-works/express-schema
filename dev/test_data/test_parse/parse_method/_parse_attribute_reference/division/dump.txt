@@ -1,0 +1,12 @@
+BinaryExpr(
+  position=1:1,
+  left=NameRef(
+      position=1:1,
+      identifier='total'
+    ),
+  op=BinaryOp.REAL_DIVIDE,
+  right=NameRef(
+      position=1:9,
+      identifier='count'
+    )
+)

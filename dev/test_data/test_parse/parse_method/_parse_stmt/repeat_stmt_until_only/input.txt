@@ -1,0 +1,4 @@
+REPEAT UNTIL finished;
+    item := getNextItem();
+    finished := (item = UNKNOWN);
+END_REPEAT;

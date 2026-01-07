@@ -1,0 +1,1 @@
+IfcBuilding ANDOR IfcWall ANDOR IfcDoor

@@ -1,0 +1,2 @@
+DERIVE
+    tags : SET OF STRING := ['tag1', 'tag2'];

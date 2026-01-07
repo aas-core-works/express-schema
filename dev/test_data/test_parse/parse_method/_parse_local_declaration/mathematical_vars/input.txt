@@ -1,0 +1,8 @@
+LOCAL
+    coefficients : ARRAY [1:10] OF REAL;
+    variables : ARRAY [1:10] OF REAL := [];
+    solution : ARRAY [1:10] OF REAL := [];
+    tolerance : REAL := 0.001;
+    maxIterations : INTEGER := 100;
+    currentIteration : INTEGER := 0;
+END_LOCAL;

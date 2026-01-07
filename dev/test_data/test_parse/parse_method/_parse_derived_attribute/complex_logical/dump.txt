@@ -1,0 +1,30 @@
+DerivedAttribute(
+  position=1:1,
+  attribute=NameRef(
+      position=1:1,
+      identifier='validState'
+    ),
+  type_selection=BooleanType(
+      position=1:14
+    ),
+  init=BinaryExpr(
+      position=1:25,
+      left=NameRef(
+          position=1:25,
+          identifier='active'
+        ),
+      op=BinaryOp.AND,
+      right=BinaryExpr(
+          position=1:37,
+          left=NameRef(
+              position=1:37,
+              identifier='visible'
+            ),
+          op=BinaryOp.OR,
+          right=NameRef(
+              position=1:48,
+              identifier='enabled'
+            )
+        )
+    )
+)

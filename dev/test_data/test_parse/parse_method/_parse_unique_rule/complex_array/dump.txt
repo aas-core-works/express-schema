@@ -1,0 +1,23 @@
+UniqueRule(
+  position=1:1,
+  label='complexArray',
+  attributes=[IndexExpr(
+      position=1:16,
+      source=NameRef(
+          position=1:16,
+          identifier='coordinates'
+        ),
+      index=BinaryExpr(
+          position=1:28,
+          left=NameRef(
+              position=1:28,
+              identifier='index'
+            ),
+          op=BinaryOp.ADD,
+          right=IntegerLiteral(
+              position=1:36,
+              value=1
+            )
+        )
+    )]
+)

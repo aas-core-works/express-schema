@@ -1,0 +1,23 @@
+ConformantBagType(
+  position=1:1,
+  of=ConformantArrayType(
+      position=1:8,
+      bound_spec=BoundSpec(
+          position=1:14,
+          lower=IntegerLiteral(
+              position=1:15,
+              value=1
+            ),
+          upper=IntegerLiteral(
+              position=1:17,
+              value=15
+            )
+        ),
+      optional=False,
+      unique=False,
+      of=StringType(
+          position=1:24,
+          fixed=False
+        )
+    )
+)

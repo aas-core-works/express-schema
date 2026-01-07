@@ -1,0 +1,1 @@
+pi_approx : REAL := 3.14159;

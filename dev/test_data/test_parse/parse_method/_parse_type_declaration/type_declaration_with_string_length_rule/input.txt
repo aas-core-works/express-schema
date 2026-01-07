@@ -1,0 +1,5 @@
+TYPE ValidCode = STRING;
+WHERE
+    WR1 : LENGTH(SELF) >= 3;
+    WR2 : LENGTH(SELF) <= 12;
+END_TYPE;

@@ -1,0 +1,8 @@
+ReferenceClause(
+  position=1:1,
+  schema_ref='a',
+  import_list=[ImportItem(
+      position=1:19,
+      reference='item_x'
+    )]
+)

@@ -1,0 +1,3 @@
+CONSTANT
+    pi_value : REAL := 3.14159;
+END_CONSTANT;

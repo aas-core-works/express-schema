@@ -1,0 +1,30 @@
+BEGIN
+    validCount := 0;
+    errorCount := 0;
+
+    REPEAT dataIndex := 1 TO totalRecords WHILE (errorCount < maxErrors);
+        currentRecord := dataSet[dataIndex];
+
+        CASE validateRecord(currentRecord) OF
+            0: BEGIN
+                processValidRecord(currentRecord);
+                validCount := validCount + 1;
+            END;
+            1, 2: BEGIN
+                logMinorError(currentRecord, dataIndex);
+                correctRecord(currentRecord);
+                validCount := validCount + 1;
+            END;
+            OTHERWISE: BEGIN
+                logMajorError(currentRecord, dataIndex);
+                errorCount := errorCount + 1;
+            END;
+        END_CASE;
+    END_REPEAT;
+
+    IF errorCount >= maxErrors THEN
+        RETURN(FALSE);
+    ELSE
+        RETURN(TRUE);
+    END_IF;
+END;

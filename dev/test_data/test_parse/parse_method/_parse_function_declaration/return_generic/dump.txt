@@ -1,0 +1,26 @@
+FunctionDeclaration(
+  position=1:1,
+  identifier='createGeneric',
+  formal_parameters=[],
+  return_type=GenericType(
+      position=1:28
+    ),
+  head=AlgorithmHead(
+      declarations=[],
+      constant_definitions=[],
+      local_variable_definitions=[LocalVariableDefinition(
+          position=3:9,
+          identifiers=['item'],
+          of_type=GenericType(
+              position=3:16
+            )
+        )]
+    ),
+  body=[ReturnStmt(
+      position=5:5,
+      value=NameRef(
+          position=5:12,
+          identifier='item'
+        )
+    )]
+)

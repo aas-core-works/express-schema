@@ -1,0 +1,4 @@
+LOCAL
+    counter : INTEGER := 0;
+    message : STRING := 'start';
+END_LOCAL;

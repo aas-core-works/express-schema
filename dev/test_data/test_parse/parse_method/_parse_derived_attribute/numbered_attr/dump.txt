@@ -1,0 +1,14 @@
+DerivedAttribute(
+  position=1:1,
+  attribute=NameRef(
+      position=1:1,
+      identifier='value1'
+    ),
+  type_selection=IntegerType(
+      position=1:10
+    ),
+  init=IntegerLiteral(
+      position=1:21,
+      value=42
+    )
+)

@@ -1,0 +1,25 @@
+ExplicitAttributeDefinition(
+  position=1:1,
+  attributes=[
+      NameRef(
+        position=1:1,
+        identifier='tags'
+      ),
+      NameRef(
+        position=1:7,
+        identifier='categories'
+      ),
+      NameRef(
+        position=1:19,
+        identifier='labels'
+      )
+    ],
+  optional=False,
+  type_selection=SetType(
+      position=1:28,
+      of=StringType(
+          position=1:35,
+          fixed=False
+        )
+    )
+)

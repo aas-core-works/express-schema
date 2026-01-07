@@ -1,0 +1,19 @@
+ConstantDefinition(
+  position=1:1,
+  identifier='first_point',
+  type_selection=NamedType(
+      position=1:15,
+      reference='Point'
+    ),
+  init=IndexExpr(
+      position=1:24,
+      source=NameRef(
+          position=1:24,
+          identifier='points'
+        ),
+      index=IntegerLiteral(
+          position=1:31,
+          value=1
+        )
+    )
+)

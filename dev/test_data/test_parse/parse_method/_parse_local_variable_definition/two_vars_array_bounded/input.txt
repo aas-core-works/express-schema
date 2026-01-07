@@ -1,0 +1,1 @@
+inputMatrix, outputMatrix : ARRAY [1:10] OF REAL;

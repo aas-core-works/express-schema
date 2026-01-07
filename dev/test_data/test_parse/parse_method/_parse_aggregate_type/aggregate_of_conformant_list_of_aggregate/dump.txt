@@ -1,0 +1,13 @@
+AggregateType(
+  position=1:1,
+  of=ConformantListType(
+      position=1:14,
+      unique=False,
+      of=AggregateType(
+          position=1:22,
+          of=GenericType(
+              position=1:35
+            )
+        )
+    )
+)

@@ -1,0 +1,4 @@
+DERIVE
+    Dimension : INTEGER := 3;
+    DirectionRatios : LIST [2:3] OF REAL := normalizeVector(inputRatios);
+    Magnitude : REAL := SQRT(DirectionRatios[1] ** 2 + DirectionRatios[2] ** 2 + DirectionRatios[3] ** 2);

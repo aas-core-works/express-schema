@@ -1,0 +1,31 @@
+InverseSet(
+  position=1:1,
+  bound_spec=BoundSpec(
+      position=1:5,
+      lower=BinaryExpr(
+          position=1:6,
+          left=NameRef(
+              position=1:6,
+              identifier='base'
+            ),
+          op=BinaryOp.ADD,
+          right=IntegerLiteral(
+              position=1:13,
+              value=1
+            )
+        ),
+      upper=BinaryExpr(
+          position=1:15,
+          left=NameRef(
+              position=1:15,
+              identifier='limit'
+            ),
+          op=BinaryOp.SUBTRACT,
+          right=IntegerLiteral(
+              position=1:23,
+              value=1
+            )
+        )
+    ),
+  entity='CalculatedItem'
+)

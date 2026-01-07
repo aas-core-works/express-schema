@@ -1,0 +1,26 @@
+EntityDeclaration(
+  position=1:1,
+  identifier='Shape',
+  supertype_declaration=SupertypeOf(
+      position=2:5,
+      abstract=True,
+      of=Choice(
+          position=2:28,
+          supertype_exprs=[
+              NameRef(
+                position=2:34,
+                identifier='Circle'
+              ),
+              NameRef(
+                position=2:42,
+                identifier='Rectangle'
+              )
+            ]
+        )
+    ),
+  explicit_clauses=[],
+  derive_clauses=[],
+  inverse_clauses=[],
+  unique_rules=[],
+  domain_rules=[]
+)

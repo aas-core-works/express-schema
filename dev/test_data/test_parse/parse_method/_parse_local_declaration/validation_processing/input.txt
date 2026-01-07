@@ -1,0 +1,7 @@
+LOCAL
+    validItems : LIST [1:100] OF Item := [];
+    invalidItems : LIST [1:100] OF Item := [];
+    validationRules : SET [1:10] OF ValidationRule;
+    currentRule : ValidationRule;
+    ruleIndex : INTEGER := 1;
+END_LOCAL;

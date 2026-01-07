@@ -1,0 +1,8 @@
+FormalParameter(
+  position=1:1,
+  identifiers=['component'],
+  of_type=NamedType(
+      position=1:13,
+      reference='ComponentReference'
+    )
+)

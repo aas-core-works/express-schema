@@ -1,0 +1,9 @@
+ENTITY Building
+    SUBTYPE OF (Structure);
+    floors : LIST [1:?] OF Floor;
+    address : STRING;
+    DERIVE
+        totalArea : REAL := calculateTotalArea();
+    WHERE
+        validFloors : floors > 0;
+END_ENTITY;

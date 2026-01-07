@@ -1,0 +1,4 @@
+RULE GeometricValidation FOR (Surface, Curve);
+WHERE
+  criterion1 : SELF.Dimension IN [2, 3];
+END_RULE;

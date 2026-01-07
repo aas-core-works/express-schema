@@ -1,0 +1,2 @@
+TYPE ToggleState = BOOLEAN;
+END_TYPE;

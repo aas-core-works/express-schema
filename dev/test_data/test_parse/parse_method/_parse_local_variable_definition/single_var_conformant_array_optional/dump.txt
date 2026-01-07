@@ -1,0 +1,12 @@
+LocalVariableDefinition(
+  position=1:1,
+  identifiers=['optionalData'],
+  of_type=ConformantArrayType(
+      position=1:16,
+      optional=True,
+      unique=False,
+      of=IntegerType(
+          position=1:34
+        )
+    )
+)

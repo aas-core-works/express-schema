@@ -1,0 +1,8 @@
+SupertypeOf(
+  position=1:1,
+  abstract=False,
+  of=NameRef(
+      position=1:16,
+      identifier='Person'
+    )
+)

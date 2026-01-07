@@ -1,0 +1,6 @@
+FUNCTION createMatrix() : ARRAY [1:10] OF REAL;
+    LOCAL
+        matrix : ARRAY [1:10] OF REAL := [];
+    END_LOCAL;
+    RETURN(matrix);
+END_FUNCTION;

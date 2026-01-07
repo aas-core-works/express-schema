@@ -1,0 +1,14 @@
+DerivedAttribute(
+  position=1:1,
+  attribute=NameRef(
+      position=1:1,
+      identifier='unknownState'
+    ),
+  type_selection=LogicalType(
+      position=1:16
+    ),
+  init=LogicalLiteral(
+      position=1:27,
+      value=UNKNOWN
+    )
+)

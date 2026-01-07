@@ -1,0 +1,8 @@
+EnumType(
+  position=1:1,
+  values=[
+      'camelCase',
+      'PascalCase',
+      'snake_case'
+    ]
+)

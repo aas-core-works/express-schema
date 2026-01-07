@@ -1,0 +1,1 @@
+fixedId : STRING (8) FIXED := 'ID123456';

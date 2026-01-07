@@ -1,0 +1,9 @@
+ConformantArrayType(
+  position=1:1,
+  optional=False,
+  unique=True,
+  of=NamedType(
+      position=1:17,
+      reference='ProductDefinition'
+    )
+)

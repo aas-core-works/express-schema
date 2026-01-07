@@ -1,0 +1,21 @@
+FunctionDeclaration(
+  position=1:1,
+  identifier='getDefaultName',
+  formal_parameters=[],
+  return_type=StringType(
+      position=1:29,
+      fixed=False
+    ),
+  head=AlgorithmHead(
+      declarations=[],
+      constant_definitions=[],
+      local_variable_definitions=[]
+    ),
+  body=[ReturnStmt(
+      position=2:5,
+      value=StringLiteral(
+          position=2:12,
+          value='Default'
+        )
+    )]
+)

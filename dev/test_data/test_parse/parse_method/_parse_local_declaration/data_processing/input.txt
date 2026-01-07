@@ -1,0 +1,7 @@
+LOCAL
+    inputBuffer : ARRAY [1:1024] OF BINARY;
+    outputBuffer : ARRAY [1:1024] OF BINARY;
+    bufferSize : INTEGER := 1024;
+    isProcessing : BOOLEAN := FALSE;
+    errorCount : INTEGER := 0;
+END_LOCAL;

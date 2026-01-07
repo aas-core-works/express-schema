@@ -1,0 +1,26 @@
+ExplicitAttributeDefinition(
+  position=1:1,
+  attributes=[
+      NameRef(
+        position=1:1,
+        identifier='items'
+      ),
+      NameRef(
+        position=1:8,
+        identifier='history'
+      ),
+      NameRef(
+        position=1:17,
+        identifier='queue'
+      )
+    ],
+  optional=False,
+  type_selection=ListType(
+      position=1:25,
+      unique=False,
+      of=NamedType(
+          position=1:33,
+          reference='SomeEntity'
+        )
+    )
+)

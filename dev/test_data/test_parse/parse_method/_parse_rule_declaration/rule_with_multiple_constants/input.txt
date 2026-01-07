@@ -1,0 +1,9 @@
+RULE RangeValidation FOR (Parameter);
+CONSTANT
+  MinValue : REAL := 0.0;
+  MaxValue : REAL := 100.0;
+END_CONSTANT;
+WHERE
+  criterion1 : SELF.Value >= MinValue;
+  criterion2 : SELF.Value <= MaxValue;
+END_RULE;

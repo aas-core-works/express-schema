@@ -1,0 +1,11 @@
+AggregateType(
+  position=1:1,
+  of=ConformantListType(
+      position=1:14,
+      unique=True,
+      of=StringType(
+          position=1:29,
+          fixed=False
+        )
+    )
+)

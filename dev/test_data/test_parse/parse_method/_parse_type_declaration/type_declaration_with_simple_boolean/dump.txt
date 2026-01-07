@@ -1,0 +1,8 @@
+TypeDeclaration(
+  position=1:1,
+  identifier='ToggleState',
+  type_selection=BooleanType(
+      position=1:20
+    ),
+  domain_rules=[]
+)

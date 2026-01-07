@@ -1,0 +1,9 @@
+TypeDeclaration(
+  position=1:1,
+  identifier='DataContent',
+  type_selection=BinaryType(
+      position=1:20,
+      fixed=False
+    ),
+  domain_rules=[]
+)

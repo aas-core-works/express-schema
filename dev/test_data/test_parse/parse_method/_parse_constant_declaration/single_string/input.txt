@@ -1,0 +1,3 @@
+CONSTANT
+    app_name : STRING := 'MyApplication';
+END_CONSTANT;

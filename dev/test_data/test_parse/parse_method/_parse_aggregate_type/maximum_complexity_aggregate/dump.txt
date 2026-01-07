@@ -1,0 +1,20 @@
+AggregateType(
+  position=1:1,
+  label='OuterContainer',
+  of=AggregateType(
+      position=1:31,
+      label='MiddleContainer',
+      of=ConformantArrayType(
+          position=1:62,
+          optional=True,
+          unique=True,
+          of=AggregateType(
+              position=1:87,
+              label='InnerContainer',
+              of=GenericType(
+                  position=1:117
+                )
+            )
+        )
+    )
+)

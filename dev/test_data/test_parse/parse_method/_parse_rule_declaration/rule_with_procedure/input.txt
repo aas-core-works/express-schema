@@ -1,0 +1,7 @@
+RULE ProcessingRule FOR (DataSet);
+PROCEDURE ValidateData(VAR dataset : DataSet);
+  dataset.Validated := TRUE;
+END_PROCEDURE;
+WHERE
+  criterion1 : SIZEOF(SELF.Elements) > 0;
+END_RULE;

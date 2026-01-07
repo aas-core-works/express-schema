@@ -1,0 +1,1 @@
+inputBag, outputBag : BAG [0:50] OF ComponentReference

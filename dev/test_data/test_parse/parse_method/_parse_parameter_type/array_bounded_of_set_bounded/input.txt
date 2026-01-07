@@ -1,0 +1,1 @@
+ARRAY [1:3] OF SET [1:10] OF ComponentType

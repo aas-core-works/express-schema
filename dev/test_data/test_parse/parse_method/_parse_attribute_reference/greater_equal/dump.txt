@@ -1,0 +1,12 @@
+BinaryExpr(
+  position=1:1,
+  left=NameRef(
+      position=1:1,
+      identifier='size'
+    ),
+  op=BinaryOp.GREATER_EQUAL,
+  right=NameRef(
+      position=1:9,
+      identifier='minimum'
+    )
+)

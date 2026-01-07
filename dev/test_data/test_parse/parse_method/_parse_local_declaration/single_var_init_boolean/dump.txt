@@ -1,0 +1,11 @@
+[LocalVariableDefinition(
+  position=2:5,
+  identifiers=['active'],
+  of_type=BooleanType(
+      position=2:14
+    ),
+  init=LogicalLiteral(
+      position=2:25,
+      value=TRUE
+    )
+)]

@@ -1,0 +1,2 @@
+DERIVE
+    sqrtValue : REAL := SQRT(inputValue);

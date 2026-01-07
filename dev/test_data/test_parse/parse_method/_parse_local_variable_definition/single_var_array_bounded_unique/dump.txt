@@ -1,0 +1,24 @@
+LocalVariableDefinition(
+  position=1:1,
+  identifiers=['uniqueItems'],
+  of_type=ConformantArrayType(
+      position=1:15,
+      bound_spec=BoundSpec(
+          position=1:21,
+          lower=IntegerLiteral(
+              position=1:22,
+              value=1
+            ),
+          upper=IntegerLiteral(
+              position=1:24,
+              value=20
+            )
+        ),
+      optional=False,
+      unique=True,
+      of=StringType(
+          position=1:38,
+          fixed=False
+        )
+    )
+)

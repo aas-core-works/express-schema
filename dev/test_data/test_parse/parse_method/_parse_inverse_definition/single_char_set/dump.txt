@@ -1,0 +1,15 @@
+InverseDefinition(
+  position=1:1,
+  attribute=NameRef(
+      position=1:1,
+      identifier='x'
+    ),
+  inverse_type=InverseSet(
+      position=1:5,
+      entity='DataNode'
+    ),
+  attribute_ref=NameRef(
+      position=1:25,
+      identifier='y'
+    )
+)

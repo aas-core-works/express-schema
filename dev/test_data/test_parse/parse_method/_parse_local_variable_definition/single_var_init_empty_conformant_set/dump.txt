@@ -1,0 +1,14 @@
+LocalVariableDefinition(
+  position=1:1,
+  identifiers=['items'],
+  of_type=ConformantSetType(
+      position=1:9,
+      of=IntegerType(
+          position=1:16
+        )
+    ),
+  init=AggregateLiteral(
+      position=1:27,
+      elements=[]
+    )
+)

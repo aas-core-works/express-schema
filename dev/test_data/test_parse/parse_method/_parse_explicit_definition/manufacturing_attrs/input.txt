@@ -1,0 +1,1 @@
+partNumber, revision, supplier : STRING;

@@ -1,0 +1,2 @@
+INVERSE
+    managers : SET [1:10] OF ManagerData FOR employees;

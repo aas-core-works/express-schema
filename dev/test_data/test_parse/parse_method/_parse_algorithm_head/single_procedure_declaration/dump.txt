@@ -1,0 +1,17 @@
+AlgorithmHead(
+  declarations=[ProcedureDeclaration(
+      position=1:1,
+      identifier='initialize',
+      formal_parameters=[],
+      head=AlgorithmHead(
+          declarations=[],
+          constant_definitions=[],
+          local_variable_definitions=[]
+        ),
+      body=[SkipStmt(
+          position=2:5
+        )]
+    )],
+  constant_definitions=[],
+  local_variable_definitions=[]
+)

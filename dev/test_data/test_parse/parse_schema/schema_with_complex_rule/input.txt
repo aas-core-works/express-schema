@@ -1,0 +1,7 @@
+SCHEMA TestSchema;
+RULE RangeValidation FOR (Parameter);
+WHERE
+  criterion1 : SELF.value >= SELF.minValue;
+  criterion2 : SELF.value <= SELF.maxValue;
+END_RULE;
+END_SCHEMA;

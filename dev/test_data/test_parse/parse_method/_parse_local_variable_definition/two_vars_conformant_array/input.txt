@@ -1,0 +1,1 @@
+inputArray, outputArray : ARRAY OF STRING;

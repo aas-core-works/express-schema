@@ -1,0 +1,21 @@
+Choice(
+  position=1:1,
+  supertype_exprs=[
+      NameRef(
+        position=1:8,
+        identifier='Point'
+      ),
+      NameRef(
+        position=1:15,
+        identifier='Line'
+      ),
+      NameRef(
+        position=1:21,
+        identifier='Surface'
+      ),
+      NameRef(
+        position=1:30,
+        identifier='Circle'
+      )
+    ]
+)

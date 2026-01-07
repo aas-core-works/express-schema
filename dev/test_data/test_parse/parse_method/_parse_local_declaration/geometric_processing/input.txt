@@ -1,0 +1,6 @@
+LOCAL
+    points : ARRAY [1:100] OF Point;
+    transformMatrix : ARRAY [1:4] OF ARRAY [1:4] OF REAL;
+    rotationAngle : REAL := 0.0;
+    translationVector : ARRAY [1:3] OF REAL := [];
+END_LOCAL;

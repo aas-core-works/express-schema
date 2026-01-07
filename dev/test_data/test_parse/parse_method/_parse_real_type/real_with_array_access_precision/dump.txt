@@ -1,0 +1,14 @@
+RealType(
+  position=1:1,
+  precision_spec=IndexExpr(
+      position=1:6,
+      source=NameRef(
+          position=1:6,
+          identifier='sizes'
+        ),
+      index=NameRef(
+          position=1:12,
+          identifier='index'
+        )
+    )
+)

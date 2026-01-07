@@ -1,0 +1,14 @@
+CONSTANT
+    maxDataPoints : INTEGER := 500;
+    minDataPoints : INTEGER := 10;
+    defaultPrecision : REAL := 0.001;
+    processingMode : STRING := 'automatic';
+END_CONSTANT;
+
+LOCAL
+    dataPoints : ARRAY [1:maxDataPoints] OF REAL := [];
+    dataCount : INTEGER := 0;
+    precision : REAL := defaultPrecision;
+    mode : STRING := processingMode;
+    results : LIST [1:100] OF REAL := [];
+END_LOCAL;

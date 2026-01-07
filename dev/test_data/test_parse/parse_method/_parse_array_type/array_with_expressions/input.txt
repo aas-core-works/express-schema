@@ -1,0 +1,1 @@
+ARRAY [minIndex:maxIndex] OF REAL

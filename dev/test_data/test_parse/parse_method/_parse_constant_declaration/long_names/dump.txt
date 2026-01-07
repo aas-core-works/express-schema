@@ -1,0 +1,25 @@
+[
+  ConstantDefinition(
+    position=2:5,
+    identifier='very_long_constant_name_for_comprehensive_testing',
+    type_selection=IntegerType(
+        position=2:57
+      ),
+    init=IntegerLiteral(
+        position=2:68,
+        value=42
+      )
+  ),
+  ConstantDefinition(
+    position=3:5,
+    identifier='another_extremely_long_identifier_name',
+    type_selection=StringType(
+        position=3:46,
+        fixed=False
+      ),
+    init=StringLiteral(
+        position=3:56,
+        value='test'
+      )
+  )
+]

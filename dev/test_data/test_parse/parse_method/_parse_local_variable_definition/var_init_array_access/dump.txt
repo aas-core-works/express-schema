@@ -1,0 +1,19 @@
+LocalVariableDefinition(
+  position=1:1,
+  identifiers=['firstElement'],
+  of_type=StringType(
+      position=1:16,
+      fixed=False
+    ),
+  init=IndexExpr(
+      position=1:26,
+      source=NameRef(
+          position=1:26,
+          identifier='items'
+        ),
+      index=IntegerLiteral(
+          position=1:32,
+          value=1
+        )
+    )
+)

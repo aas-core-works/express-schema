@@ -1,0 +1,1 @@
+ENUMERATION OF (camelCase, PascalCase, snake_case)

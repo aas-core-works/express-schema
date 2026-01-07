@@ -1,0 +1,30 @@
+UniqueRule(
+  position=1:1,
+  label='calcUnique',
+  attributes=[
+      BinaryExpr(
+        position=1:14,
+        left=NameRef(
+            position=1:14,
+            identifier='base'
+          ),
+        op=BinaryOp.ADD,
+        right=NameRef(
+            position=1:21,
+            identifier='offset'
+          )
+      ),
+      BinaryExpr(
+        position=1:29,
+        left=NameRef(
+            position=1:29,
+            identifier='multiplier'
+          ),
+        op=BinaryOp.MULTIPLY,
+        right=NameRef(
+            position=1:42,
+            identifier='factor'
+          )
+      )
+    ]
+)

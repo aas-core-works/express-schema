@@ -1,0 +1,27 @@
+ArrayType(
+  position=1:1,
+  bound_spec=BoundSpec(
+      position=1:7,
+      lower=Call(
+          position=1:8,
+          callee=NameRef(
+              position=1:8,
+              identifier='getMin'
+            ),
+          args=[]
+        ),
+      upper=Call(
+          position=1:17,
+          callee=NameRef(
+              position=1:17,
+              identifier='getMax'
+            ),
+          args=[]
+        )
+    ),
+  optional=False,
+  unique=False,
+  of=RealType(
+      position=1:30
+    )
+)

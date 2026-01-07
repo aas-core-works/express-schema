@@ -1,0 +1,4 @@
+DERIVE
+    magnitude : REAL := SQRT(SELF.X ** 2 + SELF.Y ** 2 + SELF.Z ** 2);
+    normalized : BOOLEAN := ABS(magnitude - 1.0) < tolerance;
+    unitVector : ARRAY [1:3] OF REAL := [SELF.X / magnitude, SELF.Y / magnitude, SELF.Z / magnitude];

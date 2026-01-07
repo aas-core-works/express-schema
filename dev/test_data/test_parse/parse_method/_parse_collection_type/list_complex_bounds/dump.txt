@@ -1,0 +1,19 @@
+ListType(
+  position=1:1,
+  bound_spec=BoundSpec(
+      position=1:6,
+      lower=NameRef(
+          position=1:7,
+          identifier='minSize'
+        ),
+      upper=NameRef(
+          position=1:15,
+          identifier='maxSize'
+        )
+    ),
+  unique=False,
+  of=NamedType(
+      position=1:27,
+      reference='MyEntity'
+    )
+)

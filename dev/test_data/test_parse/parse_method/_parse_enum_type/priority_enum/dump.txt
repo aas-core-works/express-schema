@@ -1,0 +1,9 @@
+EnumType(
+  position=1:1,
+  values=[
+      'LOW',
+      'MEDIUM',
+      'HIGH',
+      'CRITICAL'
+    ]
+)

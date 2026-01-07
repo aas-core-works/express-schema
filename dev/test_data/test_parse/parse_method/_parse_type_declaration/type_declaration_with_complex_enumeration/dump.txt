@@ -1,0 +1,15 @@
+TypeDeclaration(
+  position=1:1,
+  identifier='OperationMode',
+  type_selection=EnumType(
+      position=1:22,
+      values=[
+          'Manual',
+          'Automatic',
+          'SemiAutomatic',
+          'Maintenance',
+          'Diagnostics'
+        ]
+    ),
+  domain_rules=[]
+)

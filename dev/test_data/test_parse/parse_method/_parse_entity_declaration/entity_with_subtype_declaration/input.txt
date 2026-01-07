@@ -1,0 +1,4 @@
+ENTITY Circle
+    SUBTYPE OF (Shape);
+    Radius : REAL;
+END_ENTITY;

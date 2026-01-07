@@ -1,0 +1,22 @@
+FormalParameter(
+  position=1:1,
+  identifiers=['sequence'],
+  of_type=ConformantListType(
+      position=1:12,
+      bound_spec=BoundSpec(
+          position=1:17,
+          lower=IntegerLiteral(
+              position=1:18,
+              value=1
+            ),
+          upper=IntegerLiteral(
+              position=1:20,
+              value=20
+            )
+        ),
+      unique=False,
+      of=RealType(
+          position=1:27
+        )
+    )
+)

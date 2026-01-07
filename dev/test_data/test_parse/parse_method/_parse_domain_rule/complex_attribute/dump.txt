@@ -1,0 +1,34 @@
+DomainRule(
+  position=1:1,
+  label='complexRef',
+  expr=BinaryExpr(
+      position=1:14,
+      left=AttributeRef(
+          position=1:14,
+          source=IndexExpr(
+              position=1:14,
+              source=IndexExpr(
+                  position=1:14,
+                  source=NameRef(
+                      position=1:14,
+                      identifier='matrix'
+                    ),
+                  index=NameRef(
+                      position=1:21,
+                      identifier='row'
+                    )
+                ),
+              index=NameRef(
+                  position=1:26,
+                  identifier='col'
+                )
+            ),
+          identifier='value'
+        ),
+      op=BinaryOp.EQUAL,
+      right=NameRef(
+          position=1:39,
+          identifier='expectedValue'
+        )
+    )
+)

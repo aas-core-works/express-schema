@@ -1,0 +1,2 @@
+ENTITY PersonType;
+END_ENTITY;

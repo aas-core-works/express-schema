@@ -1,0 +1,3 @@
+FUNCTION processItems(items : LIST OF STRING) : INTEGER;
+    RETURN(SIZEOF(items));
+END_FUNCTION;

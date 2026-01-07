@@ -1,0 +1,20 @@
+ConstantDefinition(
+  position=1:1,
+  identifier='full_path',
+  type_selection=StringType(
+      position=1:13,
+      fixed=False
+    ),
+  init=BinaryExpr(
+      position=1:23,
+      left=NameRef(
+          position=1:23,
+          identifier='base_path'
+        ),
+      op=BinaryOp.ADD,
+      right=NameRef(
+          position=1:35,
+          identifier='file_name'
+        )
+    )
+)

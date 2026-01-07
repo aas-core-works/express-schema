@@ -1,0 +1,3 @@
+FUNCTION processData(data : ARRAY OF REAL) : INTEGER;
+    RETURN(SIZEOF(data));
+END_FUNCTION;

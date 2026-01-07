@@ -1,0 +1,25 @@
+SupertypeOf(
+  position=1:1,
+  abstract=False,
+  of=SupertypeBinaryExpr(
+      position=1:15,
+      left=Choice(
+          position=1:15,
+          supertype_exprs=[
+              NameRef(
+                position=1:22,
+                identifier='Person'
+              ),
+              NameRef(
+                position=1:30,
+                identifier='Individual'
+              )
+            ]
+        ),
+      op=SupertypeBinaryOp.ANDOR,
+      right=NameRef(
+          position=1:48,
+          identifier='Organization'
+        )
+    )
+)

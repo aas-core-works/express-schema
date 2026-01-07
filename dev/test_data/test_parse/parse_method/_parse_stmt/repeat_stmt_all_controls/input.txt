@@ -1,0 +1,5 @@
+REPEAT i := 1 TO 1000 BY 2 WHILE active UNTIL complete;
+    processOddNumber(i);
+    active := checkStatus();
+    complete := isTaskComplete();
+END_REPEAT;

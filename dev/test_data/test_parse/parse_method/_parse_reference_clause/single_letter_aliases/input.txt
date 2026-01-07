@@ -1,0 +1,1 @@
+REFERENCE FROM definitions (long_item_name AS a, another_long_name AS b);

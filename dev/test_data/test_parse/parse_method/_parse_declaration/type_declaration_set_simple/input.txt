@@ -1,0 +1,2 @@
+TYPE ComponentSet = SET [1:5] OF Component;
+END_TYPE;

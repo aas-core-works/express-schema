@@ -1,0 +1,20 @@
+BinaryExpr(
+  position=1:1,
+  left=NameRef(
+      position=1:1,
+      identifier='a'
+    ),
+  op=BinaryOp.ADD,
+  right=BinaryExpr(
+      position=1:5,
+      left=NameRef(
+          position=1:5,
+          identifier='b'
+        ),
+      op=BinaryOp.MULTIPLY,
+      right=NameRef(
+          position=1:9,
+          identifier='c'
+        )
+    )
+)

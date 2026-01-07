@@ -1,0 +1,1 @@
+sqrtTwo : REAL := SQRT(2.0);

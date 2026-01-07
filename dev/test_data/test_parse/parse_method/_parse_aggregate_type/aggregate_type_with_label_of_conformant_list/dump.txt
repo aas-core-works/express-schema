@@ -1,0 +1,11 @@
+AggregateType(
+  position=1:1,
+  label='ListType',
+  of=ConformantListType(
+      position=1:25,
+      unique=True,
+      of=RealType(
+          position=1:40
+        )
+    )
+)

@@ -1,0 +1,1 @@
+SET [obj.minSize:obj.maxSize] OF STRING

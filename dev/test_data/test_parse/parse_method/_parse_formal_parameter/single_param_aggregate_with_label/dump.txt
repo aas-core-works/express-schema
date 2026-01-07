@@ -1,0 +1,11 @@
+FormalParameter(
+  position=1:1,
+  identifiers=['collection'],
+  of_type=AggregateType(
+      position=1:14,
+      label='ItemType',
+      of=IntegerType(
+          position=1:38
+        )
+    )
+)

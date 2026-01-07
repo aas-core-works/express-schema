@@ -1,0 +1,5 @@
+RULE StringValidation FOR (Identifier);
+WHERE
+  criterion1 : LENGTH(SELF.Name) > 0;
+  criterion2 : LENGTH(SELF.Name) <= 255;
+END_RULE;

@@ -1,0 +1,1 @@
+mixedData : LIST OF REAL := [value1, value2 + 1.0, getValue()];

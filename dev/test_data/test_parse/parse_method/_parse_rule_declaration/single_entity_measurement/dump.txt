@@ -1,0 +1,30 @@
+RuleDeclaration(
+  position=1:1,
+  identifier='PositiveValue',
+  for_entities=['Measurement'],
+  head=AlgorithmHead(
+      declarations=[],
+      constant_definitions=[],
+      local_variable_definitions=[]
+    ),
+  body=[],
+  where=[DomainRule(
+      position=3:3,
+      label='criterion1',
+      expr=BinaryExpr(
+          position=3:16,
+          left=AttributeRef(
+              position=3:16,
+              source=Self(
+                  position=3:16
+                ),
+              identifier='Value'
+            ),
+          op=BinaryOp.GREATER_THAN,
+          right=RealLiteral(
+              position=3:29,
+              value=0.0
+            )
+        )
+    )]
+)

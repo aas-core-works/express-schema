@@ -1,0 +1,17 @@
+DeriveClause(
+  position=1:1,
+  derived_attributes=[DerivedAttribute(
+      position=2:5,
+      attribute=NameRef(
+          position=2:5,
+          identifier='value'
+        ),
+      type_selection=RealType(
+          position=2:13
+        ),
+      init=RealLiteral(
+          position=2:21,
+          value=3.14
+        )
+    )]
+)

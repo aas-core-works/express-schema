@@ -1,0 +1,17 @@
+AggregateType(
+  position=1:1,
+  label='ContainerType',
+  of=AggregateType(
+      position=1:30,
+      of=ConformantListType(
+          position=1:43,
+          unique=True,
+          of=AggregateType(
+              position=1:58,
+              of=IntegerType(
+                  position=1:71
+                )
+            )
+        )
+    )
+)

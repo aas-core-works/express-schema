@@ -1,0 +1,15 @@
+LocalVariableDefinition(
+  position=1:1,
+  identifiers=[
+      'temperature',
+      'pressure',
+      'humidity'
+    ],
+  of_type=RealType(
+      position=1:35,
+      precision_spec=IntegerLiteral(
+          position=1:40,
+          value=15
+        )
+    )
+)

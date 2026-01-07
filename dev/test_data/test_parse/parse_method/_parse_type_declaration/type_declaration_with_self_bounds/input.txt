@@ -1,0 +1,4 @@
+TYPE BoundedString = STRING;
+WHERE
+    WR1 : (LENGTH(SELF) >= 1) AND (LENGTH(SELF) <= 255);
+END_TYPE;

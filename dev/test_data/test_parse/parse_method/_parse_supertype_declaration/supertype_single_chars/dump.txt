@@ -1,0 +1,24 @@
+SupertypeOf(
+  position=1:1,
+  abstract=False,
+  of=SupertypeBinaryExpr(
+      position=1:15,
+      left=SupertypeBinaryExpr(
+          position=1:15,
+          left=NameRef(
+              position=1:15,
+              identifier='A'
+            ),
+          op=SupertypeBinaryOp.AND,
+          right=NameRef(
+              position=1:21,
+              identifier='B'
+            )
+        ),
+      op=SupertypeBinaryOp.AND,
+      right=NameRef(
+          position=1:27,
+          identifier='C'
+        )
+    )
+)

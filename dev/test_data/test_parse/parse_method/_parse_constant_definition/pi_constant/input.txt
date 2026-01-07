@@ -1,0 +1,1 @@
+circle_ratio : REAL := PI;

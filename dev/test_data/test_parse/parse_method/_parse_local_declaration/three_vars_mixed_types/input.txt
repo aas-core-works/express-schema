@@ -1,0 +1,5 @@
+LOCAL
+    index : INTEGER;
+    data : ARRAY [1:100] OF REAL;
+    isValid : BOOLEAN;
+END_LOCAL;

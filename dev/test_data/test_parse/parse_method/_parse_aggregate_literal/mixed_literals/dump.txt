@@ -1,0 +1,26 @@
+AggregateLiteral(
+  position=1:1,
+  elements=[
+      Element(
+        position=1:2,
+        expr=IntegerLiteral(
+            position=1:2,
+            value=42
+          )
+      ),
+      Element(
+        position=1:6,
+        expr=StringLiteral(
+            position=1:6,
+            value='hello'
+          )
+      ),
+      Element(
+        position=1:15,
+        expr=LogicalLiteral(
+            position=1:15,
+            value=TRUE
+          )
+      )
+    ]
+)

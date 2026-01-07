@@ -1,0 +1,10 @@
+FormalParameter(
+  position=1:1,
+  identifiers=['values'],
+  of_type=AggregateType(
+      position=1:10,
+      of=RealType(
+          position=1:23
+        )
+    )
+)

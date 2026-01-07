@@ -1,0 +1,10 @@
+AggregateType(
+  position=1:1,
+  of=ConformantBagType(
+      position=1:14,
+      of=NamedType(
+          position=1:21,
+          reference='ComponentType'
+        )
+    )
+)

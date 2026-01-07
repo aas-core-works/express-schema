@@ -1,0 +1,5 @@
+CONSTANT
+    valid_states : SET OF INTEGER := [1, 2, 3, 4, 5];
+    error_codes : LIST OF INTEGER := [404, 500, 503];
+    data_samples : BAG OF REAL := [1.0, 2.5, 1.0, 3.7];
+END_CONSTANT;

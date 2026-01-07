@@ -1,0 +1,3 @@
+AbstractSupertype(
+  position=1:1
+)

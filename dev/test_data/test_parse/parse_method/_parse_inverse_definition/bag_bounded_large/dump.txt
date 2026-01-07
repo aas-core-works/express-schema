@@ -1,0 +1,26 @@
+InverseDefinition(
+  position=1:1,
+  attribute=NameRef(
+      position=1:1,
+      identifier='subscribers'
+    ),
+  inverse_type=InverseBag(
+      position=1:15,
+      bound_spec=BoundSpec(
+          position=1:19,
+          lower=IntegerLiteral(
+              position=1:20,
+              value=1
+            ),
+          upper=IntegerLiteral(
+              position=1:22,
+              value=1000
+            )
+        ),
+      entity='SubscriberData'
+    ),
+  attribute_ref=NameRef(
+      position=1:50,
+      identifier='notifications'
+    )
+)

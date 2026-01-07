@@ -1,0 +1,12 @@
+BinaryExpr(
+  position=1:1,
+  left=NameRef(
+      position=1:1,
+      identifier='name'
+    ),
+  op=BinaryOp.LIKE,
+  right=StringLiteral(
+      position=1:11,
+      value='test*'
+    )
+)

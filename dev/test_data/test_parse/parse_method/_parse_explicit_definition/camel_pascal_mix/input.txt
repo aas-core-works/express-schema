@@ -1,0 +1,1 @@
+personData, OrganizationInfo, contact_details : SomeEntity;

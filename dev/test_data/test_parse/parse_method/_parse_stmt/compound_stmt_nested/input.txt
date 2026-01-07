@@ -1,0 +1,7 @@
+BEGIN
+    BEGIN
+        x := 1;
+        y := 2;
+    END;
+    result := x + y;
+END;

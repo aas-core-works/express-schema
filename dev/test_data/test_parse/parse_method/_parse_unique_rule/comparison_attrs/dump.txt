@@ -1,0 +1,30 @@
+UniqueRule(
+  position=1:1,
+  label='compareUnique',
+  attributes=[
+      BinaryExpr(
+        position=1:17,
+        left=NameRef(
+            position=1:17,
+            identifier='value'
+          ),
+        op=BinaryOp.GREATER_THAN,
+        right=NameRef(
+            position=1:25,
+            identifier='threshold'
+          )
+      ),
+      BinaryExpr(
+        position=1:36,
+        left=NameRef(
+            position=1:36,
+            identifier='status'
+          ),
+        op=BinaryOp.EQUAL,
+        right=NameRef(
+            position=1:45,
+            identifier='active'
+          )
+      )
+    ]
+)

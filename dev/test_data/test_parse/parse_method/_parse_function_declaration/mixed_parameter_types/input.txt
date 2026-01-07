@@ -1,0 +1,15 @@
+FUNCTION processComplexData(
+        simpleValue : REAL;
+        textData : STRING;
+        flags : ARRAY [1:5] OF BOOLEAN;
+        components : LIST [1:?] OF Component;
+        genericData : GENERIC : DataType;
+        conformantItems : ARRAY OF Item
+    ) : ProcessingResult;
+    LOCAL
+        result : ProcessingResult;
+    END_LOCAL;
+
+    result := performComplexProcessing(simpleValue, textData, flags, components, genericData, conformantItems);
+    RETURN(result);
+END_FUNCTION;

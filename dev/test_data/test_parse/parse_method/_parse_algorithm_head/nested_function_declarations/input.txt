@@ -1,0 +1,20 @@
+FUNCTION outerFunction() : REAL;
+    FUNCTION innerFunction(value : REAL) : REAL;
+        RETURN(value * 2.0);
+    END_FUNCTION;
+
+    LOCAL
+        result : REAL;
+    END_LOCAL;
+
+    result := innerFunction(5.0);
+    RETURN(result);
+END_FUNCTION;
+
+CONSTANT
+    multiplier : REAL := 2.0;
+END_CONSTANT;
+
+LOCAL
+    calculatedValue : REAL;
+END_LOCAL;

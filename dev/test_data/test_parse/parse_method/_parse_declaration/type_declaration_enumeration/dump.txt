@@ -1,0 +1,14 @@
+TypeDeclaration(
+  position=1:1,
+  identifier='ColorType',
+  type_selection=EnumType(
+      position=1:18,
+      values=[
+          'red',
+          'green',
+          'blue',
+          'yellow'
+        ]
+    ),
+  domain_rules=[]
+)

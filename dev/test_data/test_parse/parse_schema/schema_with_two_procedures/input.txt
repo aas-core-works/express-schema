@@ -1,0 +1,8 @@
+SCHEMA TestSchema;
+PROCEDURE Initialize();
+  SKIP;
+END_PROCEDURE;
+PROCEDURE Cleanup();
+  SKIP;
+END_PROCEDURE;
+END_SCHEMA;

@@ -1,0 +1,11 @@
+[LocalVariableDefinition(
+  position=2:5,
+  identifiers=[
+      'x',
+      'y',
+      'z'
+    ],
+  of_type=RealType(
+      position=2:15
+    )
+)]

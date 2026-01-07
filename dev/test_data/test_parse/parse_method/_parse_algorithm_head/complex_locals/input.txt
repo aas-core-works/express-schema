@@ -1,0 +1,6 @@
+LOCAL
+    inputData : ARRAY [1:100] OF REAL;
+    outputData : ARRAY [1:100] OF REAL := [];
+    processingFlag : BOOLEAN := FALSE;
+    itemCount : INTEGER := 0;
+END_LOCAL;

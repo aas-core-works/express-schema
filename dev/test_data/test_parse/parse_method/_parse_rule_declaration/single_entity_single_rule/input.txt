@@ -1,0 +1,4 @@
+RULE ValidLength FOR (LineSegment);
+WHERE
+  criterion1 : LENGTH(SELF) > 0.0;
+END_RULE;

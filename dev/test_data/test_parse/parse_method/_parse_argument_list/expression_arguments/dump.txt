@@ -1,0 +1,32 @@
+[
+  Arg(
+    position=1:2,
+    value=BinaryExpr(
+        position=1:2,
+        left=NameRef(
+            position=1:2,
+            identifier='x'
+          ),
+        op=BinaryOp.ADD,
+        right=NameRef(
+            position=1:6,
+            identifier='y'
+          )
+      )
+  ),
+  Arg(
+    position=1:9,
+    value=BinaryExpr(
+        position=1:9,
+        left=NameRef(
+            position=1:9,
+            identifier='a'
+          ),
+        op=BinaryOp.MULTIPLY,
+        right=NameRef(
+            position=1:13,
+            identifier='b'
+          )
+      )
+  )
+]

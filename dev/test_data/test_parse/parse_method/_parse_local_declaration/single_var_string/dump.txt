@@ -1,0 +1,8 @@
+[LocalVariableDefinition(
+  position=2:5,
+  identifiers=['message'],
+  of_type=StringType(
+      position=2:15,
+      fixed=False
+    )
+)]

@@ -1,0 +1,63 @@
+PROCEDURE dataValidator(input : ARRAY [1:?] OF DataRecord; VAR output : ARRAY [1:?] OF DataRecord; VAR validationReport : ValidationReport);
+    TYPE ValidationLevel = ENUMERATION OF
+        (basic, standard, strict);
+    END_TYPE;
+
+    TYPE ValidationRule = SELECT (
+        RangeRule,
+        FormatRule,
+        ConsistencyRule);
+    END_TYPE;
+
+    FUNCTION applyValidationRule(record : DataRecord; criterion : ValidationRule) : BOOLEAN;
+        RETURN(TRUE);
+    END_FUNCTION;
+
+    PROCEDURE logValidationError(record : DataRecord; criterion : ValidationRule);
+        validationReport.errorCount := validationReport.errorCount + 1;
+    END_PROCEDURE;
+
+    CONSTANT
+        defaultValidationLevel : ValidationLevel := standard;
+        maxErrors : INTEGER := 10;
+        timeoutDuration : REAL := 60.0;
+    END_CONSTANT;
+
+    LOCAL
+        validatedRecords : ARRAY [1:1000] OF DataRecord := [];
+        validationRules : SET [1:20] OF ValidationRule := [];
+        currentRecord : DataRecord;
+        currentCriterion : ValidationRule;
+        validationResult : BOOLEAN;
+        validCount : INTEGER := 0;
+        i, j : INTEGER;
+    END_LOCAL;
+
+    validationReport.errorCount := 0;
+    validationReport.validationLevel := defaultValidationLevel;
+    loadValidationRules(validationRules);
+
+    REPEAT i := 1 TO SIZEOF(input);
+        currentRecord := input[i];
+        validationResult := TRUE;
+
+        REPEAT j := 1 TO SIZEOF(validationRules);
+            currentCriterion := validationRules[j];
+            IF NOT applyValidationRule(currentRecord, currentCriterion) THEN
+                validationResult := FALSE;
+                logValidationError(currentRecord, currentCriterion);
+                IF validationReport.errorCount >= maxErrors THEN
+                    RETURN;
+                END_IF;
+            END_IF;
+        END_REPEAT;
+
+        IF validationResult THEN
+            validCount := validCount + 1;
+            validatedRecords[validCount] := currentRecord;
+        END_IF;
+    END_REPEAT;
+
+    output := validatedRecords;
+    validationReport.validRecordCount := validCount;
+END_PROCEDURE;

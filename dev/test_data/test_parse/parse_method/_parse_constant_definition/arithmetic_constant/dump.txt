@@ -1,0 +1,19 @@
+ConstantDefinition(
+  position=1:1,
+  identifier='buffer_size',
+  type_selection=IntegerType(
+      position=1:15
+    ),
+  init=BinaryExpr(
+      position=1:26,
+      left=IntegerLiteral(
+          position=1:26,
+          value=512
+        ),
+      op=BinaryOp.MULTIPLY,
+      right=IntegerLiteral(
+          position=1:32,
+          value=2
+        )
+    )
+)

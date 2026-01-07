@@ -1,0 +1,25 @@
+ExplicitAttributeDefinition(
+  position=1:1,
+  attributes=[NameRef(
+      position=1:1,
+      identifier='samples'
+    )],
+  optional=False,
+  type_selection=BagType(
+      position=1:11,
+      bound_spec=BoundSpec(
+          position=1:15,
+          lower=IntegerLiteral(
+              position=1:16,
+              value=1
+            ),
+          upper=IntegerLiteral(
+              position=1:18,
+              value=50
+            )
+        ),
+      of=RealType(
+          position=1:25
+        )
+    )
+)

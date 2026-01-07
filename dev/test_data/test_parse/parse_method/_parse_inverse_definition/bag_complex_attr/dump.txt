@@ -1,0 +1,30 @@
+InverseDefinition(
+  position=1:1,
+  attribute=NameRef(
+      position=1:1,
+      identifier='processors'
+    ),
+  inverse_type=InverseBag(
+      position=1:14,
+      bound_spec=BoundSpec(
+          position=1:18,
+          lower=IntegerLiteral(
+              position=1:19,
+              value=1
+            ),
+          upper=IntegerLiteral(
+              position=1:21,
+              value=20
+            )
+        ),
+      entity='ProcessorData'
+    ),
+  attribute_ref=AttributeRef(
+      position=1:46,
+      source=NameRef(
+          position=1:46,
+          identifier='tasks'
+        ),
+      identifier='queue'
+    )
+)

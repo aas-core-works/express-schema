@@ -1,0 +1,8 @@
+BinaryType(
+  position=1:1,
+  width=IntegerLiteral(
+      position=1:8,
+      value=1024
+    ),
+  fixed=False
+)

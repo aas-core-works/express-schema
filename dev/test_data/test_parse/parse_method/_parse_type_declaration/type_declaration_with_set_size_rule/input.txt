@@ -1,0 +1,4 @@
+TYPE SmallCollection = SET [1:?] OF INTEGER;
+WHERE
+    WR1 : SIZEOF(SELF) <= 20;
+END_TYPE;

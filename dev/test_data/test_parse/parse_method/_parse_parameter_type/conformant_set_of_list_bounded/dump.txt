@@ -1,0 +1,21 @@
+ConformantSetType(
+  position=1:1,
+  of=ConformantListType(
+      position=1:8,
+      bound_spec=BoundSpec(
+          position=1:13,
+          lower=IntegerLiteral(
+              position=1:14,
+              value=1
+            ),
+          upper=IntegerLiteral(
+              position=1:16,
+              value=15
+            )
+        ),
+      unique=False,
+      of=RealType(
+          position=1:23
+        )
+    )
+)

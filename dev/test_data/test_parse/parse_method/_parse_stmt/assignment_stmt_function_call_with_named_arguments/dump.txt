@@ -1,0 +1,22 @@
+AssignmentStmt(
+  position=1:1,
+  target=NameRef(
+      position=1:1,
+      identifier='length'
+    ),
+  value=Call(
+      position=1:11,
+      callee=NameRef(
+          position=1:11,
+          identifier='LENGTH'
+        ),
+      args=[Arg(
+          position=2:1,
+          name='text',
+          value=NameRef(
+              position=3:1,
+              identifier='textThatIGotFromSomewhere'
+            )
+        )]
+    )
+)

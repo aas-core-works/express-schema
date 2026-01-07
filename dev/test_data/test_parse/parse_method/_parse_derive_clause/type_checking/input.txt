@@ -1,0 +1,4 @@
+DERIVE
+    entityType : STRING := TYPEOF(SELF);
+    hasGeometry : BOOLEAN := EXISTS(geometryData);
+    elementCount : INTEGER := SIZEOF(elements);

@@ -1,0 +1,1 @@
+very_long_constant_name_for_testing_purposes : BOOLEAN := FALSE;

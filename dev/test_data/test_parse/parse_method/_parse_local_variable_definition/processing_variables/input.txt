@@ -1,0 +1,1 @@
+inputBuffer, outputBuffer, tempStorage : ARRAY [1:1024] OF BINARY;

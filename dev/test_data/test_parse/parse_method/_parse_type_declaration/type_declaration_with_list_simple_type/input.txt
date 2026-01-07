@@ -1,0 +1,2 @@
+TYPE Coordinates = LIST [2:3] OF REAL;
+END_TYPE;

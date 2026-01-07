@@ -1,0 +1,16 @@
+DomainRule(
+  position=1:1,
+  label='textRule',
+  expr=BinaryExpr(
+      position=1:12,
+      left=NameRef(
+          position=1:12,
+          identifier='message'
+        ),
+      op=BinaryOp.EQUAL,
+      right=StringLiteral(
+          position=1:22,
+          value='Expected text'
+        )
+    )
+)

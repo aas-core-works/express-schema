@@ -1,0 +1,22 @@
+PROCEDURE processDataSet(input : LIST [1:?] OF DataRecord; VAR validRecords : LIST [1:?] OF DataRecord; VAR invalidRecords : LIST [1:?] OF DataRecord);
+    LOCAL
+        currentRecord : DataRecord;
+        validationResult : BOOLEAN;
+        i : INTEGER;
+        validCount : INTEGER := 0;
+        invalidCount : INTEGER := 0;
+    END_LOCAL;
+
+    REPEAT i := 1 TO SIZEOF(input);
+        currentRecord := input[i];
+        validationResult := validateRecord(currentRecord);
+
+        IF validationResult THEN
+            validCount := validCount + 1;
+            INSERT(validRecords, currentRecord, validCount);
+        ELSE
+            invalidCount := invalidCount + 1;
+            INSERT(invalidRecords, currentRecord, invalidCount);
+        END_IF;
+    END_REPEAT;
+END_PROCEDURE;

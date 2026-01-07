@@ -1,0 +1,1 @@
+coordinate := geometry.points[1].x;

@@ -1,0 +1,25 @@
+ExplicitAttributeDefinition(
+  position=1:1,
+  attributes=[NameRef(
+      position=1:1,
+      identifier='codes'
+    )],
+  optional=False,
+  type_selection=SetType(
+      position=1:9,
+      bound_spec=BoundSpec(
+          position=1:13,
+          lower=IntegerLiteral(
+              position=1:14,
+              value=1
+            ),
+          upper=IntegerLiteral(
+              position=1:16,
+              value=10
+            )
+        ),
+      of=IntegerType(
+          position=1:23
+        )
+    )
+)

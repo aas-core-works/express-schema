@@ -1,0 +1,21 @@
+SupertypeOf(
+  position=1:1,
+  abstract=False,
+  of=Choice(
+      position=1:15,
+      supertype_exprs=[
+          NameRef(
+            position=1:22,
+            identifier='Point'
+          ),
+          NameRef(
+            position=1:29,
+            identifier='Line'
+          ),
+          NameRef(
+            position=1:35,
+            identifier='Surface'
+          )
+        ]
+    )
+)

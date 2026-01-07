@@ -1,0 +1,4 @@
+TYPE PositiveReal = REAL;
+WHERE
+    WR1 : SELF > 0.0;
+END_TYPE;

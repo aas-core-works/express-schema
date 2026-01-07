@@ -1,0 +1,3 @@
+INVERSE
+    coordinator : CoordinatorData FOR projects;
+    contributors : BAG OF ContributorData FOR contributions;

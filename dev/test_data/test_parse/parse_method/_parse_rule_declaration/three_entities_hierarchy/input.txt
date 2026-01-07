@@ -1,0 +1,5 @@
+RULE HierarchyValidation FOR (Project, Building, Floor);
+WHERE
+  criterion1 : SELF.Level >= 0;
+  criterion2 : EXISTS(SELF.Parent);
+END_RULE;

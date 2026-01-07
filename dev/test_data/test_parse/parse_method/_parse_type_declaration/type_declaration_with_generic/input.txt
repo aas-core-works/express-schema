@@ -1,0 +1,2 @@
+TYPE Container = SET [0:?] OF GENERIC;
+END_TYPE;

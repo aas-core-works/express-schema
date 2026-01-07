@@ -1,0 +1,11 @@
+FormalParameter(
+  position=1:1,
+  identifiers=['components'],
+  of_type=AggregateType(
+      position=1:14,
+      of=NamedType(
+          position=1:27,
+          reference='ComponentType'
+        )
+    )
+)

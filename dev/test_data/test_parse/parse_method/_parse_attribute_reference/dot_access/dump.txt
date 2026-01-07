@@ -1,0 +1,8 @@
+AttributeRef(
+  position=1:1,
+  source=NameRef(
+      position=1:1,
+      identifier='person'
+    ),
+  identifier='name'
+)

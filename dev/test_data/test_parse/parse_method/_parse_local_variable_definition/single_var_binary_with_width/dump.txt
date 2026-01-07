@@ -1,0 +1,12 @@
+LocalVariableDefinition(
+  position=1:1,
+  identifiers=['content'],
+  of_type=BinaryType(
+      position=1:11,
+      width=IntegerLiteral(
+          position=1:18,
+          value=1024
+        ),
+      fixed=False
+    )
+)

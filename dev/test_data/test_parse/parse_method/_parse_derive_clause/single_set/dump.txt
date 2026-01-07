@@ -1,0 +1,36 @@
+DeriveClause(
+  position=1:1,
+  derived_attributes=[DerivedAttribute(
+      position=2:5,
+      attribute=NameRef(
+          position=2:5,
+          identifier='tags'
+        ),
+      type_selection=SetType(
+          position=2:12,
+          of=StringType(
+              position=2:19,
+              fixed=False
+            )
+        ),
+      init=AggregateLiteral(
+          position=2:29,
+          elements=[
+              Element(
+                position=2:30,
+                expr=StringLiteral(
+                    position=2:30,
+                    value='tag1'
+                  )
+              ),
+              Element(
+                position=2:38,
+                expr=StringLiteral(
+                    position=2:38,
+                    value='tag2'
+                  )
+              )
+            ]
+        )
+    )]
+)

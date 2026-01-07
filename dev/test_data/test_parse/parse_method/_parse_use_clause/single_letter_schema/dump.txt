@@ -1,0 +1,8 @@
+UseClause(
+  position=1:1,
+  schema_ref='a',
+  use_list=[UseItem(
+      position=1:13,
+      reference='item_x'
+    )]
+)

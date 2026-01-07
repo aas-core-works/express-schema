@@ -1,0 +1,36 @@
+RuleDeclaration(
+  position=1:1,
+  identifier='ValidLength',
+  for_entities=['LineSegment'],
+  head=AlgorithmHead(
+      declarations=[],
+      constant_definitions=[],
+      local_variable_definitions=[]
+    ),
+  body=[],
+  where=[DomainRule(
+      position=3:3,
+      label='criterion1',
+      expr=BinaryExpr(
+          position=3:16,
+          left=Call(
+              position=3:16,
+              callee=NameRef(
+                  position=3:16,
+                  identifier='LENGTH'
+                ),
+              args=[Arg(
+                  position=3:23,
+                  value=Self(
+                      position=3:23
+                    )
+                )]
+            ),
+          op=BinaryOp.GREATER_THAN,
+          right=RealLiteral(
+              position=3:31,
+              value=0.0
+            )
+        )
+    )]
+)

@@ -1,0 +1,12 @@
+ConstantDefinition(
+  position=1:1,
+  identifier='API_Base_URL',
+  type_selection=StringType(
+      position=1:16,
+      fixed=False
+    ),
+  init=StringLiteral(
+      position=1:26,
+      value='https://api.example.com'
+    )
+)

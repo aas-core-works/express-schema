@@ -1,0 +1,27 @@
+ListType(
+  position=1:1,
+  bound_spec=BoundSpec(
+      position=1:6,
+      lower=AttributeRef(
+          position=1:7,
+          source=NameRef(
+              position=1:7,
+              identifier='obj'
+            ),
+          identifier='minSize'
+        ),
+      upper=AttributeRef(
+          position=1:19,
+          source=NameRef(
+              position=1:19,
+              identifier='obj'
+            ),
+          identifier='maxSize'
+        )
+    ),
+  unique=False,
+  of=StringType(
+      position=1:35,
+      fixed=False
+    )
+)

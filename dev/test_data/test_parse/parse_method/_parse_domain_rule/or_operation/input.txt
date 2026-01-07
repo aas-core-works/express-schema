@@ -1,0 +1,1 @@
+alternativeRule : (status = valid) OR (status = pending);

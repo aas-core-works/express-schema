@@ -1,0 +1,26 @@
+DomainRule(
+  position=1:1,
+  label='lengthRule',
+  expr=BinaryExpr(
+      position=1:14,
+      left=Call(
+          position=1:14,
+          callee=NameRef(
+              position=1:14,
+              identifier='LENGTH'
+            ),
+          args=[Arg(
+              position=1:21,
+              value=NameRef(
+                  position=1:21,
+                  identifier='name'
+                )
+            )]
+        ),
+      op=BinaryOp.GREATER_THAN,
+      right=IntegerLiteral(
+          position=1:29,
+          value=0
+        )
+    )
+)

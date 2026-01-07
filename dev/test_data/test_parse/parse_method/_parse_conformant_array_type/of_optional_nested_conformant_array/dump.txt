@@ -1,0 +1,13 @@
+ConformantArrayType(
+  position=1:1,
+  optional=True,
+  unique=False,
+  of=ConformantArrayType(
+      position=1:19,
+      optional=False,
+      unique=False,
+      of=IntegerType(
+          position=1:28
+        )
+    )
+)

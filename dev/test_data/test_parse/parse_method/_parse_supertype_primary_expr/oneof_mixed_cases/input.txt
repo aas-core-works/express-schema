@@ -1,0 +1,1 @@
+ONEOF (SomeEntity, my_entity)

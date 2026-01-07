@@ -1,0 +1,2 @@
+TYPE ProductCode = STRING(12) FIXED;
+END_TYPE;

@@ -1,0 +1,1 @@
+small_set : SET [1:3] OF STRING := ['a', 'b', 'c'];

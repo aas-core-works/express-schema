@@ -1,0 +1,27 @@
+TYPE GeometryType = SELECT (
+    Point2D,
+    Point3D,
+    Line);
+END_TYPE;
+
+ENTITY Point2D;
+    x : REAL;
+    y : REAL;
+END_ENTITY;
+
+ENTITY Point3D;
+    x : REAL;
+    y : REAL;
+    z : REAL;
+END_ENTITY;
+
+PROCEDURE processGeometry(geometry : GeometryType);
+    SKIP;
+END_PROCEDURE;
+
+LOCAL
+    geometryList : LIST [1:100] OF GeometryType := [];
+    currentGeometry : GeometryType;
+    processingIndex : INTEGER := 1;
+    validationFlag : BOOLEAN := TRUE;
+END_LOCAL;

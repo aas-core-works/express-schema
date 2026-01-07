@@ -1,0 +1,2 @@
+TYPE ProcessSteps = LIST [1:20] OF StepDescription;
+END_TYPE;

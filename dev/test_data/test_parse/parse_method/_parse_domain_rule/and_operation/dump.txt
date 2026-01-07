@@ -1,0 +1,32 @@
+DomainRule(
+  position=1:1,
+  label='complexRule',
+  expr=BinaryExpr(
+      position=1:16,
+      left=BinaryExpr(
+          position=1:16,
+          left=NameRef(
+              position=1:16,
+              identifier='x'
+            ),
+          op=BinaryOp.GREATER_THAN,
+          right=IntegerLiteral(
+              position=1:20,
+              value=0
+            )
+        ),
+      op=BinaryOp.AND,
+      right=BinaryExpr(
+          position=1:28,
+          left=NameRef(
+              position=1:28,
+              identifier='y'
+            ),
+          op=BinaryOp.LESS_THAN,
+          right=IntegerLiteral(
+              position=1:32,
+              value=100
+            )
+        )
+    )
+)

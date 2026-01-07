@@ -1,0 +1,26 @@
+DomainRule(
+  position=1:1,
+  label='sizeRule',
+  expr=BinaryExpr(
+      position=1:12,
+      left=Call(
+          position=1:12,
+          callee=NameRef(
+              position=1:12,
+              identifier='SIZEOF'
+            ),
+          args=[Arg(
+              position=1:19,
+              value=NameRef(
+                  position=1:19,
+                  identifier='collection'
+                )
+            )]
+        ),
+      op=BinaryOp.GREATER_THAN,
+      right=NameRef(
+          position=1:33,
+          identifier='minimumSize'
+        )
+    )
+)

@@ -1,0 +1,7 @@
+TYPE PositiveInteger = INTEGER;
+WHERE
+    greaterThanZero : SELF > 0;
+END_TYPE;
+
+TYPE Name = STRING(100);
+END_TYPE;

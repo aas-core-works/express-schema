@@ -1,0 +1,18 @@
+UseClause(
+  position=1:1,
+  schema_ref='definitions',
+  use_list=[
+      UseItem(
+        position=1:23,
+        reference='item1'
+      ),
+      UseItem(
+        position=1:30,
+        reference='item2'
+      ),
+      UseItem(
+        position=1:37,
+        reference='item3'
+      )
+    ]
+)

@@ -1,0 +1,4 @@
+PROCEDURE resetSystem();
+    systemStatus := inactive;
+    errorCount := 0;
+END_PROCEDURE;

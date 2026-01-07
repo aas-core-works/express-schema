@@ -1,0 +1,3 @@
+INVERSE
+    dynamicSet : SET [minCount:maxCount] OF DataItem FOR container;
+    arithmeticBag : BAG [base + 1:limit - 1] OF ProcessItem FOR processor;

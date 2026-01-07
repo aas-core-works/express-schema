@@ -1,0 +1,1 @@
+emptyCollection : BAG OF INTEGER := [];

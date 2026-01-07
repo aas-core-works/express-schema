@@ -1,0 +1,2 @@
+TYPE NumberSet = SET [1:100] OF REAL;
+END_TYPE;

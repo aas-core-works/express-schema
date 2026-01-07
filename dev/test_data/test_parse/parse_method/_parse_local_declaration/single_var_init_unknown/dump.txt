@@ -1,0 +1,11 @@
+[LocalVariableDefinition(
+  position=2:5,
+  identifiers=['result'],
+  of_type=RealType(
+      position=2:14
+    ),
+  init=LogicalLiteral(
+      position=2:22,
+      value=UNKNOWN
+    )
+)]

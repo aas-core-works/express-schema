@@ -1,0 +1,16 @@
+ExplicitAttributeDefinition(
+  position=1:1,
+  attributes=[NameRef(
+      position=1:1,
+      identifier='history'
+    )],
+  optional=True,
+  type_selection=ListType(
+      position=1:20,
+      unique=False,
+      of=NamedType(
+          position=1:28,
+          reference='Event'
+        )
+    )
+)

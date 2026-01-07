@@ -1,0 +1,12 @@
+ExplicitAttributeDefinition(
+  position=1:1,
+  attributes=[NameRef(
+      position=1:1,
+      identifier='identifier'
+    )],
+  optional=False,
+  type_selection=StringType(
+      position=1:14,
+      fixed=False
+    )
+)

@@ -1,0 +1,9 @@
+INVERSE
+    def1 : Type1 FOR attr1;
+    def2 : Type2 FOR attr2;
+    def3 : Type3 FOR attr3;
+    def4 : Type4 FOR attr4;
+    def5 : Type5 FOR attr5;
+    def6 : Type6 FOR attr6;
+    def7 : Type7 FOR attr7;
+    def8 : Type8 FOR attr8;

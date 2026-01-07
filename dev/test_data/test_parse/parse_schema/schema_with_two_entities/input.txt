@@ -1,0 +1,10 @@
+SCHEMA TestSchema;
+ENTITY Point;
+  x : REAL;
+  y : REAL;
+END_ENTITY;
+ENTITY Vector;
+  direction : Point;
+  magnitude : REAL;
+END_ENTITY;
+END_SCHEMA;

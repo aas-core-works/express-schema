@@ -1,0 +1,1 @@
+ids : ARRAY [1:5] OF UNIQUE INTEGER := [1, 2, 3, 4, 5];

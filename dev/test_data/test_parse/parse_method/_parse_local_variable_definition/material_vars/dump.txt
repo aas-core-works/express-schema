@@ -1,0 +1,25 @@
+LocalVariableDefinition(
+  position=1:1,
+  identifiers=[
+      'diffuseColor',
+      'specularColor',
+      'ambientColor'
+    ],
+  of_type=ConformantSetType(
+      position=1:45,
+      bound_spec=BoundSpec(
+          position=1:49,
+          lower=IntegerLiteral(
+              position=1:50,
+              value=1
+            ),
+          upper=IntegerLiteral(
+              position=1:52,
+              value=3
+            )
+        ),
+      of=NumberType(
+          position=1:58
+        )
+    )
+)

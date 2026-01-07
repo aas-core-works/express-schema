@@ -1,0 +1,8 @@
+RULE AreaValidation FOR (Rectangle);
+LOCAL
+  computedArea : REAL;
+END_LOCAL;
+WHERE
+  criterion1 : computedArea = SELF.Width * SELF.Height;
+  criterion2 : computedArea > 0.0;
+END_RULE;

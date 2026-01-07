@@ -1,0 +1,1 @@
+BAG [(a + b):(c * d)] OF INTEGER

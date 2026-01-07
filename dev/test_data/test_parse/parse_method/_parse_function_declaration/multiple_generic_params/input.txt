@@ -1,0 +1,3 @@
+FUNCTION combineItems(item1 : GENERIC : ItemType; item2 : GENERIC : ItemType) : GENERIC : ResultType;
+    RETURN(item1);
+END_FUNCTION;

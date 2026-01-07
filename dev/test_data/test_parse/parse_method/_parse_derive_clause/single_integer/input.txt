@@ -1,0 +1,2 @@
+DERIVE
+    count : INTEGER := 5;

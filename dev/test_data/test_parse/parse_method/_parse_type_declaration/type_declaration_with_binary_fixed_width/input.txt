@@ -1,0 +1,2 @@
+TYPE FileHeader = BINARY(256) FIXED;
+END_TYPE;

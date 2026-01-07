@@ -1,0 +1,6 @@
+FUNCTION processGeneric() : GENERIC : ResultType;
+    LOCAL
+        result : GENERIC : ResultType;
+    END_LOCAL;
+    RETURN(result);
+END_FUNCTION;

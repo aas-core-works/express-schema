@@ -1,0 +1,11 @@
+ExplicitAttributeDefinition(
+  position=1:1,
+  attributes=[NameRef(
+      position=1:1,
+      identifier='active'
+    )],
+  optional=False,
+  type_selection=BooleanType(
+      position=1:10
+    )
+)

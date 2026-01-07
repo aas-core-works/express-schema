@@ -1,0 +1,33 @@
+SetType(
+  position=1:1,
+  bound_spec=BoundSpec(
+      position=1:5,
+      lower=BinaryExpr(
+          position=1:6,
+          left=NameRef(
+              position=1:6,
+              identifier='i'
+            ),
+          op=BinaryOp.ADD,
+          right=IntegerLiteral(
+              position=1:10,
+              value=1
+            )
+        ),
+      upper=BinaryExpr(
+          position=1:12,
+          left=NameRef(
+              position=1:12,
+              identifier='n'
+            ),
+          op=BinaryOp.MULTIPLY,
+          right=IntegerLiteral(
+              position=1:16,
+              value=2
+            )
+        )
+    ),
+  of=BooleanType(
+      position=1:22
+    )
+)

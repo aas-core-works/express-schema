@@ -1,0 +1,14 @@
+CompoundStmt(
+  position=1:1,
+  stmts=[AssignmentStmt(
+      position=2:5,
+      target=NameRef(
+          position=2:5,
+          identifier='count'
+        ),
+      value=IntegerLiteral(
+          position=2:14,
+          value=0
+        )
+    )]
+)

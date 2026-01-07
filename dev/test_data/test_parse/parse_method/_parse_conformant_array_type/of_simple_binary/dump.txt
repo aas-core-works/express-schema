@@ -1,0 +1,9 @@
+ConformantArrayType(
+  position=1:1,
+  optional=False,
+  unique=False,
+  of=BinaryType(
+      position=1:10,
+      fixed=False
+    )
+)

@@ -1,0 +1,11 @@
+AggregateType(
+  position=1:1,
+  label='SetType',
+  of=ConformantSetType(
+      position=1:24,
+      of=NamedType(
+          position=1:31,
+          reference='PersonType'
+        )
+    )
+)

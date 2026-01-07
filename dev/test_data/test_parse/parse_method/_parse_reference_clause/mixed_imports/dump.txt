@@ -1,0 +1,20 @@
+ReferenceClause(
+  position=1:1,
+  schema_ref='definitions',
+  import_list=[
+      ImportItem(
+        position=1:29,
+        reference='point_data',
+        alias='pt'
+      ),
+      ImportItem(
+        position=1:47,
+        reference='line_data'
+      ),
+      ImportItem(
+        position=1:58,
+        reference='surface_data',
+        alias='surf'
+      )
+    ]
+)

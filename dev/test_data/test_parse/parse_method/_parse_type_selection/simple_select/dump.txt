@@ -1,0 +1,13 @@
+SelectType(
+  position=1:1,
+  values=[
+      NamedType(
+        position=1:9,
+        reference='TypeA'
+      ),
+      NamedType(
+        position=1:16,
+        reference='TypeB'
+      )
+    ]
+)

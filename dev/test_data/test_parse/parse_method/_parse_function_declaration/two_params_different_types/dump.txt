@@ -1,0 +1,36 @@
+FunctionDeclaration(
+  position=1:1,
+  identifier='formatValue',
+  formal_parameters=[
+      FormalParameter(
+        position=1:22,
+        identifiers=['value'],
+        of_type=RealType(
+            position=1:30
+          )
+      ),
+      FormalParameter(
+        position=1:36,
+        identifiers=['precision'],
+        of_type=IntegerType(
+            position=1:48
+          )
+      )
+    ],
+  return_type=StringType(
+      position=1:59,
+      fixed=False
+    ),
+  head=AlgorithmHead(
+      declarations=[],
+      constant_definitions=[],
+      local_variable_definitions=[]
+    ),
+  body=[ReturnStmt(
+      position=2:5,
+      value=StringLiteral(
+          position=2:12,
+          value='formatted'
+        )
+    )]
+)

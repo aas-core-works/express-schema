@@ -1,0 +1,5 @@
+UseItem(
+  position=1:1,
+  reference='CamelCaseDefinition',
+  alias='snake_case_definition'
+)

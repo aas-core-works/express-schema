@@ -1,0 +1,1 @@
+exponentialRule : (base ** exponent) < limit;

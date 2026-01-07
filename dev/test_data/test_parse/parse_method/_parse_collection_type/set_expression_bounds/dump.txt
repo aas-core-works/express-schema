@@ -1,0 +1,33 @@
+SetType(
+  position=1:1,
+  bound_spec=BoundSpec(
+      position=1:5,
+      lower=BinaryExpr(
+          position=1:6,
+          left=NameRef(
+              position=1:6,
+              identifier='a'
+            ),
+          op=BinaryOp.ADD,
+          right=NameRef(
+              position=1:8,
+              identifier='b'
+            )
+        ),
+      upper=BinaryExpr(
+          position=1:10,
+          left=NameRef(
+              position=1:10,
+              identifier='c'
+            ),
+          op=BinaryOp.MULTIPLY,
+          right=NameRef(
+              position=1:12,
+              identifier='d'
+            )
+        )
+    ),
+  of=RealType(
+      position=1:18
+    )
+)

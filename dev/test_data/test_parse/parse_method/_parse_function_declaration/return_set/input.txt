@@ -1,0 +1,6 @@
+FUNCTION createSet() : SET [1:20] OF Component;
+    LOCAL
+        components : SET [1:20] OF Component := [];
+    END_LOCAL;
+    RETURN(components);
+END_FUNCTION;

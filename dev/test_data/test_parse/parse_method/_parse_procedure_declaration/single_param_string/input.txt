@@ -1,0 +1,4 @@
+PROCEDURE setName(name : STRING);
+    systemName := name;
+    logMessage('Name changed to: ' + name);
+END_PROCEDURE;

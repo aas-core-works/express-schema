@@ -1,0 +1,11 @@
+[ConstantDefinition(
+  position=2:5,
+  identifier='max_size',
+  type_selection=IntegerType(
+      position=2:16
+    ),
+  init=IntegerLiteral(
+      position=2:27,
+      value=100
+    )
+)]

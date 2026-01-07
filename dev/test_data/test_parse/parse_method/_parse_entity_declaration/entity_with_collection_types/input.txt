@@ -1,0 +1,6 @@
+ENTITY Library;
+    Name : STRING;
+    Books : SET [0:?] OF Book;
+    Categories : LIST [1:10] OF STRING;
+    OpenHours : ARRAY [1:7] OF TimeSlot;
+END_ENTITY;

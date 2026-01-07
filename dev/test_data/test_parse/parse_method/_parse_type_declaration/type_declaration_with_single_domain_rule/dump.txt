@@ -1,0 +1,22 @@
+TypeDeclaration(
+  position=1:1,
+  identifier='PositiveReal',
+  type_selection=RealType(
+      position=1:21
+    ),
+  domain_rules=[DomainRule(
+      position=3:5,
+      label='WR1',
+      expr=BinaryExpr(
+          position=3:11,
+          left=Self(
+              position=3:11
+            ),
+          op=BinaryOp.GREATER_THAN,
+          right=RealLiteral(
+              position=3:18,
+              value=0.0
+            )
+        )
+    )]
+)

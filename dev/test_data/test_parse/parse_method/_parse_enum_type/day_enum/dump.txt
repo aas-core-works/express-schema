@@ -1,0 +1,12 @@
+EnumType(
+  position=1:1,
+  values=[
+      'MONDAY',
+      'TUESDAY',
+      'WEDNESDAY',
+      'THURSDAY',
+      'FRIDAY',
+      'SATURDAY',
+      'SUNDAY'
+    ]
+)

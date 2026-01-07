@@ -1,0 +1,21 @@
+SelectType(
+  position=1:1,
+  values=[
+      NamedType(
+        position=1:9,
+        reference='Triangle'
+      ),
+      NamedType(
+        position=1:19,
+        reference='Square'
+      ),
+      NamedType(
+        position=1:27,
+        reference='Pentagon'
+      ),
+      NamedType(
+        position=1:37,
+        reference='Hexagon'
+      )
+    ]
+)

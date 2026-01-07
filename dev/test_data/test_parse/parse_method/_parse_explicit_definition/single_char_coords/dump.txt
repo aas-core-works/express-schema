@@ -1,0 +1,21 @@
+ExplicitAttributeDefinition(
+  position=1:1,
+  attributes=[
+      NameRef(
+        position=1:1,
+        identifier='x'
+      ),
+      NameRef(
+        position=1:4,
+        identifier='y'
+      ),
+      NameRef(
+        position=1:7,
+        identifier='z'
+      )
+    ],
+  optional=False,
+  type_selection=RealType(
+      position=1:11
+    )
+)

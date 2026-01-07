@@ -1,0 +1,1 @@
+extensivelyNamedBagAttribute : BAG [1:100] OF ComprehensiveEntityType FOR targetAttributeWithLongName;

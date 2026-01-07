@@ -1,0 +1,21 @@
+TYPE ItemType = STRING(100);
+END_TYPE;
+
+TYPE ProcessorType = ENUMERATION OF
+    (fast, normal, slow);
+END_TYPE;
+
+ENTITY Processor;
+    processorType : ProcessorType;
+    speed : REAL;
+END_ENTITY;
+
+FUNCTION getProcessorSpeed(processor : Processor) : REAL;
+    RETURN(processor.speed);
+END_FUNCTION;
+
+CONSTANT
+    minSpeed : REAL := 1.0;
+    maxSpeed : REAL := 100.0;
+    defaultProcessor : ProcessorType := normal;
+END_CONSTANT;

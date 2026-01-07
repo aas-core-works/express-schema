@@ -1,0 +1,8 @@
+FormalParameter(
+  position=1:1,
+  identifiers=['param1'],
+  of_type=StringType(
+      position=1:10,
+      fixed=False
+    )
+)

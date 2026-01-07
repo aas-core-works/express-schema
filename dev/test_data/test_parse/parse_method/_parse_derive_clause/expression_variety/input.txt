@@ -1,0 +1,5 @@
+DERIVE
+    someConstant : INTEGER := 100;
+    calculated : REAL := base * 2.5;
+    derived : BOOLEAN := value1 AND value2;
+    formatted : STRING := 'Result: ' + calculated;

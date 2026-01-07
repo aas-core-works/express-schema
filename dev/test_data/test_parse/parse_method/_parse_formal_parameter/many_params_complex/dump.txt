@@ -1,0 +1,35 @@
+FormalParameter(
+  position=1:1,
+  identifiers=[
+      'input1',
+      'input2',
+      'input3',
+      'input4',
+      'input5',
+      'output1',
+      'output2',
+      'output3'
+    ],
+  of_type=ConformantArrayType(
+      position=1:69,
+      bound_spec=BoundSpec(
+          position=1:75,
+          lower=IntegerLiteral(
+              position=1:76,
+              value=1
+            ),
+          upper=IntegerLiteral(
+              position=1:78,
+              value=10
+            )
+        ),
+      optional=False,
+      unique=False,
+      of=AggregateType(
+          position=1:85,
+          of=GenericType(
+              position=1:98
+            )
+        )
+    )
+)

@@ -1,0 +1,1 @@
+validationRule : (LENGTH(text) > 0) AND (UPPER(text) <> '');

@@ -1,0 +1,23 @@
+LocalVariableDefinition(
+  position=1:1,
+  identifiers=['optionalData'],
+  of_type=ConformantArrayType(
+      position=1:16,
+      bound_spec=BoundSpec(
+          position=1:22,
+          lower=IntegerLiteral(
+              position=1:23,
+              value=0
+            ),
+          upper=IntegerLiteral(
+              position=1:25,
+              value=50
+            )
+        ),
+      optional=True,
+      unique=False,
+      of=IntegerType(
+          position=1:41
+        )
+    )
+)

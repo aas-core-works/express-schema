@@ -1,0 +1,1 @@
+USE FROM geometry_lib (point_def AS pt, line_def AS ln, circle_def AS crc);

@@ -1,0 +1,17 @@
+SelectType(
+  position=1:1,
+  values=[
+      NamedType(
+        position=1:9,
+        reference='ActiveStatus'
+      ),
+      NamedType(
+        position=1:23,
+        reference='InactiveStatus'
+      ),
+      NamedType(
+        position=1:39,
+        reference='PendingStatus'
+      )
+    ]
+)

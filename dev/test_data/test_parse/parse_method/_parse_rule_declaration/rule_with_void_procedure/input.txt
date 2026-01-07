@@ -1,0 +1,7 @@
+RULE LoggingRule FOR (Event);
+PROCEDURE LogEvent(event : Event);
+  SKIP;
+END_PROCEDURE;
+WHERE
+  criterion1 : EXISTS(SELF.Timestamp);
+END_RULE;

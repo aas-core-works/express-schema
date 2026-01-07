@@ -1,0 +1,21 @@
+SelectType(
+  position=1:1,
+  values=[
+      NamedType(
+        position=1:9,
+        reference='Dollar'
+      ),
+      NamedType(
+        position=1:17,
+        reference='Euro'
+      ),
+      NamedType(
+        position=1:23,
+        reference='Pound'
+      ),
+      NamedType(
+        position=1:30,
+        reference='Yen'
+      )
+    ]
+)

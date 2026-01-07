@@ -1,0 +1,13 @@
+TypeDeclaration(
+  position=1:1,
+  identifier='FileHeader',
+  type_selection=BinaryType(
+      position=1:19,
+      width=IntegerLiteral(
+          position=1:26,
+          value=256
+        ),
+      fixed=True
+    ),
+  domain_rules=[]
+)

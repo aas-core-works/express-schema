@@ -1,0 +1,4 @@
+SCHEMA TestSchema;
+REFERENCE FROM ExternalSchema;
+USE FROM BaseSchema;
+END_SCHEMA;

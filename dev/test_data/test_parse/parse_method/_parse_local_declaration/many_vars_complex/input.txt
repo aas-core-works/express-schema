@@ -1,0 +1,7 @@
+LOCAL
+    inputData : ARRAY [1:10] OF REAL;
+    outputData : ARRAY [1:10] OF REAL;
+    tempStorage : LIST [1:20] OF STRING;
+    validationFlags : SET [1:5] OF BOOLEAN;
+    processingState : ComponentReference;
+END_LOCAL;

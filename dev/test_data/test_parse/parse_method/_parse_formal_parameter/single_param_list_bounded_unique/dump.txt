@@ -1,0 +1,23 @@
+FormalParameter(
+  position=1:1,
+  identifiers=['uniqueSequence'],
+  of_type=ConformantListType(
+      position=1:18,
+      bound_spec=BoundSpec(
+          position=1:23,
+          lower=IntegerLiteral(
+              position=1:24,
+              value=0
+            ),
+          upper=IntegerLiteral(
+              position=1:26,
+              value=15
+            )
+        ),
+      unique=True,
+      of=StringType(
+          position=1:40,
+          fixed=False
+        )
+    )
+)

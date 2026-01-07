@@ -1,0 +1,16 @@
+SupertypeOf(
+  position=1:1,
+  abstract=False,
+  of=SupertypeBinaryExpr(
+      position=1:15,
+      left=NameRef(
+          position=1:15,
+          identifier='PersonData'
+        ),
+      op=SupertypeBinaryOp.ANDOR,
+      right=NameRef(
+          position=1:32,
+          identifier='OrganizationData'
+        )
+    )
+)

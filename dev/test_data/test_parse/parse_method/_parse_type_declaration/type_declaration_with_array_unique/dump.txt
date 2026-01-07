@@ -1,0 +1,24 @@
+TypeDeclaration(
+  position=1:1,
+  identifier='UniqueIDs',
+  type_selection=ArrayType(
+      position=1:18,
+      bound_spec=BoundSpec(
+          position=1:24,
+          lower=IntegerLiteral(
+              position=1:25,
+              value=1
+            ),
+          upper=IntegerLiteral(
+              position=1:27,
+              value=100
+            )
+        ),
+      optional=False,
+      unique=True,
+      of=IntegerType(
+          position=1:42
+        )
+    ),
+  domain_rules=[]
+)

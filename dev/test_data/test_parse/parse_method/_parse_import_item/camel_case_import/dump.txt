@@ -1,0 +1,4 @@
+ImportItem(
+  position=1:1,
+  reference='camelCaseSchema'
+)

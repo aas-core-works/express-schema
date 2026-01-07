@@ -1,0 +1,16 @@
+ExplicitAttributeDefinition(
+  position=1:1,
+  attributes=[NameRef(
+      position=1:1,
+      identifier='data'
+    )],
+  optional=False,
+  type_selection=BinaryType(
+      position=1:8,
+      width=IntegerLiteral(
+          position=1:16,
+          value=8
+        ),
+      fixed=False
+    )
+)

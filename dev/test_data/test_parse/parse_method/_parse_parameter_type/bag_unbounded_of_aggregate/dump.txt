@@ -1,0 +1,10 @@
+ConformantBagType(
+  position=1:1,
+  of=AggregateType(
+      position=1:8,
+      of=StringType(
+          position=1:21,
+          fixed=False
+        )
+    )
+)

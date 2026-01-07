@@ -1,0 +1,2 @@
+DERIVE
+    selfValue : REAL := SELF.baseValue;

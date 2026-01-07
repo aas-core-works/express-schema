@@ -1,0 +1,22 @@
+DerivedAttribute(
+  position=1:1,
+  attribute=NameRef(
+      position=1:1,
+      identifier='version2'
+    ),
+  type_selection=IntegerType(
+      position=1:12
+    ),
+  init=BinaryExpr(
+      position=1:23,
+      left=NameRef(
+          position=1:23,
+          identifier='oldVersion'
+        ),
+      op=BinaryOp.ADD,
+      right=IntegerLiteral(
+          position=1:36,
+          value=1
+        )
+    )
+)

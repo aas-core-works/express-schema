@@ -1,0 +1,7 @@
+AggregateType(
+  position=1:1,
+  label='DataType',
+  of=RealType(
+      position=1:25
+    )
+)

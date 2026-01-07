@@ -1,0 +1,17 @@
+ReturnStmt(
+  position=1:1,
+  value=Call(
+      position=1:8,
+      callee=NameRef(
+          position=1:8,
+          identifier='LENGTH'
+        ),
+      args=[Arg(
+          position=1:15,
+          value=NameRef(
+              position=1:15,
+              identifier='inputString'
+            )
+        )]
+    )
+)

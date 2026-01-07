@@ -1,0 +1,27 @@
+ListType(
+  position=1:1,
+  bound_spec=BoundSpec(
+      position=1:6,
+      lower=AttributeRef(
+          position=1:7,
+          source=NameRef(
+              position=1:7,
+              identifier='config'
+            ),
+          identifier='startIndex'
+        ),
+      upper=AttributeRef(
+          position=1:25,
+          source=NameRef(
+              position=1:25,
+              identifier='config'
+            ),
+          identifier='maxLength'
+        )
+    ),
+  unique=False,
+  of=BinaryType(
+      position=1:46,
+      fixed=False
+    )
+)

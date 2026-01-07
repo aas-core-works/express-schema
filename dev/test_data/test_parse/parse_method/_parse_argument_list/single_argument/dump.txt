@@ -1,0 +1,7 @@
+[Arg(
+  position=1:2,
+  value=IntegerLiteral(
+      position=1:2,
+      value=42
+    )
+)]

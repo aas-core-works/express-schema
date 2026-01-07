@@ -1,0 +1,27 @@
+ConformantArrayType(
+  position=1:1,
+  optional=True,
+  unique=True,
+  of=ConformantBagType(
+      position=1:26,
+      of=ConformantArrayType(
+          position=1:33,
+          optional=False,
+          unique=True,
+          of=ConformantListType(
+              position=1:49,
+              unique=False,
+              of=ConformantSetType(
+                  position=1:57,
+                  of=AggregateType(
+                      position=1:64,
+                      of=StringType(
+                          position=1:77,
+                          fixed=False
+                        )
+                    )
+                )
+            )
+        )
+    )
+)

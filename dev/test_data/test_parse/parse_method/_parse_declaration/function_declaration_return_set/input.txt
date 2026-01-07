@@ -1,0 +1,6 @@
+FUNCTION getItems() : SET [1:10] OF Item;
+    LOCAL
+        items : SET [1:10] OF Item := [];
+    END_LOCAL;
+    RETURN(items);
+END_FUNCTION;

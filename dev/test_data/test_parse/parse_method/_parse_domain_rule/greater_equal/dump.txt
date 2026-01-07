@@ -1,0 +1,16 @@
+DomainRule(
+  position=1:1,
+  label='rangeCheck',
+  expr=BinaryExpr(
+      position=1:14,
+      left=NameRef(
+          position=1:14,
+          identifier='value'
+        ),
+      op=BinaryOp.GREATER_EQUAL,
+      right=NameRef(
+          position=1:23,
+          identifier='minimum'
+        )
+    )
+)

@@ -1,0 +1,18 @@
+[
+  UniqueRule(
+    position=2:5,
+    label='rule1',
+    attributes=[NameRef(
+        position=2:13,
+        identifier='attr1'
+      )]
+  ),
+  UniqueRule(
+    position=3:5,
+    label='rule2',
+    attributes=[NameRef(
+        position=3:13,
+        identifier='attr2'
+      )]
+  )
+]

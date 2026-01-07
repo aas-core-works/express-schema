@@ -1,0 +1,5 @@
+RULE MeasurementValidation FOR (Measurement);
+WHERE
+  criterion1 : SELF.Value > 0.0;
+  criterion2 : EXISTS(SELF.Unit);
+END_RULE;

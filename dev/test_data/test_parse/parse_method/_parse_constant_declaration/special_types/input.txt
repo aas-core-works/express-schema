@@ -1,0 +1,5 @@
+CONSTANT
+    flags : BINARY := %11110000;
+    status_byte : BINARY (8) := %10101010;
+    identifier : STRING (16) FIXED := 'SYS_ID_001';
+END_CONSTANT;

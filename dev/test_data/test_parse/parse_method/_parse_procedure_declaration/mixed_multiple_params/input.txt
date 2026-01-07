@@ -1,0 +1,11 @@
+PROCEDURE validateAndUpdate(threshold : REAL; mode : INTEGER; VAR data : REAL; VAR isValid : BOOLEAN);
+    IF data >= threshold THEN
+        isValid := TRUE;
+        IF mode = 1 THEN
+            data := data * 1.1;
+        END_IF;
+    ELSE
+        isValid := FALSE;
+        data := threshold;
+    END_IF;
+END_PROCEDURE;

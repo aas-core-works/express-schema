@@ -1,0 +1,22 @@
+InverseDefinition(
+  position=1:1,
+  attribute=NameRef(
+      position=1:1,
+      identifier='matrix'
+    ),
+  inverse_type=NameRef(
+      position=1:10,
+      identifier='MatrixData'
+    ),
+  attribute_ref=IndexExpr(
+      position=1:25,
+      source=NameRef(
+          position=1:25,
+          identifier='elements'
+        ),
+      index=IntegerLiteral(
+          position=1:34,
+          value=1
+        )
+    )
+)

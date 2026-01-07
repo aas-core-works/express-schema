@@ -1,0 +1,18 @@
+SCHEMA TestSchema;
+ENTITY Point;
+  x : REAL;
+  y : REAL;
+END_ENTITY;
+TYPE CoordinateValue = REAL;
+FUNCTION GetDistance(p1 : Point; p2 : Point) : REAL;
+  RETURN(0.0);
+END_FUNCTION;
+PROCEDURE ResetPoint(VAR p : Point);
+  p.x := 0.0;
+  p.y := 0.0;
+END_PROCEDURE;
+RULE ValidatePoint FOR (Point);
+WHERE
+  criterion1 : EXISTS(SELF.x);
+END_RULE;
+END_SCHEMA;

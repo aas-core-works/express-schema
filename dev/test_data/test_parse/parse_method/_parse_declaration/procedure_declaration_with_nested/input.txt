@@ -1,0 +1,11 @@
+PROCEDURE mainProcess();
+    PROCEDURE helperProcess(data : STRING);
+        processString(data);
+    END_PROCEDURE;
+
+    LOCAL
+        inputData : STRING := 'test';
+    END_LOCAL;
+
+    helperProcess(inputData);
+END_PROCEDURE;

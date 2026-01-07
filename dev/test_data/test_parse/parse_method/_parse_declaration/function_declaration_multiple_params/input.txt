@@ -1,0 +1,12 @@
+FUNCTION createMatrix(rows : INTEGER; cols : INTEGER; defaultValue : REAL) : ARRAY [1:?] OF ARRAY [1:?] OF REAL;
+    LOCAL
+        matrix : ARRAY [1:rows] OF ARRAY [1:cols] OF REAL;
+        i, j : INTEGER;
+    END_LOCAL;
+    REPEAT i := 1 TO rows;
+        REPEAT j := 1 TO cols;
+            matrix[i][j] := defaultValue;
+        END_REPEAT;
+    END_REPEAT;
+    RETURN(matrix);
+END_FUNCTION;

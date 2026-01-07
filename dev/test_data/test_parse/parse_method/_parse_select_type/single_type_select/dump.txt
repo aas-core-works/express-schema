@@ -1,0 +1,7 @@
+SelectType(
+  position=1:1,
+  values=[NamedType(
+      position=1:9,
+      reference='MyType'
+    )]
+)

@@ -1,0 +1,3 @@
+PROCEDURE doubleValue(VAR value : REAL);
+    value := value * 2.0;
+END_PROCEDURE;

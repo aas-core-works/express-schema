@@ -1,0 +1,1 @@
+SUPERTYPE OF (ONEOF (Person, Individual) AND Organization)

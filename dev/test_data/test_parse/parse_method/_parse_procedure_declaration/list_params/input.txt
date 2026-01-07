@@ -1,0 +1,13 @@
+PROCEDURE filterList(input : LIST [1:?] OF STRING; VAR output : LIST [1:?] OF STRING);
+    LOCAL
+        i : INTEGER;
+        currentItem : STRING;
+    END_LOCAL;
+
+    REPEAT i := 1 TO SIZEOF(input);
+        currentItem := input[i];
+        IF LENGTH(currentItem) > 0 THEN
+            INSERT(output, currentItem, SIZEOF(output) + 1);
+        END_IF;
+    END_REPEAT;
+END_PROCEDURE;

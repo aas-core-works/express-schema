@@ -1,0 +1,3 @@
+FUNCTION processArray(data : ARRAY [1:10] OF REAL) : REAL;
+    RETURN(data[1]);
+END_FUNCTION;

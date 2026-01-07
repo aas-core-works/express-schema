@@ -1,0 +1,5 @@
+REPEAT i := 1 TO 10;
+    REPEAT j := 1 TO 10;
+        matrix[i][j] := i * j;
+    END_REPEAT;
+END_REPEAT;

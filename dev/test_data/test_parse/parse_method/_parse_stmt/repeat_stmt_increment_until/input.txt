@@ -1,0 +1,4 @@
+REPEAT i := 1 TO 50 UNTIL errorOccurred;
+    result := processStep(i);
+    errorOccurred := (result < 0);
+END_REPEAT;

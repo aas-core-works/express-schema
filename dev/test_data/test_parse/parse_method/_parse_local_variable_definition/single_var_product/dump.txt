@@ -1,0 +1,8 @@
+LocalVariableDefinition(
+  position=1:1,
+  identifiers=['product'],
+  of_type=NamedType(
+      position=1:11,
+      reference='ProductDefinition'
+    )
+)

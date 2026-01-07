@@ -1,0 +1,26 @@
+InverseDefinition(
+  position=1:1,
+  attribute=NameRef(
+      position=1:1,
+      identifier='processors'
+    ),
+  inverse_type=InverseSet(
+      position=1:14,
+      bound_spec=BoundSpec(
+          position=1:18,
+          lower=IntegerLiteral(
+              position=1:19,
+              value=0
+            ),
+          upper=NameRef(
+              position=1:21,
+              identifier='processorCount'
+            )
+        ),
+      entity='ProcessorData'
+    ),
+  attribute_ref=NameRef(
+      position=1:58,
+      identifier='tasks'
+    )
+)

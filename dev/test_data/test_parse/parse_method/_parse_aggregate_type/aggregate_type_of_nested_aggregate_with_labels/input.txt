@@ -1,0 +1,1 @@
+AGGREGATE : OuterType OF AGGREGATE : InnerType OF INTEGER

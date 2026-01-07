@@ -1,0 +1,1 @@
+inactive : BOOLEAN := NOT active;

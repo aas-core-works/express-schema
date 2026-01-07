@@ -1,0 +1,8 @@
+[LocalVariableDefinition(
+  position=2:5,
+  identifiers=['component'],
+  of_type=NamedType(
+      position=2:17,
+      reference='ComponentReference'
+    )
+)]

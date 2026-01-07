@@ -1,0 +1,2 @@
+TYPE DataContent = BINARY;
+END_TYPE;

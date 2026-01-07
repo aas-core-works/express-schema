@@ -1,0 +1,1 @@
+SUPERTYPE OF (ONEOF (PersonData, IndividualData) AND ONEOF (OrganizationData, CompanyData))

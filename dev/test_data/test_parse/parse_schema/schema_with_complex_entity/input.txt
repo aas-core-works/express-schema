@@ -1,0 +1,7 @@
+SCHEMA TestSchema;
+ENTITY Component;
+  name : STRING;
+  description : OPTIONAL STRING;
+  isActive : BOOLEAN;
+END_ENTITY;
+END_SCHEMA;

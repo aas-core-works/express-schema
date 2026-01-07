@@ -1,0 +1,21 @@
+UseClause(
+  position=1:1,
+  schema_ref='geometry_lib',
+  use_list=[
+      UseItem(
+        position=1:24,
+        reference='point_def',
+        alias='pt'
+      ),
+      UseItem(
+        position=1:41,
+        reference='line_def',
+        alias='ln'
+      ),
+      UseItem(
+        position=1:57,
+        reference='circle_def',
+        alias='crc'
+      )
+    ]
+)

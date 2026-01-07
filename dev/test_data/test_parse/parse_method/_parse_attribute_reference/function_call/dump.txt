@@ -1,0 +1,8 @@
+Call(
+  position=1:1,
+  callee=NameRef(
+      position=1:1,
+      identifier='getValue'
+    ),
+  args=[]
+)

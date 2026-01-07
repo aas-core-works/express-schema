@@ -1,0 +1,5 @@
+ENTITY Point;
+    x : REAL;
+    y : REAL;
+    z : REAL;
+END_ENTITY;

@@ -1,0 +1,14 @@
+InverseDefinition(
+  position=1:1,
+  attribute=NameRef(
+      position=1:1,
+      identifier='children'
+    ),
+  inverse_type=InverseSet(
+      position=1:12,
+      entity='NodeData'
+    ),
+  attribute_ref=Self(
+      position=1:32
+    )
+)

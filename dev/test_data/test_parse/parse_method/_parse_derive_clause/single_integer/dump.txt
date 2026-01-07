@@ -1,0 +1,17 @@
+DeriveClause(
+  position=1:1,
+  derived_attributes=[DerivedAttribute(
+      position=2:5,
+      attribute=NameRef(
+          position=2:5,
+          identifier='count'
+        ),
+      type_selection=IntegerType(
+          position=2:13
+        ),
+      init=IntegerLiteral(
+          position=2:24,
+          value=5
+        )
+    )]
+)

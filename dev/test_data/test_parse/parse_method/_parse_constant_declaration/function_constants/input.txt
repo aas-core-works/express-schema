@@ -1,0 +1,5 @@
+CONSTANT
+    sqrt_two : REAL := SQRT(2.0);
+    circle_area : REAL := PI * (radius ** 2);
+    self_reference : GENERIC := SELF;
+END_CONSTANT;

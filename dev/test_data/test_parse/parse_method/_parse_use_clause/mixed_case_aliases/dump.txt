@@ -1,0 +1,16 @@
+UseClause(
+  position=1:1,
+  schema_ref='definitions',
+  use_list=[
+      UseItem(
+        position=1:23,
+        reference='CamelCaseItem',
+        alias='snake_case_item'
+      ),
+      UseItem(
+        position=1:57,
+        reference='PascalCaseData',
+        alias='lower_case_data'
+      )
+    ]
+)

@@ -1,0 +1,28 @@
+BinaryExpr(
+  position=1:1,
+  left=BinaryExpr(
+      position=1:1,
+      left=NameRef(
+          position=1:1,
+          identifier='a'
+        ),
+      op=BinaryOp.OR,
+      right=BinaryExpr(
+          position=1:6,
+          left=NameRef(
+              position=1:6,
+              identifier='b'
+            ),
+          op=BinaryOp.AND,
+          right=NameRef(
+              position=1:12,
+              identifier='c'
+            )
+        )
+    ),
+  op=BinaryOp.XOR,
+  right=NameRef(
+      position=1:18,
+      identifier='d'
+    )
+)

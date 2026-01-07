@@ -1,0 +1,35 @@
+ArrayType(
+  position=1:1,
+  bound_spec=BoundSpec(
+      position=1:7,
+      lower=BinaryExpr(
+          position=1:8,
+          left=NameRef(
+              position=1:8,
+              identifier='min'
+            ),
+          op=BinaryOp.ADD,
+          right=IntegerLiteral(
+              position=1:14,
+              value=1
+            )
+        ),
+      upper=BinaryExpr(
+          position=1:16,
+          left=NameRef(
+              position=1:16,
+              identifier='max'
+            ),
+          op=BinaryOp.SUBTRACT,
+          right=IntegerLiteral(
+              position=1:22,
+              value=1
+            )
+        )
+    ),
+  optional=False,
+  unique=False,
+  of=LogicalType(
+      position=1:28
+    )
+)

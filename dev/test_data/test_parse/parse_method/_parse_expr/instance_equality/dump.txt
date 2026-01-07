@@ -1,0 +1,12 @@
+BinaryExpr(
+  position=1:1,
+  left=NameRef(
+      position=1:1,
+      identifier='obj1'
+    ),
+  op=BinaryOp.INSTANCE_EQUAL,
+  right=NameRef(
+      position=1:10,
+      identifier='obj2'
+    )
+)

@@ -1,0 +1,1 @@
+workers : BAG [workerMin:workerMax] OF WorkerData FOR assignments;

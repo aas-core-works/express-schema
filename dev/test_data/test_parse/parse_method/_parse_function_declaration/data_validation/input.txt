@@ -1,0 +1,47 @@
+FUNCTION validateDataSet(
+        dataSet : LIST [1:?] OF DataRecord;
+        validationRules : SET [1:10] OF ValidationRule
+    ) : ValidationResult;
+    TYPE ValidationStatus = ENUMERATION OF
+        (passed, failed, warning);
+    END_TYPE;
+
+    ENTITY ValidationResult;
+        status : ValidationStatus;
+        errorCount : INTEGER;
+        warningCount : INTEGER;
+    END_ENTITY;
+
+    CONSTANT
+        maxErrors : INTEGER := 5;
+        maxWarnings : INTEGER := 20;
+    END_CONSTANT;
+
+    LOCAL
+        result : ValidationResult;
+        currentRecord : DataRecord;
+        currentRule : ValidationRule;
+        i, j : INTEGER;
+        ruleResult : BOOLEAN;
+    END_LOCAL;
+
+    result.status := passed;
+    result.errorCount := 0;
+    result.warningCount := 0;
+
+    REPEAT i := 1 TO SIZEOF(dataSet);
+        currentRecord := dataSet[i];
+        REPEAT j := 1 TO SIZEOF(validationRules);
+            currentRule := validationRules[j];
+            ruleResult := applyValidationRule(currentRecord, currentRule);
+            IF NOT ruleResult THEN
+                result.errorCount := result.errorCount + 1;
+                IF result.errorCount > maxErrors THEN
+                    result.status := failed;
+                END_IF;
+            END_IF;
+        END_REPEAT;
+    END_REPEAT;
+
+    RETURN(result);
+END_FUNCTION;

@@ -1,0 +1,27 @@
+RULE ComprehensiveRule FOR (ProcessingUnit);
+TYPE
+  ProcessingMode = ENUMERATION OF (Manual, Automatic, Hybrid);
+END_TYPE;
+ENTITY
+  ProcessingContext;
+    mode : ProcessingMode;
+    timestamp : REAL;
+  END_ENTITY;
+FUNCTION ValidateMode(mode : ProcessingMode) : BOOLEAN;
+  RETURN(mode IN ProcessingMode);
+END_FUNCTION;
+PROCEDURE LogValidation(context : ProcessingContext);
+  SKIP;
+END_PROCEDURE;
+CONSTANT
+  DefaultMode : ProcessingMode := Automatic;
+END_CONSTANT;
+LOCAL
+  context : ProcessingContext;
+  validationResult : BOOLEAN;
+END_LOCAL;
+WHERE
+  criterion1 : context.mode = DefaultMode;
+  criterion2 : ValidateMode(context.mode);
+  criterion3 : context.timestamp > 0.0;
+END_RULE;

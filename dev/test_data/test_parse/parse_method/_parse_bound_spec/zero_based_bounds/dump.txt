@@ -1,0 +1,11 @@
+BoundSpec(
+  position=1:1,
+  lower=IntegerLiteral(
+      position=1:2,
+      value=0
+    ),
+  upper=IntegerLiteral(
+      position=1:4,
+      value=100
+    )
+)

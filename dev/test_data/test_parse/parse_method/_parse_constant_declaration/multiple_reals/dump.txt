@@ -1,0 +1,35 @@
+[
+  ConstantDefinition(
+    position=2:5,
+    identifier='pi',
+    type_selection=RealType(
+        position=2:10
+      ),
+    init=RealLiteral(
+        position=2:18,
+        value=3.14159
+      )
+  ),
+  ConstantDefinition(
+    position=3:5,
+    identifier='e',
+    type_selection=RealType(
+        position=3:9
+      ),
+    init=RealLiteral(
+        position=3:17,
+        value=2.71828
+      )
+  ),
+  ConstantDefinition(
+    position=4:5,
+    identifier='golden_ratio',
+    type_selection=RealType(
+        position=4:20
+      ),
+    init=RealLiteral(
+        position=4:28,
+        value=1.618
+      )
+  )
+]

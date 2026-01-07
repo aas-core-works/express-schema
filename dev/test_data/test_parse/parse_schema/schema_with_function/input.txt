@@ -1,0 +1,5 @@
+SCHEMA TestSchema;
+FUNCTION CalculateDistance(p1 : Point; p2 : Point) : REAL;
+  RETURN(0.0);
+END_FUNCTION;
+END_SCHEMA;

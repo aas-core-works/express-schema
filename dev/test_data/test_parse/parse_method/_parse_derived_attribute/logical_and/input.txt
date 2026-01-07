@@ -1,0 +1,1 @@
+bothActive : BOOLEAN := flag1 AND flag2;

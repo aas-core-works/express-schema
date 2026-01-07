@@ -1,0 +1,4 @@
+LOCAL
+    count : INTEGER;
+    value : REAL;
+END_LOCAL;

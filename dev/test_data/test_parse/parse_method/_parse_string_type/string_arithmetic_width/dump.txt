@@ -1,0 +1,16 @@
+StringType(
+  position=1:1,
+  width=BinaryExpr(
+      position=1:8,
+      left=NameRef(
+          position=1:8,
+          identifier='n'
+        ),
+      op=BinaryOp.MULTIPLY,
+      right=IntegerLiteral(
+          position=1:12,
+          value=8
+        )
+    ),
+  fixed=False
+)

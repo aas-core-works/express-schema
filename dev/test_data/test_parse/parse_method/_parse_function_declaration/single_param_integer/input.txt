@@ -1,0 +1,3 @@
+FUNCTION doubleValue(input : INTEGER) : INTEGER;
+    RETURN(input * 2);
+END_FUNCTION;

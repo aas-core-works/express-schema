@@ -1,0 +1,31 @@
+RealType(
+  position=1:1,
+  precision_spec=BinaryExpr(
+      position=1:6,
+      left=BinaryExpr(
+          position=1:6,
+          left=BinaryExpr(
+              position=1:6,
+              left=NameRef(
+                  position=1:6,
+                  identifier='a'
+                ),
+              op=BinaryOp.MULTIPLY,
+              right=NameRef(
+                  position=1:10,
+                  identifier='b'
+                )
+            ),
+          op=BinaryOp.ADD,
+          right=NameRef(
+              position=1:14,
+              identifier='c'
+            )
+        ),
+      op=BinaryOp.SUBTRACT,
+      right=NameRef(
+          position=1:18,
+          identifier='d'
+        )
+    )
+)

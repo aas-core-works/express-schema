@@ -1,0 +1,6 @@
+RULE TriangleValidation FOR (Triangle);
+WHERE
+  criterion1 : SELF.Angle1 > 0.0;
+  criterion2 : SELF.Angle2 > 0.0;
+  criterion3 : SELF.Angle3 > 0.0;
+END_RULE;

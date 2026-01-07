@@ -1,0 +1,5 @@
+PROCEDURE configureProcessor(speed : REAL; mode : INTEGER; enabled : BOOLEAN);
+    processorSpeed := speed;
+    processingMode := mode;
+    isEnabled := enabled;
+END_PROCEDURE;

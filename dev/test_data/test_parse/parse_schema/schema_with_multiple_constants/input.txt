@@ -1,0 +1,6 @@
+SCHEMA TestSchema;
+CONSTANT
+  MaxSize : INTEGER := 1000;
+  DefaultName : STRING := 'Default';
+END_CONSTANT;
+END_SCHEMA;

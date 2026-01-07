@@ -1,0 +1,11 @@
+RULE VolumeCalculation FOR (Box);
+LOCAL
+  length : REAL;
+  width : REAL;
+  height : REAL;
+END_LOCAL;
+WHERE
+  criterion1 : length = SELF.Dimensions[1];
+  criterion2 : width = SELF.Dimensions[2];
+  criterion3 : height = SELF.Dimensions[3];
+END_RULE;

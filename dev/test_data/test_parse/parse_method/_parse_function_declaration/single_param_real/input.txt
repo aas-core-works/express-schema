@@ -1,0 +1,3 @@
+FUNCTION squareRoot(value : REAL) : REAL;
+    RETURN(SQRT(value));
+END_FUNCTION;

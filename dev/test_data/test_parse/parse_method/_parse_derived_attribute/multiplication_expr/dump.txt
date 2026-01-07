@@ -1,0 +1,22 @@
+DerivedAttribute(
+  position=1:1,
+  attribute=NameRef(
+      position=1:1,
+      identifier='product'
+    ),
+  type_selection=IntegerType(
+      position=1:11
+    ),
+  init=BinaryExpr(
+      position=1:22,
+      left=IntegerLiteral(
+          position=1:22,
+          value=6
+        ),
+      op=BinaryOp.MULTIPLY,
+      right=IntegerLiteral(
+          position=1:26,
+          value=7
+        )
+    )
+)

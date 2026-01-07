@@ -1,0 +1,5 @@
+ReferenceClause(
+  position=1:1,
+  schema_ref='geometry_definitions',
+  import_list=[]
+)

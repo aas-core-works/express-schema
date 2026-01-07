@@ -1,0 +1,5 @@
+CONSTANT
+    empty_list : LIST OF INTEGER := [];
+    empty_set : SET OF STRING := [];
+    empty_array : ARRAY [0:10] OF REAL := [];
+END_CONSTANT;

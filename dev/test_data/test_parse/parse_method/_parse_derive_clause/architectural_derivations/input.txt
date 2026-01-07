@@ -1,0 +1,5 @@
+DERIVE
+    floorArea : REAL := length * width;
+    wallArea : REAL := 2.0 * (length + width) * height;
+    totalArea : REAL := floorArea + wallArea;
+    roomVolume : REAL := floorArea * height;

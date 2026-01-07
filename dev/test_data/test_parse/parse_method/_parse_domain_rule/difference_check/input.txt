@@ -1,0 +1,1 @@
+differenceRule : (setA - setB) = remainingItems;

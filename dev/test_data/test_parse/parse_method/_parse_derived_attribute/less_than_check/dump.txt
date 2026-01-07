@@ -1,0 +1,22 @@
+DerivedAttribute(
+  position=1:1,
+  attribute=NameRef(
+      position=1:1,
+      identifier='isBelowThreshold'
+    ),
+  type_selection=BooleanType(
+      position=1:20
+    ),
+  init=BinaryExpr(
+      position=1:31,
+      left=NameRef(
+          position=1:31,
+          identifier='value'
+        ),
+      op=BinaryOp.LESS_THAN,
+      right=IntegerLiteral(
+          position=1:39,
+          value=100
+        )
+    )
+)

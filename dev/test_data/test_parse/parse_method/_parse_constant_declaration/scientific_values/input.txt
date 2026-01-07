@@ -1,0 +1,5 @@
+CONSTANT
+    avogadro_number : REAL := 6.022E23;
+    planck_constant : REAL := 6.626E-34;
+    speed_of_light : REAL := 2.998E8;
+END_CONSTANT;

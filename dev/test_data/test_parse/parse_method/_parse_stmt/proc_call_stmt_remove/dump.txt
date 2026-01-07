@@ -1,0 +1,26 @@
+CallStmt(
+  position=1:1,
+  call=Call(
+      position=1:1,
+      callee=NameRef(
+          position=1:1,
+          identifier='REMOVE'
+        ),
+      args=[
+          Arg(
+            position=1:8,
+            value=NameRef(
+                position=1:8,
+                identifier='collection'
+              )
+          ),
+          Arg(
+            position=1:20,
+            value=NameRef(
+                position=1:20,
+                identifier='itemToRemove'
+              )
+          )
+        ]
+    )
+)

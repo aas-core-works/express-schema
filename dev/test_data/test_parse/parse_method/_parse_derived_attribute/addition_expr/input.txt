@@ -1,0 +1,1 @@
+sum : INTEGER := 10 + 5;

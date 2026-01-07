@@ -1,0 +1,1 @@
+geometry, material, texture : AGGREGATE OF ComponentType

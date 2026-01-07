@@ -1,0 +1,17 @@
+SelectType(
+  position=1:1,
+  values=[
+      NamedType(
+        position=1:9,
+        reference='TextFile'
+      ),
+      NamedType(
+        position=1:19,
+        reference='BinaryFile'
+      ),
+      NamedType(
+        position=1:31,
+        reference='ImageFile'
+      )
+    ]
+)

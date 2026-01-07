@@ -1,0 +1,20 @@
+FunctionDeclaration(
+  position=1:1,
+  identifier='getUnknownState',
+  formal_parameters=[],
+  return_type=LogicalType(
+      position=1:30
+    ),
+  head=AlgorithmHead(
+      declarations=[],
+      constant_definitions=[],
+      local_variable_definitions=[]
+    ),
+  body=[ReturnStmt(
+      position=2:5,
+      value=LogicalLiteral(
+          position=2:12,
+          value=UNKNOWN
+        )
+    )]
+)

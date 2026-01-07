@@ -1,0 +1,19 @@
+ReferenceClause(
+  position=1:1,
+  schema_ref='person_lib',
+  import_list=[
+      ImportItem(
+        position=1:28,
+        reference='person_definition',
+        alias='individual'
+      ),
+      ImportItem(
+        position=1:61,
+        reference='address_info'
+      ),
+      ImportItem(
+        position=1:75,
+        reference='contact_details'
+      )
+    ]
+)

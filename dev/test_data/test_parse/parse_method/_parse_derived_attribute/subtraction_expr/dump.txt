@@ -1,0 +1,22 @@
+DerivedAttribute(
+  position=1:1,
+  attribute=NameRef(
+      position=1:1,
+      identifier='difference'
+    ),
+  type_selection=IntegerType(
+      position=1:14
+    ),
+  init=BinaryExpr(
+      position=1:25,
+      left=IntegerLiteral(
+          position=1:25,
+          value=20
+        ),
+      op=BinaryOp.SUBTRACT,
+      right=IntegerLiteral(
+          position=1:30,
+          value=3
+        )
+    )
+)

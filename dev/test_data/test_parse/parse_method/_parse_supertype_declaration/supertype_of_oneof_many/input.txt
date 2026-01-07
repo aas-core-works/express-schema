@@ -1,0 +1,1 @@
+SUPERTYPE OF (ONEOF (Entity1, Entity2, Entity3, Entity4))

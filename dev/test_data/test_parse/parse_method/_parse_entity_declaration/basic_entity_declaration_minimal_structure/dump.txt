@@ -1,0 +1,9 @@
+EntityDeclaration(
+  position=1:1,
+  identifier='SimpleEntity',
+  explicit_clauses=[],
+  derive_clauses=[],
+  inverse_clauses=[],
+  unique_rules=[],
+  domain_rules=[]
+)

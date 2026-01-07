@@ -1,0 +1,22 @@
+TypeDeclaration(
+  position=1:1,
+  identifier='GeometryType',
+  type_selection=SelectType(
+      position=1:21,
+      values=[
+          NamedType(
+            position=2:6,
+            reference='Point'
+          ),
+          NamedType(
+            position=2:13,
+            reference='Line'
+          ),
+          NamedType(
+            position=2:19,
+            reference='Circle'
+          )
+        ]
+    ),
+  domain_rules=[]
+)

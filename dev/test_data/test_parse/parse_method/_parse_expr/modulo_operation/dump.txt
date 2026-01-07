@@ -1,0 +1,12 @@
+BinaryExpr(
+  position=1:1,
+  left=NameRef(
+      position=1:1,
+      identifier='n'
+    ),
+  op=BinaryOp.MODULO,
+  right=NameRef(
+      position=1:7,
+      identifier='m'
+    )
+)

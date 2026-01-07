@@ -1,0 +1,8 @@
+ENTITY Box;
+    Length : REAL;
+    Width : REAL;
+    Height : REAL;
+    DERIVE
+        Volume : REAL := Length * Width * Height;
+        SurfaceArea : REAL := 2 * (Length * Width + Width * Height + Height * Length);
+END_ENTITY;

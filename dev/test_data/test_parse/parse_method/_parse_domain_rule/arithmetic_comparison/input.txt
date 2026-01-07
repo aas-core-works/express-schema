@@ -1,0 +1,1 @@
+calcRule : (base + offset) > threshold;

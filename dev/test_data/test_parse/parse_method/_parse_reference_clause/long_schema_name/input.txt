@@ -1,0 +1,1 @@
+REFERENCE FROM very_long_definition_name;

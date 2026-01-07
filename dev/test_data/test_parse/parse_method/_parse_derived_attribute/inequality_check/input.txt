@@ -1,0 +1,1 @@
+isNotZero : BOOLEAN := count <> 0;

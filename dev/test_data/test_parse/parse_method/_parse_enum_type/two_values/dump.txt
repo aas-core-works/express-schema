@@ -1,0 +1,7 @@
+EnumType(
+  position=1:1,
+  values=[
+      'YES',
+      'NO'
+    ]
+)

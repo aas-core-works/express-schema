@@ -1,0 +1,10 @@
+ConstantDefinition(
+  position=1:1,
+  identifier='self_ref',
+  type_selection=GenericType(
+      position=1:12
+    ),
+  init=Self(
+      position=1:23
+    )
+)

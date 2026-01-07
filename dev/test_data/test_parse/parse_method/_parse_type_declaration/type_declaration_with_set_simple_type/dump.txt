@@ -1,0 +1,22 @@
+TypeDeclaration(
+  position=1:1,
+  identifier='NumberSet',
+  type_selection=SetType(
+      position=1:18,
+      bound_spec=BoundSpec(
+          position=1:22,
+          lower=IntegerLiteral(
+              position=1:23,
+              value=1
+            ),
+          upper=IntegerLiteral(
+              position=1:25,
+              value=100
+            )
+        ),
+      of=RealType(
+          position=1:33
+        )
+    ),
+  domain_rules=[]
+)

@@ -1,0 +1,11 @@
+AggregateType(
+  position=1:1,
+  of=ConformantListType(
+      position=1:14,
+      unique=True,
+      of=NamedType(
+          position=1:29,
+          reference='PersonReference'
+        )
+    )
+)

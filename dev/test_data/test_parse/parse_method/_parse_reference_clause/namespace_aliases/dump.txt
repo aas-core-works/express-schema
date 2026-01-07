@@ -1,0 +1,16 @@
+ReferenceClause(
+  position=1:1,
+  schema_ref='company_lib',
+  import_list=[
+      ImportItem(
+        position=1:29,
+        reference='company_data',
+        alias='data'
+      ),
+      ImportItem(
+        position=1:51,
+        reference='item_info',
+        alias='info'
+      )
+    ]
+)

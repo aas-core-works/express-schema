@@ -1,0 +1,26 @@
+DomainRule(
+  position=1:1,
+  label='rangeRule',
+  expr=BinaryExpr(
+      position=1:13,
+      left=NameRef(
+          position=1:13,
+          identifier='value'
+        ),
+      op=BinaryOp.IN,
+      right=AggregateLiteral(
+          position=1:22,
+          elements=[Element(
+              position=1:23,
+              expr=IntegerLiteral(
+                  position=1:23,
+                  value=0
+                ),
+              repetition=IntegerLiteral(
+                  position=1:25,
+                  value=100
+                )
+            )]
+        )
+    )
+)

@@ -1,0 +1,1 @@
+USE FROM definitions (CamelCaseItem AS snake_case_item, PascalCaseData AS lower_case_data);

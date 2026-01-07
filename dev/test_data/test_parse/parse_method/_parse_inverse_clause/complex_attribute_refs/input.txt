@@ -1,0 +1,4 @@
+INVERSE
+    selfRef : DataNode FOR SELF;
+    nestedRef : OwnerData FOR data.items;
+    indexedRef : ContainerData FOR elements[0];

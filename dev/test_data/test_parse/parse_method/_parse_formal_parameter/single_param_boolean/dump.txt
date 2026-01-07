@@ -1,0 +1,7 @@
+FormalParameter(
+  position=1:1,
+  identifiers=['flag'],
+  of_type=BooleanType(
+      position=1:8
+    )
+)

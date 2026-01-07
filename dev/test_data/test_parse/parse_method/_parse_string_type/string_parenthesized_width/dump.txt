@@ -1,0 +1,24 @@
+StringType(
+  position=1:1,
+  width=BinaryExpr(
+      position=1:9,
+      left=BinaryExpr(
+          position=1:9,
+          left=NameRef(
+              position=1:9,
+              identifier='x'
+            ),
+          op=BinaryOp.ADD,
+          right=NameRef(
+              position=1:13,
+              identifier='y'
+            )
+        ),
+      op=BinaryOp.REAL_DIVIDE,
+      right=IntegerLiteral(
+          position=1:18,
+          value=2
+        )
+    ),
+  fixed=False
+)

@@ -1,0 +1,1 @@
+avogadro : REAL := 6.022E23;

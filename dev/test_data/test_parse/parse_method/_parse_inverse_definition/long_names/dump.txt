@@ -1,0 +1,15 @@
+InverseDefinition(
+  position=1:1,
+  attribute=NameRef(
+      position=1:1,
+      identifier='veryLongInverseAttributeName'
+    ),
+  inverse_type=NameRef(
+      position=1:32,
+      identifier='VeryLongDataType'
+    ),
+  attribute_ref=NameRef(
+      position=1:53,
+      identifier='veryLongTargetAttributeName'
+    )
+)

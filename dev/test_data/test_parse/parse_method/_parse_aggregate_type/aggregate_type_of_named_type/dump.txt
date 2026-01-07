@@ -1,0 +1,7 @@
+AggregateType(
+  position=1:1,
+  of=NamedType(
+      position=1:14,
+      reference='PersonType'
+    )
+)

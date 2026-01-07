@@ -1,0 +1,15 @@
+InverseDefinition(
+  position=1:1,
+  attribute=NameRef(
+      position=1:1,
+      identifier='owner'
+    ),
+  inverse_type=NameRef(
+      position=1:9,
+      identifier='Person'
+    ),
+  attribute_ref=NameRef(
+      position=1:20,
+      identifier='ownedItems'
+    )
+)

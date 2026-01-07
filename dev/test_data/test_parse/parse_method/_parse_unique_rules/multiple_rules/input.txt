@@ -1,0 +1,4 @@
+UNIQUE
+    rule1 : field1;
+    rule2 : field2, field3;
+    rule3 : field4, field5, field6;

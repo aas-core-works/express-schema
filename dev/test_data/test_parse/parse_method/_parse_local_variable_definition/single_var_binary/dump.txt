@@ -1,0 +1,8 @@
+LocalVariableDefinition(
+  position=1:1,
+  identifiers=['data'],
+  of_type=BinaryType(
+      position=1:8,
+      fixed=False
+    )
+)

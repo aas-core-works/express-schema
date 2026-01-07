@@ -1,0 +1,18 @@
+FormalParameter(
+  position=1:1,
+  identifiers=[
+      'source',
+      'process',
+      'target'
+    ],
+  of_type=ConformantBagType(
+      position=1:27,
+      of=AggregateType(
+          position=1:34,
+          label='DataType',
+          of=GenericType(
+              position=1:58
+            )
+        )
+    )
+)

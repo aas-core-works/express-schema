@@ -1,0 +1,8 @@
+ListType(
+  position=1:1,
+  unique=True,
+  of=NamedType(
+      position=1:16,
+      reference='MyCustomType'
+    )
+)

@@ -1,0 +1,16 @@
+ConstantDefinition(
+  position=1:1,
+  identifier='byte_value',
+  type_selection=BinaryType(
+      position=1:14,
+      width=IntegerLiteral(
+          position=1:22,
+          value=8
+        ),
+      fixed=False
+    ),
+  init=BinaryLiteral(
+      position=1:28,
+      value=b'\xf0'
+    )
+)

@@ -1,0 +1,11 @@
+ConformantArrayType(
+  position=1:1,
+  optional=True,
+  unique=True,
+  of=ConformantSetType(
+      position=1:26,
+      of=NumberType(
+          position=1:33
+        )
+    )
+)

@@ -1,0 +1,5 @@
+ENTITY Product;
+    Name : STRING;
+    Description : OPTIONAL STRING;
+    Price : REAL;
+END_ENTITY;

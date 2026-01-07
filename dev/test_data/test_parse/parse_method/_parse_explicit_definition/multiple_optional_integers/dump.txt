@@ -1,0 +1,21 @@
+ExplicitAttributeDefinition(
+  position=1:1,
+  attributes=[
+      NameRef(
+        position=1:1,
+        identifier='min'
+      ),
+      NameRef(
+        position=1:6,
+        identifier='max'
+      ),
+      NameRef(
+        position=1:11,
+        identifier='default'
+      )
+    ],
+  optional=True,
+  type_selection=IntegerType(
+      position=1:30
+    )
+)

@@ -1,0 +1,24 @@
+DomainRule(
+  position=1:1,
+  label='intersectionRule',
+  expr=BinaryExpr(
+      position=1:21,
+      left=BinaryExpr(
+          position=1:21,
+          left=NameRef(
+              position=1:21,
+              identifier='setA'
+            ),
+          op=BinaryOp.MULTIPLY,
+          right=NameRef(
+              position=1:28,
+              identifier='setB'
+            )
+        ),
+      op=BinaryOp.NOT_EQUAL,
+      right=AggregateLiteral(
+          position=1:37,
+          elements=[]
+        )
+    )
+)

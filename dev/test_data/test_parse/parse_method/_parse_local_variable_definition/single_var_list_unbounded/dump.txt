@@ -1,0 +1,22 @@
+LocalVariableDefinition(
+  position=1:1,
+  identifiers=['items'],
+  of_type=ConformantListType(
+      position=1:9,
+      bound_spec=BoundSpec(
+          position=1:14,
+          lower=IntegerLiteral(
+              position=1:15,
+              value=0
+            ),
+          upper=IndeterminateLiteral(
+              position=1:17
+            )
+        ),
+      unique=False,
+      of=NamedType(
+          position=1:23,
+          reference='ComponentType'
+        )
+    )
+)

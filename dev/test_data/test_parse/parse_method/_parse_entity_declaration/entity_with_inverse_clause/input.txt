@@ -1,0 +1,5 @@
+ENTITY Employee;
+    Name : STRING;
+    INVERSE
+        WorksFor : Company FOR Employees;
+END_ENTITY;

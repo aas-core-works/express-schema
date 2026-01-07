@@ -1,0 +1,22 @@
+LocalVariableDefinition(
+  position=1:1,
+  identifiers=['flexibleBag'],
+  of_type=ConformantBagType(
+      position=1:15,
+      bound_spec=BoundSpec(
+          position=1:19,
+          lower=IntegerLiteral(
+              position=1:20,
+              value=0
+            ),
+          upper=IntegerLiteral(
+              position=1:22,
+              value=20
+            )
+        ),
+      of=StringType(
+          position=1:29,
+          fixed=False
+        )
+    )
+)

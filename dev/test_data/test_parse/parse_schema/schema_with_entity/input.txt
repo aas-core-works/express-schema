@@ -1,0 +1,6 @@
+SCHEMA TestSchema;
+ENTITY Point;
+  x : REAL;
+  y : REAL;
+END_ENTITY;
+END_SCHEMA;

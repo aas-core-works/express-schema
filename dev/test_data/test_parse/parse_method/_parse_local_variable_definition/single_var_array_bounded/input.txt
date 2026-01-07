@@ -1,0 +1,1 @@
+matrix : ARRAY [1:10] OF REAL;

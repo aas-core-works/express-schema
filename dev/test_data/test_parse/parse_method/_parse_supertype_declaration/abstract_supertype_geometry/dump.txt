@@ -1,0 +1,24 @@
+SupertypeOf(
+  position=1:1,
+  abstract=True,
+  of=SupertypeBinaryExpr(
+      position=1:24,
+      left=SupertypeBinaryExpr(
+          position=1:24,
+          left=NameRef(
+              position=1:24,
+              identifier='Point'
+            ),
+          op=SupertypeBinaryOp.ANDOR,
+          right=NameRef(
+              position=1:36,
+              identifier='Line'
+            )
+        ),
+      op=SupertypeBinaryOp.ANDOR,
+      right=NameRef(
+          position=1:47,
+          identifier='Surface'
+        )
+    )
+)

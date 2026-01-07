@@ -1,0 +1,9 @@
+TypeDeclaration(
+  position=1:1,
+  identifier='PersonRef',
+  type_selection=NamedType(
+      position=1:18,
+      reference='PersonType'
+    ),
+  domain_rules=[]
+)

@@ -1,0 +1,1 @@
+rangeCheck : value >= minimum;

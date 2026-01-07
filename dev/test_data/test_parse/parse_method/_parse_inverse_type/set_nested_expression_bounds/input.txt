@@ -1,0 +1,1 @@
+SET [(base + 1) * factor:limit / divisor] OF ComplexBoundElement

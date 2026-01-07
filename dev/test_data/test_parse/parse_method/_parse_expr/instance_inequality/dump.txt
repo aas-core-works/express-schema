@@ -1,0 +1,12 @@
+BinaryExpr(
+  position=1:1,
+  left=NameRef(
+      position=1:1,
+      identifier='entity1'
+    ),
+  op=BinaryOp.INSTANCE_NOT_EQUAL,
+  right=NameRef(
+      position=1:14,
+      identifier='entity2'
+    )
+)

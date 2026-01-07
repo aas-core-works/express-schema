@@ -1,0 +1,16 @@
+FormalParameter(
+  position=1:1,
+  identifiers=[
+      'arrayData',
+      'bagData',
+      'listData'
+    ],
+  of_type=ConformantArrayType(
+      position=1:32,
+      optional=False,
+      unique=False,
+      of=IntegerType(
+          position=1:41
+        )
+    )
+)

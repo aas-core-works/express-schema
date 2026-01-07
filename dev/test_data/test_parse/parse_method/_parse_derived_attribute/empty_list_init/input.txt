@@ -1,0 +1,1 @@
+emptyItems : LIST OF SomeEntity := [];

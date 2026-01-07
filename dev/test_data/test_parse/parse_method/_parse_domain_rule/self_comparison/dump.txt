@@ -1,0 +1,19 @@
+DomainRule(
+  position=1:1,
+  label='selfCheck',
+  expr=BinaryExpr(
+      position=1:13,
+      left=AttributeRef(
+          position=1:13,
+          source=Self(
+              position=1:13
+            ),
+          identifier='count'
+        ),
+      op=BinaryOp.EQUAL,
+      right=NameRef(
+          position=1:26,
+          identifier='expectedCount'
+        )
+    )
+)

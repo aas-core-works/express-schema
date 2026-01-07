@@ -1,0 +1,22 @@
+FormalParameter(
+  position=1:1,
+  identifiers=['container'],
+  of_type=ConformantBagType(
+      position=1:13,
+      bound_spec=BoundSpec(
+          position=1:17,
+          lower=IntegerLiteral(
+              position=1:18,
+              value=1
+            ),
+          upper=IntegerLiteral(
+              position=1:20,
+              value=50
+            )
+        ),
+      of=StringType(
+          position=1:27,
+          fixed=False
+        )
+    )
+)

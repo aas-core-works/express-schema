@@ -1,0 +1,3 @@
+SCHEMA TestSchema;
+REFERENCE FROM ExternalSchema;
+END_SCHEMA;

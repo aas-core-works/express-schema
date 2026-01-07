@@ -1,0 +1,3 @@
+TYPE ColorType = ENUMERATION OF
+    (red, green, blue, yellow);
+END_TYPE;

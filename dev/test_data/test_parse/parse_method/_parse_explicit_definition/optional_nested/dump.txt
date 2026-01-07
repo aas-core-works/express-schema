@@ -1,0 +1,32 @@
+ExplicitAttributeDefinition(
+  position=1:1,
+  attributes=[NameRef(
+      position=1:1,
+      identifier='complexData'
+    )],
+  optional=True,
+  type_selection=ArrayType(
+      position=1:24,
+      bound_spec=BoundSpec(
+          position=1:30,
+          lower=IntegerLiteral(
+              position=1:31,
+              value=1
+            ),
+          upper=IntegerLiteral(
+              position=1:33,
+              value=5
+            )
+        ),
+      optional=False,
+      unique=False,
+      of=ListType(
+          position=1:39,
+          unique=False,
+          of=NamedType(
+              position=1:47,
+              reference='SomeEntity'
+            )
+        )
+    )
+)

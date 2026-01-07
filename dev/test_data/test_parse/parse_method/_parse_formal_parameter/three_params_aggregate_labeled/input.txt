@@ -1,0 +1,1 @@
+source, process, result : AGGREGATE : DataType OF INTEGER

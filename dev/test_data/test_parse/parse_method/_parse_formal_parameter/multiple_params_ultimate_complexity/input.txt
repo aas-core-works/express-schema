@@ -1,0 +1,1 @@
+source, transform, filter, target, result : ARRAY [0:?] OF AGGREGATE : OuterType OF LIST OF UNIQUE BAG OF SET [1:20] OF AGGREGATE : InnerType OF GENERIC : ValueType

@@ -1,0 +1,5 @@
+DERIVE
+    pi : REAL := PI;
+    circumference : REAL := 2.0 * pi * radius;
+    area : REAL := pi * radius ** 2;
+    sphereVolume : REAL := (4.0 / 3.0) * pi * radius ** 3;

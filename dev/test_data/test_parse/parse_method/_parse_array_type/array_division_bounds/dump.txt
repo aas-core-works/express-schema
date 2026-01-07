@@ -1,0 +1,27 @@
+ArrayType(
+  position=1:1,
+  bound_spec=BoundSpec(
+      position=1:7,
+      lower=BinaryExpr(
+          position=1:8,
+          left=NameRef(
+              position=1:8,
+              identifier='size'
+            ),
+          op=BinaryOp.REAL_DIVIDE,
+          right=IntegerLiteral(
+              position=1:15,
+              value=2
+            )
+        ),
+      upper=NameRef(
+          position=1:17,
+          identifier='size'
+        )
+    ),
+  optional=False,
+  unique=False,
+  of=NumberType(
+      position=1:26
+    )
+)

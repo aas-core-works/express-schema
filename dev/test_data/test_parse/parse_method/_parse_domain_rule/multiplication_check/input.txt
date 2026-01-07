@@ -1,0 +1,1 @@
+scaleRule : (width * height) <= maxSurface;

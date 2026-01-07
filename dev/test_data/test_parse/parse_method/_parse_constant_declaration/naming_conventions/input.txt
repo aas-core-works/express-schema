@@ -1,0 +1,7 @@
+CONSTANT
+    camelCaseValue : INTEGER := 42;
+    PascalCaseValue : STRING := 'Pascal';
+    snake_case_value : REAL := 3.14;
+    UPPER_CASE_VALUE : BOOLEAN := TRUE;
+    mixed_123_Value : INTEGER := 123;
+END_CONSTANT;

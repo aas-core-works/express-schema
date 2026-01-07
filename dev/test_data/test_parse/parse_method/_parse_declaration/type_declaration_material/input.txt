@@ -1,0 +1,5 @@
+TYPE MaterialProperty = SELECT (
+    DensityProperty,
+    ThermalProperty,
+    MechanicalProperty);
+END_TYPE;

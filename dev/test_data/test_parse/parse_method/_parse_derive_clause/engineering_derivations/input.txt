@@ -1,0 +1,5 @@
+DERIVE
+    stress : REAL := force / crossSectionalArea;
+    strain : REAL := deformation / originalLength;
+    modulusOfElasticity : REAL := stress / strain;
+    safetyFactor : REAL := yieldStrength / stress;

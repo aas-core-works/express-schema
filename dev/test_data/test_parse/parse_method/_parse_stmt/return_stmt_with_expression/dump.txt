@@ -1,0 +1,15 @@
+ReturnStmt(
+  position=1:1,
+  value=BinaryExpr(
+      position=1:8,
+      left=NameRef(
+          position=1:8,
+          identifier='width'
+        ),
+      op=BinaryOp.MULTIPLY,
+      right=NameRef(
+          position=1:16,
+          identifier='height'
+        )
+    )
+)

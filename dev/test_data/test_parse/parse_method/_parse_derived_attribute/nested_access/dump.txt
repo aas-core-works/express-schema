@@ -1,0 +1,23 @@
+DerivedAttribute(
+  position=1:1,
+  attribute=NameRef(
+      position=1:1,
+      identifier='nestedValue'
+    ),
+  type_selection=StringType(
+      position=1:15,
+      fixed=False
+    ),
+  init=AttributeRef(
+      position=1:25,
+      source=AttributeRef(
+          position=1:25,
+          source=NameRef(
+              position=1:25,
+              identifier='someEntity'
+            ),
+          identifier='data'
+        ),
+      identifier='name'
+    )
+)

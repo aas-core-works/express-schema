@@ -1,0 +1,18 @@
+ReferenceClause(
+  position=1:1,
+  schema_ref='definitions',
+  import_list=[
+      ImportItem(
+        position=1:29,
+        reference='item_a'
+      ),
+      ImportItem(
+        position=1:37,
+        reference='item_b'
+      ),
+      ImportItem(
+        position=1:45,
+        reference='item_c'
+      )
+    ]
+)

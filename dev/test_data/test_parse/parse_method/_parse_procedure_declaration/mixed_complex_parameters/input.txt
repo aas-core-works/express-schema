@@ -1,0 +1,33 @@
+PROCEDURE advancedProcessing(
+        inputData : ARRAY [1:100] OF REAL;
+        processingMode : INTEGER;
+        threshold : REAL;
+        VAR outputData : ARRAY [1:100] OF REAL;
+        VAR processingStats : ProcessingStatistics;
+        VAR errorFlags : ARRAY [1:100] OF BOOLEAN
+    );
+    LOCAL
+        i : INTEGER;
+        processedValue : REAL;
+        errorCount : INTEGER := 0;
+    END_LOCAL;
+
+    processingStats.startTime := getCurrentTime();
+
+    REPEAT i := 1 TO 100;
+        processedValue := processValue(inputData[i], processingMode);
+
+        IF processedValue >= threshold THEN
+            outputData[i] := processedValue;
+            errorFlags[i] := FALSE;
+        ELSE
+            outputData[i] := threshold;
+            errorFlags[i] := TRUE;
+            errorCount := errorCount + 1;
+        END_IF;
+    END_REPEAT;
+
+    processingStats.endTime := getCurrentTime();
+    processingStats.errorCount := errorCount;
+    processingStats.successRate := (100 - errorCount) / 100.0;
+END_PROCEDURE;

@@ -1,0 +1,5 @@
+LOCAL
+    counter : INTEGER;
+    x, y : REAL;
+    message : STRING;
+END_LOCAL;

@@ -1,0 +1,16 @@
+FUNCTION calculateDistance(point1 : CartesianPoint; point2 : CartesianPoint) : REAL;
+    LOCAL
+        sum : REAL := 0.0;
+        i : INTEGER;
+    END_LOCAL;
+
+    IF SIZEOF(point1.coordinates) <> SIZEOF(point2.coordinates) THEN
+        RETURN(0.0);
+    END_IF;
+
+    REPEAT i := 1 TO SIZEOF(point1.coordinates);
+        sum := sum + ((point1.coordinates[i] - point2.coordinates[i]) ** 2);
+    END_REPEAT;
+
+    RETURN(SQRT(sum));
+END_FUNCTION;

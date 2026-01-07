@@ -1,0 +1,20 @@
+StringType(
+  position=1:1,
+  width=BinaryExpr(
+      position=1:8,
+      left=AttributeRef(
+          position=1:8,
+          source=NameRef(
+              position=1:8,
+              identifier='obj'
+            ),
+          identifier='size'
+        ),
+      op=BinaryOp.ADD,
+      right=IntegerLiteral(
+          position=1:19,
+          value=16
+        )
+    ),
+  fixed=True
+)

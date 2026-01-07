@@ -1,0 +1,37 @@
+EntityDeclaration(
+  position=1:1,
+  identifier='Shape',
+  supertype_declaration=SupertypeOf(
+      position=2:5,
+      abstract=False,
+      of=Choice(
+          position=2:19,
+          supertype_exprs=[
+              NameRef(
+                position=2:25,
+                identifier='Circle'
+              ),
+              NameRef(
+                position=2:33,
+                identifier='Rectangle'
+              )
+            ]
+        )
+    ),
+  explicit_clauses=[ExplicitAttributeDefinition(
+      position=3:5,
+      attributes=[NameRef(
+          position=3:5,
+          identifier='Color'
+        )],
+      optional=False,
+      type_selection=StringType(
+          position=3:13,
+          fixed=False
+        )
+    )],
+  derive_clauses=[],
+  inverse_clauses=[],
+  unique_rules=[],
+  domain_rules=[]
+)

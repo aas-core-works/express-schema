@@ -1,0 +1,22 @@
+LocalVariableDefinition(
+  position=1:1,
+  identifiers=[
+      'input',
+      'output'
+    ],
+  of_type=ConformantArrayType(
+      position=1:17,
+      optional=False,
+      unique=False,
+      of=ConformantSetType(
+          position=1:26,
+          of=ConformantListType(
+              position=1:33,
+              unique=True,
+              of=GenericType(
+                  position=1:48
+                )
+            )
+        )
+    )
+)

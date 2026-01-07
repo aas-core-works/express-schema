@@ -1,0 +1,22 @@
+ExplicitAttributeDefinition(
+  position=1:1,
+  attributes=[
+      NameRef(
+        position=1:1,
+        identifier='parent'
+      ),
+      NameRef(
+        position=1:9,
+        identifier='child'
+      ),
+      NameRef(
+        position=1:16,
+        identifier='sibling'
+      )
+    ],
+  optional=True,
+  type_selection=NamedType(
+      position=1:35,
+      reference='SomeEntity'
+    )
+)

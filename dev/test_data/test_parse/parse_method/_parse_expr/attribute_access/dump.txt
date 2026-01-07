@@ -1,0 +1,16 @@
+BinaryExpr(
+  position=1:1,
+  left=AttributeRef(
+      position=1:1,
+      source=NameRef(
+          position=1:1,
+          identifier='object'
+        ),
+      identifier='property'
+    ),
+  op=BinaryOp.ADD,
+  right=IntegerLiteral(
+      position=1:19,
+      value=10
+    )
+)

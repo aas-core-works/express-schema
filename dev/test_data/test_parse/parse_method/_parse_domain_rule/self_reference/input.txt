@@ -1,0 +1,1 @@
+selfRule : SELF.identifier <> '';

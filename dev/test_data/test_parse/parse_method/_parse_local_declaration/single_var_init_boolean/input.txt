@@ -1,0 +1,3 @@
+LOCAL
+    active : BOOLEAN := TRUE;
+END_LOCAL;

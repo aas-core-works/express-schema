@@ -1,0 +1,3 @@
+FUNCTION processComponent(component : ComponentType; processor : ProcessorType) : ResultType;
+    RETURN(component);
+END_FUNCTION;

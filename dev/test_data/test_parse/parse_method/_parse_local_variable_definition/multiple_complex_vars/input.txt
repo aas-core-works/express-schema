@@ -1,0 +1,1 @@
+source, intermediate, destination : BAG OF ARRAY [1:5] OF LIST OF UNIQUE STRING := [];

@@ -1,0 +1,6 @@
+LOCAL
+    index : INTEGER := 0;
+    width, height, depth : REAL;
+    items : LIST [1:10] OF Component := [];
+    flag1, flag2, flag3 : BOOLEAN := FALSE;
+END_LOCAL;

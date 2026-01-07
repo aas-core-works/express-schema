@@ -1,0 +1,3 @@
+PROCEDURE setValue(newValue : REAL);
+    currentValue := newValue;
+END_PROCEDURE;

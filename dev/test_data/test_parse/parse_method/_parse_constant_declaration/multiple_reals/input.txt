@@ -1,0 +1,5 @@
+CONSTANT
+    pi : REAL := 3.14159;
+    e : REAL := 2.71828;
+    golden_ratio : REAL := 1.618;
+END_CONSTANT;

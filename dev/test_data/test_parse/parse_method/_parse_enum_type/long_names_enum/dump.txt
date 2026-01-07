@@ -1,0 +1,7 @@
+EnumType(
+  position=1:1,
+  values=[
+      'VERY_LONG_OPTION_NAME',
+      'ANOTHER_VERY_LONG_NAME'
+    ]
+)

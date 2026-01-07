@@ -1,0 +1,9 @@
+TypeDeclaration(
+  position=1:1,
+  identifier='UserName',
+  type_selection=StringType(
+      position=1:17,
+      fixed=False
+    ),
+  domain_rules=[]
+)
